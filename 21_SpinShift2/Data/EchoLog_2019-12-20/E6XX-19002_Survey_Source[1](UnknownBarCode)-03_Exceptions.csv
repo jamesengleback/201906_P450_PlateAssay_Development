@@ -1,0 +1,5 @@
+Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Survey Fluid Height,Survey Fluid Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Survey Status
+Source[1],UnknownBarCode,384PP_DMSO2,A11,0,0,0,0,Percent,DMSO,"Data missing for well (1th row, 11th column), defaulting to 0.0 percent DMSO"
+Source[1],UnknownBarCode,384PP_DMSO2,A12,0,0,0,0,Percent,DMSO,"Data missing for well (1th row, 12th column), defaulting to 0.0 percent DMSO"
+Source[1],UnknownBarCode,384PP_DMSO2,A16,0,0,0,0,Percent,DMSO,"Data missing for well (1th row, 16th column), defaulting to 0.0 percent DMSO"
+

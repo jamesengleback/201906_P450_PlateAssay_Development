@@ -1,0 +1,48 @@
+﻿<platesurvey name="384PP_DMSO2" barcode="UnknownBarCode" rows="2" cols="5" totalWells="7" serial_number="E6XX-19002" date="2019-12-21 16:36:07" vtl="0" frmt="1">
+     <w r="0" c="0" n="A1" x="46485.895" y="71581.619" fld="DMSO" fc="70.487" fldu="Percent" s="70.487" fsh="71.763" fsinh="70.487" t="0.416" fth="0.414" ftinh="0.416" vl="7.468" ct="0.416" cvl="7.468" b="0.626" o="0" a="NONE" status="" wc="" sid="">
+          <e t="AVG" x="46485.895" y="71581.619" z="4442.161">
+               <f t="FW BB" o="31.838" v="2.687" />
+               <f t="FW TB1" o="32.464" v="1.39" />
+               <f t="SR" o="32.96" v="3.984" />
+          </e>
+     </w>
+     <w r="0" c="1" n="A2" x="50967.788" y="71581.619" fld="DMSO" fc="72.261" fldu="Percent" s="72.261" fsh="72.261" fsinh="72.261" t="0.43" fth="0.43" ftinh="0.43" vl="7.773" ct="0.43" cvl="7.773" b="0.628" o="0" a="NONE" status="" wc="" sid="">
+          <e t="AVG" x="50967.788" y="71581.619" z="4442.161">
+               <f t="FW BB" o="31.834" v="2.703" />
+               <f t="FW TB1" o="32.462" v="1.484" />
+               <f t="SR" o="32.978" v="3.984" />
+          </e>
+     </w>
+     <w r="1" c="0" n="B1" x="46492.086" y="67099.619" fld="DMSO" fc="71.763" fldu="Percent" s="71.763" fsh="72.261" fsinh="71.763" t="0.367" fth="0.366" ftinh="0.367" vl="6.627" ct="0.367" cvl="6.627" b="0.614" o="0" a="NONE" status="" wc="" sid="">
+          <e t="AVG" x="46492.086" y="67099.619" z="4442.161">
+               <f t="FW BB" o="31.85" v="2.703" />
+               <f t="FW TB1" o="32.464" v="1.421" />
+               <f t="SR" o="32.904" v="3.984" />
+          </e>
+     </w>
+     <w r="1" c="1" n="B2" x="50973.979" y="67099.619" fld="DMSO" fc="0" fldu="Percent" s="0" fsh="0" fsinh="0" t="0" fth="0" ftinh="0" vl="0" ct="0" cvl="0" b="1.011" o="0" a="NONE" status="Data missing for well (2th row, 2th column), defaulting to 0.0 percent DMSO" wc="" sid="">
+          <e t="AVG" x="50973.979" y="67099.619" z="4442.161">
+               <f t="EW BB" o="31.838" v="2.718" />
+               <f t="EW TB" o="32.85" v="3.984" />
+          </e>
+     </w>
+     <w r="1" c="2" n="B3" x="55455.873" y="67099.619" fld="DMSO" fc="0" fldu="Percent" s="0" fsh="0" fsinh="0" t="0" fth="0" ftinh="0" vl="0" ct="0" cvl="0" b="0.942" o="0" a="NONE" status="Data missing for well (2th row, 3th column), defaulting to 0.0 percent DMSO" wc="" sid="">
+          <e t="AVG" x="55455.873" y="67099.619" z="4442.161">
+               <f t="EW BB" o="31.822" v="2.687" />
+               <f t="EW TB" o="32.764" v="3.984" />
+          </e>
+     </w>
+     <w r="1" c="3" n="B4" x="59937.766" y="67099.619" fld="DMSO" fc="73.925" fldu="Percent" s="73.925" fsh="90.791" fsinh="73.925" t="0.319" fth="0.299" ftinh="0.319" vl="5.817" ct="0.319" cvl="5.817" b="0.606" o="0" a="NONE" status="" wc="" sid="">
+          <e t="AVG" x="59937.766" y="67099.619" z="4442.161">
+               <f t="FW BB" o="31.81" v="2.625" />
+               <f t="FW TB1" o="32.416" v="1.578" />
+               <f t="SR" o="32.802" v="3.984" />
+          </e>
+     </w>
+     <w r="1" c="4" n="B5" x="64419.66" y="67099.619" fld="DMSO" fc="0" fldu="Percent" s="0" fsh="0" fsinh="0" t="0" fth="0" ftinh="0" vl="0" ct="0" cvl="0" b="1.019" o="0" a="NONE" status="Data missing for well (2th row, 5th column), defaulting to 0.0 percent DMSO" wc="" sid="">
+          <e t="AVG" x="64419.66" y="67099.619" z="4442.161">
+               <f t="EW BB" o="31.798" v="2.64" />
+               <f t="EW TB" o="32.818" v="3.984" />
+          </e>
+     </w>
+</platesurvey>

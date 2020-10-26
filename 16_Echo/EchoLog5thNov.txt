@@ -1,0 +1,811 @@
+11/04/19 00:09:24.578	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 1th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.578	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 2th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.578	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 3th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 4th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 5th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 6th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 7th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 8th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 9th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 10th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 11th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.594	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 12th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 13th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 14th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 15th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 16th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 17th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 18th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 19th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 20th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.609	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 1th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.625	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 2th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.625	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 3th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.625	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 4th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.625	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 1th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.625	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 2th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.625	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 3th column), defaulting to 0.0 percent DMSO
+11/04/19 00:09:24.640	PlateSurveyArchiver.cpp(129) 	DEBUG	Plate survey archiver thread exiting.
+11/04/19 00:09:24.640	PlateSurveyCollector.cpp(296) 	DEBUG	Plate survey collector thread exiting.
+11/04/19 00:09:25.390	PlateSurveyAnalyzer.cpp(194) 	DEBUG	PlateSurvey Analyzer time 2736 msec. Total analysis time 48487 msec.
+11/04/19 00:09:25.406	PlateSurveyAnalyzer.cpp(221) 	DEBUG	Plate survey analyzer thread exiting.
+11/04/19 00:09:25.797	SOAPFluidTransferProxy.cpp(612) 	DEBUG	PlateSurvey() END
+11/04/19 00:09:26.265	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetPlateInfo() START
+11/04/19 00:09:26.281	SOAPFluidTransferProxy.h(286) 	DEBUG	GetPlateInfo called.
+11/04/19 00:09:26.281	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetPlateInfo() END
+11/04/19 00:09:26.297	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetPlateInfo() START
+11/04/19 00:09:26.297	SOAPFluidTransferProxy.h(286) 	DEBUG	GetPlateInfo called.
+11/04/19 00:09:26.312	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetPlateInfo() END
+11/04/19 00:09:26.390	SOAPFluidTransferProxy.cpp(131) 	DEBUG	RemoveProtocol() START
+11/04/19 00:09:26.390	SOAPFluidTransferProxy.h(359) 	DEBUG	RemoveProtocol called.
+11/04/19 00:09:26.750	SOAPFluidTransferProxy.cpp(612) 	DEBUG	RemoveProtocol() END
+11/04/19 00:09:27.703	SOAPFluidTransferProxy.cpp(131) 	DEBUG	SetProtocol() START
+11/04/19 00:09:27.703	SOAPFluidTransferProxy.h(323) 	DEBUG	SetProtocol called.
+11/04/19 00:09:29.281	SOAPFluidTransferProxy.cpp(612) 	DEBUG	SetProtocol() END
+11/04/19 00:09:29.328	SOAPFluidTransferProxy.cpp(131) 	DEBUG	DoPlateXfer() START
+11/04/19 00:09:29.500	FluidTransferServer.cpp(4113) 	INFO	DoPlateTransfer() begin Z-axis position: 16748
+11/04/19 00:09:29.500	FluidTransferServer.cpp(4114) 	INFO	Protocol : OV2Cherry
+11/04/19 00:09:31.312	EjectTrigger.cpp(80) 	DEBUG	Eject trigger counter started, trigger enabled...
+11/04/19 00:09:31.328	AmpTweakService.cpp(189) 	DEBUG	Power Calibration: 5 pulse-train ejections ...
+11/04/19 00:09:31.359	AmpTweakService.cpp(193) 	DEBUG	Power Calibration: 5 measurements ...
+11/04/19 00:09:31.391	AmpTweakService.cpp(200) 	DEBUG	[0] 2.806 mJ	98.898 vpp
+11/04/19 00:09:31.406	AmpTweakService.cpp(200) 	DEBUG	[1] 2.805 mJ	98.898 vpp
+11/04/19 00:09:31.437	AmpTweakService.cpp(200) 	DEBUG	[2] 2.805 mJ	99.580 vpp
+11/04/19 00:09:31.453	AmpTweakService.cpp(200) 	DEBUG	[3] 2.805 mJ	98.898 vpp
+11/04/19 00:09:31.469	AmpTweakService.cpp(200) 	DEBUG	[4] 2.805 mJ	98.898 vpp
+11/04/19 00:09:31.484	AmpTweakService.cpp(228) 	DEBUG	  Expected = 2.912864 mJ
+11/04/19 00:09:31.484	AmpTweakService.cpp(229) 	DEBUG	  Average  = 2.804948 mJ
+11/04/19 00:09:31.484	AmpTweakService.cpp(230) 	DEBUG	  Delta    = 0.107917 mJ
+11/04/19 00:09:31.484	AmpTweakService.cpp(231) 	DEBUG	Old value  = 1.000000
+11/04/19 00:09:31.484	AmpTweakService.cpp(234) 	DEBUG	New value = 1.019055
+11/04/19 00:09:31.547	EjectTrigger.cpp(80) 	DEBUG	Eject trigger counter started, trigger enabled...
+11/04/19 00:09:31.609	FluidTransferServer.cpp(4218) 	DEBUG	Protocol advanced options -->
+11/04/19 00:09:31.609	FluidTransferServer.cpp(4219) 	DEBUG	Plate uniformity: inhomogeneous
+11/04/19 00:09:31.609	FluidTransferServer.cpp(4220) 	DEBUG	Power monitoring: no
+11/04/19 00:09:31.609	FluidTransferServer.cpp(4221) 	DEBUG	Ignore src plate present sensor: no
+11/04/19 00:09:31.625	FluidTransferServer.cpp(4222) 	DEBUG	Ignore dst plate present sensor: no
+11/04/19 00:09:31.625	FluidTransferServer.cpp(4223) 	DEBUG	Save print data to disk: yes
+11/04/19 00:09:31.625	FluidTransferServer.cpp(4224) 	DEBUG	Save survey data to disk: yes
+11/04/19 00:09:35.328	StartStopPrintService.cpp(1476) 	DEBUG	Well A1 begin: 
+	DMSO: 85.9%%
+	Measured DMSO: 85.9%%
+	TransZ: 19777.366 um
+	Fluid Thickness: 2.730 mm
+	Current Fluid Thickness: 2.679 mm
+	SR: 34.735743 us
+	FocusToF: 30.728574 us
+	Eject Off: 385 um
+	D2A (calculated): 1.487 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 80
+	Rep. Rate: 200 Hz
+11/04/19 00:09:35.328	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> A1, 200.000 nl> Transfer Complete
+11/04/19 00:09:36.219	StartStopPrintService.cpp(1476) 	DEBUG	Well A1 begin: 
+	DMSO: 85.9%%
+	Measured DMSO: 85.9%%
+	TransZ: 19713.809 um
+	Fluid Thickness: 2.730 mm
+	Current Fluid Thickness: 2.632 mm
+	SR: 34.676084 us
+	FocusToF: 30.749725 us
+	Eject Off: 376 um
+	D2A (calculated): 1.483 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 80
+	Rep. Rate: 200 Hz
+11/04/19 00:09:36.219	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> J1, 200.000 nl> Transfer Complete
+11/04/19 00:09:36.406	StartStopPrintService.cpp(1476) 	DEBUG	Well B1 begin: 
+	DMSO: 86.6%%
+	Measured DMSO: 86.6%%
+	TransZ: 19793.079 um
+	Fluid Thickness: 2.751 mm
+	Current Fluid Thickness: 2.749 mm
+	SR: 34.849009 us
+	FocusToF: 30.759458 us
+	Eject Off: 384 um
+	D2A (calculated): 1.474 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 4
+	Rep. Rate: 200 Hz
+11/04/19 00:09:36.406	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> K1, 10.000 nl> Transfer Complete
+11/04/19 00:09:36.953	StartStopPrintService.cpp(1476) 	DEBUG	Well A1 begin: 
+	DMSO: 85.9%%
+	Measured DMSO: 85.9%%
+	TransZ: 19654.801 um
+	Fluid Thickness: 2.730 mm
+	Current Fluid Thickness: 2.588 mm
+	SR: 34.621153 us
+	FocusToF: 30.769362 us
+	Eject Off: 367 um
+	D2A (calculated): 1.480 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 76
+	Rep. Rate: 200 Hz
+11/04/19 00:09:36.953	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> K1, 190.000 nl> Transfer Complete
+11/04/19 00:09:37.141	StartStopPrintService.cpp(1476) 	DEBUG	Well B1 begin: 
+	DMSO: 86.6%%
+	Measured DMSO: 86.6%%
+	TransZ: 19790.993 um
+	Fluid Thickness: 2.751 mm
+	Current Fluid Thickness: 2.746 mm
+	SR: 34.845796 us
+	FocusToF: 30.759271 us
+	Eject Off: 384 um
+	D2A (calculated): 1.474 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 4
+	Rep. Rate: 200 Hz
+11/04/19 00:09:37.141	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> K1, 10.000 nl> Transfer Complete
+11/04/19 00:09:37.687	StartStopPrintService.cpp(1476) 	DEBUG	Well A1 begin: 
+	DMSO: 85.9%%
+	Measured DMSO: 85.9%%
+	TransZ: 19600.469 um
+	Fluid Thickness: 2.730 mm
+	Current Fluid Thickness: 2.545 mm
+	SR: 34.566222 us
+	FocusToF: 30.787443 us
+	Eject Off: 359 um
+	D2A (calculated): 1.478 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 76
+	Rep. Rate: 200 Hz
+11/04/19 00:09:37.687	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> K1, 190.000 nl> Transfer Complete
+11/04/19 00:09:38.234	StartStopPrintService.cpp(1476) 	DEBUG	Well B1 begin: 
+	DMSO: 86.6%%
+	Measured DMSO: 86.6%%
+	TransZ: 19788.752 um
+	Fluid Thickness: 2.751 mm
+	Current Fluid Thickness: 2.739 mm
+	SR: 34.836159 us
+	FocusToF: 30.759070 us
+	Eject Off: 384 um
+	D2A (calculated): 1.474 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 12
+	Rep. Rate: 200 Hz
+11/04/19 00:09:38.234	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> C1, 30.000 nl> Transfer Complete
+11/04/19 00:09:38.750	StartStopPrintService.cpp(1476) 	DEBUG	Well A1 begin: 
+	DMSO: 85.9%%
+	Measured DMSO: 85.9%%
+	TransZ: 19546.137 um
+	Fluid Thickness: 2.730 mm
+	Current Fluid Thickness: 2.506 mm
+	SR: 34.517074 us
+	FocusToF: 30.805524 us
+	Eject Off: 351 um
+	D2A (calculated): 1.475 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 68
+	Rep. Rate: 200 Hz
+11/04/19 00:09:38.750	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> C1, 170.000 nl> Transfer Complete
+11/04/19 00:09:39.266	StartStopPrintService.cpp(1476) 	DEBUG	Well B1 begin: 
+	DMSO: 86.6%%
+	Measured DMSO: 86.6%%
+	TransZ: 19780.925 um
+	Fluid Thickness: 2.751 mm
+	Current Fluid Thickness: 2.731 mm
+	SR: 34.826522 us
+	FocusToF: 30.759950 us
+	Eject Off: 385 um
+	D2A (calculated): 1.473 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 12
+	Rep. Rate: 200 Hz
+11/04/19 00:09:39.266	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> L1, 30.000 nl> Transfer Complete
+11/04/19 00:09:40.391	StartStopPrintService.cpp(1476) 	DEBUG	Well B1 begin: 
+	DMSO: 86.6%%
+	Measured DMSO: 86.6%%
+	TransZ: 19771.379 um
+	Fluid Thickness: 2.751 mm
+	Current Fluid Thickness: 2.717 mm
+	SR: 34.808853 us
+	FocusToF: 30.763140 us
+	Eject Off: 383 um
+	D2A (calculated): 1.473 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 22
+	Rep. Rate: 200 Hz
+11/04/19 00:09:40.859	StartStopPrintService.cpp(1476) 	DEBUG	Well A1 begin: 
+	DMSO: 85.9%%
+	Measured DMSO: 85.9%%
+	TransZ: 19435.364 um
+	Fluid Thickness: 2.730 mm
+	Current Fluid Thickness: 2.434 mm
+	SR: 34.426005 us
+	FocusToF: 30.856086 us
+	Eject Off: 323 um
+	D2A (calculated): 1.475 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 58
+	Rep. Rate: 200 Hz
+11/04/19 00:09:41.422	StartStopPrintService.cpp(1476) 	DEBUG	Well B1 begin: 
+	DMSO: 86.6%%
+	Measured DMSO: 86.6%%
+	TransZ: 19753.880 um
+	Fluid Thickness: 2.751 mm
+	Current Fluid Thickness: 2.703 mm
+	SR: 34.791185 us
+	FocusToF: 30.768988 us
+	Eject Off: 381 um
+	D2A (calculated): 1.470 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 22
+	Rep. Rate: 200 Hz
+11/04/19 00:09:41.422	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> M1, 55.000 nl> Transfer Complete
+11/04/19 00:09:41.891	StartStopPrintService.cpp(1476) 	DEBUG	Well A1 begin: 
+	DMSO: 85.9%%
+	Measured DMSO: 85.9%%
+	TransZ: 19387.117 um
+	Fluid Thickness: 2.730 mm
+	Current Fluid Thickness: 2.401 mm
+	SR: 34.384084 us
+	FocusToF: 30.879000 us
+	Eject Off: 310 um
+	D2A (calculated): 1.476 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 58
+	Rep. Rate: 200 Hz
+11/04/19 00:09:41.906	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> M1, 145.000 nl> Transfer Complete
+11/04/19 00:09:42.563	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> E1, 85.000 nl> Transfer Complete
+11/04/19 00:09:42.984	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> E1, 115.000 nl> Transfer Complete
+11/04/19 00:09:43.594	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> N1, 85.000 nl> Transfer Complete
+11/04/19 00:09:44.031	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> N1, 115.000 nl> Transfer Complete
+11/04/19 00:09:44.750	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> F1, 120.000 nl> Transfer Complete
+11/04/19 00:09:45.109	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> F1, 80.000 nl> Transfer Complete
+11/04/19 00:09:45.797	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> O1, 120.000 nl> Transfer Complete
+11/04/19 00:09:46.156	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> O1, 80.000 nl> Transfer Complete
+11/04/19 00:09:46.953	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> G1, 157.500 nl> Transfer Complete
+11/04/19 00:09:47.234	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> G1, 42.500 nl> Transfer Complete
+11/04/19 00:09:47.984	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> P1, 157.500 nl> Transfer Complete
+11/04/19 00:09:48.266	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> P1, 42.500 nl> Transfer Complete
+11/04/19 00:09:49.156	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> H1, 200.000 nl> Transfer Complete
+11/04/19 00:09:49.906	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> B7, 200.000 nl> Transfer Complete
+11/04/19 00:09:52.328	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> A2, 1000.000 nl> Transfer Complete
+11/04/19 00:09:54.906	StartStopPrintService.cpp(1476) 	DEBUG	Well A1 begin: 
+	DMSO: 85.9%%
+	Measured DMSO: 85.9%%
+	TransZ: 18630.691 um
+	Fluid Thickness: 2.730 mm
+	Current Fluid Thickness: 1.887 mm
+	SR: 33.733778 us
+	FocusToF: 31.226950 us
+	Eject Off: 118 um
+	D2A (calculated): 1.604 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 40
+	Rep. Rate: 200 Hz
+11/04/19 00:09:54.906	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> J2, 1000.000 nl> Transfer Complete
+11/04/19 00:09:55.422	StartStopPrintService.cpp(1476) 	DEBUG	Well B1 begin: 
+	DMSO: 86.6%%
+	Measured DMSO: 86.6%%
+	TransZ: 19391.239 um
+	Fluid Thickness: 2.751 mm
+	Current Fluid Thickness: 2.410 mm
+	SR: 34.419121 us
+	FocusToF: 30.907821 us
+	Eject Off: 310 um
+	D2A (calculated): 1.464 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 57
+	Rep. Rate: 200 Hz
+11/04/19 00:09:55.422	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> L2, 142.500 nl> Transfer Complete
+11/04/19 00:09:57.438	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> L2, 857.500 nl> Transfer Complete
+11/04/19 00:09:57.969	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> K2, 142.500 nl> Transfer Complete
+11/04/19 00:10:00.000	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> K2, 857.500 nl> Transfer Complete
+11/04/19 00:10:01.062	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> C2, 285.000 nl> Transfer Complete
+11/04/19 00:10:02.812	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> C2, 715.000 nl> Transfer Complete
+11/04/19 00:10:03.828	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> L2, 285.000 nl> Transfer Complete
+11/04/19 00:10:05.593	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> L2, 715.000 nl> Transfer Complete
+11/04/19 00:10:06.984	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> D2, 427.500 nl> Transfer Complete
+11/04/19 00:10:08.421	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> D2, 572.500 nl> Transfer Complete
+11/04/19 00:10:09.765	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> M2, 427.500 nl> Transfer Complete
+11/04/19 00:10:11.203	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> M2, 572.500 nl> Transfer Complete
+11/04/19 00:10:12.875	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> E2, 572.500 nl> Transfer Complete
+11/04/19 00:10:14.015	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> E2, 427.500 nl> Transfer Complete
+11/04/19 00:10:15.640	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> N2, 572.500 nl> Transfer Complete
+11/04/19 00:10:16.781	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> N2, 427.500 nl> Transfer Complete
+11/04/19 00:10:18.765	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> F2, 715.000 nl> Transfer Complete
+11/04/19 00:10:19.593	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> F2, 285.000 nl> Transfer Complete
+11/04/19 00:10:21.531	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> O2, 715.000 nl> Transfer Complete
+11/04/19 00:10:22.328	StartStopPrintService.cpp(1060) 	INFO	Well <A1 -> O2, 285.000 nl> Transfer Complete
+11/04/19 00:10:24.594	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> G2, 857.500 nl> Transfer Complete
+11/04/19 00:10:25.219	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> G2, 142.500 nl> Transfer Complete
+11/04/19 00:10:27.453	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> P2, 857.500 nl> Transfer Complete
+11/04/19 00:10:28.078	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> P2, 142.500 nl> Transfer Complete
+11/04/19 00:10:30.672	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> H2, 1000.000 nl> Transfer Complete
+11/04/19 00:10:33.125	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> B7, 1000.000 nl> Transfer Complete
+11/04/19 00:10:34.844	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> A3, 637.500 nl> Transfer Complete
+11/04/19 00:10:36.672	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> J3, 637.500 nl> Transfer Complete
+11/04/19 00:10:37.031	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> M3, 5.000 nl> Transfer Complete
+11/04/19 00:10:38.703	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M3, 632.500 nl> Transfer Complete
+11/04/19 00:10:39.031	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> K3, 5.000 nl> Transfer Complete
+11/04/19 00:10:40.687	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> K3, 632.500 nl> Transfer Complete
+11/04/19 00:10:41.234	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> C3, 22.500 nl> Transfer Complete
+11/04/19 00:10:42.828	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> C3, 615.000 nl> Transfer Complete
+11/04/19 00:10:43.328	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> L3, 22.500 nl> Transfer Complete
+11/04/19 00:10:44.906	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> L3, 615.000 nl> Transfer Complete
+11/04/19 00:10:45.531	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> D3, 67.500 nl> Transfer Complete
+11/04/19 00:10:46.984	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> D3, 570.000 nl> Transfer Complete
+11/04/19 00:10:47.563	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> M3, 67.500 nl> Transfer Complete
+11/04/19 00:10:49.000	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M3, 570.000 nl> Transfer Complete
+11/04/19 00:10:49.781	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E3, 145.000 nl> Transfer Complete
+11/04/19 00:10:51.109	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> E3, 492.500 nl> Transfer Complete
+11/04/19 00:10:51.844	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> N3, 145.000 nl> Transfer Complete
+11/04/19 00:10:53.172	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> N3, 492.500 nl> Transfer Complete
+11/04/19 00:10:54.188	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F3, 262.500 nl> Transfer Complete
+11/04/19 00:10:55.281	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> F3, 375.000 nl> Transfer Complete
+11/04/19 00:10:56.250	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O3, 262.500 nl> Transfer Complete
+11/04/19 00:10:57.344	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O3, 375.000 nl> Transfer Complete
+11/04/19 00:10:58.719	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G3, 425.000 nl> Transfer Complete
+11/04/19 00:10:59.453	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> G3, 212.500 nl> Transfer Complete
+11/04/19 00:11:00.781	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> P3, 425.000 nl> Transfer Complete
+11/04/19 00:11:01.499	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> P3, 212.500 nl> Transfer Complete
+11/04/19 00:11:03.343	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> H3, 637.500 nl> Transfer Complete
+11/04/19 00:11:05.046	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B7, 637.500 nl> Transfer Complete
+11/04/19 00:11:05.703	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> A4, 200.000 nl> Transfer Complete
+11/04/19 00:11:06.593	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> J4, 200.000 nl> Transfer Complete
+11/04/19 00:11:07.250	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> N4, 200.000 nl> Transfer Complete
+11/04/19 00:11:07.859	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> K4, 200.000 nl> Transfer Complete
+11/04/19 00:11:08.343	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C4, 2.500 nl> Transfer Complete
+11/04/19 00:11:09.015	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> C4, 197.500 nl> Transfer Complete
+11/04/19 00:11:09.453	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L4, 2.500 nl> Transfer Complete
+11/04/19 00:11:10.125	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> L4, 197.500 nl> Transfer Complete
+11/04/19 00:11:10.625	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D4, 7.500 nl> Transfer Complete
+11/04/19 00:11:11.297	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> D4, 192.500 nl> Transfer Complete
+11/04/19 00:11:11.750	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> M4, 7.500 nl> Transfer Complete
+11/04/19 00:11:12.421	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M4, 192.500 nl> Transfer Complete
+11/04/19 00:11:12.953	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E4, 22.500 nl> Transfer Complete
+11/04/19 00:11:13.593	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> E4, 177.500 nl> Transfer Complete
+11/04/19 00:11:14.093	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> N4, 22.500 nl> Transfer Complete
+11/04/19 00:11:14.734	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> N4, 177.500 nl> Transfer Complete
+11/04/19 00:11:15.328	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F4, 52.500 nl> Transfer Complete
+11/04/19 00:11:15.922	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> F4, 147.500 nl> Transfer Complete
+11/04/19 00:11:16.468	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O4, 52.500 nl> Transfer Complete
+11/04/19 00:11:17.062	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O4, 147.500 nl> Transfer Complete
+11/04/19 00:11:17.765	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G4, 107.500 nl> Transfer Complete
+11/04/19 00:11:18.218	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> G4, 92.500 nl> Transfer Complete
+11/04/19 00:11:18.890	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> P4, 107.500 nl> Transfer Complete
+11/04/19 00:11:19.343	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> P4, 92.500 nl> Transfer Complete
+11/04/19 00:11:20.250	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> H4, 200.000 nl> Transfer Complete
+11/04/19 00:11:21.000	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B7, 200.000 nl> Transfer Complete
+11/04/19 00:11:21.672	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> A5, 200.000 nl> Transfer Complete
+11/04/19 00:11:22.562	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> J5, 200.000 nl> Transfer Complete
+11/04/19 00:11:23.265	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> O5, 200.000 nl> Transfer Complete
+11/04/19 00:11:23.922	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> K5, 200.000 nl> Transfer Complete
+11/04/19 00:11:24.422	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C5, 2.500 nl> Transfer Complete
+11/04/19 00:11:25.078	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> C5, 197.500 nl> Transfer Complete
+11/04/19 00:11:25.531	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L5, 2.500 nl> Transfer Complete
+11/04/19 00:11:26.172	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> L5, 197.500 nl> Transfer Complete
+11/04/19 00:11:26.703	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D5, 7.500 nl> Transfer Complete
+11/04/19 00:11:27.312	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> D5, 192.500 nl> Transfer Complete
+11/04/19 00:11:27.797	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> M5, 7.500 nl> Transfer Complete
+11/04/19 00:11:28.422	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> M5, 192.500 nl> Transfer Complete
+11/04/19 00:11:28.969	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E5, 22.500 nl> Transfer Complete
+11/04/19 00:11:29.547	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> E5, 177.500 nl> Transfer Complete
+11/04/19 00:11:30.062	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> N5, 22.500 nl> Transfer Complete
+11/04/19 00:11:30.640	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> N5, 177.500 nl> Transfer Complete
+11/04/19 00:11:31.250	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F5, 52.500 nl> Transfer Complete
+11/04/19 00:11:31.766	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> F5, 147.500 nl> Transfer Complete
+11/04/19 00:11:32.328	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O5, 52.500 nl> Transfer Complete
+11/04/19 00:11:32.828	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> O5, 147.500 nl> Transfer Complete
+11/04/19 00:11:33.562	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G5, 107.500 nl> Transfer Complete
+11/04/19 00:11:33.953	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> G5, 92.500 nl> Transfer Complete
+11/04/19 00:11:34.625	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> P5, 107.500 nl> Transfer Complete
+11/04/19 00:11:35.016	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> P5, 92.500 nl> Transfer Complete
+11/04/19 00:11:35.937	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> H5, 200.000 nl> Transfer Complete
+11/04/19 00:11:36.687	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B7, 200.000 nl> Transfer Complete
+11/04/19 00:11:37.297	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> A6, 200.000 nl> Transfer Complete
+11/04/19 00:11:38.187	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> J6, 200.000 nl> Transfer Complete
+11/04/19 00:11:38.531	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> P6, 10.000 nl> Transfer Complete
+11/04/19 00:11:39.109	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> P6, 190.000 nl> Transfer Complete
+11/04/19 00:11:39.516	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> K6, 10.000 nl> Transfer Complete
+11/04/19 00:11:40.094	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> K6, 190.000 nl> Transfer Complete
+11/04/19 00:11:40.656	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C6, 30.000 nl> Transfer Complete
+11/04/19 00:11:41.188	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> C6, 170.000 nl> Transfer Complete
+11/04/19 00:11:41.719	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L6, 30.000 nl> Transfer Complete
+11/04/19 00:11:42.250	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> L6, 170.000 nl> Transfer Complete
+11/04/19 00:11:42.875	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D6, 55.000 nl> Transfer Complete
+11/04/19 00:11:43.344	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> D6, 145.000 nl> Transfer Complete
+11/04/19 00:11:43.922	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> M6, 55.000 nl> Transfer Complete
+11/04/19 00:11:44.391	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> M6, 145.000 nl> Transfer Complete
+11/04/19 00:11:45.078	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E6, 85.000 nl> Transfer Complete
+11/04/19 00:11:45.484	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> E6, 115.000 nl> Transfer Complete
+11/04/19 00:11:46.125	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> N6, 85.000 nl> Transfer Complete
+11/04/19 00:11:46.531	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> N6, 115.000 nl> Transfer Complete
+11/04/19 00:11:47.281	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F6, 120.000 nl> Transfer Complete
+11/04/19 00:11:47.625	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> F6, 80.000 nl> Transfer Complete
+11/04/19 00:11:48.328	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O6, 120.000 nl> Transfer Complete
+11/04/19 00:11:48.672	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> O6, 80.000 nl> Transfer Complete
+11/04/19 00:11:49.484	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G6, 157.500 nl> Transfer Complete
+11/04/19 00:11:49.766	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> G6, 42.500 nl> Transfer Complete
+11/04/19 00:11:50.531	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> P6, 157.500 nl> Transfer Complete
+11/04/19 00:11:50.813	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> P6, 42.500 nl> Transfer Complete
+11/04/19 00:11:51.719	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> H6, 200.000 nl> Transfer Complete
+11/04/19 00:11:52.469	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B7, 200.000 nl> Transfer Complete
+11/04/19 00:11:54.766	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> A7, 1000.000 nl> Transfer Complete
+11/04/19 00:11:57.344	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> J7, 1000.000 nl> Transfer Complete
+11/04/19 00:11:58.141	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B7, 142.500 nl> Transfer Complete
+11/04/19 00:12:00.109	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> B7, 857.500 nl> Transfer Complete
+11/04/19 00:12:00.843	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> K7, 142.500 nl> Transfer Complete
+11/04/19 00:12:02.812	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> K7, 857.500 nl> Transfer Complete
+11/04/19 00:12:03.890	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C7, 285.000 nl> Transfer Complete
+11/04/19 00:12:05.593	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> C7, 715.000 nl> Transfer Complete
+11/04/19 00:12:06.625	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L7, 285.000 nl> Transfer Complete
+11/04/19 00:12:08.343	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> L7, 715.000 nl> Transfer Complete
+11/04/19 00:12:09.734	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D7, 427.500 nl> Transfer Complete
+11/04/19 00:12:11.265	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> D7, 572.500 nl> Transfer Complete
+11/04/19 00:12:12.609	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> M7, 427.500 nl> Transfer Complete
+11/04/19 00:12:14.125	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> M7, 572.500 nl> Transfer Complete
+11/04/19 00:12:15.797	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E7, 572.500 nl> Transfer Complete
+11/04/19 00:12:17.015	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> E7, 427.500 nl> Transfer Complete
+11/04/19 00:12:18.640	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> N7, 572.500 nl> Transfer Complete
+11/04/19 00:12:19.859	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> N7, 427.500 nl> Transfer Complete
+11/04/19 00:12:21.843	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F7, 715.000 nl> Transfer Complete
+11/04/19 00:12:22.750	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> F7, 285.000 nl> Transfer Complete
+11/04/19 00:12:24.703	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O7, 715.000 nl> Transfer Complete
+11/04/19 00:12:25.594	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> O7, 285.000 nl> Transfer Complete
+11/04/19 00:12:27.890	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> G7, 857.500 nl> Transfer Complete
+11/04/19 00:12:28.406	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> G7, 142.500 nl> Transfer Complete
+11/04/19 00:12:30.656	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> P7, 857.500 nl> Transfer Complete
+11/04/19 00:12:31.156	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> P7, 142.500 nl> Transfer Complete
+11/04/19 00:12:33.766	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> H7, 1000.000 nl> Transfer Complete
+11/04/19 00:12:36.234	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B7, 1000.000 nl> Transfer Complete
+11/04/19 00:12:37.766	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> A8, 637.500 nl> Transfer Complete
+11/04/19 00:12:39.578	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> J8, 637.500 nl> Transfer Complete
+11/04/19 00:12:40.094	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B8, 5.000 nl> Transfer Complete
+11/04/19 00:12:41.609	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> B8, 632.500 nl> Transfer Complete
+11/04/19 00:12:42.078	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> K8, 5.000 nl> Transfer Complete
+11/04/19 00:12:43.594	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> K8, 632.500 nl> Transfer Complete
+11/04/19 00:12:44.156	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> C8, 22.500 nl> Transfer Complete
+11/04/19 00:12:45.656	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> C8, 615.000 nl> Transfer Complete
+11/04/19 00:12:46.172	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> L8, 22.500 nl> Transfer Complete
+11/04/19 00:12:47.688	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> L8, 615.000 nl> Transfer Complete
+11/04/19 00:12:48.328	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> D8, 67.500 nl> Transfer Complete
+11/04/19 00:12:49.734	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> D8, 570.000 nl> Transfer Complete
+11/04/19 00:12:50.328	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> M8, 67.500 nl> Transfer Complete
+11/04/19 00:12:51.750	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> M8, 570.000 nl> Transfer Complete
+11/04/19 00:12:52.547	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> E8, 145.000 nl> Transfer Complete
+11/04/19 00:12:53.813	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> E8, 492.500 nl> Transfer Complete
+11/04/19 00:12:54.563	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> N8, 145.000 nl> Transfer Complete
+11/04/19 00:12:55.844	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> N8, 492.500 nl> Transfer Complete
+11/04/19 00:12:56.875	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> F8, 262.500 nl> Transfer Complete
+11/04/19 00:12:57.922	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> F8, 375.000 nl> Transfer Complete
+11/04/19 00:12:58.906	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> O8, 262.500 nl> Transfer Complete
+11/04/19 00:12:59.953	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> O8, 375.000 nl> Transfer Complete
+11/04/19 00:13:01.343	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> G8, 425.000 nl> Transfer Complete
+11/04/19 00:13:02.078	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> G8, 212.500 nl> Transfer Complete
+11/04/19 00:13:03.406	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> P8, 425.000 nl> Transfer Complete
+11/04/19 00:13:04.125	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> P8, 212.500 nl> Transfer Complete
+11/04/19 00:13:05.968	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> H8, 637.500 nl> Transfer Complete
+11/04/19 00:13:07.656	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B7, 637.500 nl> Transfer Complete
+11/04/19 00:13:11.031	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> A9, 1450.000 nl> Transfer Complete
+11/04/19 00:13:14.562	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> J9, 1450.000 nl> Transfer Complete
+11/04/19 00:13:15.078	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B9, 7.500 nl> Transfer Complete
+11/04/19 00:13:18.328	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> B9, 1442.500 nl> Transfer Complete
+11/04/19 00:13:18.797	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> K9, 7.500 nl> Transfer Complete
+11/04/19 00:13:22.062	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> K9, 1442.500 nl> Transfer Complete
+11/04/19 00:13:22.656	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> C9, 52.500 nl> Transfer Complete
+11/04/19 00:13:25.828	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> C9, 1397.500 nl> Transfer Complete
+11/04/19 00:13:26.375	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> L9, 52.500 nl> Transfer Complete
+11/04/19 00:13:29.531	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> L9, 1397.500 nl> Transfer Complete
+11/04/19 00:13:30.344	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> D9, 155.000 nl> Transfer Complete
+11/04/19 00:13:33.312	StartStopPrintService.cpp(1060) 	INFO	Well <A5 -> D9, 1295.000 nl> Transfer Complete
+11/04/19 00:13:34.062	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> M9, 155.000 nl> Transfer Complete
+11/04/19 00:13:37.141	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> M9, 1295.000 nl> Transfer Complete
+11/04/19 00:13:38.328	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> E9, 332.500 nl> Transfer Complete
+11/04/19 00:13:41.000	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> E9, 1117.500 nl> Transfer Complete
+11/04/19 00:13:42.156	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> N9, 332.500 nl> Transfer Complete
+11/04/19 00:13:44.813	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> N9, 1117.500 nl> Transfer Complete
+11/04/19 00:13:46.531	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> F9, 597.500 nl> Transfer Complete
+11/04/19 00:13:48.641	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> F9, 852.500 nl> Transfer Complete
+11/04/19 00:13:50.328	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> O9, 597.500 nl> Transfer Complete
+11/04/19 00:13:52.422	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> O9, 852.500 nl> Transfer Complete
+11/04/19 00:13:54.953	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> G9, 965.000 nl> Transfer Complete
+11/04/19 00:13:56.281	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> G9, 485.000 nl> Transfer Complete
+11/04/19 00:13:58.781	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> P9, 965.000 nl> Transfer Complete
+11/04/19 00:14:00.078	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> P9, 485.000 nl> Transfer Complete
+11/04/19 00:14:03.609	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> H9, 1450.000 nl> Transfer Complete
+11/04/19 00:14:07.000	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> B7, 1450.000 nl> Transfer Complete
+11/04/19 00:14:10.343	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> A10, 1450.000 nl> Transfer Complete
+11/04/19 00:14:13.875	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> J10, 1450.000 nl> Transfer Complete
+11/04/19 00:14:14.390	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> B10, 7.500 nl> Transfer Complete
+11/04/19 00:14:17.672	StartStopPrintService.cpp(1060) 	INFO	Well <A6 -> B10, 1442.500 nl> Transfer Complete
+11/04/19 00:14:18.140	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> K10, 7.500 nl> Transfer Complete
+11/04/19 00:14:21.500	StartStopPrintService.cpp(1060) 	INFO	Well <A7 -> K10, 1442.500 nl> Transfer Complete
+11/04/19 00:14:22.109	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> C10, 52.500 nl> Transfer Complete
+11/04/19 00:14:25.390	StartStopPrintService.cpp(1060) 	INFO	Well <A7 -> C10, 1397.500 nl> Transfer Complete
+11/04/19 00:14:25.953	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> L10, 52.500 nl> Transfer Complete
+11/04/19 00:14:29.219	StartStopPrintService.cpp(1060) 	INFO	Well <A7 -> L10, 1397.500 nl> Transfer Complete
+11/04/19 00:14:30.047	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> D10, 155.000 nl> Transfer Complete
+11/04/19 00:14:33.109	StartStopPrintService.cpp(1060) 	INFO	Well <A7 -> D10, 1295.000 nl> Transfer Complete
+11/04/19 00:14:33.875	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> M10, 155.000 nl> Transfer Complete
+11/04/19 00:14:36.937	StartStopPrintService.cpp(1060) 	INFO	Well <A7 -> M10, 1295.000 nl> Transfer Complete
+11/04/19 00:14:38.141	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> E10, 332.500 nl> Transfer Complete
+11/04/19 00:14:40.813	StartStopPrintService.cpp(1060) 	INFO	Well <A7 -> E10, 1117.500 nl> Transfer Complete
+11/04/19 00:14:41.969	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> N10, 332.500 nl> Transfer Complete
+11/04/19 00:14:44.641	StartStopPrintService.cpp(1060) 	INFO	Well <A7 -> N10, 1117.500 nl> Transfer Complete
+11/04/19 00:14:46.375	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> F10, 597.500 nl> Transfer Complete
+11/04/19 00:14:48.484	StartStopPrintService.cpp(1060) 	INFO	Well <A7 -> F10, 852.500 nl> Transfer Complete
+11/04/19 00:14:50.172	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> O10, 597.500 nl> Transfer Complete
+11/04/19 00:14:52.375	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> O10, 852.500 nl> Transfer Complete
+11/04/19 00:14:54.906	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> G10, 965.000 nl> Transfer Complete
+11/04/19 00:14:56.344	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> G10, 485.000 nl> Transfer Complete
+11/04/19 00:14:58.828	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> P10, 965.000 nl> Transfer Complete
+11/04/19 00:15:00.265	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> P10, 485.000 nl> Transfer Complete
+11/04/19 00:15:03.812	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> H10, 1450.000 nl> Transfer Complete
+11/04/19 00:15:07.234	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> B7, 1450.000 nl> Transfer Complete
+11/04/19 00:15:09.359	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> A11, 817.500 nl> Transfer Complete
+11/04/19 00:15:11.546	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> J11, 817.500 nl> Transfer Complete
+11/04/19 00:15:12.281	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> B11, 117.500 nl> Transfer Complete
+11/04/19 00:15:14.093	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> B11, 700.000 nl> Transfer Complete
+11/04/19 00:15:14.797	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> K11, 117.500 nl> Transfer Complete
+11/04/19 00:15:16.593	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> K11, 700.000 nl> Transfer Complete
+11/04/19 00:15:17.562	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> C11, 232.500 nl> Transfer Complete
+11/04/19 00:15:19.109	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> C11, 585.000 nl> Transfer Complete
+11/04/19 00:15:20.047	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> L11, 232.500 nl> Transfer Complete
+11/04/19 00:15:21.578	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> L11, 585.000 nl> Transfer Complete
+11/04/19 00:15:22.828	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> D11, 350.000 nl> Transfer Complete
+11/04/19 00:15:24.125	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> D11, 467.500 nl> Transfer Complete
+11/04/19 00:15:25.328	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> M11, 350.000 nl> Transfer Complete
+11/04/19 00:15:26.625	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> M11, 467.500 nl> Transfer Complete
+11/04/19 00:15:28.109	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> E11, 467.500 nl> Transfer Complete
+11/04/19 00:15:29.172	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> E11, 350.000 nl> Transfer Complete
+11/04/19 00:15:30.609	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> N11, 467.500 nl> Transfer Complete
+11/04/19 00:15:31.672	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> N11, 350.000 nl> Transfer Complete
+11/04/19 00:15:33.391	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> F11, 585.000 nl> Transfer Complete
+11/04/19 00:15:34.187	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> F11, 232.500 nl> Transfer Complete
+11/04/19 00:15:35.859	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> O11, 585.000 nl> Transfer Complete
+11/04/19 00:15:36.656	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> O11, 232.500 nl> Transfer Complete
+11/04/19 00:15:38.641	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> G11, 700.000 nl> Transfer Complete
+11/04/19 00:15:39.203	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> G11, 117.500 nl> Transfer Complete
+11/04/19 00:15:41.141	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> P11, 700.000 nl> Transfer Complete
+11/04/19 00:15:41.703	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> P11, 117.500 nl> Transfer Complete
+11/04/19 00:15:43.922	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> H11, 817.500 nl> Transfer Complete
+11/04/19 00:15:45.969	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> B7, 817.500 nl> Transfer Complete
+11/04/19 00:15:48.125	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> A12, 817.500 nl> Transfer Complete
+11/04/19 00:15:50.328	StartStopPrintService.cpp(1060) 	INFO	Well <A8 -> J12, 817.500 nl> Transfer Complete
+11/04/19 00:15:51.063	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> B12, 117.500 nl> Transfer Complete
+11/04/19 00:15:51.078	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:15:51.797	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> K12, 117.500 nl> Transfer Complete
+11/04/19 00:15:51.797	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:15:52.703	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> C12, 232.500 nl> Transfer Complete
+11/04/19 00:15:52.703	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:15:53.656	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> L12, 232.500 nl> Transfer Complete
+11/04/19 00:15:53.672	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:15:54.844	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> D12, 350.000 nl> Transfer Complete
+11/04/19 00:15:54.844	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:15:56.063	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> M12, 350.000 nl> Transfer Complete
+11/04/19 00:15:56.063	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:15:57.485	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> E12, 467.500 nl> Transfer Complete
+11/04/19 00:15:57.485	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:15:58.953	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> N12, 467.500 nl> Transfer Complete
+11/04/19 00:15:58.953	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:16:00.593	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> F12, 585.000 nl> Transfer Complete
+11/04/19 00:16:00.609	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:16:02.296	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> O12, 585.000 nl> Transfer Complete
+11/04/19 00:16:02.296	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:16:04.203	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> G12, 700.000 nl> Transfer Complete
+11/04/19 00:16:04.203	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:16:06.171	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> P12, 700.000 nl> Transfer Complete
+11/04/19 00:16:06.171	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:16:08.312	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> H12, 817.500 nl> Transfer Complete
+11/04/19 00:16:10.375	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> B7, 817.500 nl> Transfer Complete
+11/04/19 00:16:10.375	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:16:10.375	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:16:11.297	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> B13, 285.000 nl> Transfer Complete
+11/04/19 00:16:11.297	StartStopPrintService.cpp(786) 	WARN	Source well A9 data is not valid - skipping
+11/04/19 00:16:12.359	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> K13, 285.000 nl> Transfer Complete
+11/04/19 00:16:16.375	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> K13, 1715.000 nl> Transfer Complete
+11/04/19 00:16:18.062	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> C13, 572.500 nl> Transfer Complete
+11/04/19 00:16:21.468	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> C13, 1427.500 nl> Transfer Complete
+11/04/19 00:16:23.109	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> L13, 572.500 nl> Transfer Complete
+11/04/19 00:16:26.515	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> L13, 1427.500 nl> Transfer Complete
+11/04/19 00:16:28.781	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> D13, 857.500 nl> Transfer Complete
+11/04/19 00:16:31.578	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> D13, 1142.500 nl> Transfer Complete
+11/04/19 00:16:33.812	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> M13, 857.500 nl> Transfer Complete
+11/04/19 00:16:36.625	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> M13, 1142.500 nl> Transfer Complete
+11/04/19 00:16:39.500	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> E13, 1142.500 nl> Transfer Complete
+11/04/19 00:16:41.703	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> E13, 857.500 nl> Transfer Complete
+11/04/19 00:16:44.531	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> N13, 1142.500 nl> Transfer Complete
+11/04/19 00:16:46.734	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> N13, 857.500 nl> Transfer Complete
+11/04/19 00:16:50.235	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> F13, 1427.500 nl> Transfer Complete
+11/04/19 00:16:51.735	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> F13, 572.500 nl> Transfer Complete
+11/04/19 00:16:55.188	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> O13, 1427.500 nl> Transfer Complete
+11/04/19 00:16:56.703	StartStopPrintService.cpp(1060) 	INFO	Well <A10 -> O13, 572.500 nl> Transfer Complete
+11/04/19 00:17:00.796	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> G13, 1715.000 nl> Transfer Complete
+11/04/19 00:17:01.796	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> G13, 285.000 nl> Transfer Complete
+11/04/19 00:17:05.859	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> P13, 1715.000 nl> Transfer Complete
+11/04/19 00:17:06.843	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> P13, 285.000 nl> Transfer Complete
+11/04/19 00:17:11.546	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> H13, 2000.000 nl> Transfer Complete
+11/04/19 00:17:16.093	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> B7, 2000.000 nl> Transfer Complete
+11/04/19 00:17:17.531	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> A14, 400.000 nl> Transfer Complete
+11/04/19 00:17:18.843	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> J14, 400.000 nl> Transfer Complete
+11/04/19 00:17:19.468	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> B14, 57.500 nl> Transfer Complete
+11/04/19 00:17:20.531	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> B14, 342.500 nl> Transfer Complete
+11/04/19 00:17:21.109	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> K14, 57.500 nl> Transfer Complete
+11/04/19 00:17:22.172	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> K14, 342.500 nl> Transfer Complete
+11/04/19 00:17:22.906	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> C14, 115.000 nl> Transfer Complete
+11/04/19 00:17:23.812	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> C14, 285.000 nl> Transfer Complete
+11/04/19 00:17:24.515	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> L14, 115.000 nl> Transfer Complete
+11/04/19 00:17:25.422	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> L14, 285.000 nl> Transfer Complete
+11/04/19 00:17:26.265	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> D14, 172.500 nl> Transfer Complete
+11/04/19 00:17:27.062	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> D14, 227.500 nl> Transfer Complete
+11/04/19 00:17:27.875	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> M14, 172.500 nl> Transfer Complete
+11/04/19 00:17:28.672	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> M14, 227.500 nl> Transfer Complete
+11/04/19 00:17:29.625	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> E14, 227.500 nl> Transfer Complete
+11/04/19 00:17:30.312	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> E14, 172.500 nl> Transfer Complete
+11/04/19 00:17:31.234	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> N14, 227.500 nl> Transfer Complete
+11/04/19 00:17:31.922	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> N14, 172.500 nl> Transfer Complete
+11/04/19 00:17:33.000	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> F14, 285.000 nl> Transfer Complete
+11/04/19 00:17:33.562	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> F14, 115.000 nl> Transfer Complete
+11/04/19 00:17:34.609	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> O14, 285.000 nl> Transfer Complete
+11/04/19 00:17:35.172	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> O14, 115.000 nl> Transfer Complete
+11/04/19 00:17:36.406	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> G14, 342.500 nl> Transfer Complete
+11/04/19 00:17:36.859	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> G14, 57.500 nl> Transfer Complete
+11/04/19 00:17:38.047	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> P14, 342.500 nl> Transfer Complete
+11/04/19 00:17:38.500	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> P14, 57.500 nl> Transfer Complete
+11/04/19 00:17:39.828	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> H14, 400.000 nl> Transfer Complete
+11/04/19 00:17:41.062	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> B7, 400.000 nl> Transfer Complete
+11/04/19 00:17:45.859	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> A15, 2000.000 nl> Transfer Complete
+11/04/19 00:17:50.531	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> J15, 2000.000 nl> Transfer Complete
+11/04/19 00:17:55.172	StartStopPrintService.cpp(1060) 	INFO	Well <A11 -> B15, 2000.000 nl> Transfer Complete
+11/04/19 00:17:59.891	StartStopPrintService.cpp(1060) 	INFO	Well <A12 -> K15, 2000.000 nl> Transfer Complete
+11/04/19 00:18:00.421	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> C15, 12.500 nl> Transfer Complete
+11/04/19 00:18:05.031	StartStopPrintService.cpp(1060) 	INFO	Well <A12 -> C15, 1987.500 nl> Transfer Complete
+11/04/19 00:18:05.515	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> L15, 12.500 nl> Transfer Complete
+11/04/19 00:18:10.125	StartStopPrintService.cpp(1060) 	INFO	Well <A12 -> L15, 1987.500 nl> Transfer Complete
+11/04/19 00:18:10.765	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> D15, 67.500 nl> Transfer Complete
+11/04/19 00:18:15.250	StartStopPrintService.cpp(1060) 	INFO	Well <A12 -> D15, 1932.500 nl> Transfer Complete
+11/04/19 00:18:15.843	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> M15, 67.500 nl> Transfer Complete
+11/04/19 00:18:20.343	StartStopPrintService.cpp(1060) 	INFO	Well <A12 -> M15, 1932.500 nl> Transfer Complete
+11/04/19 00:18:21.281	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> E15, 212.500 nl> Transfer Complete
+11/04/19 00:18:25.562	StartStopPrintService.cpp(1060) 	INFO	Well <A13 -> E15, 1787.500 nl> Transfer Complete
+11/04/19 00:18:26.500	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> N15, 212.500 nl> Transfer Complete
+11/04/19 00:18:30.766	StartStopPrintService.cpp(1060) 	INFO	Well <A13 -> N15, 1787.500 nl> Transfer Complete
+11/04/19 00:18:32.359	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> F15, 520.000 nl> Transfer Complete
+11/04/19 00:18:35.969	StartStopPrintService.cpp(1060) 	INFO	Well <A13 -> F15, 1480.000 nl> Transfer Complete
+11/04/19 00:18:37.562	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> O15, 520.000 nl> Transfer Complete
+11/04/19 00:18:41.172	StartStopPrintService.cpp(1060) 	INFO	Well <A13 -> O15, 1480.000 nl> Transfer Complete
+11/04/19 00:18:43.953	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> G15, 1080.000 nl> Transfer Complete
+11/04/19 00:18:46.391	StartStopPrintService.cpp(1060) 	INFO	Well <A13 -> G15, 920.000 nl> Transfer Complete
+11/04/19 00:18:49.172	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> P15, 1080.000 nl> Transfer Complete
+11/04/19 00:18:51.625	StartStopPrintService.cpp(1060) 	INFO	Well <A13 -> P15, 920.000 nl> Transfer Complete
+11/04/19 00:18:56.328	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> H15, 2000.000 nl> Transfer Complete
+11/04/19 00:18:59.906	StartStopPrintService.cpp(1121) 	WARN	Partial well transfer for well B8
+11/04/19 00:18:59.906	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 86.5178, fluidThickness: 0.418063.
+11/04/19 00:19:04.828	StartStopPrintService.cpp(1060) 	INFO	Well <A13 -> A16, 2000.000 nl> Transfer Complete
+11/04/19 00:19:09.546	StartStopPrintService.cpp(1060) 	INFO	Well <A14 -> J16, 2000.000 nl> Transfer Complete
+11/04/19 00:19:10.625	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> B16, 285.000 nl> Transfer Complete
+11/04/19 00:19:14.750	StartStopPrintService.cpp(1060) 	INFO	Well <A14 -> B16, 1715.000 nl> Transfer Complete
+11/04/19 00:19:15.828	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> K16, 285.000 nl> Transfer Complete
+11/04/19 00:19:19.953	StartStopPrintService.cpp(1060) 	INFO	Well <A14 -> K16, 1715.000 nl> Transfer Complete
+11/04/19 00:19:21.656	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> C16, 572.500 nl> Transfer Complete
+11/04/19 00:19:25.156	StartStopPrintService.cpp(1060) 	INFO	Well <A14 -> C16, 1427.500 nl> Transfer Complete
+11/04/19 00:19:26.844	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> L16, 572.500 nl> Transfer Complete
+11/04/19 00:19:30.344	StartStopPrintService.cpp(1060) 	INFO	Well <A14 -> L16, 1427.500 nl> Transfer Complete
+11/04/19 00:19:32.641	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> D16, 857.500 nl> Transfer Complete
+11/04/19 00:19:35.547	StartStopPrintService.cpp(1060) 	INFO	Well <A14 -> D16, 1142.500 nl> Transfer Complete
+11/04/19 00:19:37.844	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> M16, 857.500 nl> Transfer Complete
+11/04/19 00:19:40.750	StartStopPrintService.cpp(1060) 	INFO	Well <A14 -> M16, 1142.500 nl> Transfer Complete
+11/04/19 00:19:43.656	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> E16, 1142.500 nl> Transfer Complete
+11/04/19 00:19:46.047	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> E16, 857.500 nl> Transfer Complete
+11/04/19 00:19:49.047	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> N16, 1142.500 nl> Transfer Complete
+11/04/19 00:19:51.438	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> N16, 857.500 nl> Transfer Complete
+11/04/19 00:19:55.031	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> F16, 1427.500 nl> Transfer Complete
+11/04/19 00:19:56.828	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> F16, 572.500 nl> Transfer Complete
+11/04/19 00:20:00.406	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> O16, 1427.500 nl> Transfer Complete
+11/04/19 00:20:02.203	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> O16, 572.500 nl> Transfer Complete
+11/04/19 00:20:06.406	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> G16, 1715.000 nl> Transfer Complete
+11/04/19 00:20:07.578	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> G16, 285.000 nl> Transfer Complete
+11/04/19 00:20:11.703	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> P16, 1715.000 nl> Transfer Complete
+11/04/19 00:20:12.796	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> P16, 285.000 nl> Transfer Complete
+11/04/19 00:20:17.515	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> H16, 2000.000 nl> Transfer Complete
+11/04/19 00:20:22.203	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> B7, 2000.000 nl> Transfer Complete
+11/04/19 00:20:23.812	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> A17, 400.000 nl> Transfer Complete
+11/04/19 00:20:25.125	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> J17, 400.000 nl> Transfer Complete
+11/04/19 00:20:25.765	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> B17, 57.500 nl> Transfer Complete
+11/04/19 00:20:27.000	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> B17, 342.500 nl> Transfer Complete
+11/04/19 00:20:27.625	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> K17, 57.500 nl> Transfer Complete
+11/04/19 00:20:28.875	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> K17, 342.500 nl> Transfer Complete
+11/04/19 00:20:29.625	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> C17, 115.000 nl> Transfer Complete
+11/04/19 00:20:30.703	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> C17, 285.000 nl> Transfer Complete
+11/04/19 00:20:31.453	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> L17, 115.000 nl> Transfer Complete
+11/04/19 00:20:32.547	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> L17, 285.000 nl> Transfer Complete
+11/04/19 00:20:33.406	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> D17, 172.500 nl> Transfer Complete
+11/04/19 00:20:34.375	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> D17, 227.500 nl> Transfer Complete
+11/04/19 00:20:35.250	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> M17, 172.500 nl> Transfer Complete
+11/04/19 00:20:36.219	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> M17, 227.500 nl> Transfer Complete
+11/04/19 00:20:37.187	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> E17, 227.500 nl> Transfer Complete
+11/04/19 00:20:38.047	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> E17, 172.500 nl> Transfer Complete
+11/04/19 00:20:39.031	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> N17, 227.500 nl> Transfer Complete
+11/04/19 00:20:39.891	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> N17, 172.500 nl> Transfer Complete
+11/04/19 00:20:40.969	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> F17, 285.000 nl> Transfer Complete
+11/04/19 00:20:41.719	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> F17, 115.000 nl> Transfer Complete
+11/04/19 00:20:42.813	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> O17, 285.000 nl> Transfer Complete
+11/04/19 00:20:43.563	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> O17, 115.000 nl> Transfer Complete
+11/04/19 00:20:44.797	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> G17, 342.500 nl> Transfer Complete
+11/04/19 00:20:45.438	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> G17, 57.500 nl> Transfer Complete
+11/04/19 00:20:46.672	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> P17, 342.500 nl> Transfer Complete
+11/04/19 00:20:47.297	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> P17, 57.500 nl> Transfer Complete
+11/04/19 00:20:48.656	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> H17, 400.000 nl> Transfer Complete
+11/04/19 00:20:50.016	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> B7, 400.000 nl> Transfer Complete
+11/04/19 00:20:51.672	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> A18, 400.000 nl> Transfer Complete
+11/04/19 00:20:52.985	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> J18, 400.000 nl> Transfer Complete
+11/04/19 00:20:54.250	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> B18, 400.000 nl> Transfer Complete
+11/04/19 00:20:55.578	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> K18, 400.000 nl> Transfer Complete
+11/04/19 00:20:56.094	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> C18, 2.500 nl> Transfer Complete
+11/04/19 00:20:57.438	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> C18, 397.500 nl> Transfer Complete
+11/04/19 00:20:57.953	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> L18, 2.500 nl> Transfer Complete
+11/04/19 00:20:59.297	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> L18, 397.500 nl> Transfer Complete
+11/04/19 00:20:59.844	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> D18, 12.500 nl> Transfer Complete
+11/04/19 00:21:01.171	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> D18, 387.500 nl> Transfer Complete
+11/04/19 00:21:01.718	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> M18, 12.500 nl> Transfer Complete
+11/04/19 00:21:03.046	StartStopPrintService.cpp(1060) 	INFO	Well <A15 -> M18, 387.500 nl> Transfer Complete
+11/04/19 00:21:03.640	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> E18, 42.500 nl> Transfer Complete
+11/04/19 00:21:04.984	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> E18, 357.500 nl> Transfer Complete
+11/04/19 00:21:05.671	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> N18, 42.500 nl> Transfer Complete
+11/04/19 00:21:07.031	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> N18, 357.500 nl> Transfer Complete
+11/04/19 00:21:07.828	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> F18, 105.000 nl> Transfer Complete
+11/04/19 00:21:09.031	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> F18, 295.000 nl> Transfer Complete
+11/04/19 00:21:09.828	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> O18, 105.000 nl> Transfer Complete
+11/04/19 00:21:11.015	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> O18, 295.000 nl> Transfer Complete
+11/04/19 00:21:12.047	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> G18, 215.000 nl> Transfer Complete
+11/04/19 00:21:13.015	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> G18, 185.000 nl> Transfer Complete
+11/04/19 00:21:14.047	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> P18, 215.000 nl> Transfer Complete
+11/04/19 00:21:15.015	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> P18, 185.000 nl> Transfer Complete
+11/04/19 00:21:16.359	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> H18, 400.000 nl> Transfer Complete
+11/04/19 00:21:17.765	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> B7, 400.000 nl> Transfer Complete
+11/04/19 00:21:19.468	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> A19, 400.000 nl> Transfer Complete
+11/04/19 00:21:20.781	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> J19, 400.000 nl> Transfer Complete
+11/04/19 00:21:22.062	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> B19, 400.000 nl> Transfer Complete
+11/04/19 00:21:23.375	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> K19, 400.000 nl> Transfer Complete
+11/04/19 00:21:23.875	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> C19, 2.500 nl> Transfer Complete
+11/04/19 00:21:25.219	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> C19, 397.500 nl> Transfer Complete
+11/04/19 00:21:25.719	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> L19, 2.500 nl> Transfer Complete
+11/04/19 00:21:27.062	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> L19, 397.500 nl> Transfer Complete
+11/04/19 00:21:27.594	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> D19, 12.500 nl> Transfer Complete
+11/04/19 00:21:28.906	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> D19, 387.500 nl> Transfer Complete
+11/04/19 00:21:29.453	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> M19, 12.500 nl> Transfer Complete
+11/04/19 00:21:30.766	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> M19, 387.500 nl> Transfer Complete
+11/04/19 00:21:31.359	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> E19, 42.500 nl> Transfer Complete
+11/04/19 00:21:32.609	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> E19, 357.500 nl> Transfer Complete
+11/04/19 00:21:33.203	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> N19, 42.500 nl> Transfer Complete
+11/04/19 00:21:34.453	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> N19, 357.500 nl> Transfer Complete
+11/04/19 00:21:35.172	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> F19, 105.000 nl> Transfer Complete
+11/04/19 00:21:36.281	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> F19, 295.000 nl> Transfer Complete
+11/04/19 00:21:37.000	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> O19, 105.000 nl> Transfer Complete
+11/04/19 00:21:38.094	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> O19, 295.000 nl> Transfer Complete
+11/04/19 00:21:39.031	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> G19, 215.000 nl> Transfer Complete
+11/04/19 00:21:39.906	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> G19, 185.000 nl> Transfer Complete
+11/04/19 00:21:40.844	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> P19, 215.000 nl> Transfer Complete
+11/04/19 00:21:41.734	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> P19, 185.000 nl> Transfer Complete
+11/04/19 00:21:43.078	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> H19, 400.000 nl> Transfer Complete
+11/04/19 00:21:44.531	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> B7, 400.000 nl> Transfer Complete
+11/04/19 00:21:49.625	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> A20, 2000.000 nl> Transfer Complete
+11/04/19 00:21:54.297	StartStopPrintService.cpp(1060) 	INFO	Well <A16 -> J20, 2000.000 nl> Transfer Complete
+11/04/19 00:21:58.969	StartStopPrintService.cpp(1060) 	INFO	Well <A17 -> B20, 2000.000 nl> Transfer Complete
+11/04/19 00:22:03.656	StartStopPrintService.cpp(1060) 	INFO	Well <A17 -> K20, 2000.000 nl> Transfer Complete
+11/04/19 00:22:04.281	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> C20, 12.500 nl> Transfer Complete
+11/04/19 00:22:09.046	StartStopPrintService.cpp(1060) 	INFO	Well <A17 -> C20, 1987.500 nl> Transfer Complete
+11/04/19 00:22:09.671	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> L20, 12.500 nl> Transfer Complete
+11/04/19 00:22:14.422	StartStopPrintService.cpp(1060) 	INFO	Well <A17 -> L20, 1987.500 nl> Transfer Complete
+11/04/19 00:22:15.156	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> D20, 67.500 nl> Transfer Complete
+11/04/19 00:22:19.812	StartStopPrintService.cpp(1060) 	INFO	Well <A17 -> D20, 1932.500 nl> Transfer Complete
+11/04/19 00:22:20.547	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> M20, 67.500 nl> Transfer Complete
+11/04/19 00:22:25.328	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> M20, 1932.500 nl> Transfer Complete
+11/04/19 00:22:26.437	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> E20, 212.500 nl> Transfer Complete
+11/04/19 00:22:30.875	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> E20, 1787.500 nl> Transfer Complete
+11/04/19 00:22:31.984	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> N20, 212.500 nl> Transfer Complete
+11/04/19 00:22:36.422	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> N20, 1787.500 nl> Transfer Complete
+11/04/19 00:22:38.187	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> F20, 520.000 nl> Transfer Complete
+11/04/19 00:22:41.969	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> F20, 1480.000 nl> Transfer Complete
+11/04/19 00:22:43.734	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> O20, 520.000 nl> Transfer Complete
+11/04/19 00:22:47.500	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> O20, 1480.000 nl> Transfer Complete
+11/04/19 00:22:50.438	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> G20, 1080.000 nl> Transfer Complete
+11/04/19 00:22:53.063	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> G20, 920.000 nl> Transfer Complete
+11/04/19 00:22:56.016	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> P20, 1080.000 nl> Transfer Complete
+11/04/19 00:22:58.656	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> P20, 920.000 nl> Transfer Complete
+11/04/19 00:23:03.515	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> H20, 2000.000 nl> Transfer Complete
+11/04/19 00:23:08.390	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> B7, 2000.000 nl> Transfer Complete
+11/04/19 00:23:08.421	FluidTransferServer.cpp(4366) 	INFO	DoPlateTransfer() end Z-axis position: 17180
+11/04/19 00:23:08.546	FluidTransferServer.cpp(4474) 	INFO	Transfer time 819233 msec.

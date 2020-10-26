@@ -1,0 +1,97 @@
+Volume,SourcePlateBarcode,SourcePlateWell,DestinationPlateBarcode,DestinationPlateWell,ComponentName
+25,MasterTrof,A1,AssayPlate,A1,-
+25,MasterTrof,A2,AssayPlate,A2,-
+25,MasterTrof,A3,AssayPlate,A3,-
+25,MasterTrof,A4,AssayPlate,A4,-
+25,MasterTrof,A4,AssayPlate,A5,-
+25,MasterTrof,A5,AssayPlate,A6,-
+25,MasterTrof,A6,AssayPlate,A7,-
+25,MasterTrof,A2,AssayPlate,A8,-
+25,MasterTrof,A3,AssayPlate,A9,-
+25,MasterTrof,A4,AssayPlate,A10,-
+25,MasterTrof,A4,AssayPlate,A11,-
+25,MasterTrof,A5,AssayPlate,A12,-
+25,MasterTrof,A6,AssayPlate,A13,-
+25,MasterTrof,A2,AssayPlate,A14,-
+25,MasterTrof,A3,AssayPlate,A15,-
+25,MasterTrof,A4,AssayPlate,A16,-
+25,MasterTrof,A4,AssayPlate,A17,-
+25,MasterTrof,A5,AssayPlate,A18,-
+25,MasterTrof,A6,AssayPlate,A19,-
+25,MasterTrof,A2,AssayPlate,A20,-
+25,MasterTrof,A3,AssayPlate,A21,-
+25,MasterTrof,A4,AssayPlate,A22,-
+25,MasterTrof,A5,AssayPlate,A23,-
+25,MasterTrof,A6,AssayPlate,A24,-
+25,MasterTrof,A7,AssayPlate,B1,Buffer
+25,MasterTrof,A7,AssayPlate,B2,Buffer
+25,MasterTrof,A7,AssayPlate,B3,Buffer
+25,MasterTrof,A7,AssayPlate,B4,Buffer
+25,MasterTrof,A7,AssayPlate,B5,Buffer
+25,MasterTrof,A7,AssayPlate,B6,Buffer
+25,MasterTrof,A7,AssayPlate,B7,Buffer
+25,MasterTrof,A7,AssayPlate,B8,Buffer
+25,MasterTrof,A7,AssayPlate,B9,Buffer
+25,MasterTrof,A7,AssayPlate,B10,Buffer
+25,MasterTrof,A7,AssayPlate,B11,Buffer
+25,MasterTrof,A7,AssayPlate,B12,Buffer
+25,MasterTrof,A7,AssayPlate,B13,Buffer
+25,MasterTrof,A7,AssayPlate,B14,Buffer
+25,MasterTrof,A7,AssayPlate,B15,Buffer
+25,MasterTrof,A7,AssayPlate,B16,Buffer
+25,MasterTrof,A7,AssayPlate,B17,Buffer
+25,MasterTrof,A7,AssayPlate,B18,Buffer
+25,MasterTrof,A7,AssayPlate,B19,Buffer
+25,MasterTrof,A7,AssayPlate,B20,Buffer
+25,MasterTrof,A7,AssayPlate,B21,Buffer
+25,MasterTrof,A7,AssayPlate,B22,Buffer
+25,MasterTrof,A7,AssayPlate,B23,Buffer
+25,MasterTrof,A7,AssayPlate,B24,Buffer
+25,compound_source,A1,AssayPlate,A1,DMSO
+25,compound_source,A1,AssayPlate,B1,DMSO
+25,compound_source,A2,AssayPlate,A2,Arachadonic acid
+25,compound_source,A2,AssayPlate,B2,Arachadonic acid
+25,compound_source,A2,AssayPlate,A3,Arachadonic acid
+25,compound_source,A2,AssayPlate,B3,Arachadonic acid
+25,compound_source,A2,AssayPlate,A4,Arachadonic acid
+25,compound_source,A2,AssayPlate,B4,Arachadonic acid
+25,compound_source,A2,AssayPlate,A5,Arachadonic acid
+25,compound_source,A2,AssayPlate,B5,Arachadonic acid
+25,compound_source,A2,AssayPlate,A6,Arachadonic acid
+25,compound_source,A2,AssayPlate,B6,Arachadonic acid
+25,compound_source,A2,AssayPlate,A7,Arachadonic acid
+25,compound_source,A2,AssayPlate,B7,Arachadonic acid
+25,compound_source,A3,AssayPlate,A8,Lauric Acid
+25,compound_source,A3,AssayPlate,B8,Lauric Acid
+25,compound_source,A3,AssayPlate,A9,Lauric Acid
+25,compound_source,A3,AssayPlate,B9,Lauric Acid
+25,compound_source,A3,AssayPlate,A10,Lauric Acid
+25,compound_source,A3,AssayPlate,B10,Lauric Acid
+25,compound_source,A3,AssayPlate,A11,Lauric Acid
+25,compound_source,A3,AssayPlate,B11,Lauric Acid
+25,compound_source,A3,AssayPlate,A12,Lauric Acid
+25,compound_source,A3,AssayPlate,B12,Lauric Acid
+25,compound_source,A3,AssayPlate,A13,Lauric Acid
+25,compound_source,A3,AssayPlate,B13,Lauric Acid
+25,compound_source,A4,AssayPlate,A14,Palmitic Acid
+25,compound_source,A4,AssayPlate,B14,Palmitic Acid
+25,compound_source,A4,AssayPlate,A15,Palmitic Acid
+25,compound_source,A4,AssayPlate,B15,Palmitic Acid
+25,compound_source,A4,AssayPlate,A16,Palmitic Acid
+25,compound_source,A4,AssayPlate,B16,Palmitic Acid
+25,compound_source,A4,AssayPlate,A17,Palmitic Acid
+25,compound_source,A4,AssayPlate,B17,Palmitic Acid
+25,compound_source,A4,AssayPlate,A18,Palmitic Acid
+25,compound_source,A4,AssayPlate,B18,Palmitic Acid
+25,compound_source,A4,AssayPlate,A19,Palmitic Acid
+25,compound_source,A4,AssayPlate,B19,Palmitic Acid
+25,compound_source,A5,AssayPlate,A20,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,B20,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,A21,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,B21,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,A22,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,B22,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,A23,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,B23,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,A24,4-Phenylimidazole
+25,compound_source,A5,AssayPlate,B24,4-Phenylimidazole

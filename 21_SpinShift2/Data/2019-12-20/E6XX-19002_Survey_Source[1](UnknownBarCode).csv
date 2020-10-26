@@ -1,0 +1,42 @@
+Run ID,1576846886
+Run Date/Time,2019-12-20 13:01:52
+Application Name,Labcyte Echo Plate Reformat
+Application Version,1.7.2
+Protocol Name,Protocol 1.epr
+Order ID,
+Reference ID,
+User Name,Lab
+
+[DETAILS]
+Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Survey Fluid Height,Survey Fluid Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Survey Status
+Source[1],UnknownBarCode,384PP_DMSO2,A1,2.522,39.309,39.309,99.701,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B1,2.548,39.356,39.356,91.799,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A2,2.502,39.035,39.035,99.6,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A3,2.493,38.879,38.879,98.742,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B2,1.665,27.302,27.302,91.42,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A4,2.514,39.146,39.146,98.53,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A5,1.607,26.767,26.767,98.069,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A6,2.997,45.749,45.749,98.741,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B3,2.758,42.197,42.197,91.268,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A7,3.001,45.828,45.828,99.221,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A8,1.595,26.667,26.667,99.302,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B4,2.743,42.021,42.021,92.199,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A9,2.974,45.476,45.476,99.581,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A10,2.954,45.216,45.216,99.701,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A11,2.448,38.278,38.278,99.038,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B5,2.207,34.715,34.715,92.158,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A12,2.556,39.707,39.707,98.242,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A13,2.523,39.286,39.286,98.944,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A14,2.477,38.699,38.699,99.701,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B6,2.796,42.737,42.737,92.014,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A15,2.509,39.132,39.132,99.647,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A16,2.519,39.258,39.258,99.408,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B7,2.706,41.521,34.271,92.34,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A17,2.569,39.907,39.907,98.671,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A18,2.914,44.609,40.589,98.393,Percent,DMSO,
+
+Instrument Name,E6XX-19002
+Instrument Model,Echo 650
+Instrument Serial Number,E6XX-19002
+Instrument Software Version,3.0.2
+

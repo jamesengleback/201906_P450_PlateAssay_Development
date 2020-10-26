@@ -1,0 +1,4 @@
+2019-12-21 17:38:09.1,,Debug,OnProtocolInitStart,Event,,,,
+2019-12-21 17:38:09.2,,Debug,OnProtocolInitEnd,Event,,,,
+2019-12-21 17:38:09.2,,Info,OnInfoEvent,Event,,,,"Protocol verification complete. Ready to run protocol."
+2019-12-21 17:38:13.2,,Debug,Start,Action,,,,"Running"

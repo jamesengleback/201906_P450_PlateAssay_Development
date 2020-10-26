@@ -1,0 +1,17 @@
+Pattern,Vol/µl,[prot]/µM,No.concs,Shake time/s,Dispensing,Shake speed,Power,Plate ID
+−+−−+−+,10,10,4,10,Multidrop,200,4,210
+#ERROR!,50,10,12,10,Multidrop,200,4,210
+−−−−+−−,10,2,4,10,Multidrop,200,1,210
+#ERROR!,50,10,4,10,Multidrop,200,1,210
+#ERROR!,50,2,12,10,Multidrop,200,1,210
+#ERROR!,50,2,4,10,Multidrop,200,4,210
+−++−+−−,10,10,12,10,Multidrop,200,1,210
+−−+−+−+,10,2,12,10,Multidrop,200,4,210
+−++−−−+,10,10,12,10,Pipette,200,4,210
+−+−−−−−,10,10,4,10,Pipette,200,1,210
+#ERROR!,50,10,4,10,Pipette,200,4,210
+#ERROR!,50,2,12,10,Pipette,200,4,210
+−−+−−−−,10,2,12,10,Pipette,200,1,210
+−−−−−−+,10,2,4,10,Pipette,200,4,210
+#ERROR!,50,10,12,10,Pipette,200,1,210
+#ERROR!,50,2,4,10,Pipette,200,1,210

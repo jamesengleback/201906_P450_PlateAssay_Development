@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<platesurvey name="384PP_DMSO2" barcode="UnknownBarCode" date="2019-12-21 17:26:06.000" serial_number="E6XX-19002" vtl="0" original="1" frmt="1" rows="2" cols="4" totalWells="5">
+     <w r="2" c="1" n="C2" vl="37.987" cvl="37.987" status="" fld="DMSO" fldu="Percent" wc="" sid="" x="50973.979" y="62617.619" s="91.007" fsh="91.106" fsinh="91.007" t="2.45" ct="2.45" b="0.627" fth="2.449" ftinh="2.45" o="0" a="NONE">
+          <e t="AVG" x="50973.979" y="62617.619" z="4421.325">
+               <f t="FW BB" o="31.862" v="2.687" />
+               <f t="FW TB1" o="32.49" v="2.093" />
+               <f t="SR" o="35.656" v="3.984" />
+          </e>
+     </w>
+     <w r="3" c="1" n="D2" vl="8.994" cvl="8.994" status="" fld="DMSO" fldu="Percent" wc="" sid="" x="50967.788" y="58135.619" s="97.66" fsh="97.221" fsinh="97.66" t="0.46" ct="0.46" b="0.627" fth="0.461" ftinh="0.46" o="0" a="NONE">
+          <e t="AVG" x="50967.788" y="58135.619" z="4421.325">
+               <f t="FW BB" o="31.856" v="2.656" />
+               <f t="FW TB1" o="32.484" v="2.375" />
+               <f t="SR" o="33.096" v="3.984" />
+          </e>
+     </w>
+     <w r="3" c="2" n="D3" vl="7.996" cvl="7.996" status="" fld="DMSO" fldu="Percent" wc="" sid="" x="55449.682" y="58135.619" s="97.221" fsh="95.664" fsinh="97.221" t="0.41" ct="0.41" b="0.629" fth="0.412" ftinh="0.41" o="0" a="NONE">
+          <e t="AVG" x="55449.682" y="58135.619" z="4421.325">
+               <f t="FW BB" o="31.83" v="2.625" />
+               <f t="FW TB1" o="32.46" v="2.359" />
+               <f t="SR" o="33.004" v="3.984" />
+          </e>
+     </w>
+     <w r="3" c="3" n="D4" vl="33.356" cvl="33.356" status="" fld="DMSO" fldu="Percent" wc="" sid="" x="59931.575" y="58135.619" s="96.859" fsh="95.871" fsinh="96.859" t="2.094" ct="2.094" b="0.634" fth="2.103" ftinh="2.094" o="0" a="NONE">
+          <e t="AVG" x="59931.575" y="58135.619" z="4421.325">
+               <f t="FW BB" o="31.814" v="2.625" />
+               <f t="FW TB1" o="32.448" v="2.375" />
+               <f t="SR" o="35.222" v="3.984" />
+          </e>
+     </w>
+     <w r="3" c="4" n="D5" vl="62.647" cvl="62.647" status="" fld="DMSO" fldu="Percent" wc="" sid="" x="64413.469" y="58135.619" s="97.892" fsh="95.519" fsinh="97.892" t="4.344" ct="4.344" b="0.629" fth="4.389" ftinh="4.344" o="0" a="NONE">
+          <e t="AVG" x="64413.469" y="58135.619" z="4421.325">
+               <f t="FW BB" o="31.802" v="2.609" />
+               <f t="FW TB1" o="32.432" v="2.421" />
+               <f t="SR" o="38.212" v="1.843" />
+          </e>
+     </w>
+</platesurvey>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<reportexceptions>
+     <record>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A11</SrcWell>
+          <SurveyFluidHeight name="Survey Fluid Height">0</SurveyFluidHeight>
+          <SurveyFluidVolume name="Survey Fluid Volume">0</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">0</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">0</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <SurveyStatus name="Survey Status">Data missing for well (1th row, 11th column), defaulting to 0.0 percent DMSO</SurveyStatus>
+     </record>
+     <record>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A12</SrcWell>
+          <SurveyFluidHeight name="Survey Fluid Height">0</SurveyFluidHeight>
+          <SurveyFluidVolume name="Survey Fluid Volume">0</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">0</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">0</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <SurveyStatus name="Survey Status">Data missing for well (1th row, 12th column), defaulting to 0.0 percent DMSO</SurveyStatus>
+     </record>
+     <record>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A16</SrcWell>
+          <SurveyFluidHeight name="Survey Fluid Height">0</SurveyFluidHeight>
+          <SurveyFluidVolume name="Survey Fluid Volume">0</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">0</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">0</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <SurveyStatus name="Survey Status">Data missing for well (1th row, 16th column), defaulting to 0.0 percent DMSO</SurveyStatus>
+     </record>
+</reportexceptions>

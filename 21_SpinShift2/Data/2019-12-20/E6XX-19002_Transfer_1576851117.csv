@@ -1,0 +1,692 @@
+Run ID,1576851117
+Run Date/Time,2019-12-20 14:12:23
+Application Name,Labcyte Echo Plate Reformat
+Application Version,1.7.2
+Protocol Name,Protocol 1.epr
+Order ID,
+Reference ID,
+User Name,Lab
+
+[EXCEPTIONS]
+Date Time Point,Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Destination Plate Name,Destination Plate Barcode,Destination Plate Type,Destination Well,Transfer Volume,Actual Volume,Sample ID,Sample Name,Survey Fluid Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Transfer Status
+2019-12-20 14:13:10.702,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,D2,922.5,0,,,14.631,9.109,94.691,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67731 ft: 0.471616
+2019-12-20 14:13:10.830,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,C2,977.5,0,,,14.631,9.109,94.691,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67731 ft: 0.471616
+2019-12-20 14:13:11.333,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,B2,997.5,0,,,14.631,9.109,94.691,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67731 ft: 0.471616
+2019-12-20 14:13:11.461,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,A2,1000,0,,,14.631,9.109,94.691,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67731 ft: 0.471616
+2019-12-20 14:13:26.890,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,F1,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:26.890,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,G1,370,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:34.233,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,G2,370,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:34.234,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,F2,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:35.162,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,I2,1000,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:35.163,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,J2,997.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:35.672,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,K2,977.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:35.673,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,L2,922.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:36.382,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,L1,922.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:36.383,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,K1,977.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:36.831,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,J1,997.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:36.832,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,I1,1000,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:51.659,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,M1,812.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:51.659,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,N1,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:51.660,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N1,365,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:51.869,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O1,630,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:51.981,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,O1,370,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:51.982,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,O2,370,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:51.982,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O2,630,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:52.092,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N2,365,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:52.204,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,N2,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:52.204,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,M2,812.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:52.205,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M2,187.5,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:52.315,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P2,1000,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:52.516,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P1,1000,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:52.627,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D3,77.5,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:53.233,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C3,22.5,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:53.344,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,C3,977.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:53.345,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,B3,997.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:53.345,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B3,2.5,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:53.455,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B4,2.5,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:13:53.567,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,B4,997.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:53.567,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,A4,1000,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:53.568,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,A3,1000,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:53.568,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,C4,977.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:13:53.569,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C4,22.5,0,,,8.308,8.308,88.21,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72667 ft: 0.438445
+2019-12-20 14:14:08.104,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,D3,922.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:08.104,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,E3,812.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:08.105,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E3,187.5,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:08.316,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F3,365,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:08.427,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,F3,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:08.428,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,G3,370,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:08.428,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G3,630,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:08.538,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H3,1000,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:08.650,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H4,1000,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:08.761,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G4,630,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:08.872,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,G4,370,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:08.873,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,F4,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:08.873,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F4,365,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:08.987,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E4,187.5,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:09.099,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,E4,812.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:09.099,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,D4,922.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:09.100,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D4,77.5,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:09.210,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,I4,1000,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:09.211,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,J4,997.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:09.211,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J4,2.5,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:09.546,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J3,2.5,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:09.657,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,J3,997.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:09.658,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,I3,1000,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:09.658,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K3,22.5,0,,,8.303,8.303,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.437756
+2019-12-20 14:14:24.023,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,K3,977.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:24.023,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,L3,922.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:24.024,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L3,77.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:24.235,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M3,187.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:24.346,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,M3,812.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:24.346,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,N3,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:24.347,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N3,365,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:24.457,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O3,630,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:24.568,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P3,1000,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:24.680,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P4,1000,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:24.791,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O4,630,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:24.902,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N4,365,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:25.014,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,N4,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:25.014,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,M4,812.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:25.015,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M4,187.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:25.125,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L4,77.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:25.236,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,L4,922.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:25.237,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,K4,977.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:14:25.237,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K4,22.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:25.348,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E5,187.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:25.684,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D5,77.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:25.795,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C5,22.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:25.906,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B5,2.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:26.017,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B6,2.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:26.129,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C6,22.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:26.240,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D6,77.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:26.351,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E6,187.5,0,,,8.303,8.303,88.625,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72377 ft: 0.437699
+2019-12-20 14:14:37.205,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,B5,997.5,0,,,14.029,9.132,95.888,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66697 ft: 0.470839
+2019-12-20 14:14:37.316,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,C5,977.5,0,,,14.029,9.132,95.888,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66697 ft: 0.470839
+2019-12-20 14:14:37.427,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,D5,922.5,0,,,14.029,9.132,95.888,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66697 ft: 0.470839
+2019-12-20 14:14:37.538,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,E5,812.5,0,,,14.029,9.132,95.888,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66697 ft: 0.470839
+2019-12-20 14:14:37.650,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,O4,370,0,,,14.029,9.132,95.888,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66697 ft: 0.470839
+2019-12-20 14:14:38.165,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,O3,370,0,,,14.029,9.132,95.888,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66697 ft: 0.470839
+2019-12-20 14:14:52.630,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,E6,812.5,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:53.154,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,F6,635,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:53.264,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,G6,370,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:53.375,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,G5,370,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:53.486,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,F5,635,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:53.598,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,I5,1000,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:53.799,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,J5,997.5,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:53.910,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,K5,977.5,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:54.022,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,L5,922.5,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:54.133,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,K6,977.5,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:54.246,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,J6,997.5,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:54.357,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,I6,1000,0,,,6.385,6.385,95.222,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.67279 ft: 0.329999
+2019-12-20 14:14:54.469,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H6,1000,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:54.632,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G6,630,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:54.742,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F6,365,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:54.853,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F5,365,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:54.965,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G5,630,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:55.076,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H5,1000,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:55.191,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J5,2.5,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:55.348,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K5,22.5,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:55.459,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L5,77.5,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:55.570,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L6,77.5,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:55.681,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K6,22.5,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:14:55.793,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J6,2.5,0,,,8.298,8.298,89.005,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7211 ft: 0.437017
+2019-12-20 14:15:10.191,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,L6,922.5,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:10.401,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,M6,812.5,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:10.514,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,N6,635,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:10.626,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,O6,370,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:10.737,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,O5,370,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:10.848,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,N5,635,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:10.960,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,M5,812.5,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:11.071,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,C7,977.5,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:11.589,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,B7,997.5,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:11.700,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,A7,1000,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:11.811,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,A8,1000,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:11.922,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,B8,997.5,0,,,6.353,6.353,95.604,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66947 ft: 0.327944
+2019-12-20 14:15:12.034,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B8,2.5,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:12.165,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C8,22.5,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:12.276,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C7,22.5,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:12.387,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B7,2.5,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:12.499,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M6,187.5,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:13.059,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N6,365,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:13.170,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O6,630,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:13.282,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P6,1000,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:13.393,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P5,1000,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:13.504,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O5,630,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:13.616,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N5,365,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:13.727,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M5,187.5,0,,,8.331,8.331,88.704,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72322 ft: 0.43912
+2019-12-20 14:15:28.032,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,C8,977.5,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:28.510,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,D8,922.5,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:28.620,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,E8,812.5,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:28.732,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,F8,635,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:28.845,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,G8,370,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:28.960,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,G7,370,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:29.072,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,F7,635,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:29.183,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,E7,812.5,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:29.294,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,D7,922.5,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:29.405,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,I7,1000,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:29.696,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,J7,997.5,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:29.808,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,I8,1000,0,,,6.383,6.383,95.632,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66922 ft: 0.329423
+2019-12-20 14:15:29.921,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H8,1000,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.084,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G8,630,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.194,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F8,365,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.306,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E8,187.5,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.417,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D8,77.5,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.528,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D7,77.5,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.640,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E7,187.5,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.751,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F7,365,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.862,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G7,630,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:30.974,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H7,1000,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:31.085,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J7,2.5,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:31.241,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J8,2.5,0,,,8.323,8.323,89.443,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71799 ft: 0.437788
+2019-12-20 14:15:45.696,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,J8,997.5,0,,,6.411,6.411,95.932,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66658 ft: 0.330517
+2019-12-20 14:15:45.906,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,K8,977.5,0,,,6.411,6.411,95.932,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66658 ft: 0.330517
+2019-12-20 14:15:46.018,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,L8,922.5,0,,,6.411,6.411,95.932,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66658 ft: 0.330517
+2019-12-20 14:15:46.129,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,M8,812.5,0,,,6.411,6.411,95.932,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66658 ft: 0.330517
+2019-12-20 14:15:46.240,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,M7,812.5,0,,,6.411,6.411,95.932,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66658 ft: 0.330517
+2019-12-20 14:15:46.355,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,L7,922.5,0,,,6.411,6.411,95.932,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66658 ft: 0.330517
+2019-12-20 14:15:46.467,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,K7,977.5,0,,,6.411,6.411,95.932,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66658 ft: 0.330517
+2019-12-20 14:15:46.578,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K7,22.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:46.709,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L7,77.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:46.820,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M7,187.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:46.931,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N7,365,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.043,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O7,630,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.154,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P7,1000,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.265,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P8,1000,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.377,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O8,630,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.488,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N8,365,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.599,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M8,187.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.711,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L8,77.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.822,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K8,22.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:47.933,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E9,187.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:48.269,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D9,77.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:48.380,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C9,22.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:48.492,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B9,2.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:48.603,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B10,2.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:48.714,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C10,22.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:48.826,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D10,77.5,0,,,8.306,8.306,88.324,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72588 ft: 0.43824
+2019-12-20 14:15:59.768,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,B9,997.5,0,,,13.882,8.984,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.463108
+2019-12-20 14:15:59.879,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,C9,977.5,0,,,13.882,8.984,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.463108
+2019-12-20 14:15:59.990,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,D9,922.5,0,,,13.882,8.984,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.463108
+2019-12-20 14:16:00.103,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,N8,635,0,,,13.882,8.984,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.463108
+2019-12-20 14:16:00.621,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,O8,370,0,,,13.882,8.984,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.463108
+2019-12-20 14:16:00.731,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,O7,370,0,,,13.882,8.984,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.463108
+2019-12-20 14:16:00.843,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,N7,635,0,,,13.882,8.984,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.463108
+2019-12-20 14:16:15.232,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,E9,812.5,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:15.711,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,F9,635,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:15.821,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,G9,370,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:15.932,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,G10,370,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:16.044,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,F10,635,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:16.155,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,E10,812.5,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:16.266,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,I10,1000,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:16.512,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,J10,997.5,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:16.624,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,K10,977.5,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:16.735,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,K9,977.5,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:16.846,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,J9,997.5,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:16.958,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,I9,1000,0,,,6.412,6.412,95.553,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66991 ft: 0.331052
+2019-12-20 14:16:17.069,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H9,1000,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:17.290,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G9,630,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:17.401,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F9,365,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:17.512,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F10,365,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:17.624,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E10,187.5,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:17.736,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G10,630,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:17.893,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H10,1000,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:18.003,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J10,2.5,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:18.160,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K10,22.5,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:18.271,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K9,22.5,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:18.382,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J9,2.5,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:18.494,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L9,77.5,0,,,8.362,8.362,88.594,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.724 ft: 0.440882
+2019-12-20 14:16:32.922,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,L9,922.5,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:33.132,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,M9,812.5,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:33.244,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,N9,635,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:33.355,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,O9,370,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:33.466,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,O10,370,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:33.578,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,N10,635,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:33.689,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,M10,812.5,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:33.800,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,L10,922.5,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:33.911,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,B11,997.5,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:34.427,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,A11,1000,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:34.538,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,A12,1000,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:34.650,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,B12,997.5,0,,,6.411,6.411,95.922,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66667 ft: 0.330532
+2019-12-20 14:16:34.761,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,B12,2.5,0,,,8.249,8.249,88.111,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72735 ft: 0.435489
+2019-12-20 14:16:34.892,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,B11,2.5,0,,,8.249,8.249,88.111,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72735 ft: 0.435489
+2019-12-20 14:16:35.003,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,C11,22.5,0,,,8.249,8.249,88.111,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72735 ft: 0.435489
+2019-12-20 14:16:35.114,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L10,77.5,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:35.590,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M10,187.5,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:35.701,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N10,365,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:35.813,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O10,630,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:35.924,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P10,1000,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:36.035,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,P9,1000,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:36.148,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,O9,630,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:36.260,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,N9,365,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:36.371,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M9,187.5,0,,,8.367,8.367,88.178,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72689 ft: 0.441634
+2019-12-20 14:16:50.741,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,C11,977.5,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:51.220,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,D11,922.5,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:51.330,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,E11,812.5,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:51.441,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,F11,635,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:51.553,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,G11,370,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:51.664,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,G12,370,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:51.775,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,F12,635,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:51.887,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,E12,812.5,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:51.998,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,D12,922.5,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:52.109,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,C12,977.5,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:52.221,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,I12,1000,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:52.556,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,I11,1000,0,,,6.411,6.411,95.96,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66633 ft: 0.330478
+2019-12-20 14:16:52.669,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H11,1000,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:52.832,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G11,630,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:52.942,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F11,365,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.053,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E11,187.5,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.165,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D11,77.5,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.277,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D12,77.5,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.387,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,C12,22.5,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.499,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E12,187.5,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.655,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F12,365,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.766,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G12,630,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.878,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H12,1000,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:16:53.989,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J11,2.5,0,,,8.243,8.243,88.667,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72348 ft: 0.434499
+2019-12-20 14:17:08.306,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,J11,997.5,0,,,6.441,6.441,95.933,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66657 ft: 0.332032
+2019-12-20 14:17:08.516,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,K11,977.5,0,,,6.441,6.441,95.933,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66657 ft: 0.332032
+2019-12-20 14:17:08.629,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,L11,922.5,0,,,6.441,6.441,95.933,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66657 ft: 0.332032
+2019-12-20 14:17:08.741,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,M11,812.5,0,,,6.441,6.441,95.933,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66657 ft: 0.332032
+2019-12-20 14:17:08.852,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,M12,812.5,0,,,6.441,6.441,95.933,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66657 ft: 0.332032
+2019-12-20 14:17:08.963,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,L12,922.5,0,,,6.441,6.441,95.933,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66657 ft: 0.332032
+2019-12-20 14:17:09.075,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,K12,977.5,0,,,6.441,6.441,95.933,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66657 ft: 0.332032
+2019-12-20 14:17:09.186,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,J12,997.5,0,,,6.441,6.441,95.933,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66657 ft: 0.332032
+2019-12-20 14:17:09.297,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J12,2.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:09.428,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K12,22.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:09.540,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L12,77.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:09.651,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M12,187.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:09.762,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,N12,365,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:09.873,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,O12,630,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:09.985,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,P12,1000,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:10.097,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,P11,1000,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:10.208,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,O11,630,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:10.320,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,N11,365,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:10.431,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M11,187.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:10.542,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L11,77.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:10.654,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K11,22.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:10.765,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E13,187.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:11.101,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D13,77.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:11.212,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,C13,22.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:11.324,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,B13,2.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:11.435,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,B14,2.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:11.546,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,C14,22.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:11.657,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D14,77.5,0,,,8.248,8.248,88.25,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72639 ft: 0.435242
+2019-12-20 14:17:22.598,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,B13,997.5,0,,,14.002,9.104,95.568,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66978 ft: 0.469993
+2019-12-20 14:17:22.709,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,C13,977.5,0,,,14.002,9.104,95.568,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66978 ft: 0.469993
+2019-12-20 14:17:22.820,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,D13,922.5,0,,,14.002,9.104,95.568,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66978 ft: 0.469993
+2019-12-20 14:17:22.931,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,N12,635,0,,,14.002,9.104,95.568,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66978 ft: 0.469993
+2019-12-20 14:17:23.447,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,O12,370,0,,,14.002,9.104,95.568,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66978 ft: 0.469993
+2019-12-20 14:17:23.558,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,O11,370,0,,,14.002,9.104,95.568,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66978 ft: 0.469993
+2019-12-20 14:17:23.669,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,N11,635,0,,,14.002,9.104,95.568,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66978 ft: 0.469993
+2019-12-20 14:17:38.004,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,E13,812.5,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:38.482,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,F13,635,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:38.592,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,G13,370,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:38.705,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,G14,370,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:38.817,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,F14,635,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:38.928,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,E14,812.5,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:39.039,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,I14,1000,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:39.286,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,J14,997.5,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:39.397,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,K14,977.5,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:39.508,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,K13,977.5,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:39.619,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,J13,997.5,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:39.732,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,I13,1000,0,,,6.617,6.617,95.863,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66719 ft: 0.34123
+2019-12-20 14:17:39.842,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H13,1000,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:40.064,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G13,630,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:40.174,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F13,365,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:40.285,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F14,365,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:40.397,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E14,187.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:40.508,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G14,630,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:40.664,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H14,1000,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:40.776,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J14,2.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:40.932,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K14,22.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:41.043,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K13,22.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:41.154,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J13,2.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:41.266,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L13,77.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:17:55.522,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,L13,922.5,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:55.735,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,M13,812.5,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:55.847,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,N13,635,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:55.958,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,O13,370,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:56.069,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,O14,370,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:56.181,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,N14,635,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:56.292,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,M14,812.5,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:56.403,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,L14,922.5,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:56.515,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,B15,997.5,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:57.030,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,A15,1000,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:57.142,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,A16,1000,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:57.253,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,B16,997.5,0,,,6.618,6.618,95.556,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66989 ft: 0.341678
+2019-12-20 14:17:57.364,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,B16,2.5,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:57.585,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,B15,2.5,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:57.696,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,C15,22.5,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:57.807,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L14,77.5,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:58.278,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M14,187.5,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:58.389,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,N14,365,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:58.501,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,O14,630,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:58.612,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,P14,1000,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:58.723,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,P13,1000,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:58.835,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,O13,630,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:58.946,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,N13,365,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:17:59.057,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M13,187.5,0,,,8.274,8.274,88.532,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72443 ft: 0.436303
+2019-12-20 14:18:13.314,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,C15,977.5,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:13.792,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,D15,922.5,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:13.904,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,E15,812.5,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:14.015,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,F15,635,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:14.127,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,G15,370,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:14.238,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,G16,370,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:14.349,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,F16,635,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:14.461,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,E16,812.5,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:14.572,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,D16,922.5,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:14.683,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,C16,977.5,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:14.794,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,I16,1000,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:15.130,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,I15,1000,0,,,6.617,6.617,95.891,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66694 ft: 0.34119
+2019-12-20 14:18:15.242,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H15,1000,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:15.462,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G15,630,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:15.574,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F15,365,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:15.685,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E15,187.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:15.796,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D15,77.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:15.908,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D16,77.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:16.019,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,C16,22.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:16.130,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E16,187.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:16.286,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F16,365,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:16.398,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G16,630,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:16.509,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H16,1000,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:16.620,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J15,2.5,0,,,8.283,8.283,87.796,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72952 ft: 0.437621
+2019-12-20 14:18:30.853,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,J15,997.5,0,,,6.617,6.617,95.903,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66684 ft: 0.341173
+2019-12-20 14:18:31.065,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,K15,977.5,0,,,6.617,6.617,95.903,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66684 ft: 0.341173
+2019-12-20 14:18:31.176,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,L15,922.5,0,,,6.617,6.617,95.903,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66684 ft: 0.341173
+2019-12-20 14:18:31.287,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,M15,812.5,0,,,6.617,6.617,95.903,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66684 ft: 0.341173
+2019-12-20 14:18:31.399,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,M16,812.5,0,,,6.617,6.617,95.903,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66684 ft: 0.341173
+2019-12-20 14:18:31.510,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,L16,922.5,0,,,6.617,6.617,95.903,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66684 ft: 0.341173
+2019-12-20 14:18:31.621,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,K16,977.5,0,,,6.617,6.617,95.903,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66684 ft: 0.341173
+2019-12-20 14:18:31.733,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,J16,997.5,0,,,6.617,6.617,95.903,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66684 ft: 0.341173
+2019-12-20 14:18:31.844,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,N16,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.844,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,O16,370,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.845,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,O15,370,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.845,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,N15,635,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.846,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,C17,1465,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.846,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,B17,1495,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.847,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,A17,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.847,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,A18,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.848,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,B18,1495,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:31.848,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,B18,5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:32.327,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,C18,35,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:32.438,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,C17,35,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:32.549,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,B17,5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:32.660,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J16,2.5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.086,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K16,22.5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.197,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L16,77.5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.310,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M16,187.5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.422,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,N16,365,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.533,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,O16,630,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.644,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,P16,1000,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.756,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,P15,1000,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.867,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,O15,630,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:33.978,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,N15,365,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:34.090,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M15,187.5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:34.201,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L15,77.5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:34.312,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K15,22.5,0,,,8.278,8.278,88.217,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72662 ft: 0.436867
+2019-12-20 14:18:48.571,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,C18,1465,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.571,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,D18,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.572,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,E18,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.572,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,F18,952.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.573,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,G18,555,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.573,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,G17,555,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.574,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,F17,952.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.574,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,E17,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.575,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,D17,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:18:48.575,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D17,117.5,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:48.965,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E17,280,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:49.075,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F17,547.5,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:49.186,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G17,945,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:49.298,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H17,1500,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:49.409,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H18,1500,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:49.520,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G18,945,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:49.632,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F18,547.5,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:49.743,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E18,280,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:18:49.854,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D18,117.5,0,,,8.273,8.273,88.634,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72372 ft: 0.436121
+2019-12-20 14:19:04.099,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,I17,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:04.099,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,J17,1495,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:04.100,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,K17,1465,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:04.100,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,K18,1465,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:04.101,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,J18,1495,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:04.101,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,I18,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:04.102,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J18,5,0,,,8.279,8.279,88.111,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72735 ft: 0.437056
+2019-12-20 14:19:04.444,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K18,35,0,,,8.279,8.279,88.111,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72735 ft: 0.437056
+2019-12-20 14:19:04.554,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K17,35,0,,,8.279,8.279,88.111,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72735 ft: 0.437056
+2019-12-20 14:19:04.666,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J17,5,0,,,8.279,8.279,88.111,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72735 ft: 0.437056
+2019-12-20 14:19:04.777,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L17,117.5,0,,,8.279,8.279,88.111,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72735 ft: 0.437056
+2019-12-20 14:19:19.078,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,L17,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:19.078,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,M17,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:19.079,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,N17,952.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:19.079,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,O17,555,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:19.080,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,O18,555,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:19.080,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,N18,952.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:19.081,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,M18,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:19.081,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,L18,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:19:19.082,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,C19,1465,1000,,,10.027,9.027,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.464407
+2019-12-20 14:19:21.530,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,B19,1495,0,,,10.027,9.027,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.464407
+2019-12-20 14:19:21.641,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,A19,1500,0,,,10.027,9.027,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.464407
+2019-12-20 14:19:21.752,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,A20,1500,0,,,10.027,9.027,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.464407
+2019-12-20 14:19:21.863,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,B20,1495,0,,,10.027,9.027,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.464407
+2019-12-20 14:19:21.975,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,C20,1465,0,,,10.027,9.027,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.464407
+2019-12-20 14:19:23.606,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L18,117.5,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:24.035,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M18,280,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:24.146,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,N18,547.5,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:24.258,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,O18,945,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:24.369,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,P18,1500,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:24.480,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,P17,1500,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:24.592,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,O17,945,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:24.703,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,N17,547.5,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:24.814,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M17,280,0,,,8.288,8.288,87.403,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7322 ft: 0.438322
+2019-12-20 14:19:38.554,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,D19,1382.5,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:38.986,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,E19,1220,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:39.097,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,F19,952.5,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:39.208,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,G19,555,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:39.319,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,G20,555,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:39.431,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,F20,952.5,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:39.542,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,E20,1220,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:39.653,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,D20,1382.5,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:39.765,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,I19,1500,0,,,8.499,8.499,96.126,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66485 ft: 0.4378
+2019-12-20 14:19:49.977,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,G20,945,0,,,13.332,9.114,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.479652
+2019-12-20 14:19:50.088,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,H20,1500,0,,,13.332,9.114,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.479652
+2019-12-20 14:20:03.626,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,I20,1500,0,,,8.526,8.526,96.727,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6594 ft: 0.438184
+2019-12-20 14:20:03.946,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,J20,1495,0,,,8.526,8.526,96.727,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6594 ft: 0.438184
+2019-12-20 14:20:04.057,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,K20,1465,0,,,8.526,8.526,96.727,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6594 ft: 0.438184
+2019-12-20 14:20:04.168,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,K19,1465,0,,,8.526,8.526,96.727,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6594 ft: 0.438184
+2019-12-20 14:20:04.280,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,J19,1495,0,,,8.526,8.526,96.727,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6594 ft: 0.438184
+2019-12-20 14:20:04.391,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,L19,1382.5,0,,,8.526,8.526,96.727,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6594 ft: 0.438184
+2019-12-20 14:20:04.547,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,L19,117.5,0,,,7.141,7.141,89.174,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7199 ft: 0.375885
+2019-12-20 14:20:04.858,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,K19,35,0,,,7.141,7.141,89.174,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7199 ft: 0.375885
+2019-12-20 14:20:04.970,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,J19,5,0,,,7.141,7.141,89.174,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7199 ft: 0.375885
+2019-12-20 14:20:05.081,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,J20,5,0,,,7.141,7.141,89.174,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7199 ft: 0.375885
+2019-12-20 14:20:05.193,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,K20,35,0,,,7.141,7.141,89.174,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7199 ft: 0.375885
+2019-12-20 14:20:05.304,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,L20,117.5,0,,,7.141,7.141,89.174,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.7199 ft: 0.375885
+2019-12-20 14:20:18.786,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,L20,1382.5,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:19.105,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,M20,1220,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:19.216,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,N20,952.5,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:19.328,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,O20,555,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:19.439,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,O19,555,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:19.550,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,N19,952.5,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:19.662,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,M19,1220,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:19.773,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,A21,1500,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:20.378,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,A22,1500,0,,,8.528,8.528,96.087,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.6652 ft: 0.439388
+2019-12-20 14:20:20.490,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,B21,5,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:20.801,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,M20,280,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:21.362,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,N20,547.5,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:21.474,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,O20,945,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:21.585,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,P20,1500,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:21.696,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,P19,1500,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:21.808,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,O19,945,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:21.919,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,N19,547.5,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:22.030,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,M19,280,0,,,7.114,7.114,88.866,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72209 ft: 0.374801
+2019-12-20 14:20:35.460,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,B21,1495,0,,,8.527,8.527,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.438681
+2019-12-20 14:20:35.981,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,C21,1465,0,,,8.527,8.527,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.438681
+2019-12-20 14:20:36.092,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,C22,1465,0,,,8.527,8.527,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.438681
+2019-12-20 14:20:36.204,Source[1],,384PP_DMSO2,A6,Destination[1],,384PP_Dest,B22,1495,0,,,8.527,8.527,96.463,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66181 ft: 0.438681
+2019-12-20 14:20:57.747,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,H21,1500,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:58.148,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,G21,945,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:58.259,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,F21,547.5,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:58.370,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,E21,280,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:58.482,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,D21,117.5,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:58.593,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,C21,35,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:58.704,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,C22,35,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:58.815,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,B22,5,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:58.927,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,D22,117.5,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:59.083,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,E22,280,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:59.194,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,F22,547.5,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:59.306,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,G22,945,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:20:59.417,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,H22,1500,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:29.050,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,L21,1382.5,0,,,16.901,9.481,96.859,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.65818 ft: 0.487015
+2019-12-20 14:21:29.207,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,L21,117.5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:29.608,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,K21,35,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:29.719,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,J21,5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:29.830,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,J22,5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:29.941,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,K22,35,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:30.052,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,L22,117.5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:43.542,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,L22,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.542,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,M22,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.543,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,N22,952.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.543,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,O22,555,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.544,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,O21,555,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.544,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,N21,952.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.545,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,M21,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.545,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,A23,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.546,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,A24,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:43.546,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,B23,5,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:44.068,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,M22,280,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:44.630,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,N22,547.5,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:44.741,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,O22,945,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:44.852,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,P22,1500,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:44.964,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,P21,1500,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:45.075,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,O21,945,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:45.186,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,N21,547.5,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:45.297,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,M21,280,0,,,7.14,7.14,89.276,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71918 ft: 0.375727
+2019-12-20 14:21:58.841,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,B23,1495,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:58.841,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,C23,1465,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:58.842,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,D23,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:58.842,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,E23,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:58.843,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,D24,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:58.843,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,C24,1465,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:58.844,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,B24,1495,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:21:58.844,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,B24,5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:59.413,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,C24,35,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:59.523,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,D24,117.5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:59.634,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,E24,280,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:59.746,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,E23,280,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:59.857,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,D23,117.5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:21:59.968,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,C23,35,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:13.472,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,E24,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:13.472,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,F24,952.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:13.473,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,G24,555,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:13.473,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,G23,555,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:13.474,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,F23,952.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:13.474,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,I23,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:13.475,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,J23,1495,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:13.475,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,I24,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:13.476,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,H24,1500,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:13.775,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,G24,945,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:13.885,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,F24,547.5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:13.997,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,F23,547.5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:14.108,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,G23,945,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:14.219,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,H23,1500,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:14.331,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,J23,5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:14.487,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,J24,5,0,,,7.169,7.169,89.264,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71927 ft: 0.377305
+2019-12-20 14:22:27.951,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,J24,1495,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:27.951,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,K24,1465,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:27.952,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,L24,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:27.952,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,M24,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:27.953,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,M23,1220,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:27.953,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,L23,1382.5,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:27.954,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,K23,1465,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:22:27.954,Source[1],,384PP_DMSO2,A8,Destination[1],,384PP_Dest,N23,952.5,0,,,6.147,6.147,95.901,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66685 ft: 0.316914
+2019-12-20 14:22:28.453,Source[1],,384PP_DMSO2,A8,Destination[1],,384PP_Dest,O23,555,0,,,6.147,6.147,95.901,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66685 ft: 0.316914
+2019-12-20 14:22:28.564,Source[1],,384PP_DMSO2,A8,Destination[1],,384PP_Dest,O24,555,0,,,6.147,6.147,95.901,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66685 ft: 0.316914
+2019-12-20 14:22:28.675,Source[1],,384PP_DMSO2,A8,Destination[1],,384PP_Dest,N24,952.5,0,,,6.147,6.147,95.901,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.66685 ft: 0.316914
+2019-12-20 14:22:28.787,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,N24,547.5,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:29.278,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,M24,280,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:29.388,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,L24,117.5,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:29.499,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,K24,35,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:29.611,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,K23,35,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:29.722,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,L23,117.5,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:29.834,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,M23,280,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:29.945,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,N23,547.5,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:30.056,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,O23,945,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:30.167,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,P23,1500,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:30.279,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,P24,1500,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+2019-12-20 14:22:30.390,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,O24,945,0,,,7.172,7.172,88.957,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.72144 ft: 0.377782
+
+[DETAILS]
+Date Time Point,Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Destination Plate Name,Destination Plate Barcode,Destination Plate Type,Destination Well,Transfer Volume,Actual Volume,Sample ID,Sample Name,Survey Fluid Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Transfer Status
+2019-12-20 14:12:55.229,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,A1,1000,1000,,,14.631,13.631,94.691,Percent,DMSO,
+2019-12-20 14:12:58.353,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,B1,997.5,997.5,,,14.631,12.634,94.691,Percent,DMSO,
+2019-12-20 14:13:00.547,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B1,2.5,2.5,,,15.589,15.587,87.671,Percent,DMSO,
+2019-12-20 14:13:00.752,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C1,22.5,22.5,,,15.589,15.564,87.671,Percent,DMSO,
+2019-12-20 14:13:00.996,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,C1,977.5,977.5,,,14.631,11.656,94.691,Percent,DMSO,
+2019-12-20 14:13:03.150,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,D1,922.5,922.5,,,14.631,10.734,94.691,Percent,DMSO,
+2019-12-20 14:13:05.194,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D1,77.5,77.5,,,15.589,15.487,87.671,Percent,DMSO,
+2019-12-20 14:13:05.550,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E1,187.5,187.5,,,15.589,15.299,87.671,Percent,DMSO,
+2019-12-20 14:13:06.125,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,E1,812.5,812.5,,,14.631,9.921,94.691,Percent,DMSO,
+2019-12-20 14:13:07.949,Source[1],,384PP_DMSO2,A1,Destination[1],,384PP_Dest,E2,812.5,812.5,,,14.631,9.109,94.691,Percent,DMSO,
+2019-12-20 14:13:09.774,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,E2,187.5,187.5,,,15.589,15.112,87.671,Percent,DMSO,
+2019-12-20 14:13:10.348,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,D2,77.5,77.5,,,15.589,15.034,87.671,Percent,DMSO,
+2019-12-20 14:13:10.941,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,C2,22.5,22.5,,,15.589,15.012,87.671,Percent,DMSO,
+2019-12-20 14:13:11.129,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,B2,2.5,2.5,,,15.589,15.009,87.671,Percent,DMSO,
+2019-12-20 14:13:11.572,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F1,365,365,,,15.589,14.644,87.671,Percent,DMSO,
+2019-12-20 14:13:26.891,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G1,630,630,,,13.961,13.331,88.896,Percent,DMSO,
+2019-12-20 14:13:28.375,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H1,1000,1000,,,13.961,12.331,88.896,Percent,DMSO,
+2019-12-20 14:13:30.575,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,H2,1000,1000,,,13.961,11.331,88.896,Percent,DMSO,
+2019-12-20 14:13:32.774,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,G2,630,630,,,13.961,10.701,88.896,Percent,DMSO,
+2019-12-20 14:13:34.234,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,F2,365,365,,,13.961,10.336,88.896,Percent,DMSO,
+2019-12-20 14:13:35.163,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J2,2.5,2.5,,,13.961,10.334,88.896,Percent,DMSO,
+2019-12-20 14:13:35.427,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K2,22.5,22.5,,,13.961,10.311,88.896,Percent,DMSO,
+2019-12-20 14:13:35.673,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L2,77.5,77.5,,,13.961,10.234,88.896,Percent,DMSO,
+2019-12-20 14:13:36.027,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,L1,77.5,77.5,,,13.961,10.156,88.896,Percent,DMSO,
+2019-12-20 14:13:36.383,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,K1,22.5,22.5,,,13.961,10.134,88.896,Percent,DMSO,
+2019-12-20 14:13:36.626,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,J1,2.5,2.5,,,13.961,10.131,88.896,Percent,DMSO,
+2019-12-20 14:13:36.832,Source[1],,384PP_DMSO2,B1,Destination[1],,384PP_Dest,M1,187.5,187.5,,,13.961,9.944,88.896,Percent,DMSO,
+2019-12-20 14:14:26.463,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,D6,922.5,922.5,,,14.029,13.107,95.888,Percent,DMSO,
+2019-12-20 14:14:28.454,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,C6,977.5,977.5,,,14.029,12.129,95.888,Percent,DMSO,
+2019-12-20 14:14:30.609,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,B6,997.5,997.5,,,14.029,11.132,95.888,Percent,DMSO,
+2019-12-20 14:14:32.805,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,A6,1000,1000,,,14.029,10.132,95.888,Percent,DMSO,
+2019-12-20 14:14:35.005,Source[1],,384PP_DMSO2,A2,Destination[1],,384PP_Dest,A5,1000,1000,,,14.029,9.132,95.888,Percent,DMSO,
+2019-12-20 14:15:48.937,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,D10,922.5,922.5,,,13.882,12.959,95.96,Percent,DMSO,
+2019-12-20 14:15:51.018,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,C10,977.5,977.5,,,13.882,11.982,95.96,Percent,DMSO,
+2019-12-20 14:15:53.173,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,B10,997.5,997.5,,,13.882,10.984,95.96,Percent,DMSO,
+2019-12-20 14:15:55.368,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,A10,1000,1000,,,13.882,9.984,95.96,Percent,DMSO,
+2019-12-20 14:15:57.568,Source[1],,384PP_DMSO2,A3,Destination[1],,384PP_Dest,A9,1000,1000,,,13.882,8.984,95.96,Percent,DMSO,
+2019-12-20 14:17:11.769,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,D14,922.5,922.5,,,14.002,13.079,95.568,Percent,DMSO,
+2019-12-20 14:17:13.850,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,C14,977.5,977.5,,,14.002,12.102,95.568,Percent,DMSO,
+2019-12-20 14:17:16.005,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,B14,997.5,997.5,,,14.002,11.104,95.568,Percent,DMSO,
+2019-12-20 14:17:18.199,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,A14,1000,1000,,,14.002,10.104,95.568,Percent,DMSO,
+2019-12-20 14:17:20.398,Source[1],,384PP_DMSO2,A4,Destination[1],,384PP_Dest,A13,1000,1000,,,14.002,9.104,95.568,Percent,DMSO,
+2019-12-20 14:19:22.086,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,C20,35,35,,,13.68,13.645,89.683,Percent,DMSO,
+2019-12-20 14:19:22.482,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,B20,5,5,,,13.68,13.64,89.683,Percent,DMSO,
+2019-12-20 14:19:22.692,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,B19,5,5,,,13.68,13.635,89.683,Percent,DMSO,
+2019-12-20 14:19:22.902,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,C19,35,35,,,13.68,13.6,89.683,Percent,DMSO,
+2019-12-20 14:19:23.172,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,D19,117.5,117.5,,,13.68,13.482,89.683,Percent,DMSO,
+2019-12-20 14:19:40.055,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,H19,1500,1500,,,13.332,11.832,89.276,Percent,DMSO,
+2019-12-20 14:19:43.419,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,G19,945,945,,,13.332,10.887,89.276,Percent,DMSO,
+2019-12-20 14:19:45.434,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,F19,547.5,547.5,,,13.332,10.339,89.276,Percent,DMSO,
+2019-12-20 14:19:46.728,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,E19,280,280,,,13.332,10.059,89.276,Percent,DMSO,
+2019-12-20 14:19:47.489,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,E20,280,280,,,13.332,9.779,89.276,Percent,DMSO,
+2019-12-20 14:19:48.248,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,D20,117.5,117.5,,,13.332,9.662,89.276,Percent,DMSO,
+2019-12-20 14:19:48.683,Source[1],,384PP_DMSO2,B3,Destination[1],,384PP_Dest,F20,547.5,547.5,,,13.332,9.114,89.276,Percent,DMSO,
+2019-12-20 14:20:36.316,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,D22,1382.5,1382.5,,,27.464,26.082,96.909,Percent,DMSO,
+2019-12-20 14:20:39.315,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,E22,1220,1220,,,27.464,24.862,96.909,Percent,DMSO,
+2019-12-20 14:20:41.959,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,F22,952.5,952.5,,,27.464,23.909,96.909,Percent,DMSO,
+2019-12-20 14:20:43.990,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,G22,555,555,,,27.464,23.354,96.909,Percent,DMSO,
+2019-12-20 14:20:45.300,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,G21,555,555,,,27.464,22.799,96.909,Percent,DMSO,
+2019-12-20 14:20:46.610,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,F21,952.5,952.5,,,27.464,21.847,96.909,Percent,DMSO,
+2019-12-20 14:20:48.714,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,E21,1220,1220,,,27.464,20.627,96.909,Percent,DMSO,
+2019-12-20 14:20:51.432,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,D21,1382.5,1382.5,,,27.464,19.244,96.909,Percent,DMSO,
+2019-12-20 14:20:54.401,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,I21,1500,1500,,,27.464,17.744,96.909,Percent,DMSO,
+2019-12-20 14:21:12.929,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,I22,1500,1500,,,16.901,15.401,96.859,Percent,DMSO,
+2019-12-20 14:21:16.395,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,J22,1495,1495,,,16.901,13.906,96.859,Percent,DMSO,
+2019-12-20 14:21:19.588,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,K22,1465,1465,,,16.901,12.441,96.859,Percent,DMSO,
+2019-12-20 14:21:22.722,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,K21,1465,1465,,,16.901,10.976,96.859,Percent,DMSO,
+2019-12-20 14:21:25.856,Source[1],,384PP_DMSO2,A7,Destination[1],,384PP_Dest,J21,1495,1495,,,16.901,9.481,96.859,Percent,DMSO,
+
+Instrument Name,E6XX-19002
+Instrument Model,Echo 650
+Instrument Serial Number,E6XX-19002
+Instrument Software Version,3.0.2
+

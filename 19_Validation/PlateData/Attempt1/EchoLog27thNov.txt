@@ -1,0 +1,909 @@
+11/26/19 05:08:17.593	StartStopPrintService.cpp(1060) 	INFO	Well <D2 -> N7, 365.000 nl> Transfer Complete
+11/26/19 05:08:20.797	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> N8, 635.000 nl> Transfer Complete
+11/26/19 05:08:23.984	StartStopPrintService.cpp(1060) 	INFO	Well <D2 -> O7, 630.000 nl> Transfer Complete
+11/26/19 05:08:26.640	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> O8, 370.000 nl> Transfer Complete
+11/26/19 05:08:30.609	StartStopPrintService.cpp(1060) 	INFO	Well <D2 -> P7, 1000.000 nl> Transfer Complete
+11/26/19 05:08:34.578	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> A10, 1000.000 nl> Transfer Complete
+11/26/19 05:08:36.359	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> B9, 2.500 nl> Transfer Complete
+11/26/19 05:08:40.234	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> B10, 997.500 nl> Transfer Complete
+11/26/19 05:08:42.063	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> C9, 22.500 nl> Transfer Complete
+11/26/19 05:08:45.891	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> C10, 977.500 nl> Transfer Complete
+11/26/19 05:08:47.828	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> D9, 77.500 nl> Transfer Complete
+11/26/19 05:08:51.547	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> D10, 922.500 nl> Transfer Complete
+11/26/19 05:08:53.703	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> E9, 187.500 nl> Transfer Complete
+11/26/19 05:08:57.172	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> E10, 812.500 nl> Transfer Complete
+11/26/19 05:08:59.719	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> F9, 365.000 nl> Transfer Complete
+11/26/19 05:09:02.828	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> F10, 635.000 nl> Transfer Complete
+11/26/19 05:09:05.937	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> G9, 630.000 nl> Transfer Complete
+11/26/19 05:09:08.484	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> G10, 370.000 nl> Transfer Complete
+11/26/19 05:09:12.375	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> H9, 1000.000 nl> Transfer Complete
+11/26/19 05:09:16.265	StartStopPrintService.cpp(1060) 	INFO	Well <A22 -> I10, 1000.000 nl> Transfer Complete
+11/26/19 05:09:18.031	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> J9, 2.500 nl> Transfer Complete
+11/26/19 05:09:22.000	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> J10, 997.500 nl> Transfer Complete
+11/26/19 05:09:23.922	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> K9, 22.500 nl> Transfer Complete
+11/26/19 05:09:27.844	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> K10, 977.500 nl> Transfer Complete
+11/26/19 05:09:29.875	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> L9, 77.500 nl> Transfer Complete
+11/26/19 05:09:33.703	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> L10, 922.500 nl> Transfer Complete
+11/26/19 05:09:35.937	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> M9, 187.500 nl> Transfer Complete
+11/26/19 05:09:39.500	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> M10, 812.500 nl> Transfer Complete
+11/26/19 05:09:42.141	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> N9, 365.000 nl> Transfer Complete
+11/26/19 05:09:45.344	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> N10, 635.000 nl> Transfer Complete
+11/26/19 05:09:48.547	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> O9, 630.000 nl> Transfer Complete
+11/26/19 05:09:51.188	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> O10, 370.000 nl> Transfer Complete
+11/26/19 05:09:55.156	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> P9, 1000.000 nl> Transfer Complete
+11/26/19 05:09:59.125	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> A12, 1000.000 nl> Transfer Complete
+11/26/19 05:10:01.000	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> B11, 2.500 nl> Transfer Complete
+11/26/19 05:10:04.953	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> B12, 997.500 nl> Transfer Complete
+11/26/19 05:10:06.875	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> C11, 22.500 nl> Transfer Complete
+11/26/19 05:10:10.781	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> C12, 977.500 nl> Transfer Complete
+11/26/19 05:10:12.812	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> D11, 77.500 nl> Transfer Complete
+11/26/19 05:10:16.625	StartStopPrintService.cpp(1060) 	INFO	Well <A23 -> D12, 922.500 nl> Transfer Complete
+11/26/19 05:10:18.875	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> E11, 187.500 nl> Transfer Complete
+11/26/19 05:10:20.843	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> E12, 812.500 nl> Transfer Complete
+11/26/19 05:10:21.875	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> F11, 365.000 nl> Transfer Complete
+11/26/19 05:10:23.500	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> F12, 635.000 nl> Transfer Complete
+11/26/19 05:10:25.078	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> G11, 630.000 nl> Transfer Complete
+11/26/19 05:10:26.109	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> G12, 370.000 nl> Transfer Complete
+11/26/19 05:10:28.469	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> H11, 1000.000 nl> Transfer Complete
+11/26/19 05:10:30.844	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> I12, 1000.000 nl> Transfer Complete
+11/26/19 05:10:31.094	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> J11, 2.500 nl> Transfer Complete
+11/26/19 05:10:33.437	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> J12, 997.500 nl> Transfer Complete
+11/26/19 05:10:33.750	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> K11, 22.500 nl> Transfer Complete
+11/26/19 05:10:36.047	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> K12, 977.500 nl> Transfer Complete
+11/26/19 05:10:36.453	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> L11, 77.500 nl> Transfer Complete
+11/26/19 05:10:38.656	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> L12, 922.500 nl> Transfer Complete
+11/26/19 05:10:39.281	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> M11, 187.500 nl> Transfer Complete
+11/26/19 05:10:41.219	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> M12, 812.500 nl> Transfer Complete
+11/26/19 05:10:42.234	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> N11, 365.000 nl> Transfer Complete
+11/26/19 05:10:43.828	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> N12, 635.000 nl> Transfer Complete
+11/26/19 05:10:45.406	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> O11, 630.000 nl> Transfer Complete
+11/26/19 05:10:46.422	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> O12, 370.000 nl> Transfer Complete
+11/26/19 05:10:48.781	StartStopPrintService.cpp(1060) 	INFO	Well <D3 -> P11, 1000.000 nl> Transfer Complete
+11/26/19 05:10:51.578	StartStopPrintService.cpp(1060) 	INFO	Well <B1 -> A14, 1000.000 nl> Transfer Complete
+11/26/19 05:10:51.906	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> B13, 2.500 nl> Transfer Complete
+11/26/19 05:10:54.344	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B14, 997.500 nl> Transfer Complete
+11/26/19 05:10:54.719	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> C13, 22.500 nl> Transfer Complete
+11/26/19 05:10:57.110	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C14, 977.500 nl> Transfer Complete
+11/26/19 05:10:57.594	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> D13, 77.500 nl> Transfer Complete
+11/26/19 05:10:59.875	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D14, 922.500 nl> Transfer Complete
+11/26/19 05:11:00.578	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> E13, 187.500 nl> Transfer Complete
+11/26/19 05:11:02.593	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E14, 812.500 nl> Transfer Complete
+11/26/19 05:11:03.687	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> F13, 365.000 nl> Transfer Complete
+11/26/19 05:11:05.343	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F14, 635.000 nl> Transfer Complete
+11/26/19 05:11:07.000	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> G13, 630.000 nl> Transfer Complete
+11/26/19 05:11:08.109	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G14, 370.000 nl> Transfer Complete
+11/26/19 05:11:10.531	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> H13, 1000.000 nl> Transfer Complete
+11/26/19 05:11:12.968	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> I14, 1000.000 nl> Transfer Complete
+11/26/19 05:11:13.281	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> J13, 2.500 nl> Transfer Complete
+11/26/19 05:11:15.703	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> J14, 997.500 nl> Transfer Complete
+11/26/19 05:11:16.078	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> K13, 22.500 nl> Transfer Complete
+11/26/19 05:11:18.453	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> K14, 977.500 nl> Transfer Complete
+11/26/19 05:11:18.937	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> L13, 77.500 nl> Transfer Complete
+11/26/19 05:11:21.218	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L14, 922.500 nl> Transfer Complete
+11/26/19 05:11:21.922	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> M13, 187.500 nl> Transfer Complete
+11/26/19 05:11:23.953	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> M14, 812.500 nl> Transfer Complete
+11/26/19 05:11:25.047	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> N13, 365.000 nl> Transfer Complete
+11/26/19 05:11:26.719	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> N14, 635.000 nl> Transfer Complete
+11/26/19 05:11:28.375	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> O13, 630.000 nl> Transfer Complete
+11/26/19 05:11:29.484	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> O14, 370.000 nl> Transfer Complete
+11/26/19 05:11:31.906	StartStopPrintService.cpp(1060) 	INFO	Well <E2 -> P13, 1000.000 nl> Transfer Complete
+11/26/19 05:11:34.656	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> A16, 1000.000 nl> Transfer Complete
+11/26/19 05:11:34.969	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> B15, 2.500 nl> Transfer Complete
+11/26/19 05:11:37.406	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B16, 997.500 nl> Transfer Complete
+11/26/19 05:11:37.781	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> C15, 22.500 nl> Transfer Complete
+11/26/19 05:11:40.156	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> C16, 977.500 nl> Transfer Complete
+11/26/19 05:11:40.641	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> D15, 77.500 nl> Transfer Complete
+11/26/19 05:11:42.922	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> D16, 922.500 nl> Transfer Complete
+11/26/19 05:11:43.625	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> E15, 187.500 nl> Transfer Complete
+11/26/19 05:11:45.641	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> E16, 812.500 nl> Transfer Complete
+11/26/19 05:11:46.734	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> F15, 365.000 nl> Transfer Complete
+11/26/19 05:11:48.406	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> F16, 635.000 nl> Transfer Complete
+11/26/19 05:11:50.063	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> G15, 630.000 nl> Transfer Complete
+11/26/19 05:11:51.156	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> G16, 370.000 nl> Transfer Complete
+11/26/19 05:11:53.594	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> H15, 1000.000 nl> Transfer Complete
+11/26/19 05:11:56.031	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> I16, 1000.000 nl> Transfer Complete
+11/26/19 05:11:56.360	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> J15, 2.500 nl> Transfer Complete
+11/26/19 05:11:58.797	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> J16, 997.500 nl> Transfer Complete
+11/26/19 05:11:59.172	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> K15, 22.500 nl> Transfer Complete
+11/26/19 05:12:01.562	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> K16, 977.500 nl> Transfer Complete
+11/26/19 05:12:02.046	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> L15, 77.500 nl> Transfer Complete
+11/26/19 05:12:04.328	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> L16, 922.500 nl> Transfer Complete
+11/26/19 05:12:05.046	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> M15, 187.500 nl> Transfer Complete
+11/26/19 05:12:07.062	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> M16, 812.500 nl> Transfer Complete
+11/26/19 05:12:08.171	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> N15, 365.000 nl> Transfer Complete
+11/26/19 05:12:09.843	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> N16, 635.000 nl> Transfer Complete
+11/26/19 05:12:11.500	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> O15, 630.000 nl> Transfer Complete
+11/26/19 05:12:12.593	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> O16, 370.000 nl> Transfer Complete
+11/26/19 05:12:15.031	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> P15, 1000.000 nl> Transfer Complete
+11/26/19 05:12:17.765	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> A18, 1000.000 nl> Transfer Complete
+11/26/19 05:12:18.093	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> B17, 2.500 nl> Transfer Complete
+11/26/19 05:12:20.515	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> B18, 997.500 nl> Transfer Complete
+11/26/19 05:12:20.890	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> C17, 22.500 nl> Transfer Complete
+11/26/19 05:12:23.281	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> C18, 977.500 nl> Transfer Complete
+11/26/19 05:12:23.781	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> D17, 77.500 nl> Transfer Complete
+11/26/19 05:12:26.047	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> D18, 922.500 nl> Transfer Complete
+11/26/19 05:12:26.765	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> E17, 187.500 nl> Transfer Complete
+11/26/19 05:12:28.812	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> E18, 812.500 nl> Transfer Complete
+11/26/19 05:12:29.922	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> F17, 365.000 nl> Transfer Complete
+11/26/19 05:12:31.594	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> F18, 635.000 nl> Transfer Complete
+11/26/19 05:12:33.266	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> G17, 630.000 nl> Transfer Complete
+11/26/19 05:12:34.391	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> G18, 370.000 nl> Transfer Complete
+11/26/19 05:12:36.828	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> H17, 1000.000 nl> Transfer Complete
+11/26/19 05:12:39.281	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> I18, 1000.000 nl> Transfer Complete
+11/26/19 05:12:39.609	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> J17, 2.500 nl> Transfer Complete
+11/26/19 05:12:42.047	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> J18, 997.500 nl> Transfer Complete
+11/26/19 05:12:42.438	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> K17, 22.500 nl> Transfer Complete
+11/26/19 05:12:44.844	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> K18, 977.500 nl> Transfer Complete
+11/26/19 05:12:45.344	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> L17, 77.500 nl> Transfer Complete
+11/26/19 05:12:47.625	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> L18, 922.500 nl> Transfer Complete
+11/26/19 05:12:48.344	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> M17, 187.500 nl> Transfer Complete
+11/26/19 05:12:50.375	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> M18, 812.500 nl> Transfer Complete
+11/26/19 05:12:51.485	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> N17, 365.000 nl> Transfer Complete
+11/26/19 05:12:53.172	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> N18, 635.000 nl> Transfer Complete
+11/26/19 05:12:54.828	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> O17, 630.000 nl> Transfer Complete
+11/26/19 05:12:55.953	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> O18, 370.000 nl> Transfer Complete
+11/26/19 05:12:58.391	StartStopPrintService.cpp(1060) 	INFO	Well <E3 -> P17, 1000.000 nl> Transfer Complete
+11/26/19 05:13:01.124	StartStopPrintService.cpp(1060) 	INFO	Well <B5 -> A20, 1000.000 nl> Transfer Complete
+11/26/19 05:13:01.562	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> B19, 2.500 nl> Transfer Complete
+11/26/19 05:13:04.093	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> B20, 997.500 nl> Transfer Complete
+11/26/19 05:13:04.578	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> C19, 22.500 nl> Transfer Complete
+11/26/19 05:13:07.062	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> C20, 977.500 nl> Transfer Complete
+11/26/19 05:13:07.656	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> D19, 77.500 nl> Transfer Complete
+11/26/19 05:13:10.047	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> D20, 922.500 nl> Transfer Complete
+11/26/19 05:13:10.843	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> E19, 187.500 nl> Transfer Complete
+11/26/19 05:13:12.968	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> E20, 812.500 nl> Transfer Complete
+11/26/19 05:13:14.172	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> F19, 365.000 nl> Transfer Complete
+11/26/19 05:13:15.953	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> F20, 635.000 nl> Transfer Complete
+11/26/19 05:13:17.703	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> G19, 630.000 nl> Transfer Complete
+11/26/19 05:13:18.922	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> G20, 370.000 nl> Transfer Complete
+11/26/19 05:13:21.437	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> H19, 1000.000 nl> Transfer Complete
+11/26/19 05:13:23.984	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> I20, 1000.000 nl> Transfer Complete
+11/26/19 05:13:24.406	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> J19, 2.500 nl> Transfer Complete
+11/26/19 05:13:26.937	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> J20, 997.500 nl> Transfer Complete
+11/26/19 05:13:27.406	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> K19, 22.500 nl> Transfer Complete
+11/26/19 05:13:29.890	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> K20, 977.500 nl> Transfer Complete
+11/26/19 05:13:30.484	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> L19, 77.500 nl> Transfer Complete
+11/26/19 05:13:32.859	StartStopPrintService.cpp(1060) 	INFO	Well <B6 -> L20, 922.500 nl> Transfer Complete
+11/26/19 05:13:33.672	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> M19, 187.500 nl> Transfer Complete
+11/26/19 05:13:35.875	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> M20, 812.500 nl> Transfer Complete
+11/26/19 05:13:37.172	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> N19, 365.000 nl> Transfer Complete
+11/26/19 05:13:39.031	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> N20, 635.000 nl> Transfer Complete
+11/26/19 05:13:40.875	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> O19, 630.000 nl> Transfer Complete
+11/26/19 05:13:42.172	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> O20, 370.000 nl> Transfer Complete
+11/26/19 05:13:44.797	StartStopPrintService.cpp(1060) 	INFO	Well <F2 -> P19, 1000.000 nl> Transfer Complete
+11/26/19 05:13:47.500	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> A22, 1000.000 nl> Transfer Complete
+11/26/19 05:13:47.938	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> B21, 2.500 nl> Transfer Complete
+11/26/19 05:13:50.453	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> B22, 997.500 nl> Transfer Complete
+11/26/19 05:13:50.938	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> C21, 22.500 nl> Transfer Complete
+11/26/19 05:13:53.422	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> C22, 977.500 nl> Transfer Complete
+11/26/19 05:13:54.016	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> D21, 77.500 nl> Transfer Complete
+11/26/19 05:13:56.391	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> D22, 922.500 nl> Transfer Complete
+11/26/19 05:13:57.203	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> E21, 187.500 nl> Transfer Complete
+11/26/19 05:13:59.313	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> E22, 812.500 nl> Transfer Complete
+11/26/19 05:14:00.515	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> F21, 365.000 nl> Transfer Complete
+11/26/19 05:14:02.281	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> F22, 635.000 nl> Transfer Complete
+11/26/19 05:14:04.046	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> G21, 630.000 nl> Transfer Complete
+11/26/19 05:14:05.250	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> G22, 370.000 nl> Transfer Complete
+11/26/19 05:14:07.796	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> H21, 1000.000 nl> Transfer Complete
+11/26/19 05:14:10.328	StartStopPrintService.cpp(1060) 	INFO	Well <B7 -> I22, 1000.000 nl> Transfer Complete
+11/26/19 05:14:10.765	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> J21, 2.500 nl> Transfer Complete
+11/26/19 05:14:13.390	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> J22, 997.500 nl> Transfer Complete
+11/26/19 05:14:13.953	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> K21, 22.500 nl> Transfer Complete
+11/26/19 05:14:16.547	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> K22, 977.500 nl> Transfer Complete
+11/26/19 05:14:17.218	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> L21, 77.500 nl> Transfer Complete
+11/26/19 05:14:19.687	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> L22, 922.500 nl> Transfer Complete
+11/26/19 05:14:20.578	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> M21, 187.500 nl> Transfer Complete
+11/26/19 05:14:22.797	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> M22, 812.500 nl> Transfer Complete
+11/26/19 05:14:24.078	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> N21, 365.000 nl> Transfer Complete
+11/26/19 05:14:25.937	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> N22, 635.000 nl> Transfer Complete
+11/26/19 05:14:27.781	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> O21, 630.000 nl> Transfer Complete
+11/26/19 05:14:29.078	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> O22, 370.000 nl> Transfer Complete
+11/26/19 05:14:31.687	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> P21, 1000.000 nl> Transfer Complete
+11/26/19 05:14:34.391	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> A24, 1000.000 nl> Transfer Complete
+11/26/19 05:14:34.906	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> B23, 2.500 nl> Transfer Complete
+11/26/19 05:14:37.516	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> B24, 997.500 nl> Transfer Complete
+11/26/19 05:14:38.078	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> C23, 22.500 nl> Transfer Complete
+11/26/19 05:14:40.641	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> C24, 977.500 nl> Transfer Complete
+11/26/19 05:14:41.328	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> D23, 77.500 nl> Transfer Complete
+11/26/19 05:14:43.781	StartStopPrintService.cpp(1060) 	INFO	Well <B8 -> D24, 922.500 nl> Transfer Complete
+11/26/19 05:14:44.672	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> E23, 187.500 nl> Transfer Complete
+11/26/19 05:14:46.984	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> E24, 812.500 nl> Transfer Complete
+11/26/19 05:14:48.359	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> F23, 365.000 nl> Transfer Complete
+11/26/19 05:14:50.313	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> F24, 635.000 nl> Transfer Complete
+11/26/19 05:14:52.250	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> G23, 630.000 nl> Transfer Complete
+11/26/19 05:14:53.641	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> G24, 370.000 nl> Transfer Complete
+11/26/19 05:14:56.344	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> H23, 1000.000 nl> Transfer Complete
+11/26/19 05:14:59.063	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> I24, 1000.000 nl> Transfer Complete
+11/26/19 05:14:59.672	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> J23, 2.500 nl> Transfer Complete
+11/26/19 05:15:02.374	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> J24, 997.500 nl> Transfer Complete
+11/26/19 05:15:03.031	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> K23, 22.500 nl> Transfer Complete
+11/26/19 05:15:05.687	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> K24, 977.500 nl> Transfer Complete
+11/26/19 05:15:06.453	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> L23, 77.500 nl> Transfer Complete
+11/26/19 05:15:09.000	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> L24, 922.500 nl> Transfer Complete
+11/26/19 05:15:10.000	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> M23, 187.500 nl> Transfer Complete
+11/26/19 05:15:12.281	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> M24, 812.500 nl> Transfer Complete
+11/26/19 05:15:13.656	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> N23, 365.000 nl> Transfer Complete
+11/26/19 05:15:15.593	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> N24, 635.000 nl> Transfer Complete
+11/26/19 05:15:17.531	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> O23, 630.000 nl> Transfer Complete
+11/26/19 05:15:18.906	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> O24, 370.000 nl> Transfer Complete
+11/26/19 05:15:21.625	StartStopPrintService.cpp(1060) 	INFO	Well <F3 -> P23, 1000.000 nl> Transfer Complete
+11/26/19 05:15:21.656	FluidTransferServer.cpp(4366) 	INFO	DoPlateTransfer() end Z-axis position: 17434
+11/26/19 05:15:21.750	FluidTransferServer.cpp(4474) 	INFO	Transfer time 724176 msec.
+11/26/19 05:16:33.359	EventServer.cpp(55) 	INFO	Client 192.168.1.21 - MARVIN has disconnected from the Echo server gracefully.
+11/26/19 05:16:36.359	EventServer.cpp(81) 	INFO	Client 192.168.1.21 - MARVIN has connected to the Echo server.
+11/26/19 05:16:37.859	EventServer.cpp(55) 	INFO	Client 192.168.1.21 - MARVIN has disconnected from the Echo server gracefully.
+11/26/19 05:16:43.656	EventServer.cpp(81) 	INFO	Client 192.168.1.21 - MARVIN has connected to the Echo server.
+11/26/19 05:17:50.469	PlateSurveyBootstrapService.cpp(229) 	INFO	Transducer Z position: 16817.35, 2 adjustment(s)
+11/26/19 05:17:50.469	PlateSurveyBootstrapService.cpp(230) 	INFO	Final PlateSurvey boot-strap ToF to bottom is 30.738000 us
+11/26/19 05:17:50.656	WellRegistrationService.cpp(558) 	INFO	Default well center is at X=108163.8, Y=37727.8
+11/26/19 05:17:51.516	WellRegistrationService.cpp(774) 	INFO	  Found wall at 107012.4
+11/26/19 05:17:51.516	WellRegistrationService.cpp(775) 	INFO	  Number of moves by bisection algorithm was 7
+11/26/19 05:17:51.516	WellRegistrationService.cpp(776) 	INFO	  Time to find this wall was 853 msec
+11/26/19 05:17:52.438	WellRegistrationService.cpp(774) 	INFO	  Found wall at 109315.2
+11/26/19 05:17:52.438	WellRegistrationService.cpp(775) 	INFO	  Number of moves by bisection algorithm was 7
+11/26/19 05:17:52.438	WellRegistrationService.cpp(776) 	INFO	  Time to find this wall was 916 msec
+11/26/19 05:17:53.360	WellRegistrationService.cpp(774) 	INFO	  Found wall at 38898.1
+11/26/19 05:17:53.360	WellRegistrationService.cpp(775) 	INFO	  Number of moves by bisection algorithm was 7
+11/26/19 05:17:53.360	WellRegistrationService.cpp(776) 	INFO	  Time to find this wall was 852 msec
+11/26/19 05:17:54.281	WellRegistrationService.cpp(774) 	INFO	  Found wall at 36574.7
+11/26/19 05:17:54.281	WellRegistrationService.cpp(775) 	INFO	  Number of moves by bisection algorithm was 7
+11/26/19 05:17:54.281	WellRegistrationService.cpp(776) 	INFO	  Time to find this wall was 920 msec
+11/26/19 05:17:54.344	WellRegistrationService.cpp(660) 	INFO	Echo time: 1406 msec; Feature time: 343 msec; Motion time: 1498 msec; Total time: 3693 msec.
+11/26/19 05:17:54.344	WellRegistrationService.cpp(668) 	INFO	H12,108164,108164,0,37728,37736,9,2303,2323,3693,0
+11/26/19 05:17:55.516	PlateSurveyService.cpp(857) 	INFO	Starting Plate Survey: @well A1; rows=16; cols=24
+11/26/19 05:17:58.110	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing A1A2A3A4A5A6A7A8A9A10A11A12A13A14A15A16A17A18A19A20A21A22A23A24
+11/26/19 05:18:00.890	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing B1B2B3B4B5B6B7B8B9B10B11B12B13B14B15B16B17B18B19B20B21B22B23B24
+11/26/19 05:18:03.609	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing C1C2C3C4C5C6C7C8C9C10C11C12C13C14C15C16C17C18C19C20C21C22C23C24
+11/26/19 05:18:06.390	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing D1D2D3D4D5D6D7D8D9D10D11D12D13D14D15D16D17D18D19D20D21D22D23D24
+11/26/19 05:18:09.125	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing E1E2E3E4E5E6E7E8E9E10E11E12E13E14E15E16E17E18E19E20E21E22E23E24
+11/26/19 05:18:11.906	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing F1F2F3F4F5F6F7F8F9F10F11F12F13F14F15F16F17F18F19F20F21F22F23F24
+11/26/19 05:18:14.656	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing G1G2G3G4G5G6G7G8G9G10G11G12G13G14G15G16G17G18G19G20G21G22G23G24
+11/26/19 05:18:17.437	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing H1H2H3H4H5H6H7H8H9H10H11H12H13H14H15H16H17H18H19H20H21H22H23H24
+11/26/19 05:18:20.187	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing I1I2I3I4I5I6I7I8I9I10I11I12I13I14I15I16I17I18I19I20I21I22I23I24
+11/26/19 05:18:22.984	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing J1J2J3J4J5J6J7J8J9J10J11J12J13J14J15J16J17J18J19J20J21J22J23J24
+11/26/19 05:18:25.734	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing K1K2K3K4K5K6K7K8K9K10K11K12K13K14K15K16K17K18K19K20K21K22K23K24
+11/26/19 05:18:28.547	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing L1L2L3L4L5L6L7L8L9L10L11L12L13L14L15L16L17L18L19L20L21L22L23L24
+11/26/19 05:18:31.297	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing M1M2M3M4M5M6M7M8M9M10M11M12M13M14M15M16M17M18M19M20M21M22M23M24
+11/26/19 05:18:34.094	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing N1N2N3N4N5N6N7N8N9N10N11N12N13N14N15N16N17N18N19N20N21N22N23N24
+11/26/19 05:18:36.859	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing O1O2O3O4O5O6O7O8O9O10O11O12O13O14O15O16O17O18O19O20O21O22O23O24
+11/26/19 05:18:39.672	PlateSurveyAnalyzer.cpp(329) 	INFO	Analyzing P1P2P3P4P5P6P7P8P9P10P11P12P13P14P15P16P17P18P19P20P21P22P23P24
+11/26/19 05:18:41.453	PlateMap.cpp(353) 	WARN	Data missing for well (3th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (3th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (3th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (3th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (3th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (3th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.469	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.484	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (4th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.500	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.516	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (5th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.531	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.547	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (6th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.563	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.578	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.594	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (7th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.609	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.625	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (8th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.641	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.656	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.672	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (9th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.687	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.703	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.719	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (10th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.734	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.750	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (11th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.766	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.781	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.781	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.781	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.781	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.781	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.781	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.781	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.781	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.797	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (12th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.813	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.828	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.844	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (13th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.859	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.875	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.875	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.875	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.875	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.875	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.875	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.875	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.875	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.891	PlateMap.cpp(353) 	WARN	Data missing for well (14th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.906	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.922	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (15th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 1th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 2th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.937	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 3th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 4th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 5th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 6th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 7th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 8th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 9th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 10th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 11th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.953	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 12th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 13th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 14th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 15th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 16th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 17th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 18th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 19th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 20th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.969	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 21th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.984	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 22th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.984	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 23th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:41.984	PlateMap.cpp(353) 	WARN	Data missing for well (16th row, 24th column), defaulting to 0.0 percent DMSO
+11/26/19 05:18:45.641	FluidTransferServer.cpp(4113) 	INFO	DoPlateTransfer() begin Z-axis position: 16817
+11/26/19 05:18:45.641	FluidTransferServer.cpp(4114) 	INFO	Protocol : OV2Cherry
+11/26/19 05:18:53.031	StartStopPrintService.cpp(1060) 	INFO	Well <B9 -> A2, 1000.000 nl> Transfer Complete
+11/26/19 05:18:53.547	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> B1, 2.500 nl> Transfer Complete
+11/26/19 05:18:56.266	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> B2, 997.500 nl> Transfer Complete
+11/26/19 05:18:56.922	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> C1, 22.500 nl> Transfer Complete
+11/26/19 05:18:59.594	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> C2, 977.500 nl> Transfer Complete
+11/26/19 05:19:00.359	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> D1, 77.500 nl> Transfer Complete
+11/26/19 05:19:02.921	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> D2, 922.500 nl> Transfer Complete
+11/26/19 05:19:03.906	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> E1, 187.500 nl> Transfer Complete
+11/26/19 05:19:06.203	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> E2, 812.500 nl> Transfer Complete
+11/26/19 05:19:07.578	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> F1, 365.000 nl> Transfer Complete
+11/26/19 05:19:09.531	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> F2, 635.000 nl> Transfer Complete
+11/26/19 05:19:11.468	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> G1, 630.000 nl> Transfer Complete
+11/26/19 05:19:12.859	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> G2, 370.000 nl> Transfer Complete
+11/26/19 05:19:15.578	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> H1, 1000.000 nl> Transfer Complete
+11/26/19 05:19:18.281	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> I2, 1000.000 nl> Transfer Complete
+11/26/19 05:19:18.890	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> J1, 2.500 nl> Transfer Complete
+11/26/19 05:19:21.578	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> J2, 997.500 nl> Transfer Complete
+11/26/19 05:19:22.234	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> K1, 22.500 nl> Transfer Complete
+11/26/19 05:19:24.890	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> K2, 977.500 nl> Transfer Complete
+11/26/19 05:19:25.656	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> L1, 77.500 nl> Transfer Complete
+11/26/19 05:19:28.203	StartStopPrintService.cpp(1060) 	INFO	Well <B10 -> L2, 922.500 nl> Transfer Complete
+11/26/19 05:19:29.187	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> M1, 187.500 nl> Transfer Complete
+11/26/19 05:19:31.594	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> M2, 812.500 nl> Transfer Complete
+11/26/19 05:19:33.047	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> N1, 365.000 nl> Transfer Complete
+11/26/19 05:19:35.094	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> N2, 635.000 nl> Transfer Complete
+11/26/19 05:19:37.109	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> O1, 630.000 nl> Transfer Complete
+11/26/19 05:19:38.594	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> O2, 370.000 nl> Transfer Complete
+11/26/19 05:19:41.391	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> P1, 1000.000 nl> Transfer Complete
+11/26/19 05:19:44.219	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> A4, 1000.000 nl> Transfer Complete
+11/26/19 05:19:44.922	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> B3, 2.500 nl> Transfer Complete
+11/26/19 05:19:47.719	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> B4, 997.500 nl> Transfer Complete
+11/26/19 05:19:48.453	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> C3, 22.500 nl> Transfer Complete
+11/26/19 05:19:51.203	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> C4, 977.500 nl> Transfer Complete
+11/26/19 05:19:52.063	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> D3, 77.500 nl> Transfer Complete
+11/26/19 05:19:54.703	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> D4, 922.500 nl> Transfer Complete
+11/26/19 05:19:55.781	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> E3, 187.500 nl> Transfer Complete
+11/26/19 05:19:58.172	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> E4, 812.500 nl> Transfer Complete
+11/26/19 05:19:59.641	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> F3, 365.000 nl> Transfer Complete
+11/26/19 05:20:01.671	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> F4, 635.000 nl> Transfer Complete
+11/26/19 05:20:03.703	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> G3, 630.000 nl> Transfer Complete
+11/26/19 05:20:05.171	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> G4, 370.000 nl> Transfer Complete
+11/26/19 05:20:07.953	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> H3, 1000.000 nl> Transfer Complete
+11/26/19 05:20:10.750	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> I4, 1000.000 nl> Transfer Complete
+11/26/19 05:20:11.453	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> J3, 2.500 nl> Transfer Complete
+11/26/19 05:20:14.343	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> J4, 997.500 nl> Transfer Complete
+11/26/19 05:20:15.172	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> K3, 22.500 nl> Transfer Complete
+11/26/19 05:20:18.015	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> K4, 977.500 nl> Transfer Complete
+11/26/19 05:20:18.968	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> L3, 77.500 nl> Transfer Complete
+11/26/19 05:20:21.703	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> L4, 922.500 nl> Transfer Complete
+11/26/19 05:20:22.875	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> M3, 187.500 nl> Transfer Complete
+11/26/19 05:20:25.359	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> M4, 812.500 nl> Transfer Complete
+11/26/19 05:20:26.906	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> N3, 365.000 nl> Transfer Complete
+11/26/19 05:20:29.031	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> N4, 635.000 nl> Transfer Complete
+11/26/19 05:20:31.141	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> O3, 630.000 nl> Transfer Complete
+11/26/19 05:20:32.703	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> O4, 370.000 nl> Transfer Complete
+11/26/19 05:20:35.594	StartStopPrintService.cpp(1060) 	INFO	Well <C4 -> P3, 1000.000 nl> Transfer Complete
+11/26/19 05:20:38.484	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> A6, 1000.000 nl> Transfer Complete
+11/26/19 05:20:39.187	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> B5, 2.500 nl> Transfer Complete
+11/26/19 05:20:41.969	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> B6, 997.500 nl> Transfer Complete
+11/26/19 05:20:42.719	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> C5, 22.500 nl> Transfer Complete
+11/26/19 05:20:45.469	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> C6, 977.500 nl> Transfer Complete
+11/26/19 05:20:46.328	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> D5, 77.500 nl> Transfer Complete
+11/26/19 05:20:48.969	StartStopPrintService.cpp(1060) 	INFO	Well <B12 -> D6, 922.500 nl> Transfer Complete
+11/26/19 05:20:50.047	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> E5, 187.500 nl> Transfer Complete
+11/26/19 05:20:52.531	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> E6, 812.500 nl> Transfer Complete
+11/26/19 05:20:54.078	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> F5, 365.000 nl> Transfer Complete
+11/26/19 05:20:56.219	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> F6, 635.000 nl> Transfer Complete
+11/26/19 05:20:58.328	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> G5, 630.000 nl> Transfer Complete
+11/26/19 05:20:59.891	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> G6, 370.000 nl> Transfer Complete
+11/26/19 05:21:02.781	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> H5, 1000.000 nl> Transfer Complete
+11/26/19 05:21:05.671	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> I6, 1000.000 nl> Transfer Complete
+11/26/19 05:21:06.468	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> J5, 2.500 nl> Transfer Complete
+11/26/19 05:21:09.343	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> J6, 997.500 nl> Transfer Complete
+11/26/19 05:21:10.187	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> K5, 22.500 nl> Transfer Complete
+11/26/19 05:21:13.031	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> K6, 977.500 nl> Transfer Complete
+11/26/19 05:21:13.968	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> L5, 77.500 nl> Transfer Complete
+11/26/19 05:21:16.703	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> L6, 922.500 nl> Transfer Complete
+11/26/19 05:21:17.859	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> M5, 187.500 nl> Transfer Complete
+11/26/19 05:21:20.343	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> M6, 812.500 nl> Transfer Complete
+11/26/19 05:21:21.890	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> N5, 365.000 nl> Transfer Complete
+11/26/19 05:21:24.015	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> N6, 635.000 nl> Transfer Complete
+11/26/19 05:21:26.140	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> O5, 630.000 nl> Transfer Complete
+11/26/19 05:21:27.703	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> O6, 370.000 nl> Transfer Complete
+11/26/19 05:21:30.594	StartStopPrintService.cpp(1060) 	INFO	Well <C5 -> P5, 1000.000 nl> Transfer Complete
+11/26/19 05:21:33.484	StartStopPrintService.cpp(1060) 	INFO	Well <B13 -> A8, 1000.000 nl> Transfer Complete
+11/26/19 05:21:34.359	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> B7, 2.500 nl> Transfer Complete
+11/26/19 05:21:34.359	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:34.547	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> C7, 22.500 nl> Transfer Complete
+11/26/19 05:21:34.562	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:34.859	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> D7, 77.500 nl> Transfer Complete
+11/26/19 05:21:34.875	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:35.406	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> E7, 187.500 nl> Transfer Complete
+11/26/19 05:21:35.406	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:36.328	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> F7, 365.000 nl> Transfer Complete
+11/26/19 05:21:36.344	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:37.828	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> G7, 630.000 nl> Transfer Complete
+11/26/19 05:21:37.844	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:40.094	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> H7, 1000.000 nl> Transfer Complete
+11/26/19 05:21:40.109	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:40.266	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> J7, 2.500 nl> Transfer Complete
+11/26/19 05:21:40.281	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:40.469	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> K7, 22.500 nl> Transfer Complete
+11/26/19 05:21:40.469	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:40.781	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> L7, 77.500 nl> Transfer Complete
+11/26/19 05:21:40.781	StartStopPrintService.cpp(786) 	WARN	Source well B14 data is not valid - skipping
+11/26/19 05:21:41.312	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> M7, 187.500 nl> Transfer Complete
+11/26/19 05:21:44.063	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> M8, 812.500 nl> Transfer Complete
+11/26/19 05:21:45.891	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> N7, 365.000 nl> Transfer Complete
+11/26/19 05:21:48.281	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> N8, 635.000 nl> Transfer Complete
+11/26/19 05:21:50.672	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> O7, 630.000 nl> Transfer Complete
+11/26/19 05:21:52.500	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> O8, 370.000 nl> Transfer Complete
+11/26/19 05:21:55.672	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> P7, 1000.000 nl> Transfer Complete
+11/26/19 05:21:58.828	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> A10, 1000.000 nl> Transfer Complete
+11/26/19 05:21:59.891	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> B9, 2.500 nl> Transfer Complete
+11/26/19 05:22:03.046	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> B10, 997.500 nl> Transfer Complete
+11/26/19 05:22:04.140	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> C9, 22.500 nl> Transfer Complete
+11/26/19 05:22:07.265	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> C10, 977.500 nl> Transfer Complete
+11/26/19 05:22:08.468	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> D9, 77.500 nl> Transfer Complete
+11/26/19 05:22:11.468	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> D10, 922.500 nl> Transfer Complete
+11/26/19 05:22:12.906	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> E9, 187.500 nl> Transfer Complete
+11/26/19 05:22:15.640	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> E10, 812.500 nl> Transfer Complete
+11/26/19 05:22:17.468	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> F9, 365.000 nl> Transfer Complete
+11/26/19 05:22:19.859	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> F10, 635.000 nl> Transfer Complete
+11/26/19 05:22:22.234	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> G9, 630.000 nl> Transfer Complete
+11/26/19 05:22:24.078	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> G10, 370.000 nl> Transfer Complete
+11/26/19 05:22:27.219	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> H9, 1000.000 nl> Transfer Complete
+11/26/19 05:22:30.390	StartStopPrintService.cpp(1060) 	INFO	Well <B15 -> I10, 1000.000 nl> Transfer Complete
+11/26/19 05:22:31.453	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> J9, 2.500 nl> Transfer Complete
+11/26/19 05:22:34.687	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> J10, 997.500 nl> Transfer Complete
+11/26/19 05:22:35.891	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> K9, 22.500 nl> Transfer Complete
+11/26/19 05:22:39.094	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> K10, 977.500 nl> Transfer Complete
+11/26/19 05:22:40.391	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> L9, 77.500 nl> Transfer Complete
+11/26/19 05:22:43.484	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> L10, 922.500 nl> Transfer Complete
+11/26/19 05:22:45.016	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> M9, 187.500 nl> Transfer Complete
+11/26/19 05:22:47.859	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> M10, 812.500 nl> Transfer Complete
+11/26/19 05:22:49.766	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> N9, 365.000 nl> Transfer Complete
+11/26/19 05:22:52.250	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> N10, 635.000 nl> Transfer Complete
+11/26/19 05:22:54.719	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> O9, 630.000 nl> Transfer Complete
+11/26/19 05:22:56.641	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> O10, 370.000 nl> Transfer Complete
+11/26/19 05:22:59.891	StartStopPrintService.cpp(1060) 	INFO	Well <D4 -> P9, 1000.000 nl> Transfer Complete
+11/26/19 05:23:03.140	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> A12, 1000.000 nl> Transfer Complete
+11/26/19 05:23:04.203	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> B11, 2.500 nl> Transfer Complete
+11/26/19 05:23:07.343	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> B12, 997.500 nl> Transfer Complete
+11/26/19 05:23:08.453	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> C11, 22.500 nl> Transfer Complete
+11/26/19 05:23:11.562	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> C12, 977.500 nl> Transfer Complete
+11/26/19 05:23:12.765	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> D11, 77.500 nl> Transfer Complete
+11/26/19 05:23:15.781	StartStopPrintService.cpp(1060) 	INFO	Well <B16 -> D12, 922.500 nl> Transfer Complete
+11/26/19 05:23:17.218	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> E11, 187.500 nl> Transfer Complete
+11/26/19 05:23:20.062	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> E12, 812.500 nl> Transfer Complete
+11/26/19 05:23:21.969	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> F11, 365.000 nl> Transfer Complete
+11/26/19 05:23:24.453	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> F12, 635.000 nl> Transfer Complete
+11/26/19 05:23:26.937	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> G11, 630.000 nl> Transfer Complete
+11/26/19 05:23:28.859	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> G12, 370.000 nl> Transfer Complete
+11/26/19 05:23:32.109	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> H11, 1000.000 nl> Transfer Complete
+11/26/19 05:23:35.359	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> I12, 1000.000 nl> Transfer Complete
+11/26/19 05:23:36.516	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> J11, 2.500 nl> Transfer Complete
+11/26/19 05:23:39.750	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> J12, 997.500 nl> Transfer Complete
+11/26/19 05:23:40.953	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> K11, 22.500 nl> Transfer Complete
+11/26/19 05:23:44.156	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> K12, 977.500 nl> Transfer Complete
+11/26/19 05:23:45.453	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> L11, 77.500 nl> Transfer Complete
+11/26/19 05:23:48.547	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> L12, 922.500 nl> Transfer Complete
+11/26/19 05:23:50.078	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> M11, 187.500 nl> Transfer Complete
+11/26/19 05:23:52.906	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> M12, 812.500 nl> Transfer Complete
+11/26/19 05:23:54.828	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> N11, 365.000 nl> Transfer Complete
+11/26/19 05:23:57.313	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> N12, 635.000 nl> Transfer Complete
+11/26/19 05:23:59.781	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> O11, 630.000 nl> Transfer Complete
+11/26/19 05:24:01.703	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> O12, 370.000 nl> Transfer Complete
+11/26/19 05:24:04.953	StartStopPrintService.cpp(1060) 	INFO	Well <D5 -> P11, 1000.000 nl> Transfer Complete
+11/26/19 05:24:08.203	StartStopPrintService.cpp(1060) 	INFO	Well <B17 -> A14, 1000.000 nl> Transfer Complete
+11/26/19 05:24:09.437	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> B13, 2.500 nl> Transfer Complete
+11/26/19 05:24:12.875	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> B14, 997.500 nl> Transfer Complete
+11/26/19 05:24:14.250	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> C13, 22.500 nl> Transfer Complete
+11/26/19 05:24:17.640	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> C14, 977.500 nl> Transfer Complete
+11/26/19 05:24:19.125	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> D13, 77.500 nl> Transfer Complete
+11/26/19 05:24:22.406	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> D14, 922.500 nl> Transfer Complete
+11/26/19 05:24:24.109	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> E13, 187.500 nl> Transfer Complete
+11/26/19 05:24:27.125	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> E14, 812.500 nl> Transfer Complete
+11/26/19 05:24:29.234	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> F13, 365.000 nl> Transfer Complete
+11/26/19 05:24:31.890	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> F14, 635.000 nl> Transfer Complete
+11/26/19 05:24:34.562	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> G13, 630.000 nl> Transfer Complete
+11/26/19 05:24:36.656	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> G14, 370.000 nl> Transfer Complete
+11/26/19 05:24:40.094	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> H13, 1000.000 nl> Transfer Complete
+11/26/19 05:24:43.531	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> I14, 1000.000 nl> Transfer Complete
+11/26/19 05:24:44.859	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> J13, 2.500 nl> Transfer Complete
+11/26/19 05:24:48.266	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> J14, 997.500 nl> Transfer Complete
+11/26/19 05:24:49.641	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> K13, 22.500 nl> Transfer Complete
+11/26/19 05:24:53.016	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> K14, 977.500 nl> Transfer Complete
+11/26/19 05:24:54.516	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> L13, 77.500 nl> Transfer Complete
+11/26/19 05:24:57.781	StartStopPrintService.cpp(1060) 	INFO	Well <B18 -> L14, 922.500 nl> Transfer Complete
+11/26/19 05:24:59.485	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> M13, 187.500 nl> Transfer Complete
+11/26/19 05:25:02.609	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> M14, 812.500 nl> Transfer Complete
+11/26/19 05:25:04.781	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> N13, 365.000 nl> Transfer Complete
+11/26/19 05:25:07.546	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> N14, 635.000 nl> Transfer Complete
+11/26/19 05:25:10.296	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> O13, 630.000 nl> Transfer Complete
+11/26/19 05:25:12.500	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> O14, 370.000 nl> Transfer Complete
+11/26/19 05:25:16.015	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> P13, 1000.000 nl> Transfer Complete
+11/26/19 05:25:19.531	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> A16, 1000.000 nl> Transfer Complete
+11/26/19 05:25:20.953	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> B15, 2.500 nl> Transfer Complete
+11/26/19 05:25:24.469	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> B16, 997.500 nl> Transfer Complete
+11/26/19 05:25:25.937	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> C15, 22.500 nl> Transfer Complete
+11/26/19 05:25:29.406	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> C16, 977.500 nl> Transfer Complete
+11/26/19 05:25:30.984	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> D15, 77.500 nl> Transfer Complete
+11/26/19 05:25:34.344	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> D16, 922.500 nl> Transfer Complete
+11/26/19 05:25:36.141	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> E15, 187.500 nl> Transfer Complete
+11/26/19 05:25:39.250	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> E16, 812.500 nl> Transfer Complete
+11/26/19 05:25:41.438	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> F15, 365.000 nl> Transfer Complete
+11/26/19 05:25:44.188	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> F16, 635.000 nl> Transfer Complete
+11/26/19 05:25:46.938	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> G15, 630.000 nl> Transfer Complete
+11/26/19 05:25:49.125	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> G16, 370.000 nl> Transfer Complete
+11/26/19 05:25:52.641	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> H15, 1000.000 nl> Transfer Complete
+11/26/19 05:25:56.156	StartStopPrintService.cpp(1060) 	INFO	Well <B19 -> I16, 1000.000 nl> Transfer Complete
+11/26/19 05:25:57.563	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> J15, 2.500 nl> Transfer Complete
+11/26/19 05:26:01.171	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> J16, 997.500 nl> Transfer Complete
+11/26/19 05:26:02.734	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> K15, 22.500 nl> Transfer Complete
+11/26/19 05:26:06.312	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> K16, 977.500 nl> Transfer Complete
+11/26/19 05:26:07.968	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> L15, 77.500 nl> Transfer Complete
+11/26/19 05:26:11.437	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> L16, 922.500 nl> Transfer Complete
+11/26/19 05:26:13.312	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> M15, 187.500 nl> Transfer Complete
+11/26/19 05:26:16.515	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> M16, 812.500 nl> Transfer Complete
+11/26/19 05:26:18.781	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> N15, 365.000 nl> Transfer Complete
+11/26/19 05:26:21.625	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> N16, 635.000 nl> Transfer Complete
+11/26/19 05:26:24.469	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> O15, 630.000 nl> Transfer Complete
+11/26/19 05:26:26.750	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> O16, 370.000 nl> Transfer Complete
+11/26/19 05:26:30.359	StartStopPrintService.cpp(1060) 	INFO	Well <E4 -> P15, 1000.000 nl> Transfer Complete
+11/26/19 05:26:33.969	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> A18, 1000.000 nl> Transfer Complete
+11/26/19 05:26:35.391	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> B17, 2.500 nl> Transfer Complete
+11/26/19 05:26:38.891	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> B18, 997.500 nl> Transfer Complete
+11/26/19 05:26:40.359	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> C17, 22.500 nl> Transfer Complete
+11/26/19 05:26:43.828	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> C18, 977.500 nl> Transfer Complete
+11/26/19 05:26:45.406	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> D17, 77.500 nl> Transfer Complete
+11/26/19 05:26:48.766	StartStopPrintService.cpp(1060) 	INFO	Well <B20 -> D18, 922.500 nl> Transfer Complete
+11/26/19 05:26:50.563	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> E17, 187.500 nl> Transfer Complete
+11/26/19 05:26:53.766	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> E18, 812.500 nl> Transfer Complete
+11/26/19 05:26:56.047	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> F17, 365.000 nl> Transfer Complete
+11/26/19 05:26:58.891	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> F18, 635.000 nl> Transfer Complete
+11/26/19 05:27:01.734	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> G17, 630.000 nl> Transfer Complete
+11/26/19 05:27:04.015	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> G18, 370.000 nl> Transfer Complete
+11/26/19 05:27:07.625	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> H17, 1000.000 nl> Transfer Complete
+11/26/19 05:27:11.250	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> I18, 1000.000 nl> Transfer Complete
+11/26/19 05:27:12.750	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> J17, 2.500 nl> Transfer Complete
+11/26/19 05:27:16.359	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> J18, 997.500 nl> Transfer Complete
+11/26/19 05:27:17.906	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> K17, 22.500 nl> Transfer Complete
+11/26/19 05:27:21.484	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> K18, 977.500 nl> Transfer Complete
+11/26/19 05:27:23.140	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> L17, 77.500 nl> Transfer Complete
+11/26/19 05:27:26.594	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> L18, 922.500 nl> Transfer Complete
+11/26/19 05:27:28.484	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> M17, 187.500 nl> Transfer Complete
+11/26/19 05:27:31.687	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> M18, 812.500 nl> Transfer Complete
+11/26/19 05:27:33.953	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> N17, 365.000 nl> Transfer Complete
+11/26/19 05:27:36.797	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> N18, 635.000 nl> Transfer Complete
+11/26/19 05:27:39.625	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> O17, 630.000 nl> Transfer Complete
+11/26/19 05:27:41.906	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> O18, 370.000 nl> Transfer Complete
+11/26/19 05:27:45.516	StartStopPrintService.cpp(1060) 	INFO	Well <E5 -> P17, 1000.000 nl> Transfer Complete
+11/26/19 05:27:49.125	StartStopPrintService.cpp(1060) 	INFO	Well <B21 -> A20, 1000.000 nl> Transfer Complete
+11/26/19 05:27:50.719	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> B19, 2.500 nl> Transfer Complete
+11/26/19 05:27:54.516	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> B20, 997.500 nl> Transfer Complete
+11/26/19 05:27:56.250	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> C19, 22.500 nl> Transfer Complete
+11/26/19 05:28:00.000	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> C20, 977.500 nl> Transfer Complete
+11/26/19 05:28:01.843	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> D19, 77.500 nl> Transfer Complete
+11/26/19 05:28:05.484	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> D20, 922.500 nl> Transfer Complete
+11/26/19 05:28:07.546	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> E19, 187.500 nl> Transfer Complete
+11/26/19 05:28:10.921	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> E20, 812.500 nl> Transfer Complete
+11/26/19 05:28:13.375	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> F19, 365.000 nl> Transfer Complete
+11/26/19 05:28:16.406	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> F20, 635.000 nl> Transfer Complete
+11/26/19 05:28:19.437	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> G19, 630.000 nl> Transfer Complete
+11/26/19 05:28:21.890	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> G20, 370.000 nl> Transfer Complete
+11/26/19 05:28:25.687	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> H19, 1000.000 nl> Transfer Complete
+11/26/19 05:28:29.484	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> I20, 1000.000 nl> Transfer Complete
+11/26/19 05:28:31.172	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> J19, 2.500 nl> Transfer Complete
+11/26/19 05:28:34.937	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> J20, 997.500 nl> Transfer Complete
+11/26/19 05:28:36.687	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> K19, 22.500 nl> Transfer Complete
+11/26/19 05:28:40.422	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> K20, 977.500 nl> Transfer Complete
+11/26/19 05:28:42.266	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> L19, 77.500 nl> Transfer Complete
+11/26/19 05:28:45.891	StartStopPrintService.cpp(1060) 	INFO	Well <B22 -> L20, 922.500 nl> Transfer Complete
+11/26/19 05:28:47.953	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> M19, 187.500 nl> Transfer Complete
+11/26/19 05:28:51.438	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> M20, 812.500 nl> Transfer Complete
+11/26/19 05:28:53.985	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> N19, 365.000 nl> Transfer Complete
+11/26/19 05:28:57.110	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> N20, 635.000 nl> Transfer Complete
+11/26/19 05:29:00.218	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> O19, 630.000 nl> Transfer Complete
+11/26/19 05:29:02.765	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> O20, 370.000 nl> Transfer Complete
+11/26/19 05:29:06.656	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> P19, 1000.000 nl> Transfer Complete
+11/26/19 05:29:10.531	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> A22, 1000.000 nl> Transfer Complete
+11/26/19 05:29:12.312	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> B21, 2.500 nl> Transfer Complete
+11/26/19 05:29:16.187	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> B22, 997.500 nl> Transfer Complete
+11/26/19 05:29:18.015	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> C21, 22.500 nl> Transfer Complete
+11/26/19 05:29:21.843	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> C22, 977.500 nl> Transfer Complete
+11/26/19 05:29:23.781	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> D21, 77.500 nl> Transfer Complete
+11/26/19 05:29:27.500	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> D22, 922.500 nl> Transfer Complete
+11/26/19 05:29:29.656	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> E21, 187.500 nl> Transfer Complete
+11/26/19 05:29:33.125	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> E22, 812.500 nl> Transfer Complete
+11/26/19 05:29:35.656	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> F21, 365.000 nl> Transfer Complete
+11/26/19 05:29:38.781	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> F22, 635.000 nl> Transfer Complete
+11/26/19 05:29:41.875	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> G21, 630.000 nl> Transfer Complete
+11/26/19 05:29:44.438	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> G22, 370.000 nl> Transfer Complete
+11/26/19 05:29:48.313	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> H21, 1000.000 nl> Transfer Complete
+11/26/19 05:29:52.188	StartStopPrintService.cpp(1060) 	INFO	Well <B23 -> I22, 1000.000 nl> Transfer Complete
+11/26/19 05:29:53.969	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> J21, 2.500 nl> Transfer Complete
+11/26/19 05:29:53.969	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:29:54.156	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> K21, 22.500 nl> Transfer Complete
+11/26/19 05:29:54.172	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:29:54.469	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> L21, 77.500 nl> Transfer Complete
+11/26/19 05:29:54.469	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:29:55.000	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> M21, 187.500 nl> Transfer Complete
+11/26/19 05:29:55.016	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:29:55.938	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> N21, 365.000 nl> Transfer Complete
+11/26/19 05:29:55.938	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:29:57.422	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> O21, 630.000 nl> Transfer Complete
+11/26/19 05:29:57.422	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:29:59.672	StartStopPrintService.cpp(1060) 	INFO	Well <F4 -> P21, 1000.000 nl> Transfer Complete
+11/26/19 05:29:59.672	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:30:00.390	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> B23, 2.500 nl> Transfer Complete
+11/26/19 05:30:00.390	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:30:00.578	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> C23, 22.500 nl> Transfer Complete
+11/26/19 05:30:00.593	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:30:00.890	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> D23, 77.500 nl> Transfer Complete
+11/26/19 05:30:00.890	StartStopPrintService.cpp(786) 	WARN	Source well C12 data is not valid - skipping
+11/26/19 05:30:01.421	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> E23, 187.500 nl> Transfer Complete
+11/26/19 05:30:03.906	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> E24, 812.500 nl> Transfer Complete
+11/26/19 05:30:05.453	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> F23, 365.000 nl> Transfer Complete
+11/26/19 05:30:07.593	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> F24, 635.000 nl> Transfer Complete
+11/26/19 05:30:09.703	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> G23, 630.000 nl> Transfer Complete
+11/26/19 05:30:11.265	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> G24, 370.000 nl> Transfer Complete
+11/26/19 05:30:14.156	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> H23, 1000.000 nl> Transfer Complete
+11/26/19 05:30:17.062	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> I24, 1000.000 nl> Transfer Complete
+11/26/19 05:30:17.843	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> J23, 2.500 nl> Transfer Complete
+11/26/19 05:30:20.719	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> J24, 997.500 nl> Transfer Complete
+11/26/19 05:30:21.562	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> K23, 22.500 nl> Transfer Complete
+11/26/19 05:30:24.406	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> K24, 977.500 nl> Transfer Complete
+11/26/19 05:30:25.344	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> L23, 77.500 nl> Transfer Complete
+11/26/19 05:30:28.078	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> L24, 922.500 nl> Transfer Complete
+11/26/19 05:30:29.250	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> M23, 187.500 nl> Transfer Complete
+11/26/19 05:30:31.719	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> M24, 812.500 nl> Transfer Complete
+11/26/19 05:30:33.281	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> N23, 365.000 nl> Transfer Complete
+11/26/19 05:30:35.391	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> N24, 635.000 nl> Transfer Complete
+11/26/19 05:30:37.516	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> O23, 630.000 nl> Transfer Complete
+11/26/19 05:30:39.078	StartStopPrintService.cpp(1060) 	INFO	Well <C13 -> O24, 370.000 nl> Transfer Complete
+11/26/19 05:30:41.969	StartStopPrintService.cpp(1060) 	INFO	Well <F5 -> P23, 1000.000 nl> Transfer Complete
+11/26/19 05:30:42.000	FluidTransferServer.cpp(4366) 	INFO	DoPlateTransfer() end Z-axis position: 18353
+11/26/19 05:30:42.094	FluidTransferServer.cpp(4474) 	INFO	Transfer time 716583 msec.

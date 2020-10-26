@@ -1,0 +1,769 @@
+,Volume,SourcePlateBarcode,SourcePlateWell,DestinationPlateBarcode,DestinationPlateWell,ComponentName
+0,25,MasterTrof,A1,AssayPlate,A1,-
+1,25,MasterTrof,B1,AssayPlate,B1,-
+2,25,MasterTrof,C1,AssayPlate,C1,-
+3,25,MasterTrof,D1,AssayPlate,D1,-
+4,25,MasterTrof,E1,AssayPlate,E1,-
+5,25,MasterTrof,F1,AssayPlate,F1,-
+6,25,MasterTrof,G1,AssayPlate,G1,-
+7,25,MasterTrof,H1,AssayPlate,H1,-
+8,25,MasterTrof,A1,AssayPlate,A2,-
+9,25,MasterTrof,B1,AssayPlate,B2,-
+10,25,MasterTrof,C1,AssayPlate,C2,-
+11,25,MasterTrof,D1,AssayPlate,D2,-
+12,25,MasterTrof,E1,AssayPlate,E2,-
+13,25,MasterTrof,F1,AssayPlate,F2,-
+14,25,MasterTrof,G1,AssayPlate,G2,-
+15,25,MasterTrof,H1,AssayPlate,H2,-
+16,25,MasterTrof,A1,AssayPlate,A3,-
+17,25,MasterTrof,B1,AssayPlate,B3,-
+18,25,MasterTrof,C1,AssayPlate,C3,-
+19,25,MasterTrof,D1,AssayPlate,D3,-
+20,25,MasterTrof,E1,AssayPlate,E3,-
+21,25,MasterTrof,F1,AssayPlate,F3,-
+22,25,MasterTrof,G1,AssayPlate,G3,-
+23,25,MasterTrof,H1,AssayPlate,H3,-
+24,25,MasterTrof,A1,AssayPlate,A4,-
+25,25,MasterTrof,B1,AssayPlate,B4,-
+26,25,MasterTrof,C1,AssayPlate,C4,-
+27,25,MasterTrof,D1,AssayPlate,D4,-
+28,25,MasterTrof,E1,AssayPlate,E4,-
+29,25,MasterTrof,F1,AssayPlate,F4,-
+30,25,MasterTrof,G1,AssayPlate,G4,-
+31,25,MasterTrof,H1,AssayPlate,H4,-
+32,25,MasterTrof,A1,AssayPlate,A5,-
+33,25,MasterTrof,B1,AssayPlate,B5,-
+34,25,MasterTrof,C1,AssayPlate,C5,-
+35,25,MasterTrof,D1,AssayPlate,D5,-
+36,25,MasterTrof,E1,AssayPlate,E5,-
+37,25,MasterTrof,F1,AssayPlate,F5,-
+38,25,MasterTrof,G1,AssayPlate,G5,-
+39,25,MasterTrof,H1,AssayPlate,H5,-
+40,25,MasterTrof,A1,AssayPlate,A6,-
+41,25,MasterTrof,B1,AssayPlate,B6,-
+42,25,MasterTrof,C1,AssayPlate,C6,-
+43,25,MasterTrof,D1,AssayPlate,D6,-
+44,25,MasterTrof,E1,AssayPlate,E6,-
+45,25,MasterTrof,F1,AssayPlate,F6,-
+46,25,MasterTrof,G1,AssayPlate,G6,-
+47,25,MasterTrof,H1,AssayPlate,H6,-
+48,25,MasterTrof,A1,AssayPlate,A7,-
+49,25,MasterTrof,B1,AssayPlate,B7,-
+50,25,MasterTrof,C1,AssayPlate,C7,-
+51,25,MasterTrof,D1,AssayPlate,D7,-
+52,25,MasterTrof,E1,AssayPlate,E7,-
+53,25,MasterTrof,F1,AssayPlate,F7,-
+54,25,MasterTrof,G1,AssayPlate,G7,-
+55,25,MasterTrof,H1,AssayPlate,H7,-
+56,25,MasterTrof,A1,AssayPlate,A8,-
+57,25,MasterTrof,B1,AssayPlate,B8,-
+58,25,MasterTrof,C1,AssayPlate,C8,-
+59,25,MasterTrof,D1,AssayPlate,D8,-
+60,25,MasterTrof,E1,AssayPlate,E8,-
+61,25,MasterTrof,F1,AssayPlate,F8,-
+62,25,MasterTrof,G1,AssayPlate,G8,-
+63,25,MasterTrof,H1,AssayPlate,H8,-
+64,25,MasterTrof,A1,AssayPlate,A9,-
+65,25,MasterTrof,B1,AssayPlate,B9,-
+66,25,MasterTrof,C1,AssayPlate,C9,-
+67,25,MasterTrof,D1,AssayPlate,D9,-
+68,25,MasterTrof,E1,AssayPlate,E9,-
+69,25,MasterTrof,F1,AssayPlate,F9,-
+70,25,MasterTrof,G1,AssayPlate,G9,-
+71,25,MasterTrof,H1,AssayPlate,H9,-
+72,25,MasterTrof,A1,AssayPlate,A1,-
+73,25,MasterTrof,B1,AssayPlate,B1,-
+74,25,MasterTrof,C1,AssayPlate,C1,-
+75,25,MasterTrof,D1,AssayPlate,D1,-
+76,25,MasterTrof,E1,AssayPlate,E1,-
+77,25,MasterTrof,F1,AssayPlate,F1,-
+78,25,MasterTrof,G1,AssayPlate,G1,-
+79,25,MasterTrof,H1,AssayPlate,H1,-
+80,25,MasterTrof,A1,AssayPlate,A1,-
+81,25,MasterTrof,B1,AssayPlate,B1,-
+82,25,MasterTrof,C1,AssayPlate,C1,-
+83,25,MasterTrof,D1,AssayPlate,D1,-
+84,25,MasterTrof,E1,AssayPlate,E1,-
+85,25,MasterTrof,F1,AssayPlate,F1,-
+86,25,MasterTrof,G1,AssayPlate,G1,-
+87,25,MasterTrof,H1,AssayPlate,H1,-
+88,25,MasterTrof,A1,AssayPlate,A1,-
+89,25,MasterTrof,B1,AssayPlate,B1,-
+90,25,MasterTrof,C1,AssayPlate,C1,-
+91,25,MasterTrof,D1,AssayPlate,D1,-
+92,25,MasterTrof,E1,AssayPlate,E1,-
+93,25,MasterTrof,F1,AssayPlate,F1,-
+94,25,MasterTrof,G1,AssayPlate,G1,-
+95,25,MasterTrof,H1,AssayPlate,H1,-
+96,25,MasterTrof,A1,AssayPlate,A1,-
+97,25,MasterTrof,B1,AssayPlate,B1,-
+98,25,MasterTrof,C1,AssayPlate,C1,-
+99,25,MasterTrof,D1,AssayPlate,D1,-
+100,25,MasterTrof,E1,AssayPlate,E1,-
+101,25,MasterTrof,F1,AssayPlate,F1,-
+102,25,MasterTrof,G1,AssayPlate,G1,-
+103,25,MasterTrof,H1,AssayPlate,H1,-
+104,25,MasterTrof,A1,AssayPlate,A1,-
+105,25,MasterTrof,B1,AssayPlate,B1,-
+106,25,MasterTrof,C1,AssayPlate,C1,-
+107,25,MasterTrof,D1,AssayPlate,D1,-
+108,25,MasterTrof,E1,AssayPlate,E1,-
+109,25,MasterTrof,F1,AssayPlate,F1,-
+110,25,MasterTrof,G1,AssayPlate,G1,-
+111,25,MasterTrof,H1,AssayPlate,H1,-
+112,25,MasterTrof,A1,AssayPlate,A1,-
+113,25,MasterTrof,B1,AssayPlate,B1,-
+114,25,MasterTrof,C1,AssayPlate,C1,-
+115,25,MasterTrof,D1,AssayPlate,D1,-
+116,25,MasterTrof,E1,AssayPlate,E1,-
+117,25,MasterTrof,F1,AssayPlate,F1,-
+118,25,MasterTrof,G1,AssayPlate,G1,-
+119,25,MasterTrof,H1,AssayPlate,H1,-
+120,25,MasterTrof,A1,AssayPlate,A1,-
+121,25,MasterTrof,B1,AssayPlate,B1,-
+122,25,MasterTrof,C1,AssayPlate,C1,-
+123,25,MasterTrof,D1,AssayPlate,D1,-
+124,25,MasterTrof,E1,AssayPlate,E1,-
+125,25,MasterTrof,F1,AssayPlate,F1,-
+126,25,MasterTrof,G1,AssayPlate,G1,-
+127,25,MasterTrof,H1,AssayPlate,H1,-
+128,25,MasterTrof,A1,AssayPlate,A1,-
+129,25,MasterTrof,B1,AssayPlate,B1,-
+130,25,MasterTrof,C1,AssayPlate,C1,-
+131,25,MasterTrof,D1,AssayPlate,D1,-
+132,25,MasterTrof,E1,AssayPlate,E1,-
+133,25,MasterTrof,F1,AssayPlate,F1,-
+134,25,MasterTrof,G1,AssayPlate,G1,-
+135,25,MasterTrof,H1,AssayPlate,H1,-
+136,25,MasterTrof,A1,AssayPlate,A1,-
+137,25,MasterTrof,B1,AssayPlate,B1,-
+138,25,MasterTrof,C1,AssayPlate,C1,-
+139,25,MasterTrof,D1,AssayPlate,D1,-
+140,25,MasterTrof,E1,AssayPlate,E1,-
+141,25,MasterTrof,F1,AssayPlate,F1,-
+142,25,MasterTrof,G1,AssayPlate,G1,-
+143,25,MasterTrof,H1,AssayPlate,H1,-
+144,25,MasterTrof,A1,AssayPlate,A1,-
+145,25,MasterTrof,B1,AssayPlate,B1,-
+146,25,MasterTrof,C1,AssayPlate,C1,-
+147,25,MasterTrof,D1,AssayPlate,D1,-
+148,25,MasterTrof,E1,AssayPlate,E1,-
+149,25,MasterTrof,F1,AssayPlate,F1,-
+150,25,MasterTrof,G1,AssayPlate,G1,-
+151,25,MasterTrof,H1,AssayPlate,H1,-
+152,25,MasterTrof,A1,AssayPlate,A2,-
+153,25,MasterTrof,B1,AssayPlate,B2,-
+154,25,MasterTrof,C1,AssayPlate,C2,-
+155,25,MasterTrof,D1,AssayPlate,D2,-
+156,25,MasterTrof,E1,AssayPlate,E2,-
+157,25,MasterTrof,F1,AssayPlate,F2,-
+158,25,MasterTrof,G1,AssayPlate,G2,-
+159,25,MasterTrof,H1,AssayPlate,H2,-
+160,25,MasterTrof,A1,AssayPlate,A2,-
+161,25,MasterTrof,B1,AssayPlate,B2,-
+162,25,MasterTrof,C1,AssayPlate,C2,-
+163,25,MasterTrof,D1,AssayPlate,D2,-
+164,25,MasterTrof,E1,AssayPlate,E2,-
+165,25,MasterTrof,F1,AssayPlate,F2,-
+166,25,MasterTrof,G1,AssayPlate,G2,-
+167,25,MasterTrof,H1,AssayPlate,H2,-
+168,25,MasterTrof,A1,AssayPlate,A2,-
+169,25,MasterTrof,B1,AssayPlate,B2,-
+170,25,MasterTrof,C1,AssayPlate,C2,-
+171,25,MasterTrof,D1,AssayPlate,D2,-
+172,25,MasterTrof,E1,AssayPlate,E2,-
+173,25,MasterTrof,F1,AssayPlate,F2,-
+174,25,MasterTrof,G1,AssayPlate,G2,-
+175,25,MasterTrof,H1,AssayPlate,H2,-
+176,25,MasterTrof,A1,AssayPlate,A2,-
+177,25,MasterTrof,B1,AssayPlate,B2,-
+178,25,MasterTrof,C1,AssayPlate,C2,-
+179,25,MasterTrof,D1,AssayPlate,D2,-
+180,25,MasterTrof,E1,AssayPlate,E2,-
+181,25,MasterTrof,F1,AssayPlate,F2,-
+182,25,MasterTrof,G1,AssayPlate,G2,-
+183,25,MasterTrof,H1,AssayPlate,H2,-
+184,25,MasterTrof,A1,AssayPlate,A2,-
+185,25,MasterTrof,B1,AssayPlate,B2,-
+186,25,MasterTrof,C1,AssayPlate,C2,-
+187,25,MasterTrof,D1,AssayPlate,D2,-
+188,25,MasterTrof,E1,AssayPlate,E2,-
+189,25,MasterTrof,F1,AssayPlate,F2,-
+190,25,MasterTrof,G1,AssayPlate,G2,-
+191,25,MasterTrof,H1,AssayPlate,H2,-
+192,25,MasterTrof,A1,AssayPlate,A1,Buffer
+193,25,MasterTrof,B1,AssayPlate,B1,Buffer
+194,25,MasterTrof,C1,AssayPlate,C1,Buffer
+195,25,MasterTrof,D1,AssayPlate,D1,Buffer
+196,25,MasterTrof,E1,AssayPlate,E1,Buffer
+197,25,MasterTrof,F1,AssayPlate,F1,Buffer
+198,25,MasterTrof,G1,AssayPlate,G1,Buffer
+199,25,MasterTrof,H1,AssayPlate,H1,Buffer
+200,25,MasterTrof,A1,AssayPlate,A2,Buffer
+201,25,MasterTrof,B1,AssayPlate,B2,Buffer
+202,25,MasterTrof,C1,AssayPlate,C2,Buffer
+203,25,MasterTrof,D1,AssayPlate,D2,Buffer
+204,25,MasterTrof,E1,AssayPlate,E2,Buffer
+205,25,MasterTrof,F1,AssayPlate,F2,Buffer
+206,25,MasterTrof,G1,AssayPlate,G2,Buffer
+207,25,MasterTrof,H1,AssayPlate,H2,Buffer
+208,25,MasterTrof,A1,AssayPlate,A3,Buffer
+209,25,MasterTrof,B1,AssayPlate,B3,Buffer
+210,25,MasterTrof,C1,AssayPlate,C3,Buffer
+211,25,MasterTrof,D1,AssayPlate,D3,Buffer
+212,25,MasterTrof,E1,AssayPlate,E3,Buffer
+213,25,MasterTrof,F1,AssayPlate,F3,Buffer
+214,25,MasterTrof,G1,AssayPlate,G3,Buffer
+215,25,MasterTrof,H1,AssayPlate,H3,Buffer
+216,25,MasterTrof,A1,AssayPlate,A4,Buffer
+217,25,MasterTrof,B1,AssayPlate,B4,Buffer
+218,25,MasterTrof,C1,AssayPlate,C4,Buffer
+219,25,MasterTrof,D1,AssayPlate,D4,Buffer
+220,25,MasterTrof,E1,AssayPlate,E4,Buffer
+221,25,MasterTrof,F1,AssayPlate,F4,Buffer
+222,25,MasterTrof,G1,AssayPlate,G4,Buffer
+223,25,MasterTrof,H1,AssayPlate,H4,Buffer
+224,25,MasterTrof,A1,AssayPlate,A5,Buffer
+225,25,MasterTrof,B1,AssayPlate,B5,Buffer
+226,25,MasterTrof,C1,AssayPlate,C5,Buffer
+227,25,MasterTrof,D1,AssayPlate,D5,Buffer
+228,25,MasterTrof,E1,AssayPlate,E5,Buffer
+229,25,MasterTrof,F1,AssayPlate,F5,Buffer
+230,25,MasterTrof,G1,AssayPlate,G5,Buffer
+231,25,MasterTrof,H1,AssayPlate,H5,Buffer
+232,25,MasterTrof,A1,AssayPlate,A6,Buffer
+233,25,MasterTrof,B1,AssayPlate,B6,Buffer
+234,25,MasterTrof,C1,AssayPlate,C6,Buffer
+235,25,MasterTrof,D1,AssayPlate,D6,Buffer
+236,25,MasterTrof,E1,AssayPlate,E6,Buffer
+237,25,MasterTrof,F1,AssayPlate,F6,Buffer
+238,25,MasterTrof,G1,AssayPlate,G6,Buffer
+239,25,MasterTrof,H1,AssayPlate,H6,Buffer
+240,25,MasterTrof,A1,AssayPlate,A7,Buffer
+241,25,MasterTrof,B1,AssayPlate,B7,Buffer
+242,25,MasterTrof,C1,AssayPlate,C7,Buffer
+243,25,MasterTrof,D1,AssayPlate,D7,Buffer
+244,25,MasterTrof,E1,AssayPlate,E7,Buffer
+245,25,MasterTrof,F1,AssayPlate,F7,Buffer
+246,25,MasterTrof,G1,AssayPlate,G7,Buffer
+247,25,MasterTrof,H1,AssayPlate,H7,Buffer
+248,25,MasterTrof,A1,AssayPlate,A8,Buffer
+249,25,MasterTrof,B1,AssayPlate,B8,Buffer
+250,25,MasterTrof,C1,AssayPlate,C8,Buffer
+251,25,MasterTrof,D1,AssayPlate,D8,Buffer
+252,25,MasterTrof,E1,AssayPlate,E8,Buffer
+253,25,MasterTrof,F1,AssayPlate,F8,Buffer
+254,25,MasterTrof,G1,AssayPlate,G8,Buffer
+255,25,MasterTrof,H1,AssayPlate,H8,Buffer
+256,25,MasterTrof,A1,AssayPlate,A9,Buffer
+257,25,MasterTrof,B1,AssayPlate,B9,Buffer
+258,25,MasterTrof,C1,AssayPlate,C9,Buffer
+259,25,MasterTrof,D1,AssayPlate,D9,Buffer
+260,25,MasterTrof,E1,AssayPlate,E9,Buffer
+261,25,MasterTrof,F1,AssayPlate,F9,Buffer
+262,25,MasterTrof,G1,AssayPlate,G9,Buffer
+263,25,MasterTrof,H1,AssayPlate,H9,Buffer
+264,25,MasterTrof,A1,AssayPlate,A1,Buffer
+265,25,MasterTrof,B1,AssayPlate,B1,Buffer
+266,25,MasterTrof,C1,AssayPlate,C1,Buffer
+267,25,MasterTrof,D1,AssayPlate,D1,Buffer
+268,25,MasterTrof,E1,AssayPlate,E1,Buffer
+269,25,MasterTrof,F1,AssayPlate,F1,Buffer
+270,25,MasterTrof,G1,AssayPlate,G1,Buffer
+271,25,MasterTrof,H1,AssayPlate,H1,Buffer
+272,25,MasterTrof,A1,AssayPlate,A1,Buffer
+273,25,MasterTrof,B1,AssayPlate,B1,Buffer
+274,25,MasterTrof,C1,AssayPlate,C1,Buffer
+275,25,MasterTrof,D1,AssayPlate,D1,Buffer
+276,25,MasterTrof,E1,AssayPlate,E1,Buffer
+277,25,MasterTrof,F1,AssayPlate,F1,Buffer
+278,25,MasterTrof,G1,AssayPlate,G1,Buffer
+279,25,MasterTrof,H1,AssayPlate,H1,Buffer
+280,25,MasterTrof,A1,AssayPlate,A1,Buffer
+281,25,MasterTrof,B1,AssayPlate,B1,Buffer
+282,25,MasterTrof,C1,AssayPlate,C1,Buffer
+283,25,MasterTrof,D1,AssayPlate,D1,Buffer
+284,25,MasterTrof,E1,AssayPlate,E1,Buffer
+285,25,MasterTrof,F1,AssayPlate,F1,Buffer
+286,25,MasterTrof,G1,AssayPlate,G1,Buffer
+287,25,MasterTrof,H1,AssayPlate,H1,Buffer
+288,25,MasterTrof,A1,AssayPlate,A1,Buffer
+289,25,MasterTrof,B1,AssayPlate,B1,Buffer
+290,25,MasterTrof,C1,AssayPlate,C1,Buffer
+291,25,MasterTrof,D1,AssayPlate,D1,Buffer
+292,25,MasterTrof,E1,AssayPlate,E1,Buffer
+293,25,MasterTrof,F1,AssayPlate,F1,Buffer
+294,25,MasterTrof,G1,AssayPlate,G1,Buffer
+295,25,MasterTrof,H1,AssayPlate,H1,Buffer
+296,25,MasterTrof,A1,AssayPlate,A1,Buffer
+297,25,MasterTrof,B1,AssayPlate,B1,Buffer
+298,25,MasterTrof,C1,AssayPlate,C1,Buffer
+299,25,MasterTrof,D1,AssayPlate,D1,Buffer
+300,25,MasterTrof,E1,AssayPlate,E1,Buffer
+301,25,MasterTrof,F1,AssayPlate,F1,Buffer
+302,25,MasterTrof,G1,AssayPlate,G1,Buffer
+303,25,MasterTrof,H1,AssayPlate,H1,Buffer
+304,25,MasterTrof,A1,AssayPlate,A1,Buffer
+305,25,MasterTrof,B1,AssayPlate,B1,Buffer
+306,25,MasterTrof,C1,AssayPlate,C1,Buffer
+307,25,MasterTrof,D1,AssayPlate,D1,Buffer
+308,25,MasterTrof,E1,AssayPlate,E1,Buffer
+309,25,MasterTrof,F1,AssayPlate,F1,Buffer
+310,25,MasterTrof,G1,AssayPlate,G1,Buffer
+311,25,MasterTrof,H1,AssayPlate,H1,Buffer
+312,25,MasterTrof,A1,AssayPlate,A1,Buffer
+313,25,MasterTrof,B1,AssayPlate,B1,Buffer
+314,25,MasterTrof,C1,AssayPlate,C1,Buffer
+315,25,MasterTrof,D1,AssayPlate,D1,Buffer
+316,25,MasterTrof,E1,AssayPlate,E1,Buffer
+317,25,MasterTrof,F1,AssayPlate,F1,Buffer
+318,25,MasterTrof,G1,AssayPlate,G1,Buffer
+319,25,MasterTrof,H1,AssayPlate,H1,Buffer
+320,25,MasterTrof,A1,AssayPlate,A1,Buffer
+321,25,MasterTrof,B1,AssayPlate,B1,Buffer
+322,25,MasterTrof,C1,AssayPlate,C1,Buffer
+323,25,MasterTrof,D1,AssayPlate,D1,Buffer
+324,25,MasterTrof,E1,AssayPlate,E1,Buffer
+325,25,MasterTrof,F1,AssayPlate,F1,Buffer
+326,25,MasterTrof,G1,AssayPlate,G1,Buffer
+327,25,MasterTrof,H1,AssayPlate,H1,Buffer
+328,25,MasterTrof,A1,AssayPlate,A1,Buffer
+329,25,MasterTrof,B1,AssayPlate,B1,Buffer
+330,25,MasterTrof,C1,AssayPlate,C1,Buffer
+331,25,MasterTrof,D1,AssayPlate,D1,Buffer
+332,25,MasterTrof,E1,AssayPlate,E1,Buffer
+333,25,MasterTrof,F1,AssayPlate,F1,Buffer
+334,25,MasterTrof,G1,AssayPlate,G1,Buffer
+335,25,MasterTrof,H1,AssayPlate,H1,Buffer
+336,25,MasterTrof,A1,AssayPlate,A1,Buffer
+337,25,MasterTrof,B1,AssayPlate,B1,Buffer
+338,25,MasterTrof,C1,AssayPlate,C1,Buffer
+339,25,MasterTrof,D1,AssayPlate,D1,Buffer
+340,25,MasterTrof,E1,AssayPlate,E1,Buffer
+341,25,MasterTrof,F1,AssayPlate,F1,Buffer
+342,25,MasterTrof,G1,AssayPlate,G1,Buffer
+343,25,MasterTrof,H1,AssayPlate,H1,Buffer
+344,25,MasterTrof,A1,AssayPlate,A2,Buffer
+345,25,MasterTrof,B1,AssayPlate,B2,Buffer
+346,25,MasterTrof,C1,AssayPlate,C2,Buffer
+347,25,MasterTrof,D1,AssayPlate,D2,Buffer
+348,25,MasterTrof,E1,AssayPlate,E2,Buffer
+349,25,MasterTrof,F1,AssayPlate,F2,Buffer
+350,25,MasterTrof,G1,AssayPlate,G2,Buffer
+351,25,MasterTrof,H1,AssayPlate,H2,Buffer
+352,25,MasterTrof,A1,AssayPlate,A2,Buffer
+353,25,MasterTrof,B1,AssayPlate,B2,Buffer
+354,25,MasterTrof,C1,AssayPlate,C2,Buffer
+355,25,MasterTrof,D1,AssayPlate,D2,Buffer
+356,25,MasterTrof,E1,AssayPlate,E2,Buffer
+357,25,MasterTrof,F1,AssayPlate,F2,Buffer
+358,25,MasterTrof,G1,AssayPlate,G2,Buffer
+359,25,MasterTrof,H1,AssayPlate,H2,Buffer
+360,25,MasterTrof,A1,AssayPlate,A2,Buffer
+361,25,MasterTrof,B1,AssayPlate,B2,Buffer
+362,25,MasterTrof,C1,AssayPlate,C2,Buffer
+363,25,MasterTrof,D1,AssayPlate,D2,Buffer
+364,25,MasterTrof,E1,AssayPlate,E2,Buffer
+365,25,MasterTrof,F1,AssayPlate,F2,Buffer
+366,25,MasterTrof,G1,AssayPlate,G2,Buffer
+367,25,MasterTrof,H1,AssayPlate,H2,Buffer
+368,25,MasterTrof,A1,AssayPlate,A2,Buffer
+369,25,MasterTrof,B1,AssayPlate,B2,Buffer
+370,25,MasterTrof,C1,AssayPlate,C2,Buffer
+371,25,MasterTrof,D1,AssayPlate,D2,Buffer
+372,25,MasterTrof,E1,AssayPlate,E2,Buffer
+373,25,MasterTrof,F1,AssayPlate,F2,Buffer
+374,25,MasterTrof,G1,AssayPlate,G2,Buffer
+375,25,MasterTrof,H1,AssayPlate,H2,Buffer
+376,25,MasterTrof,A1,AssayPlate,A2,Buffer
+377,25,MasterTrof,B1,AssayPlate,B2,Buffer
+378,25,MasterTrof,C1,AssayPlate,C2,Buffer
+379,25,MasterTrof,D1,AssayPlate,D2,Buffer
+380,25,MasterTrof,E1,AssayPlate,E2,Buffer
+381,25,MasterTrof,F1,AssayPlate,F2,Buffer
+382,25,MasterTrof,G1,AssayPlate,G2,Buffer
+383,25,MasterTrof,H1,AssayPlate,H2,Buffer
+384,25,compound_source,A6,AssayPlate,A1,DMSO
+385,25,compound_source,B6,AssayPlate,B1,DMSO
+386,25,compound_source,C6,AssayPlate,C1,DMSO
+387,25,compound_source,D6,AssayPlate,D1,DMSO
+388,25,compound_source,E6,AssayPlate,E1,DMSO
+389,25,compound_source,F6,AssayPlate,F1,DMSO
+390,25,compound_source,G6,AssayPlate,G1,DMSO
+391,25,compound_source,H6,AssayPlate,H1,DMSO
+392,25,compound_source,A6,AssayPlate,A1,DMSO
+393,25,compound_source,B6,AssayPlate,B1,DMSO
+394,25,compound_source,C6,AssayPlate,C1,DMSO
+395,25,compound_source,D6,AssayPlate,D1,DMSO
+396,25,compound_source,E6,AssayPlate,E1,DMSO
+397,25,compound_source,F6,AssayPlate,F1,DMSO
+398,25,compound_source,G6,AssayPlate,G1,DMSO
+399,25,compound_source,H6,AssayPlate,H1,DMSO
+400,25,compound_source,A6,AssayPlate,A2,Arachadonic acid
+401,25,compound_source,B6,AssayPlate,B2,Arachadonic acid
+402,25,compound_source,C6,AssayPlate,C2,Arachadonic acid
+403,25,compound_source,D6,AssayPlate,D2,Arachadonic acid
+404,25,compound_source,E6,AssayPlate,E2,Arachadonic acid
+405,25,compound_source,F6,AssayPlate,F2,Arachadonic acid
+406,25,compound_source,G6,AssayPlate,G2,Arachadonic acid
+407,25,compound_source,H6,AssayPlate,H2,Arachadonic acid
+408,25,compound_source,A6,AssayPlate,A2,Arachadonic acid
+409,25,compound_source,B6,AssayPlate,B2,Arachadonic acid
+410,25,compound_source,C6,AssayPlate,C2,Arachadonic acid
+411,25,compound_source,D6,AssayPlate,D2,Arachadonic acid
+412,25,compound_source,E6,AssayPlate,E2,Arachadonic acid
+413,25,compound_source,F6,AssayPlate,F2,Arachadonic acid
+414,25,compound_source,G6,AssayPlate,G2,Arachadonic acid
+415,25,compound_source,H6,AssayPlate,H2,Arachadonic acid
+416,25,compound_source,A6,AssayPlate,A3,Arachadonic acid
+417,25,compound_source,B6,AssayPlate,B3,Arachadonic acid
+418,25,compound_source,C6,AssayPlate,C3,Arachadonic acid
+419,25,compound_source,D6,AssayPlate,D3,Arachadonic acid
+420,25,compound_source,E6,AssayPlate,E3,Arachadonic acid
+421,25,compound_source,F6,AssayPlate,F3,Arachadonic acid
+422,25,compound_source,G6,AssayPlate,G3,Arachadonic acid
+423,25,compound_source,H6,AssayPlate,H3,Arachadonic acid
+424,25,compound_source,A6,AssayPlate,A3,Arachadonic acid
+425,25,compound_source,B6,AssayPlate,B3,Arachadonic acid
+426,25,compound_source,C6,AssayPlate,C3,Arachadonic acid
+427,25,compound_source,D6,AssayPlate,D3,Arachadonic acid
+428,25,compound_source,E6,AssayPlate,E3,Arachadonic acid
+429,25,compound_source,F6,AssayPlate,F3,Arachadonic acid
+430,25,compound_source,G6,AssayPlate,G3,Arachadonic acid
+431,25,compound_source,H6,AssayPlate,H3,Arachadonic acid
+432,25,compound_source,A6,AssayPlate,A4,Arachadonic acid
+433,25,compound_source,B6,AssayPlate,B4,Arachadonic acid
+434,25,compound_source,C6,AssayPlate,C4,Arachadonic acid
+435,25,compound_source,D6,AssayPlate,D4,Arachadonic acid
+436,25,compound_source,E6,AssayPlate,E4,Arachadonic acid
+437,25,compound_source,F6,AssayPlate,F4,Arachadonic acid
+438,25,compound_source,G6,AssayPlate,G4,Arachadonic acid
+439,25,compound_source,H6,AssayPlate,H4,Arachadonic acid
+440,25,compound_source,A6,AssayPlate,A4,Arachadonic acid
+441,25,compound_source,B6,AssayPlate,B4,Arachadonic acid
+442,25,compound_source,C6,AssayPlate,C4,Arachadonic acid
+443,25,compound_source,D6,AssayPlate,D4,Arachadonic acid
+444,25,compound_source,E6,AssayPlate,E4,Arachadonic acid
+445,25,compound_source,F6,AssayPlate,F4,Arachadonic acid
+446,25,compound_source,G6,AssayPlate,G4,Arachadonic acid
+447,25,compound_source,H6,AssayPlate,H4,Arachadonic acid
+448,25,compound_source,A6,AssayPlate,A5,Arachadonic acid
+449,25,compound_source,B6,AssayPlate,B5,Arachadonic acid
+450,25,compound_source,C6,AssayPlate,C5,Arachadonic acid
+451,25,compound_source,D6,AssayPlate,D5,Arachadonic acid
+452,25,compound_source,E6,AssayPlate,E5,Arachadonic acid
+453,25,compound_source,F6,AssayPlate,F5,Arachadonic acid
+454,25,compound_source,G6,AssayPlate,G5,Arachadonic acid
+455,25,compound_source,H6,AssayPlate,H5,Arachadonic acid
+456,25,compound_source,A6,AssayPlate,A5,Arachadonic acid
+457,25,compound_source,B6,AssayPlate,B5,Arachadonic acid
+458,25,compound_source,C6,AssayPlate,C5,Arachadonic acid
+459,25,compound_source,D6,AssayPlate,D5,Arachadonic acid
+460,25,compound_source,E6,AssayPlate,E5,Arachadonic acid
+461,25,compound_source,F6,AssayPlate,F5,Arachadonic acid
+462,25,compound_source,G6,AssayPlate,G5,Arachadonic acid
+463,25,compound_source,H6,AssayPlate,H5,Arachadonic acid
+464,25,compound_source,A6,AssayPlate,A6,Arachadonic acid
+465,25,compound_source,B6,AssayPlate,B6,Arachadonic acid
+466,25,compound_source,C6,AssayPlate,C6,Arachadonic acid
+467,25,compound_source,D6,AssayPlate,D6,Arachadonic acid
+468,25,compound_source,E6,AssayPlate,E6,Arachadonic acid
+469,25,compound_source,F6,AssayPlate,F6,Arachadonic acid
+470,25,compound_source,G6,AssayPlate,G6,Arachadonic acid
+471,25,compound_source,H6,AssayPlate,H6,Arachadonic acid
+472,25,compound_source,A6,AssayPlate,A6,Arachadonic acid
+473,25,compound_source,B6,AssayPlate,B6,Arachadonic acid
+474,25,compound_source,C6,AssayPlate,C6,Arachadonic acid
+475,25,compound_source,D6,AssayPlate,D6,Arachadonic acid
+476,25,compound_source,E6,AssayPlate,E6,Arachadonic acid
+477,25,compound_source,F6,AssayPlate,F6,Arachadonic acid
+478,25,compound_source,G6,AssayPlate,G6,Arachadonic acid
+479,25,compound_source,H6,AssayPlate,H6,Arachadonic acid
+480,25,compound_source,A6,AssayPlate,A7,Arachadonic acid
+481,25,compound_source,B6,AssayPlate,B7,Arachadonic acid
+482,25,compound_source,C6,AssayPlate,C7,Arachadonic acid
+483,25,compound_source,D6,AssayPlate,D7,Arachadonic acid
+484,25,compound_source,E6,AssayPlate,E7,Arachadonic acid
+485,25,compound_source,F6,AssayPlate,F7,Arachadonic acid
+486,25,compound_source,G6,AssayPlate,G7,Arachadonic acid
+487,25,compound_source,H6,AssayPlate,H7,Arachadonic acid
+488,25,compound_source,A6,AssayPlate,A7,Arachadonic acid
+489,25,compound_source,B6,AssayPlate,B7,Arachadonic acid
+490,25,compound_source,C6,AssayPlate,C7,Arachadonic acid
+491,25,compound_source,D6,AssayPlate,D7,Arachadonic acid
+492,25,compound_source,E6,AssayPlate,E7,Arachadonic acid
+493,25,compound_source,F6,AssayPlate,F7,Arachadonic acid
+494,25,compound_source,G6,AssayPlate,G7,Arachadonic acid
+495,25,compound_source,H6,AssayPlate,H7,Arachadonic acid
+496,25,compound_source,A7,AssayPlate,A8,Lauric Acid
+497,25,compound_source,B7,AssayPlate,B8,Lauric Acid
+498,25,compound_source,C7,AssayPlate,C8,Lauric Acid
+499,25,compound_source,D7,AssayPlate,D8,Lauric Acid
+500,25,compound_source,E7,AssayPlate,E8,Lauric Acid
+501,25,compound_source,F7,AssayPlate,F8,Lauric Acid
+502,25,compound_source,G7,AssayPlate,G8,Lauric Acid
+503,25,compound_source,H7,AssayPlate,H8,Lauric Acid
+504,25,compound_source,A7,AssayPlate,A8,Lauric Acid
+505,25,compound_source,B7,AssayPlate,B8,Lauric Acid
+506,25,compound_source,C7,AssayPlate,C8,Lauric Acid
+507,25,compound_source,D7,AssayPlate,D8,Lauric Acid
+508,25,compound_source,E7,AssayPlate,E8,Lauric Acid
+509,25,compound_source,F7,AssayPlate,F8,Lauric Acid
+510,25,compound_source,G7,AssayPlate,G8,Lauric Acid
+511,25,compound_source,H7,AssayPlate,H8,Lauric Acid
+512,25,compound_source,A7,AssayPlate,A9,Lauric Acid
+513,25,compound_source,B7,AssayPlate,B9,Lauric Acid
+514,25,compound_source,C7,AssayPlate,C9,Lauric Acid
+515,25,compound_source,D7,AssayPlate,D9,Lauric Acid
+516,25,compound_source,E7,AssayPlate,E9,Lauric Acid
+517,25,compound_source,F7,AssayPlate,F9,Lauric Acid
+518,25,compound_source,G7,AssayPlate,G9,Lauric Acid
+519,25,compound_source,H7,AssayPlate,H9,Lauric Acid
+520,25,compound_source,A7,AssayPlate,A9,Lauric Acid
+521,25,compound_source,B7,AssayPlate,B9,Lauric Acid
+522,25,compound_source,C7,AssayPlate,C9,Lauric Acid
+523,25,compound_source,D7,AssayPlate,D9,Lauric Acid
+524,25,compound_source,E7,AssayPlate,E9,Lauric Acid
+525,25,compound_source,F7,AssayPlate,F9,Lauric Acid
+526,25,compound_source,G7,AssayPlate,G9,Lauric Acid
+527,25,compound_source,H7,AssayPlate,H9,Lauric Acid
+528,25,compound_source,A7,AssayPlate,A1,Lauric Acid
+529,25,compound_source,B7,AssayPlate,B1,Lauric Acid
+530,25,compound_source,C7,AssayPlate,C1,Lauric Acid
+531,25,compound_source,D7,AssayPlate,D1,Lauric Acid
+532,25,compound_source,E7,AssayPlate,E1,Lauric Acid
+533,25,compound_source,F7,AssayPlate,F1,Lauric Acid
+534,25,compound_source,G7,AssayPlate,G1,Lauric Acid
+535,25,compound_source,H7,AssayPlate,H1,Lauric Acid
+536,25,compound_source,A7,AssayPlate,A1,Lauric Acid
+537,25,compound_source,B7,AssayPlate,B1,Lauric Acid
+538,25,compound_source,C7,AssayPlate,C1,Lauric Acid
+539,25,compound_source,D7,AssayPlate,D1,Lauric Acid
+540,25,compound_source,E7,AssayPlate,E1,Lauric Acid
+541,25,compound_source,F7,AssayPlate,F1,Lauric Acid
+542,25,compound_source,G7,AssayPlate,G1,Lauric Acid
+543,25,compound_source,H7,AssayPlate,H1,Lauric Acid
+544,25,compound_source,A7,AssayPlate,A1,Lauric Acid
+545,25,compound_source,B7,AssayPlate,B1,Lauric Acid
+546,25,compound_source,C7,AssayPlate,C1,Lauric Acid
+547,25,compound_source,D7,AssayPlate,D1,Lauric Acid
+548,25,compound_source,E7,AssayPlate,E1,Lauric Acid
+549,25,compound_source,F7,AssayPlate,F1,Lauric Acid
+550,25,compound_source,G7,AssayPlate,G1,Lauric Acid
+551,25,compound_source,H7,AssayPlate,H1,Lauric Acid
+552,25,compound_source,A7,AssayPlate,A1,Lauric Acid
+553,25,compound_source,B7,AssayPlate,B1,Lauric Acid
+554,25,compound_source,C7,AssayPlate,C1,Lauric Acid
+555,25,compound_source,D7,AssayPlate,D1,Lauric Acid
+556,25,compound_source,E7,AssayPlate,E1,Lauric Acid
+557,25,compound_source,F7,AssayPlate,F1,Lauric Acid
+558,25,compound_source,G7,AssayPlate,G1,Lauric Acid
+559,25,compound_source,H7,AssayPlate,H1,Lauric Acid
+560,25,compound_source,A7,AssayPlate,A1,Lauric Acid
+561,25,compound_source,B7,AssayPlate,B1,Lauric Acid
+562,25,compound_source,C7,AssayPlate,C1,Lauric Acid
+563,25,compound_source,D7,AssayPlate,D1,Lauric Acid
+564,25,compound_source,E7,AssayPlate,E1,Lauric Acid
+565,25,compound_source,F7,AssayPlate,F1,Lauric Acid
+566,25,compound_source,G7,AssayPlate,G1,Lauric Acid
+567,25,compound_source,H7,AssayPlate,H1,Lauric Acid
+568,25,compound_source,A7,AssayPlate,A1,Lauric Acid
+569,25,compound_source,B7,AssayPlate,B1,Lauric Acid
+570,25,compound_source,C7,AssayPlate,C1,Lauric Acid
+571,25,compound_source,D7,AssayPlate,D1,Lauric Acid
+572,25,compound_source,E7,AssayPlate,E1,Lauric Acid
+573,25,compound_source,F7,AssayPlate,F1,Lauric Acid
+574,25,compound_source,G7,AssayPlate,G1,Lauric Acid
+575,25,compound_source,H7,AssayPlate,H1,Lauric Acid
+576,25,compound_source,A7,AssayPlate,A1,Lauric Acid
+577,25,compound_source,B7,AssayPlate,B1,Lauric Acid
+578,25,compound_source,C7,AssayPlate,C1,Lauric Acid
+579,25,compound_source,D7,AssayPlate,D1,Lauric Acid
+580,25,compound_source,E7,AssayPlate,E1,Lauric Acid
+581,25,compound_source,F7,AssayPlate,F1,Lauric Acid
+582,25,compound_source,G7,AssayPlate,G1,Lauric Acid
+583,25,compound_source,H7,AssayPlate,H1,Lauric Acid
+584,25,compound_source,A7,AssayPlate,A1,Lauric Acid
+585,25,compound_source,B7,AssayPlate,B1,Lauric Acid
+586,25,compound_source,C7,AssayPlate,C1,Lauric Acid
+587,25,compound_source,D7,AssayPlate,D1,Lauric Acid
+588,25,compound_source,E7,AssayPlate,E1,Lauric Acid
+589,25,compound_source,F7,AssayPlate,F1,Lauric Acid
+590,25,compound_source,G7,AssayPlate,G1,Lauric Acid
+591,25,compound_source,H7,AssayPlate,H1,Lauric Acid
+592,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+593,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+594,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+595,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+596,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+597,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+598,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+599,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+600,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+601,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+602,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+603,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+604,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+605,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+606,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+607,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+608,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+609,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+610,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+611,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+612,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+613,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+614,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+615,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+616,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+617,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+618,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+619,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+620,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+621,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+622,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+623,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+624,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+625,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+626,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+627,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+628,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+629,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+630,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+631,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+632,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+633,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+634,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+635,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+636,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+637,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+638,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+639,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+640,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+641,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+642,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+643,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+644,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+645,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+646,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+647,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+648,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+649,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+650,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+651,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+652,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+653,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+654,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+655,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+656,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+657,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+658,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+659,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+660,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+661,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+662,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+663,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+664,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+665,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+666,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+667,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+668,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+669,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+670,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+671,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+672,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+673,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+674,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+675,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+676,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+677,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+678,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+679,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+680,25,compound_source,A8,AssayPlate,A1,Palmitic Acid
+681,25,compound_source,B8,AssayPlate,B1,Palmitic Acid
+682,25,compound_source,C8,AssayPlate,C1,Palmitic Acid
+683,25,compound_source,D8,AssayPlate,D1,Palmitic Acid
+684,25,compound_source,E8,AssayPlate,E1,Palmitic Acid
+685,25,compound_source,F8,AssayPlate,F1,Palmitic Acid
+686,25,compound_source,G8,AssayPlate,G1,Palmitic Acid
+687,25,compound_source,H8,AssayPlate,H1,Palmitic Acid
+688,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+689,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+690,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+691,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+692,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+693,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+694,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+695,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+696,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+697,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+698,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+699,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+700,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+701,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+702,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+703,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+704,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+705,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+706,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+707,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+708,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+709,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+710,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+711,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+712,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+713,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+714,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+715,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+716,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+717,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+718,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+719,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+720,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+721,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+722,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+723,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+724,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+725,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+726,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+727,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+728,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+729,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+730,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+731,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+732,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+733,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+734,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+735,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+736,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+737,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+738,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+739,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+740,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+741,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+742,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+743,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+744,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+745,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+746,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+747,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+748,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+749,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+750,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+751,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+752,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+753,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+754,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+755,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+756,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+757,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+758,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+759,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole
+760,25,compound_source,A9,AssayPlate,A2,4-Phenylimidazole
+761,25,compound_source,B9,AssayPlate,B2,4-Phenylimidazole
+762,25,compound_source,C9,AssayPlate,C2,4-Phenylimidazole
+763,25,compound_source,D9,AssayPlate,D2,4-Phenylimidazole
+764,25,compound_source,E9,AssayPlate,E2,4-Phenylimidazole
+765,25,compound_source,F9,AssayPlate,F2,4-Phenylimidazole
+766,25,compound_source,G9,AssayPlate,G2,4-Phenylimidazole
+767,25,compound_source,H9,AssayPlate,H2,4-Phenylimidazole

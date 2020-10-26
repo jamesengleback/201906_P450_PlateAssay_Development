@@ -1,0 +1,160 @@
+﻿<?xml version="1.0"?>
+<transfer style="startstop" date="2019-12-21 17:52:35.000" serial_number="E6XX-19002" vtl="0" frmt="1" expbottof="31.8">
+     <plateInfo>
+          <plate type="source" name="384PP_DMSO2" barcode="UnknownBarCode" />
+          <plate type="destination" name="384PP_Dest" barcode="UnknownBarCode" />
+     </plateInfo>
+     <printmap total="8">
+          <w n="D8" r="3" c="7" dn="L16" dr="11" dc="15" t="17:52:13.591" cvl="43.2" vl="44.582" vt="1382.5" avt="1382.5" gx="77859.256" gy="58135.619" tz="7188.899" oid="1" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.903" fc="97.171" ft="2.916" ct="2.815" sv="1508.097" tof="32.457" eo="60.032" aa="1.776" cf="12.494" reason="" />
+          <w n="D8" r="3" c="7" dn="M16" dr="12" dc="15" t="17:52:16.910" cvl="41.98" vl="44.582" vt="1220" avt="1220" gx="77859.256" gy="58135.619" tz="7085.685" oid="2" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.903" fc="97.171" ft="2.916" ct="2.726" sv="1508.097" tof="32.461" eo="59.446" aa="1.769" cf="12.494" reason="" />
+          <w n="D8" r="3" c="7" dn="N16" dr="13" dc="15" t="17:52:19.553" cvl="41.027" vl="44.582" vt="952.5" avt="952.5" gx="77859.256" gy="58135.619" tz="7069.251" oid="3" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.903" fc="97.171" ft="2.916" ct="2.656" sv="1508.097" tof="32.465" eo="59.344" aa="1.759" cf="12.494" reason="" />
+          <w n="D8" r="3" c="7" dn="O16" dr="14" dc="15" t="17:52:21.584" cvl="40.472" vl="44.582" vt="555" avt="555" gx="77859.256" gy="58135.619" tz="6998.102" oid="4" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.903" fc="97.171" ft="2.916" ct="2.615" sv="1508.097" tof="32.469" eo="58.903" aa="1.767" cf="12.494" reason="" />
+          <w n="D8" r="3" c="7" dn="O15" dr="14" dc="14" t="17:52:22.894" cvl="39.917" vl="44.582" vt="555" avt="555" gx="77859.256" gy="58135.619" tz="6956.567" oid="5" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.903" fc="97.171" ft="2.916" ct="2.575" sv="1508.097" tof="32.471" eo="58.568" aa="1.765" cf="12.494" reason="" />
+          <w n="D8" r="3" c="7" dn="N15" dr="13" dc="14" t="17:52:24.204" cvl="38.965" vl="44.582" vt="952.5" avt="952.5" gx="77859.256" gy="58135.619" tz="6915" oid="6" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.903" fc="97.171" ft="2.916" ct="2.505" sv="1508.097" tof="32.472" eo="58.218" aa="1.774" cf="12.494" reason="" />
+          <w n="D8" r="3" c="7" dn="M15" dr="12" dc="14" t="17:52:26.308" cvl="37.745" vl="44.582" vt="1220" avt="1220" gx="77859.256" gy="58135.619" tz="6768.426" oid="7" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.903" fc="97.171" ft="2.916" ct="2.415" sv="1508.097" tof="32.476" eo="56.983" aa="1.764" cf="12.494" reason="" />
+          <w n="D8" r="3" c="7" dn="A17" dr="0" dc="16" t="17:52:29.023" cvl="35.745" vl="44.582" vt="2000" avt="2000" gx="77859.256" gy="58135.619" tz="6676.841" oid="8" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.903" fc="97.171" ft="2.916" ct="2.268" sv="1508.097" tof="32.48" eo="56.211" aa="1.782" cf="12.494" reason="" />
+     </printmap>
+     <skippedwells total="8">
+          <w n="C3" r="2" c="2" dn="M16" dr="12" dc="15" t="17:52:33.681" cvl="8.571" vl="8.571" vt="280" gx="55455.979" gy="62617.619" oid="9" tag="" fld="DMSO" fldu="Percent" dx="0" dy="0" memt="0.9" fc="91.061" ft="0.448" ct="0.448" avt="0" reason="MM0202006: Problem calc. eo fc: 1.70615 ft: 0.448794" />
+          <w n="C3" r="2" c="2" dn="N16" dr="13" dc="15" t="17:52:34.341" cvl="8.571" vl="8.571" vt="547.5" gx="55455.979" gy="62617.619" oid="10" tag="" fld="DMSO" fldu="Percent" dx="0" dy="0" memt="0.9" fc="91.061" ft="0.448" ct="0.448" avt="0" reason="MM0202006: Problem calc. eo fc: 1.70615 ft: 0.448794" />
+          <w n="C3" r="2" c="2" dn="O16" dr="14" dc="15" t="17:52:34.451" cvl="8.571" vl="8.571" vt="945" gx="55455.979" gy="62617.619" oid="11" tag="" fld="DMSO" fldu="Percent" dx="0" dy="0" memt="0.9" fc="91.061" ft="0.448" ct="0.448" avt="0" reason="MM0202006: Problem calc. eo fc: 1.70615 ft: 0.448794" />
+          <w n="C3" r="2" c="2" dn="P16" dr="15" dc="15" t="17:52:34.562" cvl="8.571" vl="8.571" vt="1500" gx="55455.979" gy="62617.619" oid="12" tag="" fld="DMSO" fldu="Percent" dx="0" dy="0" memt="0.9" fc="91.061" ft="0.448" ct="0.448" avt="0" reason="MM0202006: Problem calc. eo fc: 1.70615 ft: 0.448794" />
+          <w n="C3" r="2" c="2" dn="P15" dr="15" dc="14" t="17:52:34.673" cvl="8.571" vl="8.571" vt="1500" gx="55455.979" gy="62617.619" oid="13" tag="" fld="DMSO" fldu="Percent" dx="0" dy="0" memt="0.9" fc="91.061" ft="0.448" ct="0.448" avt="0" reason="MM0202006: Problem calc. eo fc: 1.70615 ft: 0.448794" />
+          <w n="C3" r="2" c="2" dn="O15" dr="14" dc="14" t="17:52:34.785" cvl="8.571" vl="8.571" vt="945" gx="55455.979" gy="62617.619" oid="14" tag="" fld="DMSO" fldu="Percent" dx="0" dy="0" memt="0.9" fc="91.061" ft="0.448" ct="0.448" avt="0" reason="MM0202006: Problem calc. eo fc: 1.70615 ft: 0.448794" />
+          <w n="C3" r="2" c="2" dn="N15" dr="13" dc="14" t="17:52:34.896" cvl="8.571" vl="8.571" vt="547.5" gx="55455.979" gy="62617.619" oid="15" tag="" fld="DMSO" fldu="Percent" dx="0" dy="0" memt="0.9" fc="91.061" ft="0.448" ct="0.448" avt="0" reason="MM0202006: Problem calc. eo fc: 1.70615 ft: 0.448794" />
+          <w n="C3" r="2" c="2" dn="M15" dr="12" dc="14" t="17:52:35.007" cvl="8.571" vl="8.571" vt="280" gx="55455.979" gy="62617.619" oid="16" tag="" fld="DMSO" fldu="Percent" dx="0" dy="0" memt="0.9" fc="91.061" ft="0.448" ct="0.448" avt="0" reason="MM0202006: Problem calc. eo fc: 1.70615 ft: 0.448794" />
+     </skippedwells>
+     <platemap>
+          <fluidcompositionmethod v="PlateSignature" />
+          <fluidcompositionmin v="73.902" />
+          <fluidcompositionmax v="97.889" />
+          <fluidcompositionave v="90.924" />
+          <composition rows="4" cols="10">
+               <w n="A2" r="0" c="1" com="73.902" />
+               <w n="A4" r="0" c="3" com="77.483" />
+               <w n="A5" r="0" c="4" com="78.212" />
+               <w n="A6" r="0" c="5" com="79.015" />
+               <w n="A7" r="0" c="6" com="82.559" />
+               <w n="A8" r="0" c="7" com="83.726" />
+               <w n="A9" r="0" c="8" com="82.613" />
+               <w n="B1" r="1" c="0" com="89.992" />
+               <w n="B2" r="1" c="1" com="91.061" />
+               <w n="B3" r="1" c="2" com="90.869" />
+               <w n="B4" r="1" c="3" com="92.377" />
+               <w n="B5" r="1" c="4" com="91.673" />
+               <w n="B6" r="1" c="5" com="92.093" />
+               <w n="B7" r="1" c="6" com="91.255" />
+               <w n="B8" r="1" c="7" com="91.145" />
+               <w n="C1" r="2" c="0" com="95.902" />
+               <w n="C2" r="2" c="1" com="95.706" />
+               <w n="C3" r="2" c="2" com="95.673" />
+               <w n="C4" r="2" c="3" com="96.036" />
+               <w n="C5" r="2" c="4" com="97.876" />
+               <w n="C6" r="2" c="5" com="97.77" />
+               <w n="C7" r="2" c="6" com="97.171" />
+               <w n="C8" r="2" c="7" com="97.889" />
+               <w n="C9" r="2" c="8" com="97.433" />
+               <w n="C10" r="2" c="9" com="96.697" />
+          </composition>
+          <fcthickness rows="4" cols="10">
+               <w n="A2" r="0" c="1" ft="0.288" />
+               <w n="A4" r="0" c="3" ft="0.362" />
+               <w n="A5" r="0" c="4" ft="0.369" />
+               <w n="A6" r="0" c="5" ft="0.415" />
+               <w n="A7" r="0" c="6" ft="3.574" />
+               <w n="A8" r="0" c="7" ft="4.678" />
+               <w n="A9" r="0" c="8" ft="4.713" />
+               <w n="B1" r="1" c="0" ft="0.45" />
+               <w n="B2" r="1" c="1" ft="0.448" />
+               <w n="B3" r="1" c="2" ft="4.291" />
+               <w n="B4" r="1" c="3" ft="4.32" />
+               <w n="B5" r="1" c="4" ft="4.292" />
+               <w n="B6" r="1" c="5" ft="4.32" />
+               <w n="B7" r="1" c="6" ft="4.374" />
+               <w n="B8" r="1" c="7" ft="4.381" />
+               <w n="C1" r="2" c="0" ft="0.507" />
+               <w n="C2" r="2" c="1" ft="0.45" />
+               <w n="C3" r="2" c="2" ft="0.491" />
+               <w n="C4" r="2" c="3" ft="0.415" />
+               <w n="C5" r="2" c="4" ft="0.416" />
+               <w n="C6" r="2" c="5" ft="0.421" />
+               <w n="C7" r="2" c="6" ft="2.916" />
+               <w n="C8" r="2" c="7" ft="4.412" />
+               <w n="C9" r="2" c="8" ft="4.454" />
+               <w n="C10" r="2" c="9" ft="4.432" />
+          </fcthickness>
+          <memthickness rows="4" cols="10">
+               <w n="A2" r="0" c="1" mt="0.866" />
+               <w n="A4" r="0" c="3" mt="0.883" />
+               <w n="A5" r="0" c="4" mt="0.878" />
+               <w n="A6" r="0" c="5" mt="0.892" />
+               <w n="A7" r="0" c="6" mt="0.892" />
+               <w n="A8" r="0" c="7" mt="0.892" />
+               <w n="A9" r="0" c="8" mt="0.892" />
+               <w n="B1" r="1" c="0" mt="0.898" />
+               <w n="B2" r="1" c="1" mt="0.9" />
+               <w n="B3" r="1" c="2" mt="0.9" />
+               <w n="B4" r="1" c="3" mt="0.898" />
+               <w n="B5" r="1" c="4" mt="0.9" />
+               <w n="B6" r="1" c="5" mt="0.903" />
+               <w n="B7" r="1" c="6" mt="0.903" />
+               <w n="B8" r="1" c="7" mt="0.906" />
+               <w n="C1" r="2" c="0" mt="0.898" />
+               <w n="C2" r="2" c="1" mt="0.9" />
+               <w n="C3" r="2" c="2" mt="0.903" />
+               <w n="C4" r="2" c="3" mt="0.898" />
+               <w n="C5" r="2" c="4" mt="0.903" />
+               <w n="C6" r="2" c="5" mt="0.9" />
+               <w n="C7" r="2" c="6" mt="0.903" />
+               <w n="C8" r="2" c="7" mt="0.903" />
+               <w n="C9" r="2" c="8" mt="0.9" />
+               <w n="C10" r="2" c="9" mt="0.889" />
+          </memthickness>
+          <measbottof>
+               <w n="A1" r="0" c="0" mbtof="31.892" />
+               <w n="A2" r="0" c="1" mbtof="31.88" />
+               <w n="A3" r="0" c="2" mbtof="31.866" />
+               <w n="A4" r="0" c="3" mbtof="31.854" />
+               <w n="A5" r="0" c="4" mbtof="31.842" />
+               <w n="A6" r="0" c="5" mbtof="31.83" />
+               <w n="A7" r="0" c="6" mbtof="31.822" />
+               <w n="A8" r="0" c="7" mbtof="31.812" />
+               <w n="A9" r="0" c="8" mbtof="31.814" />
+               <w n="A10" r="0" c="9" mbtof="31.842" />
+               <w n="B1" r="1" c="0" mbtof="31.886" />
+               <w n="B2" r="1" c="1" mbtof="31.868" />
+               <w n="B3" r="1" c="2" mbtof="31.852" />
+               <w n="B4" r="1" c="3" mbtof="31.84" />
+               <w n="B5" r="1" c="4" mbtof="31.83" />
+               <w n="B6" r="1" c="5" mbtof="31.818" />
+               <w n="B7" r="1" c="6" mbtof="31.808" />
+               <w n="B8" r="1" c="7" mbtof="31.796" />
+               <w n="B9" r="1" c="8" mbtof="31.798" />
+               <w n="B10" r="1" c="9" mbtof="31.812" />
+               <w n="C1" r="2" c="0" mbtof="31.884" />
+               <w n="C2" r="2" c="1" mbtof="31.854" />
+               <w n="C3" r="2" c="2" mbtof="31.84" />
+               <w n="C4" r="2" c="3" mbtof="31.828" />
+               <w n="C5" r="2" c="4" mbtof="31.812" />
+               <w n="C6" r="2" c="5" mbtof="31.804" />
+               <w n="C7" r="2" c="6" mbtof="31.792" />
+               <w n="C8" r="2" c="7" mbtof="31.784" />
+               <w n="C9" r="2" c="8" mbtof="31.784" />
+               <w n="C10" r="2" c="9" mbtof="31.79" />
+               <w n="D1" r="3" c="0" mbtof="31.88" />
+               <w n="D2" r="3" c="1" mbtof="31.854" />
+               <w n="D3" r="3" c="2" mbtof="31.834" />
+               <w n="D4" r="3" c="3" mbtof="31.816" />
+               <w n="D5" r="3" c="4" mbtof="31.804" />
+               <w n="D6" r="3" c="5" mbtof="31.792" />
+               <w n="D7" r="3" c="6" mbtof="31.782" />
+               <w n="D8" r="3" c="7" mbtof="31.776" />
+               <w n="D9" r="3" c="8" mbtof="31.776" />
+               <w n="D10" r="3" c="9" mbtof="31.78" />
+          </measbottof>
+     </platemap>
+     <amplifierparameter>
+          <sysgain v="1" />
+          <ampfeedback v="0.989" />
+     </amplifierparameter>
+</transfer>

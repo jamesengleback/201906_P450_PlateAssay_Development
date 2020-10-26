@@ -1,0 +1,694 @@
+10/27/19 03:00:27.937	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L3, 227.500 nl> Transfer Complete
+10/27/19 03:00:28.547	StartStopPrintService.cpp(1476) 	DEBUG	Well B2 begin: 
+	DMSO: 83.3%%
+	Measured DMSO: 83.3%%
+	TransZ: 18638.270 um
+	Fluid Thickness: 2.292 mm
+	Current Fluid Thickness: 1.801 mm
+	SR: 33.487031 us
+	FocusToF: 31.143174 us
+	Eject Off: 103 um
+	D2A (calculated): 1.645 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 91
+	Rep. Rate: 200 Hz
+10/27/19 03:00:28.562	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L4, 227.500 nl> Transfer Complete
+10/27/19 03:00:29.219	StartStopPrintService.cpp(1476) 	DEBUG	Well A2 begin: 
+	DMSO: 88.1%%
+	Measured DMSO: 88.1%%
+	TransZ: 19046.474 um
+	Fluid Thickness: 2.340 mm
+	Current Fluid Thickness: 2.135 mm
+	SR: 33.942380 us
+	FocusToF: 31.060430 us
+	Eject Off: 204 um
+	D2A (calculated): 1.484 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 91
+	Rep. Rate: 200 Hz
+10/27/19 03:00:29.219	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M3, 227.500 nl> Transfer Complete
+10/27/19 03:00:34.125	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O3, 342.500 nl> Transfer Complete
+10/27/19 03:00:35.000	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O4, 342.500 nl> Transfer Complete
+10/27/19 03:00:35.297	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O3, 57.500 nl> Transfer Complete
+10/27/19 03:00:35.562	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O4, 57.500 nl> Transfer Complete
+10/27/19 03:00:36.578	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> P3, 400.000 nl> Transfer Complete
+10/27/19 03:00:37.578	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> P4, 400.000 nl> Transfer Complete
+10/27/19 03:00:39.219	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> A5, 400.000 nl> Transfer Complete
+10/27/19 03:00:40.203	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> A6, 400.000 nl> Transfer Complete
+10/27/19 03:00:40.516	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> B5, 57.500 nl> Transfer Complete
+10/27/19 03:00:40.781	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> B6, 57.500 nl> Transfer Complete
+10/27/19 03:00:41.687	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B5, 342.500 nl> Transfer Complete
+10/27/19 03:00:42.547	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B6, 342.500 nl> Transfer Complete
+10/27/19 03:00:42.984	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> C5, 115.000 nl> Transfer Complete
+10/27/19 03:00:43.359	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> C6, 115.000 nl> Transfer Complete
+10/27/19 03:00:44.125	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C5, 285.000 nl> Transfer Complete
+10/27/19 03:00:44.859	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C6, 285.000 nl> Transfer Complete
+10/27/19 03:00:45.406	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> D5, 172.500 nl> Transfer Complete
+10/27/19 03:00:45.906	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> D6, 172.500 nl> Transfer Complete
+10/27/19 03:00:46.563	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D5, 227.500 nl> Transfer Complete
+10/27/19 03:00:47.172	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D6, 227.500 nl> Transfer Complete
+10/27/19 03:00:47.828	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> E5, 227.500 nl> Transfer Complete
+10/27/19 03:00:48.438	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> E6, 227.500 nl> Transfer Complete
+10/27/19 03:00:48.984	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E5, 172.500 nl> Transfer Complete
+10/27/19 03:00:49.484	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E6, 172.500 nl> Transfer Complete
+10/27/19 03:00:50.250	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> F5, 285.000 nl> Transfer Complete
+10/27/19 03:00:50.984	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> F6, 285.000 nl> Transfer Complete
+10/27/19 03:00:51.406	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F5, 115.000 nl> Transfer Complete
+10/27/19 03:00:51.797	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F6, 115.000 nl> Transfer Complete
+10/27/19 03:00:52.703	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> G5, 342.500 nl> Transfer Complete
+10/27/19 03:00:53.563	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> G6, 342.500 nl> Transfer Complete
+10/27/19 03:00:53.860	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G5, 57.500 nl> Transfer Complete
+10/27/19 03:00:54.125	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G6, 57.500 nl> Transfer Complete
+10/27/19 03:00:55.156	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> H5, 400.000 nl> Transfer Complete
+10/27/19 03:00:56.141	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> H6, 400.000 nl> Transfer Complete
+10/27/19 03:00:57.141	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> I5, 400.000 nl> Transfer Complete
+10/27/19 03:00:58.125	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> I6, 400.000 nl> Transfer Complete
+10/27/19 03:00:58.438	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> J5, 57.500 nl> Transfer Complete
+10/27/19 03:00:58.703	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> J6, 57.500 nl> Transfer Complete
+10/27/19 03:00:59.610	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> J5, 342.500 nl> Transfer Complete
+10/27/19 03:01:00.468	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> J6, 342.500 nl> Transfer Complete
+10/27/19 03:01:00.906	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> K5, 115.000 nl> Transfer Complete
+10/27/19 03:01:01.296	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> K6, 115.000 nl> Transfer Complete
+10/27/19 03:01:02.062	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> K5, 285.000 nl> Transfer Complete
+10/27/19 03:01:02.796	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> K6, 285.000 nl> Transfer Complete
+10/27/19 03:01:03.328	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> L5, 172.500 nl> Transfer Complete
+10/27/19 03:01:03.843	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> L6, 172.500 nl> Transfer Complete
+10/27/19 03:01:04.500	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L5, 227.500 nl> Transfer Complete
+10/27/19 03:01:05.109	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L6, 227.500 nl> Transfer Complete
+10/27/19 03:01:05.765	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M5, 227.500 nl> Transfer Complete
+10/27/19 03:01:06.390	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M6, 227.500 nl> Transfer Complete
+10/27/19 03:01:06.515	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:06.515	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:06.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:06.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:07.406	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> N5, 285.000 nl> Transfer Complete
+10/27/19 03:01:08.140	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> N6, 285.000 nl> Transfer Complete
+10/27/19 03:01:08.265	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:08.281	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:08.406	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:08.406	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:09.312	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O5, 342.500 nl> Transfer Complete
+10/27/19 03:01:10.187	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O6, 342.500 nl> Transfer Complete
+10/27/19 03:01:10.312	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:10.312	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:10.453	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:10.453	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:11.234	StartStopPrintService.cpp(1121) 	WARN	Partial well transfer for well A2
+10/27/19 03:01:11.234	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.0867, fluidThickness: 0.389683.
+10/27/19 03:01:11.359	StartStopPrintService.cpp(1126) 	WARN	Skipping well A2
+10/27/19 03:01:11.359	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.0867, fluidThickness: 0.389683.
+10/27/19 03:01:13.421	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> A7, 600.000 nl> Transfer Complete
+10/27/19 03:01:14.812	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> A8, 600.000 nl> Transfer Complete
+10/27/19 03:01:15.172	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> B7, 85.000 nl> Transfer Complete
+10/27/19 03:01:15.500	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> B8, 85.000 nl> Transfer Complete
+10/27/19 03:01:16.765	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B7, 515.000 nl> Transfer Complete
+10/27/19 03:01:17.984	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B8, 515.000 nl> Transfer Complete
+10/27/19 03:01:18.547	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> C7, 172.500 nl> Transfer Complete
+10/27/19 03:01:19.047	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> C8, 172.500 nl> Transfer Complete
+10/27/19 03:01:20.156	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> C7, 427.500 nl> Transfer Complete
+10/27/19 03:01:21.203	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> C8, 427.500 nl> Transfer Complete
+10/27/19 03:01:21.953	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> D7, 257.500 nl> Transfer Complete
+10/27/19 03:01:22.625	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> D8, 257.500 nl> Transfer Complete
+10/27/19 03:01:23.562	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> D7, 342.500 nl> Transfer Complete
+10/27/19 03:01:24.437	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> D8, 342.500 nl> Transfer Complete
+10/27/19 03:01:25.390	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> E7, 342.500 nl> Transfer Complete
+10/27/19 03:01:26.265	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> E8, 342.500 nl> Transfer Complete
+10/27/19 03:01:26.984	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> E7, 257.500 nl> Transfer Complete
+10/27/19 03:01:27.672	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> E8, 257.500 nl> Transfer Complete
+10/27/19 03:01:28.781	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> F7, 427.500 nl> Transfer Complete
+10/27/19 03:01:29.828	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> F8, 427.500 nl> Transfer Complete
+10/27/19 03:01:30.375	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> F7, 172.500 nl> Transfer Complete
+10/27/19 03:01:30.890	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> F8, 172.500 nl> Transfer Complete
+10/27/19 03:01:32.156	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> G7, 515.000 nl> Transfer Complete
+10/27/19 03:01:33.375	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> G8, 515.000 nl> Transfer Complete
+10/27/19 03:01:33.750	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> G7, 85.000 nl> Transfer Complete
+10/27/19 03:01:34.062	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> G8, 85.000 nl> Transfer Complete
+10/27/19 03:01:35.484	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> H7, 600.000 nl> Transfer Complete
+10/27/19 03:01:36.891	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> H8, 600.000 nl> Transfer Complete
+10/27/19 03:01:38.281	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> I7, 600.000 nl> Transfer Complete
+10/27/19 03:01:39.687	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> I8, 600.000 nl> Transfer Complete
+10/27/19 03:01:40.047	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> J7, 85.000 nl> Transfer Complete
+10/27/19 03:01:40.359	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> J8, 85.000 nl> Transfer Complete
+10/27/19 03:01:41.609	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> J7, 515.000 nl> Transfer Complete
+10/27/19 03:01:42.844	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> J8, 515.000 nl> Transfer Complete
+10/27/19 03:01:43.375	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> K7, 172.500 nl> Transfer Complete
+10/27/19 03:01:43.891	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> K8, 172.500 nl> Transfer Complete
+10/27/19 03:01:44.984	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> K7, 427.500 nl> Transfer Complete
+10/27/19 03:01:46.016	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> K8, 427.500 nl> Transfer Complete
+10/27/19 03:01:46.750	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> L7, 257.500 nl> Transfer Complete
+10/27/19 03:01:47.438	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> L8, 257.500 nl> Transfer Complete
+10/27/19 03:01:48.359	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> L7, 342.500 nl> Transfer Complete
+10/27/19 03:01:49.234	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> L8, 342.500 nl> Transfer Complete
+10/27/19 03:01:50.172	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> M7, 342.500 nl> Transfer Complete
+10/27/19 03:01:51.047	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> M8, 342.500 nl> Transfer Complete
+10/27/19 03:01:51.781	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> M7, 257.500 nl> Transfer Complete
+10/27/19 03:01:52.453	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> M8, 257.500 nl> Transfer Complete
+10/27/19 03:01:53.563	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> N7, 427.500 nl> Transfer Complete
+10/27/19 03:01:54.610	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> N8, 427.500 nl> Transfer Complete
+10/27/19 03:01:54.735	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:54.735	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:01:54.875	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:54.875	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:01:56.125	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> O7, 515.000 nl> Transfer Complete
+10/27/19 03:01:57.344	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> O8, 515.000 nl> Transfer Complete
+10/27/19 03:01:57.469	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:57.469	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:01:57.610	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:57.610	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:01:59.032	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> P7, 600.000 nl> Transfer Complete
+10/27/19 03:01:59.156	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:01:59.156	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:01:59.297	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:59.297	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:00.093	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:00.093	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:00.218	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:00.218	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:00.390	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:00.390	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:00.515	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:00.515	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:00.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:00.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:00.781	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:00.781	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:00.953	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:00.953	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:01.093	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:01.093	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:01.218	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:01.218	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:01.359	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:01.359	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:01.531	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:01.531	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:01.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:01.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:01.796	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:01.796	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:01.921	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:01.921	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:02.093	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:02.093	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:02.218	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:02.234	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:02.359	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:02.359	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:02.500	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:02.500	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:02.671	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:02.671	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:02.796	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:02.796	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:02.937	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:02.937	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:03.062	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:03.062	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:03.234	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:03.234	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:03.359	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:03.359	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:03.500	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:03.500	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:03.640	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:03.640	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:03.796	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:03.812	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:05.843	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> I9, 800.000 nl> Transfer Complete
+10/27/19 03:02:07.671	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> I10, 800.000 nl> Transfer Complete
+10/27/19 03:02:08.109	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> J9, 115.000 nl> Transfer Complete
+10/27/19 03:02:08.500	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> J10, 115.000 nl> Transfer Complete
+10/27/19 03:02:10.140	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> J9, 685.000 nl> Transfer Complete
+10/27/19 03:02:11.734	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> J10, 685.000 nl> Transfer Complete
+10/27/19 03:02:12.421	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> K9, 227.500 nl> Transfer Complete
+10/27/19 03:02:13.047	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> K10, 227.500 nl> Transfer Complete
+10/27/19 03:02:14.453	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> K9, 572.500 nl> Transfer Complete
+10/27/19 03:02:15.797	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> K10, 572.500 nl> Transfer Complete
+10/27/19 03:02:16.765	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> L9, 342.500 nl> Transfer Complete
+10/27/19 03:02:17.640	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> L10, 342.500 nl> Transfer Complete
+10/27/19 03:02:18.812	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> L9, 457.500 nl> Transfer Complete
+10/27/19 03:02:19.922	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> L10, 457.500 nl> Transfer Complete
+10/27/19 03:02:21.125	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> M9, 457.500 nl> Transfer Complete
+10/27/19 03:02:22.234	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> M10, 457.500 nl> Transfer Complete
+10/27/19 03:02:23.172	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> M9, 342.500 nl> Transfer Complete
+10/27/19 03:02:24.047	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> M10, 342.500 nl> Transfer Complete
+10/27/19 03:02:25.469	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> N9, 572.500 nl> Transfer Complete
+10/27/19 03:02:26.797	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> N10, 572.500 nl> Transfer Complete
+10/27/19 03:02:27.469	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> N9, 227.500 nl> Transfer Complete
+10/27/19 03:02:28.094	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> N10, 227.500 nl> Transfer Complete
+10/27/19 03:02:29.750	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> O9, 685.000 nl> Transfer Complete
+10/27/19 03:02:31.344	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> O10, 685.000 nl> Transfer Complete
+10/27/19 03:02:31.750	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> O9, 115.000 nl> Transfer Complete
+10/27/19 03:02:32.141	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> O10, 115.000 nl> Transfer Complete
+10/27/19 03:02:34.000	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> P9, 800.000 nl> Transfer Complete
+10/27/19 03:02:35.812	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> P10, 800.000 nl> Transfer Complete
+10/27/19 03:02:38.297	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> A11, 800.000 nl> Transfer Complete
+10/27/19 03:02:40.125	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> A12, 800.000 nl> Transfer Complete
+10/27/19 03:02:40.547	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> B11, 115.000 nl> Transfer Complete
+10/27/19 03:02:40.937	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> B12, 115.000 nl> Transfer Complete
+10/27/19 03:02:42.578	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> B11, 685.000 nl> Transfer Complete
+10/27/19 03:02:42.703	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:42.703	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:43.375	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> C11, 227.500 nl> Transfer Complete
+10/27/19 03:02:44.000	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> C12, 227.500 nl> Transfer Complete
+10/27/19 03:02:44.125	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:44.125	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:44.266	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:44.266	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:45.156	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> D11, 342.500 nl> Transfer Complete
+10/27/19 03:02:46.031	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> D12, 342.500 nl> Transfer Complete
+10/27/19 03:02:46.156	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:46.156	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:46.297	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:46.297	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:47.422	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> E11, 457.500 nl> Transfer Complete
+10/27/19 03:02:48.531	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> E12, 457.500 nl> Transfer Complete
+10/27/19 03:02:48.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:48.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:48.797	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:48.797	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:49.578	StartStopPrintService.cpp(1121) 	WARN	Partial well transfer for well A4
+10/27/19 03:02:49.578	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:49.703	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:49.719	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:49.844	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:49.844	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:49.969	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:49.984	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:50.109	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:50.109	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:50.281	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:50.281	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:50.406	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:50.406	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:50.547	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:50.547	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:50.672	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:50.672	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:50.844	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:50.844	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:50.969	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:50.969	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:51.109	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:51.109	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:51.235	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:51.250	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:51.406	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:51.406	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:51.547	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:51.547	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:51.672	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:51.688	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:51.813	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:51.813	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:51.984	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:51.984	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:52.110	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:52.110	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:52.250	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:52.250	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:52.375	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:52.375	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:52.547	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:52.547	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:52.672	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:52.672	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:52.813	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:52.813	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:52.938	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:52.938	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:53.110	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:53.110	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:53.250	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:53.250	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:53.375	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:53.391	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:53.516	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:53.516	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:53.688	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:53.688	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:53.813	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:53.813	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:53.953	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:53.953	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:54.078	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:54.078	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:54.250	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:54.250	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:54.375	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:54.375	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:54.516	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:54.516	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:54.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:54.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:54.828	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:54.828	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:54.860	FluidTransferServer.cpp(4366) 	INFO	DoPlateTransfer() end Z-axis position: 17151
+10/27/19 03:02:55.063	FluidTransferServer.cpp(4474) 	INFO	Transfer time 195659 msec.
+ 	10/27/19 03:00:27.937	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L3, 227.500 nl> Transfer Complete
+10/27/19 03:00:28.547	StartStopPrintService.cpp(1476) 	DEBUG	Well B2 begin: 
+	DMSO: 83.3%%
+	Measured DMSO: 83.3%%
+	TransZ: 18638.270 um
+	Fluid Thickness: 2.292 mm
+	Current Fluid Thickness: 1.801 mm
+	SR: 33.487031 us
+	FocusToF: 31.143174 us
+	Eject Off: 103 um
+	D2A (calculated): 1.645 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 91
+	Rep. Rate: 200 Hz
+10/27/19 03:00:28.562	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L4, 227.500 nl> Transfer Complete
+10/27/19 03:00:29.219	StartStopPrintService.cpp(1476) 	DEBUG	Well A2 begin: 
+	DMSO: 88.1%%
+	Measured DMSO: 88.1%%
+	TransZ: 19046.474 um
+	Fluid Thickness: 2.340 mm
+	Current Fluid Thickness: 2.135 mm
+	SR: 33.942380 us
+	FocusToF: 31.060430 us
+	Eject Off: 204 um
+	D2A (calculated): 1.484 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 91
+	Rep. Rate: 200 Hz
+10/27/19 03:00:29.219	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M3, 227.500 nl> Transfer Complete
+10/27/19 03:00:34.125	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O3, 342.500 nl> Transfer Complete
+10/27/19 03:00:35.000	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O4, 342.500 nl> Transfer Complete
+10/27/19 03:00:35.297	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O3, 57.500 nl> Transfer Complete
+10/27/19 03:00:35.562	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> O4, 57.500 nl> Transfer Complete
+10/27/19 03:00:36.578	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> P3, 400.000 nl> Transfer Complete
+10/27/19 03:00:37.578	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> P4, 400.000 nl> Transfer Complete
+10/27/19 03:00:39.219	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> A5, 400.000 nl> Transfer Complete
+10/27/19 03:00:40.203	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> A6, 400.000 nl> Transfer Complete
+10/27/19 03:00:40.516	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> B5, 57.500 nl> Transfer Complete
+10/27/19 03:00:40.781	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> B6, 57.500 nl> Transfer Complete
+10/27/19 03:00:41.687	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B5, 342.500 nl> Transfer Complete
+10/27/19 03:00:42.547	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> B6, 342.500 nl> Transfer Complete
+10/27/19 03:00:42.984	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> C5, 115.000 nl> Transfer Complete
+10/27/19 03:00:43.359	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> C6, 115.000 nl> Transfer Complete
+10/27/19 03:00:44.125	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C5, 285.000 nl> Transfer Complete
+10/27/19 03:00:44.859	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> C6, 285.000 nl> Transfer Complete
+10/27/19 03:00:45.406	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> D5, 172.500 nl> Transfer Complete
+10/27/19 03:00:45.906	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> D6, 172.500 nl> Transfer Complete
+10/27/19 03:00:46.563	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D5, 227.500 nl> Transfer Complete
+10/27/19 03:00:47.172	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> D6, 227.500 nl> Transfer Complete
+10/27/19 03:00:47.828	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> E5, 227.500 nl> Transfer Complete
+10/27/19 03:00:48.438	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> E6, 227.500 nl> Transfer Complete
+10/27/19 03:00:48.984	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E5, 172.500 nl> Transfer Complete
+10/27/19 03:00:49.484	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> E6, 172.500 nl> Transfer Complete
+10/27/19 03:00:50.250	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> F5, 285.000 nl> Transfer Complete
+10/27/19 03:00:50.984	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> F6, 285.000 nl> Transfer Complete
+10/27/19 03:00:51.406	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F5, 115.000 nl> Transfer Complete
+10/27/19 03:00:51.797	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> F6, 115.000 nl> Transfer Complete
+10/27/19 03:00:52.703	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> G5, 342.500 nl> Transfer Complete
+10/27/19 03:00:53.563	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> G6, 342.500 nl> Transfer Complete
+10/27/19 03:00:53.860	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G5, 57.500 nl> Transfer Complete
+10/27/19 03:00:54.125	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> G6, 57.500 nl> Transfer Complete
+10/27/19 03:00:55.156	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> H5, 400.000 nl> Transfer Complete
+10/27/19 03:00:56.141	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> H6, 400.000 nl> Transfer Complete
+10/27/19 03:00:57.141	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> I5, 400.000 nl> Transfer Complete
+10/27/19 03:00:58.125	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> I6, 400.000 nl> Transfer Complete
+10/27/19 03:00:58.438	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> J5, 57.500 nl> Transfer Complete
+10/27/19 03:00:58.703	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> J6, 57.500 nl> Transfer Complete
+10/27/19 03:00:59.610	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> J5, 342.500 nl> Transfer Complete
+10/27/19 03:01:00.468	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> J6, 342.500 nl> Transfer Complete
+10/27/19 03:01:00.906	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> K5, 115.000 nl> Transfer Complete
+10/27/19 03:01:01.296	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> K6, 115.000 nl> Transfer Complete
+10/27/19 03:01:02.062	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> K5, 285.000 nl> Transfer Complete
+10/27/19 03:01:02.796	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> K6, 285.000 nl> Transfer Complete
+10/27/19 03:01:03.328	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> L5, 172.500 nl> Transfer Complete
+10/27/19 03:01:03.843	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> L6, 172.500 nl> Transfer Complete
+10/27/19 03:01:04.500	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L5, 227.500 nl> Transfer Complete
+10/27/19 03:01:05.109	StartStopPrintService.cpp(1060) 	INFO	Well <B2 -> L6, 227.500 nl> Transfer Complete
+10/27/19 03:01:05.765	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M5, 227.500 nl> Transfer Complete
+10/27/19 03:01:06.390	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> M6, 227.500 nl> Transfer Complete
+10/27/19 03:01:06.515	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:06.515	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:06.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:06.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:07.406	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> N5, 285.000 nl> Transfer Complete
+10/27/19 03:01:08.140	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> N6, 285.000 nl> Transfer Complete
+10/27/19 03:01:08.265	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:08.281	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:08.406	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:08.406	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:09.312	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O5, 342.500 nl> Transfer Complete
+10/27/19 03:01:10.187	StartStopPrintService.cpp(1060) 	INFO	Well <A2 -> O6, 342.500 nl> Transfer Complete
+10/27/19 03:01:10.312	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:10.312	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:10.453	StartStopPrintService.cpp(1126) 	WARN	Skipping well B2
+10/27/19 03:01:10.453	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 83.2772, fluidThickness: 0.393946.
+10/27/19 03:01:11.234	StartStopPrintService.cpp(1121) 	WARN	Partial well transfer for well A2
+10/27/19 03:01:11.234	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.0867, fluidThickness: 0.389683.
+10/27/19 03:01:11.359	StartStopPrintService.cpp(1126) 	WARN	Skipping well A2
+10/27/19 03:01:11.359	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.0867, fluidThickness: 0.389683.
+10/27/19 03:01:13.421	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> A7, 600.000 nl> Transfer Complete
+10/27/19 03:01:14.812	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> A8, 600.000 nl> Transfer Complete
+10/27/19 03:01:15.172	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> B7, 85.000 nl> Transfer Complete
+10/27/19 03:01:15.500	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> B8, 85.000 nl> Transfer Complete
+10/27/19 03:01:16.765	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B7, 515.000 nl> Transfer Complete
+10/27/19 03:01:17.984	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> B8, 515.000 nl> Transfer Complete
+10/27/19 03:01:18.547	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> C7, 172.500 nl> Transfer Complete
+10/27/19 03:01:19.047	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> C8, 172.500 nl> Transfer Complete
+10/27/19 03:01:20.156	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> C7, 427.500 nl> Transfer Complete
+10/27/19 03:01:21.203	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> C8, 427.500 nl> Transfer Complete
+10/27/19 03:01:21.953	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> D7, 257.500 nl> Transfer Complete
+10/27/19 03:01:22.625	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> D8, 257.500 nl> Transfer Complete
+10/27/19 03:01:23.562	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> D7, 342.500 nl> Transfer Complete
+10/27/19 03:01:24.437	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> D8, 342.500 nl> Transfer Complete
+10/27/19 03:01:25.390	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> E7, 342.500 nl> Transfer Complete
+10/27/19 03:01:26.265	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> E8, 342.500 nl> Transfer Complete
+10/27/19 03:01:26.984	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> E7, 257.500 nl> Transfer Complete
+10/27/19 03:01:27.672	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> E8, 257.500 nl> Transfer Complete
+10/27/19 03:01:28.781	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> F7, 427.500 nl> Transfer Complete
+10/27/19 03:01:29.828	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> F8, 427.500 nl> Transfer Complete
+10/27/19 03:01:30.375	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> F7, 172.500 nl> Transfer Complete
+10/27/19 03:01:30.890	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> F8, 172.500 nl> Transfer Complete
+10/27/19 03:01:32.156	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> G7, 515.000 nl> Transfer Complete
+10/27/19 03:01:33.375	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> G8, 515.000 nl> Transfer Complete
+10/27/19 03:01:33.750	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> G7, 85.000 nl> Transfer Complete
+10/27/19 03:01:34.062	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> G8, 85.000 nl> Transfer Complete
+10/27/19 03:01:35.484	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> H7, 600.000 nl> Transfer Complete
+10/27/19 03:01:36.891	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> H8, 600.000 nl> Transfer Complete
+10/27/19 03:01:38.281	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> I7, 600.000 nl> Transfer Complete
+10/27/19 03:01:39.687	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> I8, 600.000 nl> Transfer Complete
+10/27/19 03:01:40.047	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> J7, 85.000 nl> Transfer Complete
+10/27/19 03:01:40.359	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> J8, 85.000 nl> Transfer Complete
+10/27/19 03:01:41.609	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> J7, 515.000 nl> Transfer Complete
+10/27/19 03:01:42.844	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> J8, 515.000 nl> Transfer Complete
+10/27/19 03:01:43.375	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> K7, 172.500 nl> Transfer Complete
+10/27/19 03:01:43.891	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> K8, 172.500 nl> Transfer Complete
+10/27/19 03:01:44.984	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> K7, 427.500 nl> Transfer Complete
+10/27/19 03:01:46.016	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> K8, 427.500 nl> Transfer Complete
+10/27/19 03:01:46.750	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> L7, 257.500 nl> Transfer Complete
+10/27/19 03:01:47.438	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> L8, 257.500 nl> Transfer Complete
+10/27/19 03:01:48.359	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> L7, 342.500 nl> Transfer Complete
+10/27/19 03:01:49.234	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> L8, 342.500 nl> Transfer Complete
+10/27/19 03:01:50.172	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> M7, 342.500 nl> Transfer Complete
+10/27/19 03:01:51.047	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> M8, 342.500 nl> Transfer Complete
+10/27/19 03:01:51.781	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> M7, 257.500 nl> Transfer Complete
+10/27/19 03:01:52.453	StartStopPrintService.cpp(1060) 	INFO	Well <B3 -> M8, 257.500 nl> Transfer Complete
+10/27/19 03:01:53.563	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> N7, 427.500 nl> Transfer Complete
+10/27/19 03:01:54.610	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> N8, 427.500 nl> Transfer Complete
+10/27/19 03:01:54.735	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:54.735	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:01:54.875	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:54.875	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:01:56.125	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> O7, 515.000 nl> Transfer Complete
+10/27/19 03:01:57.344	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> O8, 515.000 nl> Transfer Complete
+10/27/19 03:01:57.469	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:57.469	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:01:57.610	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:57.610	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:01:59.032	StartStopPrintService.cpp(1060) 	INFO	Well <A3 -> P7, 600.000 nl> Transfer Complete
+10/27/19 03:01:59.156	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:01:59.156	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:01:59.297	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:01:59.297	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:00.093	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:00.093	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:00.218	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:00.218	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:00.390	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:00.390	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:00.515	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:00.515	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:00.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:00.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:00.781	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:00.781	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:00.953	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:00.953	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:01.093	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:01.093	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:01.218	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:01.218	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:01.359	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:01.359	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:01.531	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:01.531	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:01.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:01.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:01.796	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:01.796	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:01.921	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:01.921	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:02.093	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:02.093	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:02.218	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:02.234	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:02.359	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:02.359	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:02.500	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:02.500	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:02.671	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:02.671	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:02.796	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:02.796	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:02.937	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:02.937	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:03.062	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:03.062	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:03.234	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:03.234	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:03.359	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:03.359	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:03.500	StartStopPrintService.cpp(1126) 	WARN	Skipping well B3
+10/27/19 03:02:03.500	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 79.4359, fluidThickness: 0.390173.
+10/27/19 03:02:03.640	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:03.640	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:03.796	StartStopPrintService.cpp(1126) 	WARN	Skipping well A3
+10/27/19 03:02:03.812	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 85.5789, fluidThickness: 0.437423.
+10/27/19 03:02:05.843	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> I9, 800.000 nl> Transfer Complete
+10/27/19 03:02:07.671	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> I10, 800.000 nl> Transfer Complete
+10/27/19 03:02:08.109	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> J9, 115.000 nl> Transfer Complete
+10/27/19 03:02:08.500	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> J10, 115.000 nl> Transfer Complete
+10/27/19 03:02:10.140	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> J9, 685.000 nl> Transfer Complete
+10/27/19 03:02:11.734	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> J10, 685.000 nl> Transfer Complete
+10/27/19 03:02:12.421	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> K9, 227.500 nl> Transfer Complete
+10/27/19 03:02:13.047	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> K10, 227.500 nl> Transfer Complete
+10/27/19 03:02:14.453	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> K9, 572.500 nl> Transfer Complete
+10/27/19 03:02:15.797	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> K10, 572.500 nl> Transfer Complete
+10/27/19 03:02:16.765	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> L9, 342.500 nl> Transfer Complete
+10/27/19 03:02:17.640	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> L10, 342.500 nl> Transfer Complete
+10/27/19 03:02:18.812	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> L9, 457.500 nl> Transfer Complete
+10/27/19 03:02:19.922	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> L10, 457.500 nl> Transfer Complete
+10/27/19 03:02:21.125	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> M9, 457.500 nl> Transfer Complete
+10/27/19 03:02:22.234	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> M10, 457.500 nl> Transfer Complete
+10/27/19 03:02:23.172	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> M9, 342.500 nl> Transfer Complete
+10/27/19 03:02:24.047	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> M10, 342.500 nl> Transfer Complete
+10/27/19 03:02:25.469	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> N9, 572.500 nl> Transfer Complete
+10/27/19 03:02:26.797	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> N10, 572.500 nl> Transfer Complete
+10/27/19 03:02:27.469	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> N9, 227.500 nl> Transfer Complete
+10/27/19 03:02:28.094	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> N10, 227.500 nl> Transfer Complete
+10/27/19 03:02:29.750	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> O9, 685.000 nl> Transfer Complete
+10/27/19 03:02:31.344	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> O10, 685.000 nl> Transfer Complete
+10/27/19 03:02:31.750	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> O9, 115.000 nl> Transfer Complete
+10/27/19 03:02:32.141	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> O10, 115.000 nl> Transfer Complete
+10/27/19 03:02:34.000	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> P9, 800.000 nl> Transfer Complete
+10/27/19 03:02:35.812	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> P10, 800.000 nl> Transfer Complete
+10/27/19 03:02:38.297	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> A11, 800.000 nl> Transfer Complete
+10/27/19 03:02:40.125	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> A12, 800.000 nl> Transfer Complete
+10/27/19 03:02:40.547	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> B11, 115.000 nl> Transfer Complete
+10/27/19 03:02:40.937	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> B12, 115.000 nl> Transfer Complete
+10/27/19 03:02:42.578	StartStopPrintService.cpp(1060) 	INFO	Well <B4 -> B11, 685.000 nl> Transfer Complete
+10/27/19 03:02:42.703	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:42.703	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:43.375	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> C11, 227.500 nl> Transfer Complete
+10/27/19 03:02:44.000	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> C12, 227.500 nl> Transfer Complete
+10/27/19 03:02:44.125	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:44.125	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:44.266	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:44.266	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:45.156	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> D11, 342.500 nl> Transfer Complete
+10/27/19 03:02:46.031	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> D12, 342.500 nl> Transfer Complete
+10/27/19 03:02:46.156	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:46.156	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:46.297	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:46.297	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:47.422	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> E11, 457.500 nl> Transfer Complete
+10/27/19 03:02:48.531	StartStopPrintService.cpp(1060) 	INFO	Well <A4 -> E12, 457.500 nl> Transfer Complete
+10/27/19 03:02:48.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:48.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:48.797	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:48.797	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:49.578	StartStopPrintService.cpp(1121) 	WARN	Partial well transfer for well A4
+10/27/19 03:02:49.578	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:49.703	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:49.719	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:49.844	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:49.844	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:49.969	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:49.984	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:50.109	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:50.109	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:50.281	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:50.281	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:50.406	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:50.406	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:50.547	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:50.547	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:50.672	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:50.672	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:50.844	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:50.844	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:50.969	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:50.969	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:51.109	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:51.109	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:51.235	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:51.250	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:51.406	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:51.406	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:51.547	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:51.547	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:51.672	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:51.688	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:51.813	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:51.813	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:51.984	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:51.984	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:52.110	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:52.110	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:52.250	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:52.250	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:52.375	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:52.375	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:52.547	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:52.547	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:52.672	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:52.672	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:52.813	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:52.813	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:52.938	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:52.938	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:53.110	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:53.110	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:53.250	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:53.250	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:53.375	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:53.391	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:53.516	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:53.516	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:53.688	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:53.688	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:53.813	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:53.813	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:53.953	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:53.953	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:54.078	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:54.078	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:54.250	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:54.250	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:54.375	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:54.375	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:54.516	StartStopPrintService.cpp(1126) 	WARN	Skipping well B4
+10/27/19 03:02:54.516	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 82.9015, fluidThickness: 0.445348.
+10/27/19 03:02:54.656	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:54.656	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:54.828	StartStopPrintService.cpp(1126) 	WARN	Skipping well A4
+10/27/19 03:02:54.828	StartStopPrintService.cpp(1159) 	WARN	Problem calculating ejection offset from LUT using percentDMSO: 88.7364, fluidThickness: 0.413073.
+10/27/19 03:02:54.860	FluidTransferServer.cpp(4366) 	INFO	DoPlateTransfer() end Z-axis position: 17151
+10/27/19 03:02:55.063	FluidTransferServer.cpp(4474) 	INFO	Transfer time 195659 msec.

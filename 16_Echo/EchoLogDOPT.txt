@@ -1,0 +1,861 @@
+11/03/19 05:12:49.906	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> M20, 1932.500 nl> Transfer Complete
+11/03/19 05:12:51.016	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18975.313 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 2.105 mm
+	SR: 33.911037 us
+	FocusToF: 31.045283 us
+	Eject Off: 194 um
+	D2A (calculated): 1.505 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 85
+	Rep. Rate: 200 Hz
+11/03/19 05:12:51.016	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> E20, 212.500 nl> Transfer Complete
+11/03/19 05:12:52.313	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 19213.665 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 2.255 mm
+	SR: 34.063632 us
+	FocusToF: 30.907098 us
+	Eject Off: 262 um
+	D2A (calculated): 1.463 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:12:52.938	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 19115.083 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 2.188 mm
+	SR: 33.978692 us
+	FocusToF: 30.952707 us
+	Eject Off: 236 um
+	D2A (calculated): 1.475 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:12:53.578	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 19018.689 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 2.125 mm
+	SR: 33.898975 us
+	FocusToF: 30.997303 us
+	Eject Off: 211 um
+	D2A (calculated): 1.497 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:12:54.219	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18928.222 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 2.063 mm
+	SR: 33.819259 us
+	FocusToF: 31.039158 us
+	Eject Off: 187 um
+	D2A (calculated): 1.521 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:12:54.844	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18840.643 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 2.000 mm
+	SR: 33.739542 us
+	FocusToF: 31.077131 us
+	Eject Off: 166 um
+	D2A (calculated): 1.543 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:12:55.453	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18753.510 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.945 mm
+	SR: 33.670153 us
+	FocusToF: 31.114504 us
+	Eject Off: 145 um
+	D2A (calculated): 1.562 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 115
+	Rep. Rate: 200 Hz
+11/03/19 05:12:55.469	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> E20, 1787.500 nl> Transfer Complete
+11/03/19 05:12:56.578	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18911.183 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 2.060 mm
+	SR: 33.853691 us
+	FocusToF: 31.074117 us
+	Eject Off: 178 um
+	D2A (calculated): 1.523 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 85
+	Rep. Rate: 200 Hz
+11/03/19 05:12:56.578	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> N20, 212.500 nl> Transfer Complete
+11/03/19 05:12:57.860	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18677.666 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.889 mm
+	SR: 33.598270 us
+	FocusToF: 31.147036 us
+	Eject Off: 127 um
+	D2A (calculated): 1.579 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:12:58.500	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18602.083 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.832 mm
+	SR: 33.526386 us
+	FocusToF: 31.176722 us
+	Eject Off: 112 um
+	D2A (calculated): 1.596 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:12:59.125	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18531.967 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.776 mm
+	SR: 33.454502 us
+	FocusToF: 31.199061 us
+	Eject Off: 102 um
+	D2A (calculated): 1.606 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:12:59.766	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18461.852 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.719 mm
+	SR: 33.382618 us
+	FocusToF: 31.221399 us
+	Eject Off: 92 um
+	D2A (calculated): 1.615 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:00.390	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18391.736 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.650 mm
+	SR: 33.294459 us
+	FocusToF: 31.243737 us
+	Eject Off: 82 um
+	D2A (calculated): 1.624 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:01.000	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18313.407 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.582 mm
+	SR: 33.208134 us
+	FocusToF: 31.260838 us
+	Eject Off: 77 um
+	D2A (calculated): 1.631 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 115
+	Rep. Rate: 200 Hz
+11/03/19 05:13:01.000	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> N20, 1787.500 nl> Transfer Complete
+11/03/19 05:13:02.296	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18848.891 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.997 mm
+	SR: 33.772733 us
+	FocusToF: 31.100480 us
+	Eject Off: 163 um
+	D2A (calculated): 1.539 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:02.765	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18760.950 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.955 mm
+	SR: 33.719043 us
+	FocusToF: 31.137698 us
+	Eject Off: 143 um
+	D2A (calculated): 1.558 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 88
+	Rep. Rate: 200 Hz
+11/03/19 05:13:02.765	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> F20, 520.000 nl> Transfer Complete
+11/03/19 05:13:04.062	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18239.451 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.511 mm
+	SR: 33.118057 us
+	FocusToF: 31.273898 us
+	Eject Off: 75 um
+	D2A (calculated): 1.632 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:04.687	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18162.278 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.440 mm
+	SR: 33.027979 us
+	FocusToF: 31.287525 us
+	Eject Off: 73 um
+	D2A (calculated): 1.633 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:05.328	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18092.061 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.369 mm
+	SR: 32.937902 us
+	FocusToF: 31.291806 us
+	Eject Off: 78 um
+	D2A (calculated): 1.633 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:05.953	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 18024.325 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.310 mm
+	SR: 32.862244 us
+	FocusToF: 31.292753 us
+	Eject Off: 86 um
+	D2A (calculated): 1.631 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:06.546	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17967.432 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.256 mm
+	SR: 32.793951 us
+	FocusToF: 31.293549 us
+	Eject Off: 92 um
+	D2A (calculated): 1.630 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 112
+	Rep. Rate: 200 Hz
+11/03/19 05:13:06.546	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> F20, 1480.000 nl> Transfer Complete
+11/03/19 05:13:07.843	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18702.629 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.898 mm
+	SR: 33.646766 us
+	FocusToF: 31.162380 us
+	Eject Off: 129 um
+	D2A (calculated): 1.570 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:08.312	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18625.750 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.856 mm
+	SR: 33.593763 us
+	FocusToF: 31.193414 us
+	Eject Off: 112 um
+	D2A (calculated): 1.588 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 88
+	Rep. Rate: 200 Hz
+11/03/19 05:13:08.312	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> O20, 520.000 nl> Transfer Complete
+11/03/19 05:13:09.609	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17916.971 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.198 mm
+	SR: 32.720780 us
+	FocusToF: 31.293067 us
+	Eject Off: 99 um
+	D2A (calculated): 1.629 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:10.234	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17863.774 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.141 mm
+	SR: 32.647610 us
+	FocusToF: 31.291383 us
+	Eject Off: 107 um
+	D2A (calculated): 1.628 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:10.859	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17810.578 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.083 mm
+	SR: 32.574439 us
+	FocusToF: 31.289699 us
+	Eject Off: 115 um
+	D2A (calculated): 1.627 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:11.500	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17757.381 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 1.026 mm
+	SR: 32.501268 us
+	FocusToF: 31.288014 us
+	Eject Off: 123 um
+	D2A (calculated): 1.625 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:12.093	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17702.766 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.971 mm
+	SR: 32.432401 us
+	FocusToF: 31.288237 us
+	Eject Off: 129 um
+	D2A (calculated): 1.624 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 112
+	Rep. Rate: 200 Hz
+11/03/19 05:13:12.093	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> O20, 1480.000 nl> Transfer Complete
+11/03/19 05:13:13.375	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18574.456 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.800 mm
+	SR: 33.521486 us
+	FocusToF: 31.209340 us
+	Eject Off: 105 um
+	D2A (calculated): 1.596 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:14.015	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18504.511 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.743 mm
+	SR: 33.449209 us
+	FocusToF: 31.231057 us
+	Eject Off: 95 um
+	D2A (calculated): 1.605 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:14.656	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18434.565 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.681 mm
+	SR: 33.370079 us
+	FocusToF: 31.252774 us
+	Eject Off: 86 um
+	D2A (calculated): 1.613 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:15.047	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18360.975 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.638 mm
+	SR: 33.316103 us
+	FocusToF: 31.272535 us
+	Eject Off: 78 um
+	D2A (calculated): 1.622 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 72
+	Rep. Rate: 200 Hz
+11/03/19 05:13:15.047	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> G20, 1080.000 nl> Transfer Complete
+11/03/19 05:13:16.328	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17651.166 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.905 mm
+	SR: 32.348365 us
+	FocusToF: 31.288709 us
+	Eject Off: 135 um
+	D2A (calculated): 1.623 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:16.968	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17588.202 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.839 mm
+	SR: 32.264330 us
+	FocusToF: 31.289286 us
+	Eject Off: 142 um
+	D2A (calculated): 1.621 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:17.593	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17522.031 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.773 mm
+	SR: 32.180294 us
+	FocusToF: 31.294172 us
+	Eject Off: 146 um
+	D2A (calculated): 1.620 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:17.672	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17451.601 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.769 mm
+	SR: 32.174692 us
+	FocusToF: 31.304782 us
+	Eject Off: 146 um
+	D2A (calculated): 1.620 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 8
+	Rep. Rate: 200 Hz
+11/03/19 05:13:17.672	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> G20, 920.000 nl> Transfer Complete
+11/03/19 05:13:18.968	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18315.119 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.568 mm
+	SR: 33.226143 us
+	FocusToF: 31.280182 us
+	Eject Off: 77 um
+	D2A (calculated): 1.623 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:19.593	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18238.691 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.497 mm
+	SR: 33.136183 us
+	FocusToF: 31.292927 us
+	Eject Off: 75 um
+	D2A (calculated): 1.623 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:20.234	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18162.264 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.426 mm
+	SR: 33.046223 us
+	FocusToF: 31.305671 us
+	Eject Off: 74 um
+	D2A (calculated): 1.623 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:20.625	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18094.546 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.384 mm
+	SR: 32.992248 us
+	FocusToF: 31.306712 us
+	Eject Off: 81 um
+	D2A (calculated): 1.623 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 72
+	Rep. Rate: 200 Hz
+11/03/19 05:13:20.625	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> P20, 1080.000 nl> Transfer Complete
+11/03/19 05:13:21.922	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17446.906 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.702 mm
+	SR: 32.090656 us
+	FocusToF: 31.305489 us
+	Eject Off: 146 um
+	D2A (calculated): 1.619 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:22.547	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17376.476 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.634 mm
+	SR: 32.003725 us
+	FocusToF: 31.316098 us
+	Eject Off: 146 um
+	D2A (calculated): 1.619 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:23.187	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17304.012 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.566 mm
+	SR: 31.916651 us
+	FocusToF: 31.326545 us
+	Eject Off: 146 um
+	D2A (calculated): 1.619 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:23.265	StartStopPrintService.cpp(1476) 	DEBUG	Well A18 begin: 
+	DMSO: 86.9%%
+	Measured DMSO: 86.9%%
+	TransZ: 17232.101 um
+	Fluid Thickness: 2.775 mm
+	Current Fluid Thickness: 0.561 mm
+	SR: 31.910846 us
+	FocusToF: 31.336105 us
+	Eject Off: 147 um
+	D2A (calculated): 1.619 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 8
+	Rep. Rate: 200 Hz
+11/03/19 05:13:23.265	StartStopPrintService.cpp(1060) 	INFO	Well <A18 -> P20, 920.000 nl> Transfer Complete
+11/03/19 05:13:24.547	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 18054.288 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.321 mm
+	SR: 32.912098 us
+	FocusToF: 31.306835 us
+	Eject Off: 85 um
+	D2A (calculated): 1.622 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:25.172	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17994.510 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.263 mm
+	SR: 32.838837 us
+	FocusToF: 31.307016 us
+	Eject Off: 92 um
+	D2A (calculated): 1.622 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:25.812	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17940.392 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.206 mm
+	SR: 32.765575 us
+	FocusToF: 31.306480 us
+	Eject Off: 99 um
+	D2A (calculated): 1.620 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:26.437	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17887.214 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.148 mm
+	SR: 32.692313 us
+	FocusToF: 31.304679 us
+	Eject Off: 107 um
+	D2A (calculated): 1.620 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:27.062	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17834.037 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.091 mm
+	SR: 32.619052 us
+	FocusToF: 31.302878 us
+	Eject Off: 115 um
+	D2A (calculated): 1.618 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:27.703	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17780.859 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 1.033 mm
+	SR: 32.545790 us
+	FocusToF: 31.301077 us
+	Eject Off: 122 um
+	D2A (calculated): 1.618 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:28.125	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17726.463 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 0.995 mm
+	SR: 32.496949 us
+	FocusToF: 31.300913 us
+	Eject Off: 129 um
+	D2A (calculated): 1.616 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 80
+	Rep. Rate: 200 Hz
+11/03/19 05:13:28.125	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> H20, 2000.000 nl> Transfer Complete
+11/03/19 05:13:29.390	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17689.911 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 0.932 mm
+	SR: 32.417188 us
+	FocusToF: 31.301192 us
+	Eject Off: 133 um
+	D2A (calculated): 1.616 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:30.015	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17630.217 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 0.866 mm
+	SR: 32.332864 us
+	FocusToF: 31.301648 us
+	Eject Off: 140 um
+	D2A (calculated): 1.614 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:30.656	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17566.939 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 0.800 mm
+	SR: 32.248541 us
+	FocusToF: 31.302359 us
+	Eject Off: 147 um
+	D2A (calculated): 1.613 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:31.281	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17495.774 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 0.734 mm
+	SR: 32.164217 us
+	FocusToF: 31.313668 us
+	Eject Off: 146 um
+	D2A (calculated): 1.612 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:31.922	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17424.608 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 0.666 mm
+	SR: 32.078537 us
+	FocusToF: 31.324977 us
+	Eject Off: 145 um
+	D2A (calculated): 1.612 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:32.547	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17352.298 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 0.598 mm
+	SR: 31.990989 us
+	FocusToF: 31.336469 us
+	Eject Off: 144 um
+	D2A (calculated): 1.612 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 120
+	Rep. Rate: 200 Hz
+11/03/19 05:13:32.984	StartStopPrintService.cpp(1476) 	DEBUG	Well B11 begin: 
+	DMSO: 87.4%%
+	Measured DMSO: 87.4%%
+	TransZ: 17279.404 um
+	Fluid Thickness: 2.725 mm
+	Current Fluid Thickness: 0.552 mm
+	SR: 31.932624 us
+	FocusToF: 31.346877 us
+	Eject Off: 144 um
+	D2A (calculated): 1.612 Vpp
+	Drop Volume: 2.5 nL
+	Drop Count: 80
+	Rep. Rate: 200 Hz
+11/03/19 05:13:32.984	StartStopPrintService.cpp(1060) 	INFO	Well <B11 -> B7, 2000.000 nl> Transfer Complete
+11/03/19 05:13:33.016	FluidTransferServer.cpp(4366) 	INFO	DoPlateTransfer() end Z-axis position: 17234
+11/03/19 05:13:33.141	FluidTransferServer.cpp(4474) 	INFO	Transfer time 799001 msec.
+11/03/19 05:13:33.172	SOAPFluidTransferProxy.cpp(612) 	DEBUG	DoPlateXfer() END
+11/03/19 05:13:34.078	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:34.109	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:34.109	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:34.125	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:34.141	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:34.156	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:34.172	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:34.187	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:34.203	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:34.219	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:34.219	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:34.234	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:34.250	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:34.266	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:34.281	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:34.297	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:34.297	SOAPFluidTransferProxy.cpp(131) 	DEBUG	PresentDstPlateGripper() START
+11/03/19 05:13:40.203	SOAPFluidTransferProxy.cpp(612) 	DEBUG	PresentDstPlateGripper() END
+11/03/19 05:13:50.063	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:50.078	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:50.094	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:50.109	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:50.109	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:50.125	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:50.141	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:50.156	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:50.172	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:50.188	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:50.188	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:50.203	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:50.219	SOAPFluidTransferProxy.cpp(131) 	DEBUG	RetractDstPlateGripper() START
+11/03/19 05:13:50.219	FluidTransferServer.cpp(2830) 	DEBUG	PlateType = None
+11/03/19 05:13:50.219	FluidTransferServer.cpp(2831) 	DEBUG	BarcodeLocation = None
+11/03/19 05:13:50.219	FluidTransferServer.cpp(2832) 	DEBUG	BarcodeLabel = 
+11/03/19 05:13:52.235	AxisHomingService.cpp(463) 	DEBUG	Checking ReceiverTheta axis home.
+11/03/19 05:13:55.313	SOAPFluidTransferProxy.cpp(612) 	DEBUG	RetractDstPlateGripper() END
+11/03/19 05:13:55.344	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.360	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.375	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.391	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.391	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.406	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.422	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.438	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.453	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.469	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.469	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.485	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.500	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.516	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.531	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.547	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.547	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.578	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.578	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:13:55.594	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:13:55.610	SOAPFluidTransferProxy.cpp(131) 	DEBUG	DryPlate() START
+11/03/19 05:14:05.125	SOAPFluidTransferProxy.cpp(612) 	DEBUG	DryPlate() END
+11/03/19 05:14:05.125	SOAPFluidTransferProxy.cpp(131) 	DEBUG	PresentSrcPlateGripper() START
+11/03/19 05:14:10.171	AxisHomingService.cpp(463) 	DEBUG	Checking TransducerZ0 axis home.
+11/03/19 05:14:10.281	AxisHomingService.cpp(463) 	DEBUG	Checking TransducerX axis home.
+11/03/19 05:14:10.421	AxisHomingService.cpp(463) 	DEBUG	Checking TransducerY axis home.
+11/03/19 05:14:11.687	SOAPFluidTransferProxy.cpp(612) 	DEBUG	PresentSrcPlateGripper() END
+11/03/19 05:14:24.344	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:14:24.359	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:14:24.359	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:14:24.375	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:14:24.390	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:14:24.406	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:14:24.422	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:14:24.437	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:14:24.437	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:14:24.453	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:14:24.469	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:14:24.484	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:14:24.500	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:14:24.515	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:14:24.531	SOAPFluidTransferProxy.cpp(131) 	DEBUG	GetDIO() START
+11/03/19 05:14:24.547	SOAPFluidTransferProxy.cpp(612) 	DEBUG	GetDIO() END
+11/03/19 05:14:24.547	SOAPFluidTransferProxy.cpp(131) 	DEBUG	CheckSrcPlateInsertCompatibility() START
+11/03/19 05:14:24.562	SOAPFluidTransferProxy.cpp(612) 	DEBUG	CheckSrcPlateInsertCompatibility() END
+11/03/19 05:14:24.562	SOAPFluidTransferProxy.cpp(131) 	DEBUG	RetractSrcPlateGripper() START
+11/03/19 05:14:24.562	FluidTransferServer.cpp(2379) 	DEBUG	PlateType = Labcyte_LDV_384
+11/03/19 05:14:24.562	FluidTransferServer.cpp(2380) 	DEBUG	BarcodeLocation = None
+11/03/19 05:14:24.562	FluidTransferServer.cpp(2381) 	DEBUG	BarcodeLabel = 
+11/03/19 05:14:32.437	AxisHomingService.cpp(463) 	DEBUG	Checking SourceY axis home.
+11/03/19 05:14:33.234	SOAPFluidTransferProxy.cpp(612) 	DEBUG	RetractSrcPlateGripper() END
+11/03/19 05:19:13.593	SOAPFluidTransferProxy.cpp(131) 	DEBUG	CloseDoor() START
+11/03/19 05:19:14.125	SOAPFluidTransferProxy.cpp(612) 	DEBUG	CloseDoor() END

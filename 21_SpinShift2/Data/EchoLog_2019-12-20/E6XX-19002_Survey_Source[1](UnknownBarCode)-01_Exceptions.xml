@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<reportexceptions>
+     <record>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A8</SrcWell>
+          <SurveyFluidHeight name="Survey Fluid Height">0</SurveyFluidHeight>
+          <SurveyFluidVolume name="Survey Fluid Volume">0</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">0</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">0</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <SurveyStatus name="Survey Status">Data missing for well (1th row, 8th column), defaulting to 0.0 percent DMSO</SurveyStatus>
+     </record>
+</reportexceptions>

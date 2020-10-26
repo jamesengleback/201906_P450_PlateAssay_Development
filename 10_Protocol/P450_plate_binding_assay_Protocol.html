@@ -1,0 +1,66 @@
+<h2 id="jamess-p450-binding-assay">James's P450 Binding Assay</h2>
+<h3 id="well-plate-sytle">384 Well plate sytle</h3>
+<h3 id="overveiw">Overveiw:</h3>
+<p>Emulates old-school titrations that are used to work out how tightly a given compound binds in the acive site of P450 enzymes. In this assay no energy is consumed and no chemical reaction (should) happen, it works because P450 enzymes change the UV-Visible light absorbance profile as they bind to compounds. Here's an example:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Raw Spectra</th>
+<th>Difference Spectra</th>
+<th>Michaelis-Menten Plot</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="14.09_uM_BM3_arachadnic_acid_1_Corrected_Spectra_PM.png" /></td>
+<td><img src="14.09_uM_BM3_arachadnic_acid_1_Difference_Spectra_PM.png" /></td>
+<td><img src="14.09_uM_BM3_arachadnic_acid_1_Michaelis_Menten_PM.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Raw Spectra</strong> is the P450's change in UV-Visible light absorbance due to the compound binding in the active site and doing some --chemistry??</p>
+<p>The <strong>Difference Spectra</strong> is the raw spectra that have had the 0 substrate concentration race subtracted from them. This is used to calculate the:</p>
+<p><strong>Michaelis Menten</strong> plot. Compound concentration is plotted against the (peak height at ~ 420 nm - peak depth at ~390 nm), which sort of quantifies the state change of the P450 in response to addition of the compound. From this you can fit a curve to the data according to the equation <code>y = (vmax*x)/(km + x)</code> where km is the term I'm really interested in.</p>
+<h4 id="complications">Complications</h4>
+<p>Some compounds have their own absorbance in the UV-Vis range, which messes up the measurements. To deal with this I do a protein-free replicate of each test well and subtract the absorbance trace of that from its counterpart. This works but it doubles the ammount of compound needed.</p>
+<h4 id="consumables">Consumables:</h4>
+<ul>
+<li>Clear bottom 384 well plate (I've been getting better results with various treated plates but haven't done a proper comparison yet)</li>
+<li>A mother plate of your choice! I sometimes use deep well plates, sometimmes PCR strips, whatever's around and is SBS (96 well) format.</li>
+<li>Buffer: I use 100 mM potassium phosphate buffer at pH 7 for P450 BM3, apparently it's happy in that, though it might be slightly different in a plate well.</li>
+<li>P450 Heme domain - I've been shooting for about 5-15 uM, which is was giving me a clean signal on a BMG Pherastar FS.</li>
+<li>Your compounds in DMSO (I do mine at 10 mM)</li>
+</ul>
+<h4 id="equipment">Equipment</h4>
+<ul>
+<li>Plate reader - duh. I've been using one that does a spectral trace from 220 to 800 nm for each well because it's most similar to the traditional methods. I use the BMG PheraStarFS over the numerous BMG Clariostars because they're about 4 times as fast.</li>
+<li>Centrifuge that can spin your plates</li>
+<li>Multichannel pipette - I use one that can do the 10-50 ul range for the plate itself and a 200 ul one for making up the mother plate.</li>
+</ul>
+<h4 id="procedure">Procedure</h4>
+<ul>
+<li><strong>Serial dultion of compounds</strong> in master plate.</li>
+<li>Allow 25 ul for each well (2 per compound) and make up 8% v/v (compound in DMSO):Buffer</li>
+<li><p>Serial Dilution (1/2) along short axis</p></li>
+<li><p><strong>Transfer 25 ul of Compound dilutions to assay plate</strong> Like this:</p></li>
+</ul>
+<table style="width:17%;">
+<colgroup>
+<col width="6%" />
+<col width="9%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Serial dilutions are done on the short axis in the mother plate on the left, and 25 ul is transferred to each target well in the assay plate on the right. 2 target wells for each compound (test and control) one above the other.</td>
+<td><img src="MasterToAssayPlate.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>Each compound concentration gets one test well and one control well. One compound for each columns * number of repeats.</p>
+<ul>
+<li><p><strong>Add 25 ul of diluted enzyme to the test wells</strong> marked by red in the pic above.</p></li>
+<li><p><strong>Add 25 ul of the buffer to the control wells</strong> marked by green.</p></li>
+<li><p><strong>Mix</strong> by pipetting or shaking. I do shaking to save tips but I haven't* tested for the best way yet.</p></li>
+<li><p><strong>Read absorbance</strong> from 220-800 nm or something like that. I chose these because it's the closest I can get to traditional style titrations.</p></li>
+</ul>
+<p><strong>Analyse</strong></p>

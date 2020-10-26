@@ -1,0 +1,31 @@
+Run ID,1576851117
+Run Date/Time,2019-12-20 14:12:23
+Application Name,Labcyte Echo Plate Reformat
+Application Version,1.7.2
+Protocol Name,Protocol 1.epr
+Order ID,
+Reference ID,
+User Name,Lab
+
+[EXCEPTIONS]
+Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Survey Fluid Height,Survey Fluid Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Survey Status
+Source[1],UnknownBarCode,384PP_DMSO2,A5,0,0,0,0,Percent,DMSO,"Data missing for well (1th row, 5th column), defaulting to 0.0 percent DMSO"
+Source[1],UnknownBarCode,384PP_DMSO2,A7,0,0,0,0,Percent,DMSO,"Data missing for well (1th row, 7th column), defaulting to 0.0 percent DMSO"
+
+[DETAILS]
+Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Survey Fluid Height,Survey Fluid Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Survey Status
+Source[1],UnknownBarCode,384PP_DMSO2,A1,0.306,5.916,5.916,94.803,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B1,0.441,8.387,8.387,89.005,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A2,0.34,6.565,6.565,94.592,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A3,0.34,6.591,6.591,95.262,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B2,0.439,8.312,8.312,87.829,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A4,0.344,6.677,6.677,95.514,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A6,0.44,8.557,8.557,96.15,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,B3,0.377,7.172,7.172,88.957,Percent,DMSO,
+Source[1],UnknownBarCode,384PP_DMSO2,A8,0.316,6.147,6.147,95.901,Percent,DMSO,
+
+Instrument Name,E6XX-19002
+Instrument Model,Echo 650
+Instrument Serial Number,E6XX-19002
+Instrument Software Version,3.0.2
+

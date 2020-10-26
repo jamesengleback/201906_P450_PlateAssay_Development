@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<transfer style="startstop" date="2019-12-21 17:26:48.000" serial_number="E6XX-19002" vtl="0" frmt="1" expbottof="31.8">
+     <plateInfo>
+          <plate type="source" name="384PP_DMSO2" barcode="UnknownBarCode" />
+          <plate type="destination" name="384PP_Dest" barcode="UnknownBarCode" />
+     </plateInfo>
+     <printmap total="14">
+          <w n="D4" r="3" c="3" dn="E20" dr="4" dc="19" t="17:26:10.064" cvl="31.729" vl="33.356" vt="1627.5" avt="1627.5" gx="59931.575" gy="58135.619" tz="6386.057" oid="1" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.906" fc="96.859" ft="2.094" ct="1.975" sv="1510.121" tof="32.481" eo="53.917" aa="1.783" cf="12.505" reason="" />
+          <w n="D4" r="3" c="3" dn="F20" dr="5" dc="19" t="17:26:13.608" cvl="30.459" vl="33.356" vt="1270" avt="1270" gx="59931.575" gy="58135.619" tz="6263.434" oid="2" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.906" fc="96.859" ft="2.094" ct="1.881" sv="1510.121" tof="32.487" eo="52.613" aa="1.762" cf="12.505" reason="" />
+          <w n="D4" r="3" c="3" dn="G20" dr="6" dc="19" t="17:26:16.351" cvl="29.719" vl="33.356" vt="740" avt="740" gx="59931.575" gy="58135.619" tz="6243.086" oid="3" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.906" fc="96.859" ft="2.094" ct="1.827" sv="1510.121" tof="32.493" eo="52.392" aa="1.768" cf="12.505" reason="" />
+          <w n="D4" r="3" c="3" dn="G19" dr="6" dc="18" t="17:26:17.956" cvl="28.979" vl="33.356" vt="740" avt="740" gx="59931.575" gy="58135.619" tz="6187.321" oid="4" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.906" fc="96.859" ft="2.094" ct="1.773" sv="1510.121" tof="32.496" eo="51.748" aa="1.765" cf="12.505" reason="" />
+          <w n="D4" r="3" c="3" dn="F19" dr="5" dc="18" t="17:26:19.635" cvl="27.709" vl="33.356" vt="1270" avt="1270" gx="59931.575" gy="58135.619" tz="6056.222" oid="5" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.906" fc="96.859" ft="2.094" ct="1.68" sv="1510.121" tof="32.499" eo="50.106" aa="1.772" cf="12.505" reason="" />
+          <w n="D4" r="3" c="3" dn="I19" dr="8" dc="18" t="17:26:22.454" cvl="25.709" vl="33.356" vt="2000" avt="2000" gx="59931.575" gy="58135.619" tz="5960.535" oid="6" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.906" fc="96.859" ft="2.094" ct="1.533" sv="1510.121" tof="32.504" eo="48.908" aa="1.773" cf="12.505" reason="" />
+          <w n="D4" r="3" c="3" dn="I20" dr="8" dc="19" t="17:26:26.709" cvl="23.709" vl="33.356" vt="2000" avt="2000" gx="59931.575" gy="58135.619" tz="5809.823" oid="7" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.906" fc="96.859" ft="2.094" ct="1.387" sv="1510.121" tof="32.513" eo="47.02" aa="1.777" cf="12.505" reason="" />
+          <w n="C2" r="2" c="1" dn="H20" dr="7" dc="19" t="17:26:30.912" cvl="35.987" vl="37.987" vt="2000" avt="2000" gx="50973.979" gy="62617.619" tz="6855.611" oid="8" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.898" fc="91.007" ft="2.45" ct="2.303" sv="1547.914" tof="32.281" eo="79.976" aa="1.901" cf="12.504" reason="" />
+          <w n="C2" r="2" c="1" dn="G20" dr="6" dc="19" t="17:26:35.188" cvl="34.727" vl="37.987" vt="1260" avt="1260" gx="50973.979" gy="62617.619" tz="6700.594" oid="9" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.898" fc="91.007" ft="2.45" ct="2.211" sv="1547.914" tof="32.3" eo="77.83" aa="1.869" cf="12.504" reason="" />
+          <w n="C2" r="2" c="1" dn="F20" dr="5" dc="19" t="17:26:37.913" cvl="33.997" vl="37.987" vt="730" avt="730" gx="50973.979" gy="62617.619" tz="6680.442" oid="10" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.898" fc="91.007" ft="2.45" ct="2.157" sv="1547.914" tof="32.312" eo="77.551" aa="1.864" cf="12.504" reason="" />
+          <w n="C2" r="2" c="1" dn="F19" dr="5" dc="18" t="17:26:39.498" cvl="33.267" vl="37.987" vt="730" avt="730" gx="50973.979" gy="62617.619" tz="6623.861" oid="11" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.898" fc="91.007" ft="2.45" ct="2.104" sv="1547.914" tof="32.319" eo="76.767" aa="1.87" cf="12.504" reason="" />
+          <w n="C2" r="2" c="1" dn="G19" dr="6" dc="18" t="17:26:41.157" cvl="32.007" vl="37.987" vt="1260" avt="1260" gx="50973.979" gy="62617.619" tz="6489.771" oid="12" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.898" fc="91.007" ft="2.45" ct="2.011" sv="1547.914" tof="32.326" eo="74.911" aa="1.874" cf="12.504" reason="" />
+          <w n="C2" r="2" c="1" dn="H19" dr="7" dc="18" t="17:26:43.956" cvl="30.007" vl="37.987" vt="2000" avt="2000" gx="50973.979" gy="62617.619" tz="6391.993" oid="13" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.898" fc="91.007" ft="2.45" ct="1.865" sv="1547.914" tof="32.337" eo="73.442" aa="1.876" cf="12.504" reason="" />
+          <w n="C2" r="2" c="1" dn="J19" dr="9" dc="18" t="17:26:48.160" cvl="30.002" vl="37.987" vt="5" avt="5" gx="50973.979" gy="62617.619" tz="6314.344" oid="14" tag="" dx="0" dy="0" fld="DMSO" fldu="Percent" wc="" sid="" memt="0.898" fc="91.007" ft="2.45" ct="1.864" sv="1547.914" tof="32.357" eo="72.229" aa="1.883" cf="12.504" reason="" />
+     </printmap>
+     <skippedwells total="0" />
+     <platemap>
+          <fluidcompositionmethod v="PlateSignature" />
+          <fluidcompositionmin v="71.918" />
+          <fluidcompositionmax v="98.589" />
+          <fluidcompositionave v="90.5" />
+          <composition rows="4" cols="6">
+               <w n="A1" r="0" c="0" com="71.918" />
+               <w n="A3" r="0" c="2" com="73.299" />
+               <w n="A5" r="0" c="4" com="76.074" />
+               <w n="A6" r="0" c="5" com="78.853" />
+               <w n="B1" r="1" c="0" com="90.644" />
+               <w n="B2" r="1" c="1" com="91.007" />
+               <w n="B3" r="1" c="2" com="91.106" />
+               <w n="B4" r="1" c="3" com="90.702" />
+               <w n="B5" r="1" c="4" com="91.953" />
+               <w n="B6" r="1" c="5" com="91.933" />
+               <w n="C1" r="2" c="0" com="96.909" />
+               <w n="C2" r="2" c="1" com="97.66" />
+               <w n="C3" r="2" c="2" com="97.221" />
+               <w n="C4" r="2" c="3" com="96.859" />
+               <w n="C5" r="2" c="4" com="97.892" />
+               <w n="C6" r="2" c="5" com="98.589" />
+          </composition>
+          <fcthickness rows="4" cols="6">
+               <w n="A1" r="0" c="0" ft="0.359" />
+               <w n="A3" r="0" c="2" ft="0.254" />
+               <w n="A5" r="0" c="4" ft="0.335" />
+               <w n="A6" r="0" c="5" ft="0.367" />
+               <w n="B1" r="1" c="0" ft="0.434" />
+               <w n="B2" r="1" c="1" ft="2.45" />
+               <w n="B3" r="1" c="2" ft="3.778" />
+               <w n="B4" r="1" c="3" ft="4.285" />
+               <w n="B5" r="1" c="4" ft="4.32" />
+               <w n="B6" r="1" c="5" ft="4.285" />
+               <w n="C1" r="2" c="0" ft="0.471" />
+               <w n="C2" r="2" c="1" ft="0.46" />
+               <w n="C3" r="2" c="2" ft="0.41" />
+               <w n="C4" r="2" c="3" ft="2.094" />
+               <w n="C5" r="2" c="4" ft="4.344" />
+               <w n="C6" r="2" c="5" ft="4.337" />
+          </fcthickness>
+          <memthickness rows="4" cols="6">
+               <w n="A1" r="0" c="0" mt="0.88" />
+               <w n="A3" r="0" c="2" mt="0.918" />
+               <w n="A5" r="0" c="4" mt="0.909" />
+               <w n="A6" r="0" c="5" mt="0.875" />
+               <w n="B1" r="1" c="0" mt="0.892" />
+               <w n="B2" r="1" c="1" mt="0.898" />
+               <w n="B3" r="1" c="2" mt="0.9" />
+               <w n="B4" r="1" c="3" mt="0.903" />
+               <w n="B5" r="1" c="4" mt="0.898" />
+               <w n="B6" r="1" c="5" mt="0.9" />
+               <w n="C1" r="2" c="0" mt="0.895" />
+               <w n="C2" r="2" c="1" mt="0.898" />
+               <w n="C3" r="2" c="2" mt="0.9" />
+               <w n="C4" r="2" c="3" mt="0.906" />
+               <w n="C5" r="2" c="4" mt="0.9" />
+               <w n="C6" r="2" c="5" mt="0.903" />
+          </memthickness>
+          <measbottof>
+               <w n="A1" r="0" c="0" mbtof="31.88" />
+               <w n="A2" r="0" c="1" mbtof="31.87" />
+               <w n="A3" r="0" c="2" mbtof="31.856" />
+               <w n="A4" r="0" c="3" mbtof="31.842" />
+               <w n="A5" r="0" c="4" mbtof="31.83" />
+               <w n="A6" r="0" c="5" mbtof="31.82" />
+               <w n="B1" r="1" c="0" mbtof="31.886" />
+               <w n="B2" r="1" c="1" mbtof="31.862" />
+               <w n="B3" r="1" c="2" mbtof="31.844" />
+               <w n="B4" r="1" c="3" mbtof="31.826" />
+               <w n="B5" r="1" c="4" mbtof="31.818" />
+               <w n="B6" r="1" c="5" mbtof="31.806" />
+               <w n="C1" r="2" c="0" mbtof="31.882" />
+               <w n="C2" r="2" c="1" mbtof="31.856" />
+               <w n="C3" r="2" c="2" mbtof="31.83" />
+               <w n="C4" r="2" c="3" mbtof="31.814" />
+               <w n="C5" r="2" c="4" mbtof="31.802" />
+               <w n="C6" r="2" c="5" mbtof="31.79" />
+               <w n="D1" r="3" c="0" mbtof="31.884" />
+               <w n="D2" r="3" c="1" mbtof="31.852" />
+               <w n="D3" r="3" c="2" mbtof="31.826" />
+               <w n="D4" r="3" c="3" mbtof="31.808" />
+               <w n="D5" r="3" c="4" mbtof="31.792" />
+               <w n="D6" r="3" c="5" mbtof="31.778" />
+          </measbottof>
+     </platemap>
+     <amplifierparameter>
+          <sysgain v="1" />
+          <ampfeedback v="0.989" />
+     </amplifierparameter>
+</transfer>

@@ -1,0 +1,25 @@
+Date Time Point,Source Plate Name,Source Plate Barcode,Source Plate Type,Source Well,Destination Plate Name,Destination Plate Barcode,Destination Plate Type,Destination Well,Transfer Volume,Actual Volume,Sample ID,Sample Name,Survey Fluid Volume,Current Fluid Volume,Fluid Composition,Fluid Units,Fluid Type,Transfer Status
+2019-12-20 13:46:33.440,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,D10,1382.5,1000,,,17.095,9.258,98.187,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.64553 ft: 0.473011
+2019-12-20 13:46:35.583,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,I9,1500,0,,,17.095,9.258,98.187,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.64553 ft: 0.473011
+2019-12-20 13:46:41.256,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F9,547.5,0,,,11.359,8.914,90.383,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675
+2019-12-20 13:46:41.366,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E9,280,0,,,11.359,8.914,90.383,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675
+2019-12-20 13:46:41.480,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,E10,280,0,,,11.359,8.914,90.383,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675
+2019-12-20 13:46:41.591,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,D10,117.5,0,,,11.359,8.914,90.383,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675
+2019-12-20 13:46:41.702,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,F10,547.5,0,,,11.359,8.914,90.383,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675
+2019-12-20 13:46:41.859,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,G10,945,0,,,11.359,8.914,90.383,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675
+2019-12-20 13:46:41.970,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,H10,1500,0,,,11.359,8.914,90.383,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675
+2019-12-20 13:47:01.259,Source[1],,384PP_DMSO2,A5,Destination[1],,384PP_Dest,I10,1500,0,,,5.761,5.761,97.621,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.65102 ft: 0.295014
+2019-12-20 13:47:22.946,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M9,280,0,,,7.895,7.895,90.69,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836
+2019-12-20 13:47:23.346,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L9,117.5,0,,,7.895,7.895,90.69,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836
+2019-12-20 13:47:23.457,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K9,35,0,,,7.895,7.895,90.69,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836
+2019-12-20 13:47:23.568,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J9,5,0,,,7.895,7.895,90.69,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836
+2019-12-20 13:47:23.679,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,J10,5,0,,,7.895,7.895,90.69,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836
+2019-12-20 13:47:23.790,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,K10,35,0,,,7.895,7.895,90.69,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836
+2019-12-20 13:47:23.902,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,L10,117.5,0,,,7.895,7.895,90.69,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836
+2019-12-20 13:47:24.013,Source[1],,384PP_DMSO2,B2,Destination[1],,384PP_Dest,M10,280,0,,,7.895,7.895,90.69,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836
+2019-12-20 13:51:45.955,Source[1],,384PP_DMSO2,A8,Destination[1],,384PP_Dest,D14,1382.5,1000,,,17.178,9.34,98.119,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.64619 ft: 0.477354
+2019-12-20 13:51:48.081,Source[1],,384PP_DMSO2,A8,Destination[1],,384PP_Dest,I13,1500,0,,,17.178,9.34,98.119,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.64619 ft: 0.477354
+2019-12-20 13:52:21.509,Source[1],,384PP_DMSO2,A8,Destination[1],,384PP_Dest,I14,1500,0,,,0,0,0,Percent,DMSO,MM0202007: Problem calc. well fluid volume fc: 0 ft: 0
+2019-12-20 14:10:20.848,Source[1],,384PP_DMSO2,B7,Destination[1],,384PP_Dest,O24,1260,1000,,,11.073,8.813,91.893,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.69983 ft: 0.460314
+2019-12-20 14:10:22.973,Source[1],,384PP_DMSO2,B7,Destination[1],,384PP_Dest,N24,730,0,,,11.073,8.813,91.893,Percent,DMSO,MM0202006: Problem calc. eo fc: 1.69983 ft: 0.460314
+

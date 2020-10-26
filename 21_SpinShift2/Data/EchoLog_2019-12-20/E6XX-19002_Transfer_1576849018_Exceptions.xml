@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<reportexceptions>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:33.440</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A5</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">D10</DestWell>
+          <XferVol name="Transfer Volume">1382.5</XferVol>
+          <ActualVol name="Actual Volume">1000</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">17.095</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">9.258</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">98.187</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.64553 ft: 0.473011</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:35.583</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A5</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">I9</DestWell>
+          <XferVol name="Transfer Volume">1500</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">17.095</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">9.258</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">98.187</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.64553 ft: 0.473011</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:41.256</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">F9</DestWell>
+          <XferVol name="Transfer Volume">547.5</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.359</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.914</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.383</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:41.366</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">E9</DestWell>
+          <XferVol name="Transfer Volume">280</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.359</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.914</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.383</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:41.480</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">E10</DestWell>
+          <XferVol name="Transfer Volume">280</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.359</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.914</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.383</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:41.591</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">D10</DestWell>
+          <XferVol name="Transfer Volume">117.5</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.359</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.914</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.383</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:41.702</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">F10</DestWell>
+          <XferVol name="Transfer Volume">547.5</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.359</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.914</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.383</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:41.859</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">G10</DestWell>
+          <XferVol name="Transfer Volume">945</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.359</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.914</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.383</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:46:41.970</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">H10</DestWell>
+          <XferVol name="Transfer Volume">1500</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.359</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.914</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.383</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.71117 ft: 0.467675</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:01.259</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A5</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">I10</DestWell>
+          <XferVol name="Transfer Volume">1500</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">5.761</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">5.761</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">97.621</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.65102 ft: 0.295014</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:22.946</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">M9</DestWell>
+          <XferVol name="Transfer Volume">280</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">7.895</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">7.895</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.69</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:23.346</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">L9</DestWell>
+          <XferVol name="Transfer Volume">117.5</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">7.895</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">7.895</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.69</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:23.457</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">K9</DestWell>
+          <XferVol name="Transfer Volume">35</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">7.895</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">7.895</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.69</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:23.568</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">J9</DestWell>
+          <XferVol name="Transfer Volume">5</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">7.895</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">7.895</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.69</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:23.679</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">J10</DestWell>
+          <XferVol name="Transfer Volume">5</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">7.895</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">7.895</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.69</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:23.790</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">K10</DestWell>
+          <XferVol name="Transfer Volume">35</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">7.895</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">7.895</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.69</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:23.902</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">L10</DestWell>
+          <XferVol name="Transfer Volume">117.5</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">7.895</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">7.895</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.69</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:47:24.013</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B2</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">M10</DestWell>
+          <XferVol name="Transfer Volume">280</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">7.895</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">7.895</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">90.69</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.70891 ft: 0.413836</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:51:45.955</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A8</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">D14</DestWell>
+          <XferVol name="Transfer Volume">1382.5</XferVol>
+          <ActualVol name="Actual Volume">1000</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">17.178</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">9.34</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">98.119</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.64619 ft: 0.477354</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:51:48.081</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A8</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">I13</DestWell>
+          <XferVol name="Transfer Volume">1500</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">17.178</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">9.34</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">98.119</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.64619 ft: 0.477354</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 13:52:21.509</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">A8</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">I14</DestWell>
+          <XferVol name="Transfer Volume">1500</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">0</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">0</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">0</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202007: Problem calc. well fluid volume fc: 0 ft: 0</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 14:10:20.848</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B7</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">O24</DestWell>
+          <XferVol name="Transfer Volume">1260</XferVol>
+          <ActualVol name="Actual Volume">1000</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.073</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.813</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">91.893</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.69983 ft: 0.460314</XferStatus>
+     </record>
+     <record>
+          <DateTimePoint name="Date Time Point">2019-12-20 14:10:22.973</DateTimePoint>
+          <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+          <SrcPlateBarcode name="Source Plate Barcode">
+          </SrcPlateBarcode>
+          <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+          <SrcWell name="Source Well">B7</SrcWell>
+          <DestPlateName name="Destination Plate Name">Destination[1]</DestPlateName>
+          <DestPlateBarcode name="Destination Plate Barcode">
+          </DestPlateBarcode>
+          <DestPlateType name="Destination Plate Type">384PP_Dest</DestPlateType>
+          <DestWell name="Destination Well">N24</DestWell>
+          <XferVol name="Transfer Volume">730</XferVol>
+          <ActualVol name="Actual Volume">0</ActualVol>
+          <SampleID name="Sample ID">
+          </SampleID>
+          <SampleName name="Sample Name">
+          </SampleName>
+          <SurveyFluidVolume name="Survey Fluid Volume">11.073</SurveyFluidVolume>
+          <CurrentFluidVolume name="Current Fluid Volume">8.813</CurrentFluidVolume>
+          <FluidComposition name="Fluid Composition">91.893</FluidComposition>
+          <FluidUnits name="Fluid Units">Percent</FluidUnits>
+          <FluidType name="Fluid Type">DMSO</FluidType>
+          <XferStatus name="Transfer Status">MM0202006: Problem calc. eo fc: 1.69983 ft: 0.460314</XferStatus>
+     </record>
+</reportexceptions>

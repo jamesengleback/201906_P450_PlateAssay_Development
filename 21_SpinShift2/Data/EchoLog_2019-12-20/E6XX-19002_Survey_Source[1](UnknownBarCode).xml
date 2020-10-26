@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<report>
+     <reportheader>
+          <RunID name="Run ID">1576846886</RunID>
+          <RunDateTime name="Run Date/Time">2019-12-20 13:01:52</RunDateTime>
+          <AppName name="Application Name">Labcyte Echo Plate Reformat</AppName>
+          <AppVersion name="Application Version">1.7.2</AppVersion>
+          <ProtocolName name="Protocol Name">Protocol 1.epr</ProtocolName>
+          <OrderID name="Order ID">
+          </OrderID>
+          <ReferenceID name="Reference ID">
+          </ReferenceID>
+          <UserName name="User Name">Lab</UserName>
+     </reportheader>
+     <reportexceptions />
+     <reportbody>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A1</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.522</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.309</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.309</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.701</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">B1</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.548</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.356</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.356</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">91.799</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A2</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.502</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.035</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.035</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.6</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A3</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.493</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">38.879</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">38.879</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">98.742</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">B2</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">1.665</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">27.302</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">27.302</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">91.42</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A4</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.514</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.146</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.146</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">98.53</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A5</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">1.607</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">26.767</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">26.767</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">98.069</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A6</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.997</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">45.749</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">45.749</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">98.741</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">B3</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.758</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">42.197</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">42.197</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">91.268</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A7</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">3.001</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">45.828</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">45.828</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.221</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A8</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">1.595</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">26.667</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">26.667</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.302</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">B4</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.743</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">42.021</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">42.021</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">92.199</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A9</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.974</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">45.476</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">45.476</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.581</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A10</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.954</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">45.216</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">45.216</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.701</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A11</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.448</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">38.278</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">38.278</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.038</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">B5</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.207</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">34.715</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">34.715</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">92.158</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A12</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.556</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.707</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.707</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">98.242</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A13</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.523</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.286</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.286</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">98.944</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A14</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.477</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">38.699</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">38.699</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.701</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">B6</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.796</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">42.737</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">42.737</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">92.014</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A15</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.509</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.132</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.132</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.647</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A16</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.519</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.258</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.258</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">99.408</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">B7</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.706</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">41.521</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">34.271</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">92.34</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A17</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.569</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">39.907</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">39.907</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">98.671</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+          <record>
+               <SrcPlateName name="Source Plate Name">Source[1]</SrcPlateName>
+               <SrcPlateBarcode name="Source Plate Barcode">UnknownBarCode</SrcPlateBarcode>
+               <SrcPlateType name="Source Plate Type">384PP_DMSO2</SrcPlateType>
+               <SrcWell name="Source Well">A18</SrcWell>
+               <SurveyFluidHeight name="Survey Fluid Height">2.914</SurveyFluidHeight>
+               <SurveyFluidVolume name="Survey Fluid Volume">44.609</SurveyFluidVolume>
+               <CurrentFluidVolume name="Current Fluid Volume">40.589</CurrentFluidVolume>
+               <FluidComposition name="Fluid Composition">98.393</FluidComposition>
+               <FluidUnits name="Fluid Units">Percent</FluidUnits>
+               <FluidType name="Fluid Type">DMSO</FluidType>
+               <SurveyStatus name="Survey Status">
+               </SurveyStatus>
+          </record>
+     </reportbody>
+     <reportfooter>
+          <InstrName name="Instrument Name">E6XX-19002</InstrName>
+          <InstrModel name="Instrument Model">Echo 650</InstrModel>
+          <InstrSN name="Instrument Serial Number">E6XX-19002</InstrSN>
+          <InstrSWVersion name="Instrument Software Version">3.0.2</InstrSWVersion>
+     </reportfooter>
+</report>
