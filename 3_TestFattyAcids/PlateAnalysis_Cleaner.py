@@ -264,7 +264,8 @@ titles = ['14.09_uM_BM3_'+i for i in titles]
 count=0
 for i in range(1,24):
 
-    StickItAllTogether('20190626_plate1.CSV',i,concs, titles[count])
+    # StickItAllTogether('20190626_plate1.CSV',i,concs, titles[count])
+    StickItAllTogether('SerialDilfattyacids.CSV',i,concs, titles[count])
     count+=1
 
 #generate_markdown_Table(titles)

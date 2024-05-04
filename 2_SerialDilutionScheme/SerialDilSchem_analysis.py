@@ -35,147 +35,229 @@ def getPlateData(path):
     data.index = WellIndex
     return data
 
-def baseline_correction(data):
-    data.reset_index(inplace=True)
-    baseline = data[data['WellLetter'].str.contains('4')]
-    baseline = baseline.mean(axis=0)
-    # takes mean
-    data = data.drop('WellLetter',axis=1)
-    data = data.subtract(baseline, axis=1)
-
-    return data
-
-def WhosTheWorstOffender(data):
-    data = pd.DataFrame(data.loc[:,320])
-    data.reset_index(inplace=True)
-    data.sort_values([320],inplace=True,ascending=False)
-    return data
-
-def select_traces(data, selection):
-    # assumes that the data has a well number index
-    data.reset_index(inplace=True)
-    well_index = data['WellLetter']
-    data = data.loc[well_index.str.contains(str(selection)),:]
-    data.drop(['WellLetter'],inplace=True, axis=1)
-    return data
-
-def plotPlateData(data):
-    ## = pd.Series([list(i)[1] for i in Data_Frames[0].reset_index()['WellLetter']]).astype(int)
+def plotPlateData(data,
+				  title=None,
+				  ligand_name=None,
+				  save_path=None,
+				  concs=None,
+				  ax=None,
+                  ylim=None,
+                  ):
     x = data.columns.astype(int)
-    fig, ax = plt.subplots(figsize=(15,5))
-    #plt.figure(figsize=(15,5))
-    colors = {1:'#304360',
-    2:'#3f6c77',
-    3:'#41a48c'}
-    ax.set_prop_cycle('color',plt.cm.inferno(np.linspace(0,0.9,len(data))))
-    plt.set_cmap('viridis')
 
-    concs = np.array([1,1,
-    0.5,0.5,
-    0.25,0.25,
-    0.125,0.125,
-    0.0625,0.0625,
-    0.03125,0.03125,
-    0.015625,0.015625,
-    0.0078125,0.0078125])*1000
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(15,5))
 
-    concs = np.around(concs,2)
-    for i in range(len(data)):
-        y = data.iloc[i,:]
-        plt.plot(x,y, lw = 2, alpha = 0.7)
-    plt.title('Serial Dilution Scheme Experiment Dump, Baseline corrected - Protein + NPG, 2.5% DMSO')
-    plt.xticks(x[::50])
-    plt.xlim((220,800))
-    plt.ylim((-0.05,1))
-    plt.xlabel('Wavlength nm')
-    plt.ylabel('Absorbance')
-    plt.legend(concs, title = 'Lauric Acid concentration in uM')
-    plt.show()
+    if concs is not None:
+        colors = plt.cm.inferno((concs - min(concs))/max(concs))
+    else:
+        colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
 
-def plotPlateDifferenceSpectra(data,pureprotein):
-    data = data.subtract(pureprotein,axis=1)
-    x = data.columns.astype(int)
-    fig, ax = plt.subplots(figsize=(15,5))
-    ax.set_prop_cycle('color',plt.cm.inferno(np.linspace(0,0.9,len(data))))
-    plt.set_cmap('viridis')
-    concs = np.array([1,1,
-    0.5,0.5,
-    0.25,0.25,
-    0.125,0.125,
-    0.0625,0.0625,
-    0.03125,0.03125,
-    0.015625,0.015625,
-    0.0078125,0.0078125])*1000
+    for i, j in enumerate(data.index):
+        y = data.loc[j,:]
+        ax.plot(x,
+                y, 
+                lw=2, 
+                color=colors[i],
+                label=concs[i] if concs is not None else None,
+                )
+    if title is not None:
+        ax.set_title(title)
+    ax.set_xticks(x[::50])
+    ax.set_xlim((220,800))
+    if ylim is None:
+        ax.set_ylim((-0.05,1))
+    else:
+        ax.set_ylim(ylim)
+    ax.set_xlabel('Wavlength nm')
+    ax.set_ylabel('Absorbance')
+    if concs is not None:
+        if ligand_name is not None:
+            ax.legend(concs, 
+                      title = f'{ligand_name} concentration μM',
+                      loc='right',
+                      )
+        else:
+            ax.legend(concs, 
+                      title = 'Concentration μM',
+                      loc='right',
+                      )
 
-    concs = np.around(concs,2)
-    for i in range(len(data)):
-        y = data.iloc[i,:]
-        plt.plot(x,y, lw = 2, alpha = 0.7)
-    plt.title('Serial Dilution Scheme Experiment Dump, Baseline corrected - Protein + Lauric Acid, 5% DMSO')
-    plt.xticks(x[::50])
-    plt.xlim((220,800))
-    plt.ylim((-0.5,0.5))
-    plt.xlabel('Wavlength nm')
-    plt.ylabel('Change in Absorbance')
-    plt.legend(concs, title = 'Substrate concentration in uM',loc='right')
-    plt.show()
 
-def calculateDiffDiff(data,pureprotein):
-    data=data.subtract(pureprotein,axis=1).drop('index',axis=1)
-    DiffA420=data.loc[:,420]
-    DiffA390=data.loc[:,390]
-    DiffDiff = DiffA390-DiffA420
-    return DiffDiff
+def calculate_response(data):
+    return data.loc[:, 390].abs() + data.loc[:, 420].abs() 
 
 def curve(x, vmax, km):
     y = (vmax*x)/(km + x)
     return y
 
-def calculate_Km(DiffDiff,concs):
+def calculate_km(DiffDiff,concs):
     params, cov = optimize.curve_fit(curve, concs, DiffDiff,
                                                    p0=[2, 2])
     vmax = params[0]
     km = params[1]
     return vmax, km
 
-def Plot_MichaelisMenten(DiffDiff,concs):
-    vmax, km = calculate_Km(DiffDiff,concs)
-    x2 = np.linspace(0,concs.max(), 500)
-    y2 = curve(x2, vmax, km)
-    # R^2
-    residuals = DiffDiff - curve(concs, vmax, km)
+def r_squared(y, y_hat):
+    residuals = y - y_hat
     ss_res = np.sum(residuals**2)
-    ss_tot = np.sum((DiffDiff-np.mean(DiffDiff))**2)
+    ss_tot = np.sum((y-np.mean(y))**2)
     r_squared = 1 - (ss_res / ss_tot)
+    return r_squared
 
-    fig, ax = plt.subplots(figsize=(7.5,5))
+def Plot_MichaelisMenten(response,
+                         concs,
+                         ax=None,
+                         vmax=None,
+                         km=None,
+                         r_squared=None,
+                         title=None,
+                         ):
+    x_2 = np.linspace(0,concs.max(), 500)
+    y_hat = curve(x_2,
+                  vmax, 
+                  km,
+                  )
+
     plt.set_cmap('inferno')
-    plt.plot(x2, y2,color = '0.1')
-    plt.scatter(concs, DiffDiff,  color = 'orange', s = 30)
-    plt.title('Serial Dilution Scheme Experiment Dump, Baseline corrected -\n Protein + Lauric Acid, 2.5% DMSO')
-    plt.ylabel('Difference in Abs')
-    plt.xlabel('[Substrate] µM')
-    plt.text(400,0.2,'Km = '+str(np.around(km,2)))
-    plt.text(400,0.15,'Vmax = '+str(np.around(vmax,2)))
-    plt.text(400,0.1,'R squared = '+str(np.around(r_squared,2)))
+    if ax is None:
+        fig, ax = plt.subplots(figsize=(7.5,5))
+    ax.plot(x_2, y_hat, color = '0.1')
+    ax.scatter(concs, response,  color = 'orange', s = 30)
+    ax.set_ylabel('Difference in Abs')
+    ax.set_xlabel('[Substrate] µM')
+    ax.set_ylim((-0.1, 1))
+    if km is not None:
+        ax.text(400, 0.2,  f'Km = {round(km, 2)}')
+    if vmax is not None:
+        ax.text(400, 0.15,  f'Vmax = {round(vmax, 2)}')
+    if r_squared is not None:
+        ax.text(400, 0.1,  f'R squared = {round(r_squared, 2)}')
 
-    plt.show()
+    if title is not None:
+        ax.set_title(title)
 
-data = getPlateData('SerialDilSchem1.CSV')
-well_index = data.index
-data = baseline_correction(data)
-data.index = well_index
-pureprotein = select_traces(data,5).mean(axis=0)
 
-j = select_traces(data,7)
-DiffDiff=calculateDiffDiff(j,pureprotein)
-concs = np.array([0.5,0.5,
-0.25,0.25,
-0.125,0.125,
-0.0625,0.0625,
-0.03125,0.03125,
-0.015625,0.015625,
-0.0078125,0.0078125,
-0.00390625,0.00390625])*1000
+def main():
+    data = getPlateData('SerialDilSchem1.CSV')
 
-Plot_MichaelisMenten(DiffDiff,concs)
+    # looks lig I got the concs backwards
+    concs = np.array([round(500 / i, 2) for i in range(1,8)] + [0])
+    concs_rep = []
+    for i in concs:
+        concs_rep.append(i)
+        concs_rep.append(i)
+
+    experiments = {
+            "buffer_col": {
+                'data': data.loc[data.index.str.contains('[A-Z]4$'),:],
+                'title':'Buffer Only',
+                'save_path':'BufferOnly.png',
+                },
+            "protein_col": {
+                'data': data.loc[data.index.str.contains('[A-Z]5$'),:],
+                'title':'Protein Only',
+                'save_path':'ProteinOnly.png',
+                },
+            "npg_2p5_col": {
+                'data': data.loc[data.index.str.contains('[A-Z]6$'),:],
+                'title': 'N-Palmitoglycine, [DMSO] 2.5% v/v',
+                'ligand': 'N-Palmitoglycine',
+                'save_path':'NPG-2p5pct.png',
+                },
+            "lauric_5_col": {
+                'data': data.loc[data.index.str.contains('[A-Z]7$'),:],
+                'title':'Lauric Acid, [DMSO] 5% v/v',
+                'ligand': 'Lauric Acid',
+                'save_path':'LauricAcid5pct.png',
+                },
+            "npg_50_col": {
+                'data': data.loc[data.index.str.contains('[A-Z]8$'),:],
+                'title':'N-Palmitoglycine, [DMSO] 5% v/v',
+                'ligand':'N-Palmitoglycine',
+                'save_path':'NPG-5pct.png',
+                },
+            "lauric_25_col": {
+                'data': data.loc[data.index.str.contains('[A-Z]9$'),:],
+                'title':'Lauric Acid, [DMSO] 2.5% v/v',
+                'ligand': 'Lauric Acid',
+                'save_path':'LauricAcid-2p5pct.png',
+                },
+    }
+
+    if not os.path.exists('img'):
+        os.mkdir('img')
+
+    buffer_col = experiments['buffer_col']['data']
+    buffer_avg = buffer_col.mean(axis=0)
+
+    protein_col = experiments['protein_col']['data']
+    protein_avg = protein_col.mean(axis=0)
+
+    for key in experiments:
+        experiment_data = experiments[key]
+        fig, axs = plt.subplots(2,2, figsize=(16,8))
+        df = experiment_data.get('data')
+        title = experiment_data.get('title')
+        ligand = experiment_data.get('ligand')
+
+        df_r1 = df.iloc[1::2, :]
+
+        df_r1_corrected = df_r1 - buffer_avg
+        # df_r1_corrected_diff = df_r1_corrected - df_r1_corrected.iloc[0,:]
+        df_r1_corrected_diff = df_r1_corrected - protein_avg
+        response = calculate_response(df_r1_corrected_diff)
+        response.index = concs 
+        vmax, km = calculate_km(response, response.index)
+        rsq = r_squared(response, curve(concs, vmax, km))
+
+        plotPlateData(data=df_r1,
+                      title=title,
+                      ligand_name=ligand,
+                      concs=concs if key not in ['buffer_col', 'protein_col'] else None,
+                      ax=axs[0,0],
+                      )
+
+        plotPlateData(data=df_r1_corrected,
+                      title=f'{title} Buffer-Corrected Absorbance',
+                      ligand_name=ligand,
+                      concs=concs if key not in ['buffer_col', 'protein_col'] else None,
+                      ax=axs[0,1],
+                      )
+
+        plotPlateData(data=df_r1_corrected_diff,
+                      title=f'{title} $\Delta$ Absorbance',
+                      ligand_name=ligand,
+                      concs=concs if key not in ['buffer_col', 'protein_col'] else None,
+                      ax=axs[1,0],
+                      ylim=(-0.3, 0.3),
+                      )
+
+        if key not in ['buffer_col', 'protein_col']:
+            Plot_MichaelisMenten(response=response, 
+                                 concs=concs,
+                                 km=km,
+                                 vmax=vmax,
+                                 r_squared=rsq,
+                                 ax=axs[1, 1],
+                                 title=f'{title} Michaelis Menten Model'
+                                 )
+        else:
+            axs[1, 1].axis('off')
+
+        if ligand is not None:
+            fig.suptitle(f'Photspectroscopic Measurement of P450 BM3 with Additions of {ligand}')
+        else:
+            fig.suptitle(f'Photspectroscopic Measurement of $P450_BM3$')
+
+        plt.tight_layout()
+        #plt.show()
+        plt.savefig(os.path.join('img', 
+                                 f"2_{experiment_data['save_path']}",
+                                 ),
+                    )
+
+    # Plot_MichaelisMenten(DiffDiff,concs)
+
+if __name__ == "__main__":
+    main()

@@ -70,4 +70,31 @@ Scattering, Protein precipitation and cold DMSO?
     - Palmitic acid (caused issues)
     - 4-Phenylimidazole
 - Manual dispensing?
-- Only plate data
+- Only plate data, no titrations
+
+
+## 10 Protocol Draft
+
+Written Protocol for a serial dilution version of the assay.
+
+No Data.
+
+## 11 Optimisation
+
+- Plate type
+    - Thermo 	Nunclon Delta Surface 	? 	20
+    - Brand 	? 	781620 	2
+    - Brand 	Lipograde 	781860 	4
+    - Nunc 	Maxisorp 	464718 	1
+    - Corning 	Cellbind 	3770BC 	17
+    - Corning 	Cellbind 	3640 	14
+- Buffer component:
+    - KPi: [50, 100, 150]
+    - KCl: [0, 100, 200]
+- Dispensing:
+    - Automation: Hamiltons (transfer sheets)
+    - Manual
+
+- Multiple Linear Regression attempted
+
+## 12 Plate Comparison
