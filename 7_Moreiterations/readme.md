@@ -83,7 +83,7 @@ A lot of precipitation, at this point I'm thinking the problem is my protein, it
 * I used [this script](CaryUVVisProcessing.py)
 
 |Specs|
-|------|
+|-----|
 |![](20190625_BM3conccheck.csvRawSpec.png)| |![](20190625_BM3Lauric2.csvRawSpec.png)|
 |![](20190625_BM3Lauric1.csvRawSpec.png)|
 |![](20190625_BM3Lauric3centrifugepot.csvRawSpec.png)|

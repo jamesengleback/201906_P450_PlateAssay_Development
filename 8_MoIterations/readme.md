@@ -174,9 +174,19 @@ I might have done some of the pipeting wrong, I was using the electronic pipette
 
 It looks like there's a problem with my Michaelis Menten script, I'll try to resolve that soon.
 ###### Later that day
-I've been cleaning up my analysis script becuase it was messy and needed doing. Here's a [cleaner version](PlateAnalysis_Cleaner.py). I think I solved the Michaelis Menten stuff by minmax scaling my data between 0 and 1, which gets rid of those weird T-Shaped curves. I also set bounds for vmax and km (both positive), and played with the idea of setting the minumum vmax to 1, seeing as if the data is ideal, vmax should always be greater than 1, but then realised that my data isn't ideal so I scrapped that idea.
+I've been cleaning up my analysis script becuase it was messy and needed doing.
+Here's a [cleaner version](PlateAnalysis_Cleaner.py). I think I solved the
+Michaelis Menten stuff by minmax scaling my data between 0 and 1, which gets rid
+of those weird T-Shaped curves. I also set bounds for vmax and km (both
+positive), and played with the idea of setting the minumum vmax to 1, seeing as
+if the data is ideal, vmax should always be greater than 1, but then realised
+that my data isn't ideal so I scrapped that idea.
 
-I used [this version of my plate analysis script](PlateAnalysis_Cleaner_exceptForMakingThatMetricsTable.py) to make a [csv](201990626_BM3Concs_MetricsAndStuff.csv) of all the metrics for each test run (km, vmax and R²). I made [another script](20190701_iteration_8_analysis.py) to plot up this bis and remove some crazy outliers.
+I used [this version of my plate analysis
+script](PlateAnalysis_Cleaner_exceptForMakingThatMetricsTable.py) to make a
+[csv](201990626_BM3Concs_MetricsAndStuff.csv) of all the metrics for each test
+run (km, vmax and R²). I made [another script](20190701_iteration_8_analysis.py)
+to plot up this bis and remove some crazy outliers.
 
 |My plot with a sexy heatmap||
 |------|-----------|
@@ -184,6 +194,9 @@ I used [this version of my plate analysis script](PlateAnalysis_Cleaner_exceptFo
 |![](plateassaymetricsplot_2.png)|Protein concentration probably isn't the issue here is it?|
 
 ### Wrap up
-* I can probably get away with using a mid-low concentration of protein. At this point it's hard to tell the effect that protein conc has on signal strength.
-* Substrates with a low vmax tend to have non-ideal results (low R²). I should quantify this and maybe see if I can tweak it
-* Pipeting errors are still my biggest problem. Need to get better and also coordinate with Mark D for getting a robot program ready
+* I can probably get away with using a mid-low concentration of protein. At this
+  point it's hard to tell the effect that protein conc has on signal strength.
+* Substrates with a low vmax tend to have non-ideal results (low R²). I should
+  quantify this and maybe see if I can tweak it
+* Pipeting errors are still my biggest problem. Need to get better and also
+  coordinate with Mark D for getting a robot program ready

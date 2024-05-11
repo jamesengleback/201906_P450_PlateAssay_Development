@@ -1,0 +1,37 @@
+{
+    "experiment_number": 6,
+    "protein_concentration": 3.86,
+    "plate_type": "corning 3660",
+    "test_rows": ["A", "C", "E", "G", "I", "K", "M", "O"] ,
+    "control_rows": ["B", "D", "F", "H", "J", "L", "N", "P"],
+    "concentrations": [0.0, 10.2, 13.89, 20.0, 31.25, 55.56, 125.0, 500.0],
+    "protein_days_thawed": 0,
+    "experiments": {
+                    "plate_1":{
+                "file":"20190620_AM.CSV", 
+                "columns":{
+                    "1": "Protein and DMSO",
+                    "2": "Arachadionic Acid",
+                    "3": "Arachadionic Acid",
+                    "4": "Arachadionic Acid",
+                    "5": "Arachadionic Acid",
+                    "6": "Arachadionic Acid",
+                    "7": "Arachadionic Acid",
+                    "8": "Palmitic Acid",
+                    "9": "Palmitic Acid",
+                    "10": "Palmitic Acid",
+                    "11": "Palmitic Acid",
+                    "12": "Palmitic Acid",
+                    "13": "Palmitic Acid",
+                    "14": "Lauric Acid",
+                    "15": "Lauric Acid",
+                    "16": "Lauric Acid",
+                    "17": "Lauric Acid",
+                    "18": "Lauric Acid",
+                    "19": "Lauric Acid"
+                    }
+                }
+
+            }
+}
+

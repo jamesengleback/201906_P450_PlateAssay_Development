@@ -4,7 +4,7 @@ import pandas as pd
 from scipy import optimize
 
 def calculate_response(data):
-    return data.loc[:, 390].abs() + data.loc[:, 420].abs() 
+    return abs(data.loc[:, 420] - data.loc[:, 390])
 
 def curve(x, vmax, km):
     y = (vmax*x)/(km + x)

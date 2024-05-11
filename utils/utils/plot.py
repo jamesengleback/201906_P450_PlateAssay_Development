@@ -2,6 +2,7 @@ import os
 import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
+from .mm import curve
 
 def plot_plate_data(data,
                     title=None,
@@ -17,8 +18,11 @@ def plot_plate_data(data,
         fig, ax = plt.subplots(figsize=(15,5))
 
     if concs is not None:
-        colors = plt.cm.inferno((concs - min(concs))/max(concs))
-        colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
+        # colors = plt.cm.inferno((concs - min(concs))/max(concs))
+        if concs.argmax() == 0:
+            colors = plt.cm.inferno(np.linspace(1, 0, len(data)))
+        else:
+            colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
     else:
         colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
 
@@ -28,18 +32,22 @@ def plot_plate_data(data,
                 y, 
                 lw=2, 
                 color=colors[i],
-                label=round(concs[i], 2) if concs is not None else None,
+                label=round(concs[i], 2) if concs is not None else y.index,
                 )
     if title is not None:
         ax.set_title(title)
-    ax.set_xticks(x[::50])
-    ax.set_xlim((220,800))
+
     if ylim is None:
         ax.set_ylim((-0.05,1))
     else:
         ax.set_ylim(ylim)
+
+
+    ax.set_xticks(x[::50])
+    ax.set_xlim((280,800))
     ax.set_xlabel('Wavlength nm')
     ax.set_ylabel('Absorbance')
+
     if concs is not None:
         if ligand_name is not None:
             ax.legend([round(i, 2) for i in concs], 

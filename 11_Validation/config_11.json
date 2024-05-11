@@ -1,0 +1,168 @@
+{
+    "experiment_number": 11,
+    "test_rows": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "M",
+        "O"
+    ],
+    "control_rows": [
+        "B",
+        "D",
+        "F",
+        "H",
+        "J",
+        "L",
+        "N",
+        "P"
+    ],
+    "concentrations": [
+        0.0,
+        10.2,
+        13.89,
+        20.0,
+        31.25,
+        55.56,
+        125.0,
+        500.0
+    ],
+    "protein_days_thawed": 0,
+    "plate_type": "Corning 3660",
+    "centrifuge_rpm": 2,
+    "centrifuge_minutes": 3700,
+    "experiments": {
+        "plate_1": {
+            "file": "PlateData/20190806.CSV",
+            "protein_days_thawed": 0,
+            "protein_concentration": 7.09,
+            "plate_type": "Corning 3660",
+            "hours_before_reading": 0,
+            "columns":  {
+                "1": {
+                        "ligand": "DMSO",
+                        "Kpi /mM": 100,
+                        "Kcl/mM": 0
+                },
+                "2": {
+                        "ligand": "Arachadionic Acid",
+                        "Kpi /mM": 50,
+                        "Kcl/mM": 0
+                },
+                "3": {
+                        "ligand": "Arachadionic Acid",
+                        "Kpi /mM": 50,
+                        "Kcl/mM": 200
+                },
+                "4": {
+                        "ligand": "Arachadionic Acid",
+                        "Kpi /mM": 100,
+                        "Kcl/mM": 100
+                },
+                "5": {
+                        "ligand": "Arachadionic Acid",
+                        "Kpi /mM": 100,
+                        "Kcl/mM": 100
+                },
+                "6": {
+                        "ligand": "Arachadionic Acid",
+                        "Kpi /mM": 150,
+                        "Kcl/mM": 0
+                },
+                "7": {
+                        "ligand": "Arachadionic Acid",
+                        "Kpi /mM": 150,
+                        "Kcl/mM": 200
+                },
+                "8": {
+                        "ligand": "Lauric Acid",
+                        "Kpi /mM": 50,
+                        "Kcl/mM": 0
+                },
+                "9": {
+                        "ligand": "Lauric Acid",
+                        "Kpi /mM": 50,
+                        "Kcl/mM": 200
+                },
+                "10": {
+                        "ligand": "Lauric Acid",
+                        "Kpi /mM": 100,
+                        "Kcl/mM": 100
+                },
+                "11": {
+                        "ligand": "Lauric Acid",
+                        "Kpi /mM": 100,
+                        "Kcl/mM": 100
+                },
+                "12": {
+                        "ligand": "Lauric Acid",
+                        "Kpi /mM": 150,
+                        "Kcl/mM": 0
+                },
+                "13": {
+                        "ligand": "Lauric Acid",
+                        "Kpi /mM": 150,
+                        "Kcl/mM": 200
+                },
+                "14": {
+                        "ligand": "Palmitic Acid",
+                        "Kpi /mM": 50,
+                        "Kcl/mM": 0
+                },
+                "15": {
+                        "ligand": "Palmitic Acid",
+                        "Kpi /mM": 50,
+                        "Kcl/mM": 200
+                },
+                "16": {
+                        "ligand": "Palmitic Acid",
+                        "Kpi /mM": 100,
+                        "Kcl/mM": 100
+                },
+                "17": {
+                        "ligand": "Palmitic Acid",
+                        "Kpi /mM": 100,
+                        "Kcl/mM": 100
+                },
+                "18": {
+                        "ligand": "Palmitic Acid",
+                        "Kpi /mM": 150,
+                        "Kcl/mM": 0
+                },
+                "19": {
+                        "ligand": "Palmitic Acid",
+                        "Kpi /mM": 150,
+                        "Kcl/mM": 200
+                },
+                "20": {
+                        "ligand": "4-Phenylimidazole",
+                        "Kpi /mM": 50,
+                        "Kcl/mM": 0
+                },
+                "21": {
+                        "ligand": "4-Phenylimidazole",
+                        "Kpi /mM": 50,
+                        "Kcl/mM": 200
+                },
+                "22": {
+                        "ligand": "4-Phenylimidazole",
+                        "Kpi /mM": 100,
+                        "Kcl/mM": 100
+                },
+                "23": {
+                        "ligand": "4-Phenylimidazole",
+                        "Kpi /mM": 150,
+                        "Kcl/mM": 0
+                },
+                "24": {
+                        "ligand": "4-Phenylimidazole",
+                        "Kpi /mM": 150,
+                        "Kcl/mM": 200
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,991 @@
+<h2 id="echo-testing">Echo Testing</h2>
+<h3 id="20191022">20191022</h3>
+<p>I want to revisit the Echo to see if I can dispense my compounds with it. I have flexible access to Ross King's Echo, and when he leaves, then I'll try to use the Cai or FutureBio hub..? In this test I want to know:</p>
+<ol>
+<li>Is the apparent lack of mixing that I thought I saw last time I tried the Echo with this assay inherent to the Echo?</li>
+<li>What spread of compound concentrations should I use?</li>
+</ol>
+<p>To answer <strong>1</strong> I'll test my usual array of substrates with what BM3 WT Heme domain I have. Those being:</p>
+<ol>
+<li>Arachadionic acid</li>
+<li>Palmitic acid</li>
+<li>Lauric acid</li>
+<li>4-Phenylimidazole</li>
+</ol>
+<p>I have lots of treated Thermo plates about, so if I have enough protein and compound I may as well test that too, if it's resluts are much different from the non-treated plates then that tells me that the surface might be adsorbing the compounds (in the past the protein hasn't behaved differently in the two plate types.)</p>
+<p>To answer <strong>2</strong> I made a formula thateither bunches up the points at one end or spreads them evenly:</p>
+<p>x = [x0 ... xn]^k * 500 µM</p>
+<p>where xn = 1, [x0 ... xn] are linearly spaced and k is beween 1 and 4. This is how I implemented it:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a> x<span class="op">=</span>(np.linspace(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">8</span>)<span class="op">**</span>k)<span class="op">*</span><span class="dv">500</span></span></code></pre></div>
+<p>I made a tool that generates the transfer xml for the echo from a pandas dataframe in <a href="EchoXMLGenerator.py">EchoXMLGenerator.py</a> and used that in a <a href="ExperimentGenerator.py">script</a> where the experiment transfer sheet was generated. Here's a section of the main loop:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a>sourcewells <span class="op">=</span> [<span class="st">&#39;A1&#39;</span>]<span class="op">*</span><span class="dv">4</span> <span class="op">+</span> [<span class="st">&#39;B1&#39;</span>]<span class="op">*</span><span class="dv">4</span> <span class="op">+</span> [<span class="st">&#39;C1&#39;</span>]<span class="op">*</span><span class="dv">4</span> <span class="op">+</span> [<span class="st">&#39;D1&#39;</span>]<span class="op">*</span><span class="dv">4</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a>columns <span class="op">=</span> np.arange(<span class="dv">1</span>,<span class="dv">16</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a>k_values <span class="op">=</span> np.linspace(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">4</span>).tolist()<span class="op">*</span><span class="dv">4</span></span></code></pre></div>
+<p>I'm making iterables with the four source wells that I want to use, and for each source well/compound, I'm doing 4 different compound distributions. The K values that this generates are</p>
+<pre><code>[1.0, 1.3333333333333333, 1.6666666666666665, 2.0]
+</code></pre>
+<p>I'm not sure why I've chosen 2 as the limit. Here's the output so far. <a href="echo.xml">echo.xml</a>.</p>
+<hr />
+<h3 id="20191023">20191023</h3>
+<p>I realised at some point during the night that the Multidrop combi Wouldn't dispense in the pattern that I had planned my Echo dispensing for, so I re-wrote my experiment generator to divide the plate into blocks of 2x8 (long x short axis) for each experiment.</p>
+<p>Later I realised that I should have been using the lowDV Echo plates, which have a working volume of 2-15 µl I think. Joseph recommended that I use 10 µl so I did that. Joeph also pointed out that using 50µl in each well is uite a lot and that I could probably get away with using just 20. That would save on compound too. I altered the concentration generation function in the script so that</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a>x<span class="op">=</span>(np.linspace(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">8</span>)<span class="op">**</span>k)<span class="op">*</span><span class="dv">200</span></span></code></pre></div>
+<p>rather than</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a>x<span class="op">=</span>(np.linspace(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">8</span>)<span class="op">**</span>k)<span class="op">*</span><span class="dv">500</span></span></code></pre></div>
+<p>which is how it was before. This should mean that the concentrations shouldn't change when I adjust down to 20µl working volume.</p>
+<p>I spent some time getting the Echo to work because I was operating it through Overlord and I kept on providing the wrong node with my transfer file. I Also had to get rid of any transfers with 0.0µl, which I'll adjust my script for next time.</p>
+<p>Here's the <a href="echo_lowDV_cleaned.xml">echo xml file</a> that I got working in the end, and here's a <a href="echo_lowDV.csv">csv</a> version where I haven't removed the zeros.</p>
+<p>I used the same protocol on the <a href="https://www.thermofisher.com/order/catalog/product/262160?SID=srch-hj-262160">262160</a> --Non-sterile Non-Treated plate and the <a href="https://www.thermofisher.com/order/catalog/product/164688?SID=srch-hj-164688">164688</a> --Sterile Cell Culture Surface plate.</p>
+<p>Here's the data:</p>
+<ul>
+<li><a href="20191023_ThermoRegular.CSV">Non-sterile Non-Treated</a></li>
+<li><a href="20191023_ThermoSurface.CSV">Sterile Cell Culture Surface</a></li>
+</ul>
+<p>Here's my Post-hoc protien working stock concentration check: <a href="20191023_BM3Workingstockconccheck.csv">20191023_BM3Workingstockconccheck.csv</a></p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Sample</th>
+<th style="text-align: right;">P450 conc/uM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">BLANK</td>
+<td style="text-align: right;">-0.00969241</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Working stock</td>
+<td style="text-align: right;">1.45125</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">1 in 100 from concentrate</td>
+<td style="text-align: right;">6.1302</td>
+</tr>
+</tbody>
+</table>
+<p>So my BM3 stock is about 613µM. I want to try my assay again with 10x the concentration of protein:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a> In [<span class="dv">1</span>]: <span class="kw">def</span> v1(v2,c1,c2):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a>   ...:     <span class="cf">return</span> (c2<span class="op">*</span>v2)<span class="op">/</span>c1</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true"></a>In [<span class="dv">2</span>]: v1(<span class="dv">10_000</span>,<span class="dv">613</span>,<span class="dv">15</span>)                                                                                                                      </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true"></a>Out[<span class="dv">2</span>]: <span class="fl">244.69820554649266</span></span></code></pre></div>
+<p>I diluted 244µl of my protein stock in 10ml of buffer and took another concentration check:</p>
+<p>Concentrations</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">P450 conc/uM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">blank</td>
+<td style="text-align: right;">-0.0247434</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">workingstock</td>
+<td style="text-align: right;">18.7709</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">workingstock1 (error)</td>
+<td style="text-align: right;">0.0645972</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">workingstock2</td>
+<td style="text-align: right;">18.7884</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">workingstock_1in5</td>
+<td style="text-align: right;">3.49575</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a>In [<span class="dv">1</span>]: <span class="fl">3.49</span><span class="op">*</span><span class="dv">5</span>                                                                                                                                 </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true"></a>Out[<span class="dv">1</span>]: <span class="fl">17.450000000000003</span></span></code></pre></div>
+<p>So I was working with a 17.45µM stock of BM3 WT heme. I ran the same <a href="echo_lowDV_cleaned.xml">echo xml file</a> as before on both plate types. Here are the files:</p>
+<ul>
+<li><a href="20191023_Thermoregular_2.CSV">20191023_Thermoregular_2.CSV</a></li>
+<li><a href="20191023_ThermoSurface_2.CSV">20191023_ThermoSurface_2.CSV</a></li>
+</ul>
+<p>These traces are very noisy, probably because my concentration of protein in each well is too low. In following tests, I've increased the working concentration to around 15µM.</p>
+<h2 id="traces-from-20191023_thermoregularcsv">Traces from <a href="20191023_ThermoRegular.CSV">20191023_ThermoRegular.CSV</a></h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Normalized Traces</th>
+<th style="text-align: left;">Difference Spectra</th>
+<th style="text-align: left;">Michaelis Menten</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces1_DMSO__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra1_DMSO__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces2_DMSO__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra2_DMSO__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces3_DMSO__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra3_DMSO__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces4_DMSO__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra4_DMSO__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces5_Arachadionic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra5_Arachadionic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces6_Arachadionic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra6_Arachadionic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces7_Arachadionic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra7_Arachadionic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces8_Arachadionic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra8_Arachadionic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces9_Lauric_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra9_Lauric_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces10_Lauric_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra10_Lauric_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces11_Lauric_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra11_Lauric_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces12_Lauric_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra12_Lauric_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces13_Palmitic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra13_Palmitic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces14_Palmitic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra14_Palmitic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces15_Palmitic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra15_Palmitic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces16_Palmitic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra16_Palmitic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces17_SDS__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra17_SDS__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces18_SDS__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra18_SDS__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces19_SDS__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra19_SDS__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces20_SDS__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra20_SDS__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces21_4-Phenylimidazole__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra21_4-Phenylimidazole__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces22_4-Phenylimidazole__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra22_4-Phenylimidazole__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces23_4-Phenylimidazole__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra23_4-Phenylimidazole__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces24_4-Phenylimidazole__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra24_4-Phenylimidazole__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="traces-from-20191023_thermoregular_2csv">Traces from <a href="20191023_Thermoregular_2.CSV">20191023_Thermoregular_2.CSV</a></h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Normalized Traces</th>
+<th style="text-align: left;">Difference Spectra</th>
+<th style="text-align: left;">Michaelis Menten</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces1_DMSO__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra1_DMSO__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces2_DMSO__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra2_DMSO__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces3_DMSO__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra3_DMSO__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces4_DMSO__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra4_DMSO__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces5_Arachadionic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra5_Arachadionic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces6_Arachadionic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra6_Arachadionic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces7_Arachadionic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra7_Arachadionic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces8_Arachadionic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra8_Arachadionic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces9_Lauric_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra9_Lauric_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces10_Lauric_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra10_Lauric_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces11_Lauric_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra11_Lauric_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces12_Lauric_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra12_Lauric_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces13_Palmitic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra13_Palmitic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces14_Palmitic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra14_Palmitic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces15_Palmitic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra15_Palmitic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces16_Palmitic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra16_Palmitic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces17_SDS__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra17_SDS__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces18_SDS__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra18_SDS__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces19_SDS__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra19_SDS__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces20_SDS__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra20_SDS__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces21_4-Phenylimidazole__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra21_4-Phenylimidazole__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces22_4-Phenylimidazole__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra22_4-Phenylimidazole__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces23_4-Phenylimidazole__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra23_4-Phenylimidazole__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces24_4-Phenylimidazole__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra24_4-Phenylimidazole__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="traces-from-20191023_thermosurfacecsv">Traces from <a href="20191023_ThermoSurface.CSV">20191023_ThermoSurface.CSV</a></h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Normalized Traces</th>
+<th style="text-align: left;">Difference Spectra</th>
+<th style="text-align: left;">Michaelis Menten</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces1_DMSO__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra1_DMSO__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces2_DMSO__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra2_DMSO__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces3_DMSO__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra3_DMSO__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces4_DMSO__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra4_DMSO__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces5_Arachadionic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra5_Arachadionic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces6_Arachadionic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra6_Arachadionic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces7_Arachadionic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra7_Arachadionic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces8_Arachadionic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra8_Arachadionic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces9_Lauric_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra9_Lauric_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces10_Lauric_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra10_Lauric_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces11_Lauric_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra11_Lauric_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces12_Lauric_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra12_Lauric_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces13_Palmitic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra13_Palmitic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces14_Palmitic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra14_Palmitic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces15_Palmitic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra15_Palmitic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces16_Palmitic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra16_Palmitic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces17_SDS__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra17_SDS__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces18_SDS__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra18_SDS__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces19_SDS__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra19_SDS__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces20_SDS__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra20_SDS__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces21_4-Phenylimidazole__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra21_4-Phenylimidazole__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces22_4-Phenylimidazole__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra22_4-Phenylimidazole__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces23_4-Phenylimidazole__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra23_4-Phenylimidazole__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces24_4-Phenylimidazole__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra24_4-Phenylimidazole__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="traces-from-20191023_thermosurface_2csv">Traces from <a href="20191023_ThermoSurface_2.CSV">20191023_ThermoSurface_2.CSV</a></h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Normalized Traces</th>
+<th style="text-align: left;">Difference Spectra</th>
+<th style="text-align: left;">Michaelis Menten</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces1_DMSO__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra1_DMSO__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces2_DMSO__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra2_DMSO__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces3_DMSO__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra3_DMSO__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces4_DMSO__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra4_DMSO__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/DMSO_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces5_Arachadionic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra5_Arachadionic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces6_Arachadionic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra6_Arachadionic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces7_Arachadionic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra7_Arachadionic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces8_Arachadionic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra8_Arachadionic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces9_Lauric_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra9_Lauric_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces10_Lauric_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra10_Lauric_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces11_Lauric_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra11_Lauric_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces12_Lauric_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra12_Lauric_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Lauric_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces13_Palmitic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra13_Palmitic_acid__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces14_Palmitic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra14_Palmitic_acid__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces15_Palmitic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra15_Palmitic_acid__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces16_Palmitic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra16_Palmitic_acid__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Palmitic_acid_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces17_SDS__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra17_SDS__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces18_SDS__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra18_SDS__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces19_SDS__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra19_SDS__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces20_SDS__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra20_SDS__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/SDS_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces21_4-Phenylimidazole__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra21_4-Phenylimidazole__K_=_1.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.0.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces22_4-Phenylimidazole__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra22_4-Phenylimidazole__K_=_1.33.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.33.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces23_4-Phenylimidazole__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra23_4-Phenylimidazole__K_=_1.67.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_1.67.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Normalized_Traces24_4-Phenylimidazole__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/Difference_Spectra24_4-Phenylimidazole__K_=_2.0.png" /></td>
+<td style="text-align: left;"><img src="img_old/4-Phenylimidazole_Michaelis_Menten_K_=_2.0.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="traces-from-20191026csv">Traces from <a href="20191026.CSV">20191026.CSV</a></h2>
+<p>In these tests, I was testing different end concentrations of DMSO. When I've been trying to repeat this, I only see droplets dispensed in the first 3 blocks. The Echo says in its logs that it skips these wells because of DMSO hydration. I'll have to re-make the concentrations in different wells before I continue. And the transfer sheet. Most of</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Normalized Traces</th>
+<th style="text-align: left;">Difference Spectra</th>
+<th style="text-align: left;">Michaelis Menten</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces1_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra1_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_1,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces2_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra2_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_2,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces3_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra3_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_3,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces4_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra4_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_4,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces5_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra5_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_5,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces6_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra6_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_6,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces7_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra7_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_7,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces8_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra8_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_8,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces9_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra9_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_9,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces10_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra10_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_10,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces11_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra11_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_11,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces12_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra12_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_12,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="traces-from-20191026_2csv">Traces from <a href="20191026_2.CSV">20191026_2.CSV</a></h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Normalized Traces</th>
+<th style="text-align: left;">Difference Spectra</th>
+<th style="text-align: left;">Michaelis Menten</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces1_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra1_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_1,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces2_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra2_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_2,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces3_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra3_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_3,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces4_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra4_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_4,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces5_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra5_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_5,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces6_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra6_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_6,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces7_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra7_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_7,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces8_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra8_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_8,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces9_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra9_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_9,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces10_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra10_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_10,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces11_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra11_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_11,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Normalized_Traces12_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Difference_Spectra12_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_12,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="20191028---re-hash-of-the-last-lot-im-still-using-the">20191028 - Re-Hash of the last lot I'm still using the</h3>
+<p><a href="20191026_DMSO_Concs.xml">20191026_DMSO_Concs.xml</a>. This time I checked the echo's Log, and it turns out it's been skipping wells in previous iterations of this experiment. 15 µl seems like a good ammount in the source plate wells. According to the <a href="ECHOLOG20191028.tsv">logs</a> a fair few of the wells were skipped because they were emptied to the minimum working volume. I need to find out what that is. I also found the source of some of the anomalies - the multidrop has a wonky nozzle, which I think is double-dispensing. What I thought was a lack of mixing in the traces above is actually a lack of dispensing.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Normalized Traces</th>
+<th style="text-align: left;">Difference Spectra</th>
+<th style="text-align: left;">Michaelis Menten</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces1_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra1_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_1,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces2_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra2_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_2,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces3_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra3_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_3,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces4_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra4_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_4,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces5_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra5_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_5,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces6_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra6_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_6,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces7_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra7_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_7,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces8_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra8_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_8,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces9_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra9_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_9,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces10_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra10_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_10,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces11_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra11_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_11,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces12_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Difference_Spectra12_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Not_Mixed_-_Arachadionic_Acid_12,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>Then I mixed the plate by pipetting up and down with the Bravo, to see how much of a difference that makes.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Normalized Traces</th>
+<th style="text-align: left;">Difference Spectra</th>
+<th style="text-align: left;">Michaelis Menten</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces1_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra1_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_1,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces2_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra2_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_2,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces3_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra3_[DMSO]_=_1.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_3,_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces4_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra4_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_4,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces5_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra5_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_5,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces6_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra6_[DMSO]_=_2.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_6,_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces7_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra7_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_7,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces8_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra8_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_8,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces9_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra9_[DMSO]_=_3.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_9,_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces10_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra10_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_10,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces11_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra11_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_11,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces12_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Arachadionic_Acid_Mixed_-_Difference_Spectra12_[DMSO]_=_4.0%_.png" /></td>
+<td style="text-align: left;"><img src="img_old/Mixed_-_Arachadionic_Acid_12,_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>The protein I was working with for this battery of tests was really old, maybe it had been out for like 2 weeks. I'll try cleaner versions of this test after I purify some more.</p>
+<p>Here are some comparisons of pre and post-mixing:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Not mixed</th>
+<th>Mixed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces1_[DMSO]_=_1.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces1_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces2_[DMSO]_=_1.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces2_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces3_[DMSO]_=_1.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces3_[DMSO]_=_1.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces4_[DMSO]_=_2.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces4_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces5_[DMSO]_=_2.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces5_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces6_[DMSO]_=_2.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces6_[DMSO]_=_2.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces7_[DMSO]_=_3.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces7_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces8_[DMSO]_=_3.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces8_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces9_[DMSO]_=_3.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces9_[DMSO]_=_3.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces10_[DMSO]_=_4.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces10_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="odd">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces11_[DMSO]_=_4.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces11_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+<tr class="even">
+<td><img src="img_old/Arachadionic_Acid_Not_Mixed_-_Normalized_Traces12_[DMSO]_=_4.0%_.png" /></td>
+<td><img src="img_old/Arachadionic_Acid_Mixed_-_Normalized_Traces12_[DMSO]_=_4.0%_.png" /></td>
+</tr>
+</tbody>
+</table>

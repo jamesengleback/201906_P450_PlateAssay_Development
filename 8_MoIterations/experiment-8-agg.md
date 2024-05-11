@@ -1,0 +1,11 @@
+| ligand            |   protein_concentration |   protein_days_thawed | plate_type                                     |    km |   vmax |   rsq |   km_std |   vmax_std |   rsq_std |
+|:------------------|------------------------:|----------------------:|:-----------------------------------------------|------:|-------:|------:|---------:|-----------:|----------:|
+| Arachadionic Acid |                    7.09 |                     0 | Corning 3660                                   | 27.06 |   0.11 |  0.82 |    20.17 |       0.05 |      0.12 |
+| Arachadionic Acid |                   14.09 |                     0 | Corning 3660                                   | 35.35 |   0.24 |  0.92 |    13.13 |       0.12 |      0.03 |
+| Arachadionic Acid |                   27.56 |                     0 | Thermo 384 Well untreated non-sterile (262160) | 31.15 |   0.48 |  0.92 |    10.17 |       0.23 |      0.02 |
+| Lauric Acid       |                    7.09 |                     0 | Corning 3660                                   |  3.16 |   0.01 |  0.56 |    16.39 |       0.01 |      0.26 |
+| Lauric Acid       |                   14.09 |                     0 | Corning 3660                                   | 11.41 |   0.02 |  0.54 |    22.29 |       0.02 |      0.22 |
+| Lauric Acid       |                   27.56 |                     0 | Thermo 384 Well untreated non-sterile (262160) | 49.77 |   0.03 |  0.67 |    74.01 |       0.02 |      0.13 |
+| Palmitic Acid     |                    7.09 |                     0 | Corning 3660                                   |  4.93 |   0.02 |  0.5  |    12.45 |       0.01 |      0.25 |
+| Palmitic Acid     |                   14.09 |                     0 | Corning 3660                                   |  7.44 |   0.06 |  0.56 |    10.69 |       0.03 |      0.28 |
+| Palmitic Acid     |                   27.56 |                     0 | Thermo 384 Well untreated non-sterile (262160) |  4.79 |   0.1  |  0.57 |    12.11 |       0.06 |      0.34 |

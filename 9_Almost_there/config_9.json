@@ -1,0 +1,29 @@
+{
+    "experiment_number": 9,
+    "test_rows": ["A", "C", "E", "G", "I", "K", "M", "O"] ,
+    "control_rows": ["B", "D", "F", "H", "J", "L", "N", "P"],
+    "concentrations": [0.0, 10.2, 13.89, 20.0, 31.25, 55.56, 125.0, 500.0],
+    "protein_days_thawed": 5,
+    "plate_type": "Corning 3660",
+    "protein_concentration": 15.14,
+    "centrifuge_rpm": 2,
+    "centrifuge_minutes": 3700,
+    "experiments": {
+                    "plate_1":{
+                "file": "20190701.CSV",
+                "plate_type": "Corning 3660",
+                "hours_before_reading": 0,
+                "columns":{
+                    "1": "Protein and DMSO",
+                    "2": "Protein and DMSO",
+                    "3": "Arachadionic Acid",
+                    "4": "Arachadionic Acid",
+                    "5": "Lauric Acid",
+                    "6": "Lauric Acid",
+                    "7": "Palmitic Acid",
+                    "8": "Palmitic Acid",
+                    "9": "4-Phenylimidazole"
+                    }
+                }
+            }
+}
