@@ -1,8 +1,11 @@
 import os
+from textwrap import dedent
 import numpy as np
 import pandas as pd 
 import matplotlib.pyplot as plt
 from .mm import curve
+import matplotlib.patches as mpatches
+
 
 def plot_plate_data(data,
                     title=None,
@@ -11,6 +14,7 @@ def plot_plate_data(data,
                     concs=None,
                     ax=None,
                     ylim=None,
+                    legend_text=None,
                     ):
     x = data.columns.astype(int)
 
@@ -50,9 +54,15 @@ def plot_plate_data(data,
 
     if concs is not None:
         if ligand_name is not None:
+            if legend_text is not None:
+                handles, labels = ax.get_legend_handles_labels()
+                handles.append(mpatches.Patch(color='none', label=legend_text))
+            else:
+                handles = None
             ax.legend([round(i, 2) for i in concs], 
                       title = f'{ligand_name} concentration μM',
                       loc='right',
+                      handles=handles,
                       )
         else:
             ax.legend([round(i, 2) for i in concs], 
@@ -68,6 +78,7 @@ def plot_michaelis_menten(response,
                           r_squared=None,
                           title=None,
                           ylim=None,
+                          legend_text=None,
                           ):
     x_2 = np.linspace(0,concs.max(), 500)
     y_hat = curve(x_2,
@@ -82,15 +93,27 @@ def plot_michaelis_menten(response,
     ax.scatter(concs, response,  color = 'orange', s = 30)
     ax.set_ylabel('Difference in Abs')
     ax.set_xlabel('[Substrate] µM')
+
+    if title is not None:
+        ax.set_title(title)
+
     if ylim is None:
         ylim = (-0.1, 1)
+
     ax.set_ylim(ylim)
-    if km is not None:
-        ax.text(400, ylim[1] * 0.5,  f'Km = {round(km, 2)}')
-    if vmax is not None:
-        ax.text(400, ylim[1] * 0.4,  f'Vmax = {round(vmax, 2)}')
-    if r_squared is not None:
-        ax.text(400, ylim[1] * 0.3,  f'R squared = {round(r_squared, 2)}')
+
+    label = dedent(f'''
+           Km = {round(km, 2)}
+           Vmax = {round(vmax, 2)}
+           R squared = {round(r_squared, 2)}
+           ''')
+    handles, labels = ax.get_legend_handles_labels()
+    handles.append(mpatches.Patch(color='none', label=label))
+    if legend_text:
+        handles.append(mpatches.Patch(color='none', label=legend_text))
+    ax.legend(handles=handles,
+              loc='right',
+              )
 
     if title is not None:
         ax.set_title(title)

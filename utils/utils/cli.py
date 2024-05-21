@@ -8,11 +8,14 @@ import argparse
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 import utils
 
-def plot_group(corrected_data,
-               diff_data,
-               concs,
+def plot_group(raw_data=None,
+               control_data=None,
+               corrected_data=None,
+               diff_data=None,
+               concs=None,
                ligand=None,
                response=None,
                vmax=None,
@@ -22,29 +25,52 @@ def plot_group(corrected_data,
                suptitle=None,
                show=None,
                save_path=None,
+               legend_text=None,
                ):
-    fig, axs = plt.subplots(2, 2, figsize=(16,8))
+    fig, axs = plt.subplots(3, 2, figsize=(16,12))
 
-    utils.plot.plot_plate_data(corrected_data,
-                               ax=axs[0, 0],
-                               concs=concs,
-                               ligand_name=ligand,
-                               ylim=(-0.1, max(0.3, 1.2 * a420_max)),
-                               )
+    if control_data is not None:
+        utils.plot.plot_plate_data(control_data,
+                                   ax=axs[0, 0],
+                                   concs=concs,
+                                   ligand_name=ligand,
+                                   title='Control Data',
+                                   ylim=(-0.1, max(0.3, 1.2 * a420_max)),
+                                   )
+    else:
+        axs[0, 0].axis('off')
 
-    utils.plot.plot_plate_data(corrected_data,
-                               ax=axs[0, 1],
-                               concs=concs,
-                               ligand_name=ligand,
-                               ylim=(-0.1, max(0.3, 1.2 * a420_max)),
-                               )
+    if raw_data is not None:
+        utils.plot.plot_plate_data(raw_data,
+                                   ax=axs[0, 1],
+                                   concs=concs,
+                                   ligand_name=ligand,
+                                   title='Raw Test Data',
+                                   ylim=(-0.1, max(0.3, 1.2 * a420_max)),
+                                   )
+    else:
+        axs[0, 1].axis('off')
 
-    utils.plot.plot_plate_data(diff_data,
-                               ax=axs[1, 0],
-                               concs=concs,
-                               ligand_name=ligand,
-                               ylim=(-0.1, max(0.3, 1.2 * a420_max)),
-                               )
+    if corrected_data is not None:
+        utils.plot.plot_plate_data(corrected_data,
+                                   ax=axs[1, 0],
+                                   ligand_name=ligand,
+                                   title='Corrected Test Data',
+                                   ylim=(-0.1, max(0.3, 1.2 * a420_max)),
+                                   )
+    else:
+        axs[1, 1].axis('off')
+
+    if diff_data is not None:
+        utils.plot.plot_plate_data(diff_data,
+                                   ax=axs[1, 1],
+                                   concs=concs,
+                                   ligand_name=ligand,
+                                   title='$\Delta$ Absorbance',
+                                   ylim=(-0.3, max(0.3, 1.2 * a420_max)),
+                                   )
+    else:
+        axs[1, 1].axis('off')
 
     if ligand is not None:
         utils.plot.plot_michaelis_menten(response=response,
@@ -52,13 +78,23 @@ def plot_group(corrected_data,
                                          vmax=vmax,
                                          km=km,
                                          r_squared=rsq,
-                                         ax=axs[1, 1],
+                                         ax=axs[2, 0],
                                          ylim=(0, max((vmax * 1.2), max(response) * 1.2)),
+                                         legend_text=legend_text,
+                                         title='Response'
                                          )
     else:
-        axs[1, 1].axis('off')
+        if legend_text is not None:
+            handles, labels = axs[2, 0].get_legend_handles_labels()
+            handles.append(mpatches.Patch(color='none', label=legend_text))
+            axs[2, 0].legend(handles=handles,
+                             loc='right',
+                             )
+        axs[2, 0].axis('off')
+    axs[2, 1].axis('off')
 
     plt.suptitle(suptitle)
+    plt.tight_layout()
 
     if show:
         plt.show()
@@ -102,13 +138,8 @@ def echo(config_path,
                                       ) if not isinstance(j, (list, dict))
                  }
 
-    # test_rows = config_data['test_rows']
-    # control_rows = config_data['control_rows']
-    # concs = np.array(config_data['concentrations'])
+    summary = []
 
-    o = []
-    # order of concs is reversed (high at top of column)
-    # so there's some messing here
     well_ids = {i:j for i, j in enumerate(
         [f'{k}{l}' for k in ascii_uppercase[:16] for l in range(1,25)],
                                 1)
@@ -118,58 +149,73 @@ def echo(config_path,
     blocks = config_data.get('blocks')
     for experiment in experiments.keys():
         experiment_config = experiments[experiment]
+
         if blocks is None:
             blocks = experiment_config.get('blocks')
-
-        # map well contents
-        # picklist_path = experiment_config.get('echo_picklist')
-        # if picklist_path is not None:
-        #     picklist = pd.read_csv(picklist_path, index_col=0)
-
-        #     if picklist['SrcID'].dtype == int:
-        #         picklist['SrcID'] = picklist['SrcID'].replace(well_ids)
-
-        #     if picklist['DestID'].dtype == int:
-        #        picklist['DestID'] = picklist['DestID'].replace(well_ids)
-
-
-        #     for i, j, k in zip(picklist['SrcID'], picklist['DestID'], picklist['Volume']):
-        #         compound = source_plate_contents.get(i)
-        #         if compound is None:
-        #             raise Warning()
-        #         test_plate_contents[j][compound] = k
-
-        echo_log_path = experiment_config.get('echo_log')
-
-        if echo_log_path is not None:
+        
+        if (echo_log_path := experiment_config.get('echo_log')) is not None:
             pass
-        plate_data_path = experiment_config.get('file')
-
-        if plate_data_path is not None:
+        
+        if (plate_data_path := experiment_config.get('file')) is not None:
+            plate_data_path = os.path.join(working_directory, plate_data_path)
             df = utils.bmg.parse_bmg(plate_data_path)
+            df = df.subtract(df[800], axis=0)
             test_plate_contents = {i:{} for i in well_ids.values()}
 
             for block_num, block in zip(blocks.keys(), blocks.values()):
 
-                ligand = block.get('ligand')
-                concs = np.array(block['concentrations'])
+                ligand = block.get('ligand') or experiment_config.get('ligand') or config_data.get('ligand')
+                if (concs := block.get('concentrations')):
+                    concs = np.array(concs)
+                else:
+                    concs = experiment_config.get('concentrations') or config_data.get('concentrations')
+                    if concs is not None: 
+                        concs = np.array(concs)
+
                 test_data = df.loc[list(block['test_wells']), :]
-                control_data = df.loc[list(block['control_wells']), :]
-                corrected_data = test_data.reset_index(drop=True).subtract(control_data.reset_index(drop=True))
-                corrected_data.index = concs[::-1]
-                corrected_data = corrected_data.sort_index()
-                diff_data = corrected_data.subtract(corrected_data.loc[0, :], axis=1)
-                response = utils.mm.calculate_response(diff_data)
-                vmax, km = utils.mm.calculate_km(response, response.index)
-                rsq = utils.mm.r_squared(response[::-1], utils.mm.curve(concs, vmax, km))
+
+                control_wells = block.get('control_wells')
+                if control_wells:
+                    control_data = df.loc[list(control_wells), :]
+                    if control_data.isna().all().all():
+                        controls_ok = False
+                        control_data = control_data.fillna(0)
+                    else:
+                        controls_ok = True
+                else:
+                    control_data = None
+                    controls_ok = False
+
+                if control_wells: 
+                    corrected_data = test_data.reset_index(drop=True).subtract(control_data.reset_index(drop=True))
+                else:
+                    corrected_data = test_data
+
+                if concs is not None:
+                    corrected_data.index = concs[::-1]
+                    corrected_data = corrected_data.sort_index()
+                    diff_data = corrected_data.subtract(corrected_data.loc[0, :], axis=1)
+                    response = utils.mm.calculate_response(diff_data)
+
+                    try:
+                        vmax, km = utils.mm.calculate_km(response, response.index)
+                    except:
+                        vmax, km = None, None
+
+                    rsq = utils.mm.r_squared(response[::-1], utils.mm.curve(concs, vmax, km))
+                else:
+                    rsq, vmax, km, diff_data, response = None, None, None, None, None
 
                 a420_max = corrected_data.loc[:, 420].max()
                 auc = utils.metrics.auc(corrected_data)
                 auc_cv = auc.std() / auc.mean()
                 std_405 = utils.metrics.std_405(corrected_data)
-                dd_soret = utils.metrics.dd_soret(diff_data)
+                try:
+                    dd_soret = utils.metrics.dd_soret(diff_data)
+                except:
+                    dd_soret = None
 
-                o.append({
+                summary.append({
                     'ligand': ligand,
                     'km': km,
                     'vmax': vmax,
@@ -180,15 +226,20 @@ def echo(config_path,
                     'auc_cv': auc_cv,
                     'std_405': std_405,
                     'dd_soret': dd_soret,
-                    # **constants,
-                    # **experiment_constants,
+                    **{i:block[i] for i in block.keys() if 'wells' not in i},
+                    'controls_ok': controls_ok,
+                    **constants,
                     }
                          )
 
                 if plot:
-
-
-                    plot_group(corrected_data,
+                    suptitle = f"UV-Visible Absorbance Profile of {experiment_config.get('protein_concentration')} μM P450 BM3 in Response to {ligand}"
+                    save_path=os.path.join(img_dir,
+                                           f'{experiment}-block-{block_num}-ligand-{ligand}.png',
+                                           )
+                    plot_group(control_data=control_data,
+                               raw_data=test_data,
+                               corrected_data=corrected_data,
                                diff_data=diff_data,
                                concs=concs,
                                ligand=ligand,
@@ -197,15 +248,18 @@ def echo(config_path,
                                km=km, 
                                rsq=rsq,
                                a420_max=a420_max,
-                               suptitle = f"UV-Visible Absorbance Profile of BM3 in Response to {ligand}",
+                               suptitle=suptitle,
                                show=show,
-                               save_path=os.path.join(img_dir,
-                                                      f'experiment-{experiment}-block-{block_num}-ligand-{ligand}.png',
-                                                      )
+                               save_path=save_path,
+                               legend_text=f'legend_text'
+                               #legend_text=f'Controls ok: {controls_ok}'
                                )
 
-    o = pd.DataFrame(o)
-    o.to_csv(f'experiment-{experiment_number}-summary.csv', index=False)
+    summary = pd.DataFrame(summary)
+    summary.to_csv(os.path.join(working_directory,
+                                f'experiment-{experiment_number}-summary.csv'
+                                ), 
+                   index=False)
 
 
     
@@ -222,7 +276,6 @@ def serial(config_path,
         Assumig the serial dilution-type experiment design 
         from iterations 2-10
     """
-
     working_directory = os.path.abspath(os.path.dirname(config_path))
 
     with open(config_path, 'r') as f:
@@ -239,7 +292,7 @@ def serial(config_path,
     control_rows = config_data['control_rows']
     concs = np.array(config_data['concentrations'])
 
-    o = []
+    summary = []
     # order of concs is reversed (high at top of column)
     # so there's some messing here
     experiments = config_data.get('experiments')
@@ -301,7 +354,7 @@ def serial(config_path,
             std_405 = utils.metrics.std_405(corrected_data)
             dd_soret = utils.metrics.dd_soret(diff_data)
 
-            o.append({
+            summary.append({
                 'ligand': ligand,
                 'km': km,
                 'vmax': vmax,
@@ -317,20 +370,39 @@ def serial(config_path,
                 **experiment_constants,
                 }
                      )
+            if plot:
+                plot_group(corrected_data,
+                           diff_data=diff_data,
+                           concs=concs,
+                           ligand=ligand,
+                           response=response,
+                           vmax=vmax,
+                           km=km, 
+                           rsq=rsq,
+                           a420_max=a420_max,
+                           suptitle = f"UV-Visible Absorbance Profile of BM3 in Response to {ligand}",
+                           show=show,
+                           save_path=os.path.join(img_dir,
+                                                  f'{experiment_number}-column-{column_num}-ligand-{ligand}.png',
+                                                  )
+                           )
 
 
-    o = pd.DataFrame(o)
-    o.to_csv(f'experiment-{experiment_number}-summary.csv', index=False)
+    summary = pd.DataFrame(summary)
+    summary.to_csv(os.path.join(working_directory,
+                                f'experiment-{experiment_number}-summary.csv'
+                                ), 
+                   index=False)
 
     group_columns =   [i for i in [
         'ligand', 
         'protein_concentration', 
         'protein_days_thawed', 
         'plate_type',
-        ] if i in o.columns]
+        ] if i in summary.columns]
 
-    agg_mean = o.drop('column_num', axis=1).groupby(group_columns).mean(numeric_only=True).reset_index()
-    agg_std = o.drop('column_num', axis=1).groupby(group_columns).std(numeric_only=True).reset_index()
+    agg_mean = summary.drop('column_num', axis=1).groupby(group_columns).mean(numeric_only=True).reset_index()
+    agg_std = summary.drop('column_num', axis=1).groupby(group_columns).std(numeric_only=True).reset_index()
 
     agg = agg_mean.join(agg_std[['km', 'vmax', 'rsq']], rsuffix='_std')
     agg = agg.round(2)

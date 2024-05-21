@@ -1,3 +1,5 @@
+import sys
+import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -122,45 +124,49 @@ class Block():
 
 
 
-def main():
+def main(arg):
 
     DMSO = Compound('DMSO',['J'+str(i) for i in range(1,25)]+['K'+str(i) for i in range(1,25)])
     ArachadionicAcid = Compound('Arachadionic acid',['L'+str(i) for i in range(1,25)])
     
     blocks = {}
     
-    plan = pd.read_csv('BSA_Dopt.csv')
+    plan = pd.read_csv(arg, index_col=0)
     # duplicate plan blocks
     plan=plan.append(plan).loc[range(10)]
+    plan.reset_index(drop=True, inplace=True)
 
     for i in range(1,21):
         if i%2==1:
             testwells = [j+str(i) for j in list(string.ascii_uppercase)[0:8]]
             blankwells = [j+str(i+1) for j in list(string.ascii_uppercase)[0:8]]
-            blocks[i] = [testwells,blankwells]
         else:
             testwells = [j+str(i-1) for j in list(string.ascii_uppercase)[8:16]]
             blankwells = [j+str(i) for j in list(string.ascii_uppercase)[8:16]]
-            blocks[i] = [testwells,blankwells]
+        blocks[i] = {'test_wells': testwells, 
+                     'blank_wells':blankwells,
+                     **plan.iloc[i - 1, :].to_dict()
+                     }
     
-    transferMap = pd.DataFrame([], columns = ['SrcID','DestID','Volume'])
-    
-    
-    for i,j in tqdm(zip(blocks,plan['Protein Vol'])):
-        Current_block = Block(j,'Arachadionic acid' )
-        Current_block.MapWells(blocks[i][0],blocks[i][1])
-        DispensingPattern = Current_block.Dispense(ArachadionicAcid,DMSO)
-        transferMap = transferMap.append(DispensingPattern)
-    
+    json.dump(blocks, sys.stdout)
+    # transferMap = pd.DataFrame([], columns = ['SrcID','DestID','Volume'])
+    # 
+    # 
+    # for i,j in tqdm(zip(blocks,plan['Protein Vol'])):
+    #     Current_block = Block(j,'Arachadionic acid' )
+    #     Current_block.MapWells(blocks[i][0],blocks[i][1])
+    #     DispensingPattern = Current_block.Dispense(ArachadionicAcid,DMSO)
+    #     transferMap = transferMap.append(DispensingPattern)
+    # 
 
-    transferMap.reset_index(inplace=True, drop=True)
-    transferMap = transferMap.loc[transferMap['Volume'] != 0]
-    transferMap.to_csv('Echo16Transfermap_BSA_2.csv')
-    transferMap['SrcID'] = transferMap['SrcID'].apply(WellIDtoNumber)
-    transferMap['DestID'] = transferMap['DestID'].apply(WellIDtoNumber)
-    Generate(transferMap, 'Echo18TransferMap_BSA_rep2.xml')
-    print(transferMap)
+    # transferMap.reset_index(inplace=True, drop=True)
+    # transferMap = transferMap.loc[transferMap['Volume'] != 0]
+    # #transferMap.to_csv('Echo16Transfermap_BSA_2.csv')
+    # transferMap['SrcID'] = transferMap['SrcID'].apply(WellIDtoNumber)
+    # transferMap['DestID'] = transferMap['DestID'].apply(WellIDtoNumber)
+    # #Generate(transferMap, 'Echo18TransferMap_BSA_rep2.xml')
+    # print(transferMap)
     
     
 if __name__ == '__main__':
-	main()
+	main(sys.argv[1])
