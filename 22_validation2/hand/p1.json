@@ -1,0 +1,170 @@
+{
+    "1": {
+        "conc": 10,
+        "vol": 20,
+        "cpd": "aracadionic acid",
+        "plate": "1",
+        "column": "1"
+    },
+    "2": {
+        "conc": 10,
+        "vol": 20,
+        "cpd": "lauric",
+        "plate": "1",
+        "column": "2"
+    },
+    "3": {
+        "conc": 10,
+        "vol": 20,
+        "cpd": "palmitic",
+        "plate": "1",
+        "column": "3"
+    },
+    "4": {
+        "conc": 10,
+        "vol": 20,
+        "cpd": "4-Ph",
+        "plate": "1",
+        "column": "4"
+    },
+    "5": {
+        "conc": 10,
+        "vol": 30,
+        "cpd": "aracadionic acid",
+        "plate": "1",
+        "column": "5"
+    },
+    "6": {
+        "conc": 10,
+        "vol": 30,
+        "cpd": "lauric",
+        "plate": "1",
+        "column": "6"
+    },
+    "7": {
+        "conc": 10,
+        "vol": 30,
+        "cpd": "palmitic",
+        "plate": "1",
+        "column": "7"
+    },
+    "8": {
+        "conc": 10,
+        "vol": 30,
+        "cpd": "4-Ph",
+        "plate": "1",
+        "column": "8"
+    },
+    "9": {
+        "conc": 10,
+        "vol": 40,
+        "cpd": "aracadionic acid",
+        "plate": "1",
+        "column": "9"
+    },
+    "10": {
+        "conc": 10,
+        "vol": 40,
+        "cpd": "lauric",
+        "plate": "1",
+        "column": "10"
+    },
+    "11": {
+        "conc": 10,
+        "vol": 40,
+        "cpd": "palmitic",
+        "plate": "1",
+        "column": "11"
+    },
+    "12": {
+        "conc": 10,
+        "vol": 40,
+        "cpd": "4-Ph",
+        "plate": "1",
+        "column": "12"
+    },
+    "13": {
+        "conc": 15,
+        "vol": 20,
+        "cpd": "aracadionic acid",
+        "plate": "1",
+        "column": "13"
+    },
+    "14": {
+        "conc": 15,
+        "vol": 20,
+        "cpd": "lauric",
+        "plate": "1",
+        "column": "14"
+    },
+    "15": {
+        "conc": 15,
+        "vol": 20,
+        "cpd": "palmitic",
+        "plate": "1",
+        "column": "15"
+    },
+    "16": {
+        "conc": 15,
+        "vol": 20,
+        "cpd": "4-Ph",
+        "plate": "1",
+        "column": "16"
+    },
+    "17": {
+        "conc": 15,
+        "vol": 30,
+        "cpd": "aracadionic acid",
+        "plate": "1",
+        "column": "17"
+    },
+    "18": {
+        "conc": 15,
+        "vol": 30,
+        "cpd": "lauric",
+        "plate": "1",
+        "column": "18"
+    },
+    "19": {
+        "conc": 15,
+        "vol": 30,
+        "cpd": "palmitic",
+        "plate": "1",
+        "column": "19"
+    },
+    "20": {
+        "conc": 15,
+        "vol": 30,
+        "cpd": "4-Ph",
+        "plate": "1",
+        "column": "20"
+    },
+    "21": {
+        "conc": 15,
+        "vol": 40,
+        "cpd": "aracadionic acid",
+        "plate": "1",
+        "column": "21"
+    },
+    "22": {
+        "conc": 15,
+        "vol": 40,
+        "cpd": "lauric",
+        "plate": "1",
+        "column": "22"
+    },
+    "23": {
+        "conc": 15,
+        "vol": 40,
+        "cpd": "palmitic",
+        "plate": "1",
+        "column": "23"
+    },
+    "24": {
+        "conc": 15,
+        "vol": 40,
+        "cpd": "4-Ph",
+        "plate": "1",
+        "column": "24"
+    }
+}

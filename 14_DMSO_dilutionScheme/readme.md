@@ -1,6 +1,9 @@
 ### 20191018 Serial Dilution Scheme
 
-I presented some of my work at a group meeting two days ago and had a suggestion for my assay: Keep a constant concentration of DMSO in all wells (4%) and do my dilutions in the DMSO itself before adding buffer. This may help solublise any tricky ligands.
+I presented some of my work at a group meeting two days ago and had a suggestion
+for my assay: Keep a constant concentration of DMSO in all wells (4%) and do my
+dilutions in the DMSO itself before adding buffer. This may help solublise any
+tricky ligands.
 
 The BM3 WT Heme stock has been thawed for nearly two weeks now (kept on ice for most of it) so I centrifuged it at 13000 rpm at 4°C for 20 mins, then kept the supernatant.
 I took a spec of it, here's the [data](20191018_bm3_plateWorkingStockConcCheck.csv).
@@ -22,10 +25,18 @@ I took a spec of it, here's the [data](20191018_bm3_plateWorkingStockConcCheck.c
 
 I used the 6.8 µM stock for my plate assay.
 
-I used Arachadionic acid and SDS (10 mM in DMSO) for this test becuase I had it to hand.
-Here's a rundown of the two methods I used:
- * **Method A** (the old method) I serial  dilute 8% V/V DMSO with 10 mM compound / buffer (100 mM KPi, pH7) by half into more buffer, so the DMSO concentration become really low by the end, which may lead to problems with compound solubility, I'm not sure. The serial dilution here is diluted by an extra half by the time it gets into the plate, so the final concentration never eceeds 4%, which is good for the protein.
- * **Method B** A method that was suggested to me. In this one I keep the final concentration of DMSO constant (4% for in the assay plate, 8% whilst diluting), and then do my serial dilution in the DMSO before adding the buffer.
+I used Arachadionic acid and SDS (10 mM in DMSO) for this test becuase I had it
+to hand. Here's a rundown of the two methods I used:
+ * **Method A** (the old method) I serial  dilute 8% V/V DMSO with 10 mM
+   compound / buffer (100 mM KPi, pH7) by half into more buffer, so the DMSO
+   concentration become really low by the end, which may lead to problems with
+   compound solubility, I'm not sure. The serial dilution here is diluted by an
+   extra half by the time it gets into the plate, so the final concentration
+   never eceeds 4%, which is good for the protein.
+ * **Method B** A method that was suggested to me. In this one I keep the final
+   concentration of DMSO constant (4% for in the assay plate, 8% whilst
+   diluting), and then do my serial dilution in the DMSO before adding the
+   buffer.
 
  I filled columns in the plate like this:
 * 1 & 2: **Method A** DMSO

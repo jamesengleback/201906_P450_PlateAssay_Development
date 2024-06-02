@@ -1,0 +1,65 @@
+{
+        "experiment_number": 12,
+        "test_rows": [
+                "A",
+                "C",
+                "E",
+                "G",
+                "I",
+                "K",
+                "M",
+                "O"
+        ],
+        "control_rows": [
+                "B",
+                "D",
+                "F",
+                "H",
+                "J",
+                "L",
+                "N",
+                "P"
+        ],
+        "concentrations": [
+                500.0,
+                125.0,
+                55.56,
+                31.25,
+                20.0,
+                13.89,
+                10.2,
+                0.0
+        ],
+        "protein_days_thawed": 0,
+        "protein_concentration": 7.3,
+        "experiments": {
+                "plate_1": {
+                        "plate_type": "Thermo Polystyrene (262160)",
+                        "file": "data/20190918_ThermoCheap.CSV",
+                        "columns": {
+                                "1": "DMSO",
+                                "2": "DMSO",
+                                "3": "Arachadionic acid",
+                                "4": "Arachadionic acid",
+                                "5": "Lauric acid",
+                                "6": "Lauric acid",
+                                "7": "4-PhenylImidazole",
+                                "8": "4-PhenylImidazole"
+                        }
+                },
+                "plate_2": {
+                        "plate_type": "Thermo Cell Culture Surface Sterile (164688)",
+                        "file": "data/20190918_ThermoDelta.CSV",
+                        "columns": {
+                                "1": "DMSO",
+                                "2": "DMSO",
+                                "3": "Arachadionic acid",
+                                "4": "Arachadionic acid",
+                                "5": "Lauric acid",
+                                "6": "Lauric acid",
+                                "7": "4-PhenylImidazole",
+                                "8": "4-PhenylImidazole"
+                        }
+                }
+        }
+}

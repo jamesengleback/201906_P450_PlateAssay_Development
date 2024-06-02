@@ -1,0 +1,5 @@
+| ligand            |   protein_concentration |   protein_days_thawed | plate_type                  |      km |   vmax |   rsq |   km_std |   vmax_std |   rsq_std |
+|:------------------|------------------------:|----------------------:|:----------------------------|--------:|-------:|------:|---------:|-----------:|----------:|
+| 4-Phenylimidazole |                     5.9 |                     0 | Thermo Polystyrene (262160) |   17.74 |   0.04 |  0.58 |    25.09 |       0.06 |      0.53 |
+| Arachadionic acid |                     5.9 |                     0 | Thermo Polystyrene (262160) | 1104.03 |   0.12 |  0.92 |  1532.75 |       0.05 |      0.05 |
+| Lauric acid       |                     5.9 |                     0 | Thermo Polystyrene (262160) | 2170.71 |   0.1  |  0.9  |    29.72 |       0.02 |      0.05 |

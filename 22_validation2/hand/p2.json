@@ -1,0 +1,62 @@
+{
+    "1": {
+        "protein_concentration": 20,
+        "protein_volume": 20,
+        "ligand": "Aracadionic Acid"
+    },
+    "2": {
+        "protein_concentration": 20,
+        "protein_volume": 20,
+        "ligand": "Lauric Acid"
+    },
+    "3": {
+        "protein_concentration": 20,
+        "protein_volume": 20,
+        "ligand": "Palmitic Acid"
+    },
+    "4": {
+        "protein_concentration": 20,
+        "protein_volume": 20,
+        "ligand": "4-Phenylimidazole"
+    },
+    "5": {
+        "protein_concentration": 20,
+        "protein_volume": 30,
+        "ligand": "Aracadionic Acid"
+    },
+    "6": {
+        "protein_concentration": 20,
+        "protein_volume": 30,
+        "ligand": "Lauric Acid"
+    },
+    "7": {
+        "protein_concentration": 20,
+        "protein_volume": 30,
+        "ligand": "Palmitic Acid"
+    },
+    "8": {
+        "protein_concentration": 20,
+        "protein_volume": 30,
+        "ligand": "4-Phenylimidazole"
+    },
+    "9": {
+        "protein_concentration": 20,
+        "protein_volume": 40,
+        "ligand": "Aracadionic Acid"
+    },
+    "10": {
+        "protein_concentration": 20,
+        "protein_volume": 40,
+        "ligand": "Lauric Acid"
+    },
+    "11": {
+        "protein_concentration": 20,
+        "protein_volume": 40,
+        "ligand": "Palmitic Acid"
+    },
+    "12": {
+        "protein_concentration": 20,
+        "protein_volume": 40,
+        "ligand": "4-Phenylimidazole"
+    }
+}

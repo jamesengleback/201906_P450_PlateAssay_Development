@@ -747,7 +747,7 @@
             "echo_picklist": "picklist/Echo16Transfermap.csv",
             "echo_log": "log/EchoLogDOPT.txt",
             "protein_days_thawed": 0,
-            "plate_type": "Thermo Treated",
+            "plate_type": "Thermo Cell Culture Surface Sterile (164688)",
             "protein_concentration": 7.45,
             "hours_before_reading": 0
         },
@@ -756,7 +756,7 @@
             "echo_picklist": "picklist/Echo16TransferMap_rep2.xml",
             "echo_log": "log/EchoLogDOPT.txt",
             "protein_days_thawed": 0,
-            "plate_type": "Thermo Treated",
+            "plate_type": "Thermo Cell Culture Surface Sterile (164688)",
             "protein_concentration": 7.45,
             "hours_before_reading": 0
         },
@@ -765,7 +765,7 @@
             "echo_picklist": "picklist/Echo16TransferMap_rep3.xml",
             "echo_log": "log/EchoLogDOPT.txt",
             "protein_days_thawed": 0,
-            "plate_type": "Thermo Treated",
+            "plate_type": "Thermo Cell Culture Surface Sterile (164688)",
             "protein_concentration": 7.45,
             "hours_before_reading": 0
         },
@@ -774,7 +774,7 @@
             "echo_picklist": "picklist/Echo16TransferMap_rep3.xml",
             "echo_log": "log/EchoLogDOPT.txt",
             "protein_days_thawed": 0,
-            "plate_type": "Thermo Treated",
+            "plate_type": "Thermo Cell Culture Surface Sterile (164688)",
             "protein_concentration": 7.45,
             "hours_before_reading": 0
         }

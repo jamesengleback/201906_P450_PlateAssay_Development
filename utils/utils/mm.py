@@ -1,24 +1,30 @@
-import os
 import numpy as np
-import pandas as pd 
 from scipy import optimize
+
 
 def calculate_response(data):
     return abs(data.loc[:, 420] - data.loc[:, 390])
+
 
 def curve(x, vmax, km):
     y = (vmax*x)/(km + x)
     return y
 
+
 def calculate_km(response, concs):
-    params, cov = optimize.curve_fit(curve, 
-                                     concs, 
-                                     response, 
+    params, cov = optimize.curve_fit(curve,
+                                     concs,
+                                     response,
                                      p0=[max(response), 250],
+                                     bounds=(
+                                         (0, 0),
+                                         (abs(5*max(response)), np.inf)
+                                         )
                                      )
     vmax = params[0]
     km = params[1]
     return vmax, km
+
 
 def r_squared(y, y_hat):
     residuals = y - y_hat

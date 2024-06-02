@@ -1,0 +1,90 @@
+{
+    "experiment_number": 3,
+    "test_rows": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "M",
+        "O"
+    ],
+    "control_rows": [
+        "B",
+        "D",
+        "F",
+        "H",
+        "J",
+        "L",
+        "N",
+        "P"
+    ],
+    "concentrations": [
+        500.0,
+        250.0,
+        125.0,
+        62.5,
+        31.25,
+        15.625,
+        7.8125,
+        0.0
+    ],
+    "experiments": {
+        "plate_1": {
+            "protein_days_thawed": 2,
+            "protein_concentration": 8.83,
+            "file": "data/SerialDilfattyacids.CSV",
+            "plate_type": "Corning (3640)",
+            "columns": {
+                "1": "Buffer",
+                "2": "Protein",
+                "3": "Lauric Acid",
+                "4": "Lauric Acid",
+                "5": "Lauric Acid",
+                "6": "Lauric Acid",
+                "7": "Lauric Acid",
+                "8": "Arachadionic Acid",
+                "9": "Arachadionic Acid",
+                "10": "Arachadionic Acid",
+                "11": "Arachadionic Acid",
+                "12": "Arachadionic Acid",
+                "13": "Arachadionic Acid",
+                "14": "4-Phenylimidazole",
+                "15": "4-Phenylimidazole",
+                "16": "4-Phenylimidazole",
+                "17": "4-Phenylimidazole"
+            }
+        },
+        "plate_2": {
+            "file": "data/SerialDilSchem2.CSV",
+            "plate_type": "Corning (3640)",
+            "protein_days_thawed": 0,
+            "protein_concentration": 4.3,
+            "columns": {
+                "10": "Buffer Only",
+                "11": "Protein Only",
+                "12": "DMSO",
+                "13": "Lauric acid",
+                "14": "Arachadionic acid",
+                "15": "4-Phenylimidazole",
+                "16": "SDS"
+            }
+        },
+        "plate_3": {
+            "file": "data/SerialDilSchem2.2.CSV",
+            "plate_type": "Corning (3640)",
+            "protein_days_thawed": 0,
+            "protein_concentration": 4.3,
+            "columns": {
+                "10": "Buffer Only",
+                "11": "Protein Only",
+                "12": "DMSO",
+                "13": "Lauric acid",
+                "14": "Arachadionic acid",
+                "15": "4-Phenylimidazole",
+                "16": "SDS"
+            }
+        }
+    }
+}

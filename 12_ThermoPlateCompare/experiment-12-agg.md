@@ -1,0 +1,8 @@
+| ligand            |   protein_concentration |   protein_days_thawed | plate_type                                   |    km |   vmax |   rsq |   km_std |   vmax_std |   rsq_std |
+|:------------------|------------------------:|----------------------:|:---------------------------------------------|------:|-------:|------:|---------:|-----------:|----------:|
+| 4-PhenylImidazole |                     7.3 |                     0 | Thermo Cell Culture Surface Sterile (164688) |  0    |   0    |  0.24 |     0    |          0 |      0    |
+| 4-PhenylImidazole |                     7.3 |                     0 | Thermo Polystyrene (262160)                  |  4.99 |   0.01 | -0.62 |     7.06 |          0 |      1.17 |
+| Arachadionic acid |                     7.3 |                     0 | Thermo Cell Culture Surface Sterile (164688) | 23.2  |   0.1  | -2.21 |     0.62 |          0 |      0.04 |
+| Arachadionic acid |                     7.3 |                     0 | Thermo Polystyrene (262160)                  | 25.66 |   0.11 | -2.19 |     1.59 |          0 |      0.03 |
+| Lauric acid       |                     7.3 |                     0 | Thermo Cell Culture Surface Sterile (164688) | 38.18 |   0.01 | -1.16 |    35.1  |          0 |      0.3  |
+| Lauric acid       |                     7.3 |                     0 | Thermo Polystyrene (262160)                  | 69.14 |   0.02 | -1.71 |     6.78 |          0 |      0.02 |

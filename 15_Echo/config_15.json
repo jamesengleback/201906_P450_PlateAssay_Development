@@ -1,11 +1,11 @@
 {
         "experiment_number": 15,
-        "protein_days_thawed": 0,
-        "centrifuge_rpm": 2,
         "centrifuge_minutes": 3700,
-        "dispense_ligands": "Echo",
-        "well_volume": 30,
+        "centrifuge_rpm": 2,
         "dispense_bulk": "Thermo Multidrop Combi",
+        "dispense_ligands": "Echo",
+        "protein_days_thawed": 0,
+        "well_volume": 30,
         "source_plate_contents": {
                 "A1": "DMSO",
                 "A2": "DMSO",
@@ -855,15 +855,14 @@
                         "file": "20191023_ThermoSurface.CSV",
                         "echo_picklist": "echo_lowDV.csv",
                         "protein_days_thawed": 0,
-                        "plate_type": "Thermo Treated",
+                        "plate_type": "Thermo Polystyrene (262160)",
                         "protein_concentration": 7.45,
                         "hours_before_reading": 0
                 },
                 "plate_2": {
                         "file": "20191023_ThermoRegular.CSV",
                         "echo_picklist": "echo_lowDV.csv",
-                        "protein_days_thawed": 0,
-                        "plate_type": "Thermo Non Treated",
+                        "plate_type": "Thermo Polystyrene (262160)",
                         "protein_concentration": 1.45,
                         "hours_before_reading": 0
                 },
@@ -871,7 +870,7 @@
                         "file": "20191023_Thermoregular_2.CSV",
                         "echo_picklist": "echo_lowDV.csv",
                         "protein_days_thawed": 0,
-                        "plate_type": "Thermo Treated",
+                        "plate_type": "Thermo Cell Culture Surface Sterile (164688)",
                         "protein_concentration": 17.45,
                         "hours_before_reading": 0
                 },
@@ -879,7 +878,7 @@
                         "file": "20191023_ThermoSurface_2.CSV",
                         "echo_picklist": "echo_lowDV.csv",
                         "protein_days_thawed": 0,
-                        "plate_type": "Thermo Non Treated",
+                        "plate_type": "Thermo Polystyrene (262160)",
                         "protein_concentration": 17.45,
                         "hours_before_reading": 0
                 }

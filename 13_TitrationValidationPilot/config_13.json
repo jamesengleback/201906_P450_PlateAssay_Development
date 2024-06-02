@@ -1,0 +1,85 @@
+{
+    "experiment_number": 13,
+    "test_rows": [
+        "A",
+        "C",
+        "E",
+        "G",
+        "I",
+        "K",
+        "M",
+        "O"
+    ],
+    "control_rows": [
+        "B",
+        "D",
+        "F",
+        "H",
+        "J",
+        "L",
+        "N",
+        "P"
+    ],
+    "concentrations": [
+        0.0,
+        10.2,
+        13.89,
+        20.0,
+        31.25,
+        55.56,
+        125.0,
+        500.0
+    ],
+    "experiments": {
+        "plate_1": {
+            "file": "20191008_test/20191008/20191008_.CSV",
+            "protein_days_thawed": "?",
+            "protein_concentration": "?",
+            "plate_type": "Thermo Polystyrene (262160)",
+            "columns": {
+                "1": "DMSO",
+                "2": "Arachadionic acid",
+                "3": "Arachadionic acid",
+                "4": "Lauric acid",
+                "5": "Lauric acid",
+                "6": "Palmitic acid",
+                "7": "Palmitic acid",
+                "8": "4-PhenylImidazole",
+                "9": "4-PhenylImidazole",
+                "10": "Arachadionic acid",
+                "11": "Arachadionic acid",
+                "12": "Lauric acid",
+                "13": "Lauric acid",
+                "14": "Palmitic acid",
+                "15": "Palmitic acid",
+                "16": "4-PhenylImidazole",
+                "17": "4-PhenylImidazole"
+            }
+        },
+        "plate_2": {
+            "file": "20191010_test/20191010.CSV",
+            "plate_type": "Thermo Polystyrene (262160)",
+            "protein_days_thawed": "?",
+            "protein_concentration": 2.4,
+            "columns": {
+                "1": "DMSO",
+                "2": "DMSO",
+                "3": "Arachadionic acid",
+                "4": "Arachadionic acid",
+                "5": "Arachadionic acid",
+                "6": "Lauric acid",
+                "7": "Lauric acid",
+                "8": "Lauric acid",
+                "9": "Palmitic acid",
+                "10": "Palmitic acid",
+                "11": "Palmitic acid",
+                "12": "SDS",
+                "13": "SDS",
+                "14": "SDS",
+                "15": "4-PhenylImidazole",
+                "16": "4-PhenylImidazole",
+                "17": "4-PhenylImidazole"
+            }
+        }
+    }
+}

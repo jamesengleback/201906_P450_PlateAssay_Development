@@ -67,6 +67,7 @@ class Block():
         self.BlankWells = ['Y'+str(i) for i in range(1,9)]
         
         self.Transfers = self.MakeTransfer()
+        self.concentrations = (np.linspace(0,1,8)**self.K * 500).tolist()
         
         
     def MakeTransfer(self):
@@ -107,7 +108,7 @@ class AssayPlate():
     def MapWells(self):
         # Gets the block from the number and replaces the
         # place holder destingation well IDs with actual well numbers
-        TransferPlan = pd.DataFrame([],columns = ['SrcWell','Destination Well','Volume'])
+        # TransferPlan = pd.DataFrame([],columns = ['SrcWell','Destination Well','Volume'])
         alphabet = string.ascii_uppercase
         for BlockNumber in self.blocks:
             # if odd
@@ -117,17 +118,18 @@ class AssayPlate():
             else:
                 TestWells = [i+str(BlockNumber-1) for i in list(alphabet)[8:16]]
                 BlankWells = [i+str(BlockNumber) for i in list(alphabet)[8:16]]
-                
 
-            mappings = dict(zip(['X'+str(i) for i in range(1,9)]+['Y'+str(i) for i in range(1,9)],\
-            TestWells + BlankWells))
+            self.blocks[BlockNumber].TestWells = TestWells
+            self.blocks[BlockNumber].BlankWells = BlankWells
+
+            mappings = dict(zip(['X'+str(i) for i in range(1, 9)]+['Y'+str(i) for i in range(1, 9)], TestWells + BlankWells))
             transfers = self.blocks[BlockNumber].Transfers
             transfers['Destination Well'] = transfers['Destination Well'].replace(mappings)
             self.TransferPlan = self.TransferPlan.append(transfers)
-            self.TransferPlan.reset_index(inplace=True,drop=True)
-    
-    
-   
+            self.TransferPlan.reset_index(inplace=True, drop=True)
+
+
+
 def test_1():
     aracadonic = SourcePlateCompound('Arachadonic acid',['A'+str(i) for i in range(1,8)],ldv=False)
     DMSO = SourcePlateCompound('DMSO',['B'+str(i) for i in range(1,15)],ldv=False)
