@@ -36,36 +36,36 @@ def plot_group(raw_data=None,
     next_ax = iter(axs.flatten())
 
     if control_data is not None:
-        utils.plot.plot_plate_data(control_data,
+        utils.plot.plot_plate_data(control_data.sort_index(ascending=False),
                                    ax=next(next_ax),
-                                   concs=concs,
+                                   concs=concs[::-1] if concs is not None else None,
                                    ligand_name=ligand,
                                    title='Control Data',
                                    ylim=(-0.1, max(0.3, 1.2 * a420_max) if a420_max else None),
                                    )
 
     if raw_data is not None:
-        utils.plot.plot_plate_data(raw_data,
+        utils.plot.plot_plate_data(raw_data.sort_index(ascending=False),
                                    ax=next(next_ax),
-                                   concs=concs,
+                                   concs=concs[::-1] if concs is not None else None,
                                    ligand_name=ligand,
                                    title='Raw Test Data',
                                    ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
                                    )
 
     if corrected_data is not None:
-        utils.plot.plot_plate_data(corrected_data,
+        utils.plot.plot_plate_data(corrected_data.sort_index(ascending=False),
                                    ax=next(next_ax),
                                    ligand_name=ligand,
-                                   concs=concs,
+                                   concs=concs[::-1] if concs is not None else None,
                                    title='Corrected Test Data',
                                    ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
                                    )
 
     if diff_data is not None:
-        utils.plot.plot_plate_data(diff_data,
+        utils.plot.plot_plate_data(diff_data.sort_index(ascending=False),
                                    ax=next(next_ax),
-                                   concs=concs,
+                                   concs=concs[::-1] if concs is not None else None,
                                    ligand_name=ligand,
                                    title='$\Delta$ Absorbance',
                                    ylim=(-0.3, max(0.3, 1.2 * a420_max)) if a420_max else None,
@@ -73,7 +73,7 @@ def plot_group(raw_data=None,
 
     if ligand and response is not None:
         utils.plot.plot_michaelis_menten(response=response,
-                                         concs=response.index,
+                                         concs=concs,
                                          vmax=vmax,
                                          km=km,
                                          r_squared=rsq,
@@ -190,7 +190,7 @@ def echo(config_paths,
 
                         ligand = block.get('ligand') or experiment_config.get('ligand') or config_data.get('ligand')
 
-                        logging.info(f'{experiment_number} {independent_variables.get("ligand_dispensing")}  column {block_num} ligand {ligand}')
+                        logging.info(f'{experiment_number} {independent_variables.get("dispense_ligands")}  block {block_num} ligand {ligand}')
 
                         if (concs := block.get('concentrations')):
                             concs = np.array(concs)
@@ -371,24 +371,22 @@ def serial(config_paths,
                     else:
                         raise Warning('Problem finding ligand')
 
-                    logging.info(f'{experiment_number} {independent_variables.get("ligand_dispensing")} {plate_name} column {column_num} ligand {ligand}')
+                    logging.info(f'{experiment_number} {independent_variables.get("dispense_ligands")} {plate_name} column {column_num} ligand {ligand}')
 
                     column_df = df.loc[df.index.str.contains(f'[A-Z]{column_num}$'), : ]
                     if math.prod(column_df.dropna().shape) == 0:
                         raise Warning(f'No data for wells: {", ".join(column_df.index)}')
+
                     test_data = column_df.loc[column_df.index.str.contains('|'.join(test_rows)), :]
                     control_data = column_df.loc[column_df.index.str.contains('|'.join(control_rows)), :]
+
                     corrected_data = test_data.reset_index(drop=True).subtract(control_data.reset_index(drop=True))
+                    # corrected_data.index = concs
+                    # corrected_data = corrected_data.sort_index()
 
-                    #corrected_data.index = concs
-                    # this dataset concs got high to low
-                    # for plotting better i want the reverse
-                    #corrected_data = corrected_data.loc[corrected_data.index[::-1], :]
-
-                    corrected_data.index = concs
-                    corrected_data = corrected_data.sort_index()
                     diff_data = corrected_data.subtract(corrected_data.loc[0, :], axis=1)
                     diff_data.index = concs[::-1]
+
                     response = utils.mm.calculate_response(diff_data)
                     vmax, km = utils.mm.calculate_km(response, response.index)
                     #rsq = utils.mm.r_squared(response[::-1], utils.mm.curve(concs, vmax, km))
@@ -418,7 +416,8 @@ def serial(config_paths,
                              )
 
                     if plot:
-                        plot_group(raw_data=test_data,
+                        plot_group(control_data=control_data,
+                                   raw_data=test_data,
                                    corrected_data=corrected_data,
                                    diff_data=diff_data,
                                    concs=concs,
@@ -443,34 +442,6 @@ def serial(config_paths,
                                         ), 
                            index=False)
 
-            # group_columns =   [i for i in [
-            #     'ligand', 
-            #     'protein_concentration', 
-            #     'protein_days_thawed', 
-            #     'plate_type',
-            #     ] if i in summary.columns]
-
-            # agg_mean = summary.drop('column_num', axis=1).groupby(group_columns).mean(numeric_only=True).reset_index()
-            # agg_std = summary.drop('column_num', axis=1).groupby(group_columns).std(numeric_only=True).reset_index()
-
-            # agg = agg_mean.join(agg_std[['km', 'vmax', 'rsq']], rsuffix='_std')
-            # agg = agg.round(2)
-
-            # ideal_column_order = [
-            #     'ligand',
-            #     'protein_concentration',
-            #     'protein_days_thawed',
-            #     'plate_type',
-            #     'km',
-            #     'km_std',
-            #     'vmax',
-            #     'vmax_std',
-            #     'rsq_std',
-            #     'rsq',
-            #     ]
-            # agg = agg.loc[:, map(lambda s : s in ideal_column_order, agg.columns) ]
-
-            # agg.to_markdown(f'experiment-{experiment_number}-agg.md', index=False)
         except Exception as e:
             logging.warn(f'{config_path} {e}')
 

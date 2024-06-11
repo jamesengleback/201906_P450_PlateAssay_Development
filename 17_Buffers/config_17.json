@@ -5,6 +5,7 @@
     "centrifuge_minutes": 3700,
     "well_volume": 30,
     "dispense_bulk": "Manual",
+    "dispense_ligands": "Serial dilution",
     "plate_type": "?",
     "blocks": {
         "0": {

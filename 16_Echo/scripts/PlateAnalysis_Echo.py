@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 
 import argparse
 from scipy import ndimage
-import tabulatehelper as th
-from datetime import date
 import string
 from tqdm import tqdm
 
@@ -252,10 +250,10 @@ def main():
     args=argParser()
     plate_data = args.i[0]
     plan = args.p[0]
+    import ipdb ; ipdb.set_trace()
     dataset = PlateDataset(plate_data,plan)
     for i in tqdm(range(1,25)):
         dataset.BlockPipeline(i)
-    table = th.md_table(dataset.figures)
-    print(table)
+
 if __name__ =='__main__':
     main()

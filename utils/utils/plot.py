@@ -69,6 +69,9 @@ def plot_plate_data(data,
                       title = 'Concentration μM',
                       loc='right',
                       )
+    if ax is None and save_path is not None:
+        assert 'fig' in locals()
+        fig.savefig(save_path)
 
 def plot_michaelis_menten(response,
                           concs,

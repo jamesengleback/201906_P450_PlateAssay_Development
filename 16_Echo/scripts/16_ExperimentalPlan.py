@@ -77,9 +77,9 @@ class Block():
         DMSO = TotalDMSOVol - compound_vol
         return compound_vol, DMSO
 
-    def MapWells(self,TestWellsx8, BlankWellsx8):
-        TestWells = {'A' + str(i):j for i,j in zip(range(9),TestWellsx8)}
-        BlankWells = {'B' + str(i):j for i,j in zip(range(9),BlankWellsx8)}
+    def MapWells(self, TestWellsx8, BlankWellsx8):
+        TestWells = {'A' + str(i):j for i,j in zip(range(1, 9),TestWellsx8)}
+        BlankWells = {'B' + str(i):j for i,j in zip(range(1, 9),BlankWellsx8)}
         self.Transfer['DestID'] = self.Transfer['DestID'].replace(TestWells)
         self.Transfer['DestID'] = self.Transfer['DestID'].replace(BlankWells)
         return self.Transfer
@@ -134,6 +134,7 @@ def main():
         transferMap = transferMap.append(DispensingPattern)
 
 
+    import ipdb ; ipdb.set_trace()
     transferMap.reset_index(inplace=True, drop=True)
     transferMap = transferMap.loc[transferMap['Volume'] != 0]
     transferMap.to_csv('Echo16Transfermap.csv')

@@ -1,0 +1,37 @@
+./5_More_Iterations/img/5-None-plate_1-column-1-ligand-None.png
+./5_More_Iterations/img/5-None-plate_1-column-2-ligand-Arachadionic Acid.png
+./16_Echo/img/plate_1-block-13-ligand-None.png
+./16_Echo/img/plate_1-block-1-ligand-None.png
+./16_Echo/img/plate_1-block-7-ligand-None.png
+./16_Echo/img/plate_2-block-1-ligand-None.png
+./16_Echo/img/plate_2-block-3-ligand-None.png
+./16_Echo/img/plate_2-block-7-ligand-None.png
+./16_Echo/img/plate_3-block-5-ligand-None.png
+./16_Echo/img/plate_3-block-7-ligand-None.png
+./16_Echo/img/plate_4-block-13-ligand-None.png
+./16_Echo/img/plate_4-block-7-ligand-None.png
+./7_Moreiterations/img/7-None-plate_3-column-2-ligand-Arachadionic Acid.png
+./7_Moreiterations/img/7-None-plate_4-column-2-ligand-Arachadionic Acid.png
+./14_DMSO_dilutionScheme/img/14-None-plate_1-column-12-ligand-SDS.png
+./19_Validation/img/plate_3-block-18-ligand-Palmitic acid.png
+./19_Validation/img/plate_3-block-2-ligand-Lauric acid.png
+./19_Validation/img/plate_3-block-3-ligand-Lauric acid.png
+./19_Validation/img/plate_3-block-4-ligand-Lauric acid.png
+./19_Validation/img/plate_3-block-5-ligand-Lauric acid.png
+./19_Validation/img/plate_3-block-6-ligand-Lauric acid.png
+./19_Validation/img/plate_3-block-7-ligand-Arachadionic acid.png
+./19_Validation/img/plate_7-block-10-ligand-Arachadionic acid.png
+./18_BuffersNCompounds/img/1-block-12-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/1-block-15-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/1-block-17-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/1-block-19-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/2-block-12-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/2-block-19-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/3-block-1-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/3-block-3-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/3-block-4-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/4-block-1-ligand-Arachadionic Acid.png
+./18_BuffersNCompounds/img/4-block-3-ligand-Arachadionic Acid.png
+./15_Echo/img/plate_3-block-4-ligand-DMSO.png
+./13_TitrationValidationPilot/img/13-None-plate_2-column-4-ligand-Arachadionic acid.png
+./22_validation2/img/22-Serial dilution-plate_1-column-11-ligand-Palmitic acid.png
