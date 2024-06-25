@@ -194,12 +194,12 @@ def echo(config_paths,
 
                         logging.info(f'{experiment_number} {independent_variables.get("dispense_ligands")}  block {block_num} ligand {ligand}')
 
-                        if (concs := block.get('concentrations')):
+                        concs = block.get('concentrations') or experiment_config.get('concentrations') or config_data.get('concentrations')
+
+                        if concs is not None: 
                             concs = np.array(concs)
                         else:
-                            concs = experiment_config.get('concentrations') or config_data.get('concentrations')
-                            if concs is not None: 
-                                concs = np.array(concs)
+                            concs = np.array([0] * len(block['test_wells'])) # all zero
 
                         test_data = df.loc[list(block['test_wells']), :]
 
@@ -222,15 +222,14 @@ def echo(config_paths,
 
                         if concs is not None:
                             corrected_data = corrected_data.sort_index()
-                            diff_data = corrected_data.subtract(corrected_data.loc[0, :], axis=1)
+                            diff_data = corrected_data.subtract(corrected_data.iloc[concs.argmin(), :], axis=1)
                             response = utils.mm.calculate_response(diff_data)
 
                             try:
                                 vmax, km = utils.mm.calculate_km(response, response.index)
+                                rsq = utils.mm.r_squared(response, utils.mm.curve(concs, vmax, km))
                             except:
-                                vmax, km = None, None
-
-                            rsq = utils.mm.r_squared(response, utils.mm.curve(concs, vmax, km))
+                                vmax, km, rsq = None, None, None
                         else:
                             rsq, vmax, km, diff_data, response = None, None, None, None, None
 
@@ -253,10 +252,10 @@ def echo(config_paths,
                             test_row = test_data.loc[test_i, :].to_dict()
                             per_well_summary.append({**test_row,
                                                      **independent_variables,
-                                                     'experiment_number': experiment_number,
+                                                     'block': block_num,
                                                      'ligand': ligand,
                                                      'concentration': conc,
-                                                     'experiment_number': experiment_number,
+                                                     'experiment': experiment_number,
                                                      'control': False,
                                                      'address': test_i,
                                                      **{i:block[i] for i in block.keys() if 'wells' not in i},
@@ -273,12 +272,12 @@ def echo(config_paths,
                                 control_row = control_data.loc[control_i, :].to_dict()
                                 per_well_summary.append({**control_row,
                                                          **independent_variables,
-                                                         'experiment_number': experiment_number,
+                                                         'experiment': experiment_number,
                                                          'ligand': ligand,
+                                                         'block': block_num,
                                                          'concentration': conc,
                                                          'control': True,
                                                          'address': control_i,
-                                                         'experiment_number': experiment_number,
                                                          **{i:block[i] for i in block.keys() if 'wells' not in i},
                                                          }
                                                         )
@@ -469,11 +468,12 @@ def serial(config_paths,
                         test_row = test_data.loc[test_i, :].to_dict()
                         per_well_summary.append({**test_row,
                                                  **independent_variables,
-                                                 'experiment_number': experiment_number,
                                                  'ligand': ligand,
                                                  'concentration': conc,
                                                  'control': False,
                                                  'address': test_i,
+                                                 'experiment': experiment_number,
+                                                 'block': column_num,
                                                  }
                                                 )
 
@@ -487,11 +487,12 @@ def serial(config_paths,
                             control_row = control_data.loc[control_i, :].to_dict()
                             per_well_summary.append({**control_row,
                                                      **independent_variables,
-                                                     'experiment_number': experiment_number,
                                                      'ligand': ligand,
                                                      'concentration': conc,
                                                      'control': True,
                                                      'address': control_i,
+                                                     'experiment': experiment_number,
+                                                     'block': column_num,
                                                      }
                                                     )
 

@@ -1,4 +1,4 @@
-ligand,km,vmax,rsq,column_num,protein_concentration,a420_max,auc_mean,auc_cv,std_405,dd_soret,experiment_number,protein_days_thawed,dispense_ligands,bulk_dispensing,file,protein_volume,experiments,column
+ligand,km,vmax,rsq,column_num,protein_concentration,a420_max,auc_mean,auc_cv,std_405,dd_soret,experiment_number,protein_days_thawed,dispense_ligands,bulk_dispensing,file,well_volume,experiments,column
 Aracadionic acid,133.1253564246786,0.12566810161574207,-2.7790957674527914,1,10,0.163,24.231125,0.2037281853287055,0.014596966416739769,-0.027412600806357455,22,0,Serial dilution,Manual,hand/20201013-UV-Vis-Factorial-plate1.CSV,20,1,1
 Lauric acid,37.56446606229601,0.011156177167496837,-1.4891608721763858,2,10,0.16,20.131062500000013,0.0962902469657539,0.0046732521560777915,-0.003164012097834453,22,0,Serial dilution,Manual,hand/20201013-UV-Vis-Factorial-plate1.CSV,20,1,2
 Palmitic acid,224.5542922827169,0.06166267989184843,-2.213239993576511,3,10,0.163,21.23250000000001,0.14762861627853516,0.01404520762192062,-0.010265171369036197,22,0,Serial dilution,Manual,hand/20201013-UV-Vis-Factorial-plate1.CSV,20,1,3

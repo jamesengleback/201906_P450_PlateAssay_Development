@@ -1,4 +1,4 @@
-experiment_number,ligand,km,vmax,rsq,protein_concentration,a420_max,auc_mean,auc_cv,std_405,dd_soret,BSA,protein_volume,controls_ok,protein_days_thawed,centrifuge_rpm,centrifuge_minutes,dispense_bulk,plate_type
+experiment_number,ligand,km,vmax,rsq,protein_concentration,a420_max,auc_mean,auc_cv,std_405,dd_soret,BSA,well_volume,controls_ok,protein_days_thawed,centrifuge_rpm,centrifuge_minutes,dispense_bulk,plate_type
 18,Arachadionic Acid,28.176719671693323,0.8699999999834539,-36.160922168684465,10.0,0.417,61.94074999999988,0.38049770914612,0.05486346689738082,0.040196370965816464,0.1,23.63636363636364,True,0,2,3700,Manual,?
 18,Arachadionic Acid,31.795142510825578,0.7799999999999999,-35.89314347781912,10.0,0.39099999999999996,53.33156249999997,0.16191497416646325,0.02522895162308572,0.016055141129463813,0.1,23.63636363636364,True,0,2,3700,Manual,?
 18,Arachadionic Acid,27.273387662102156,1.134999375607889,-37.49734210396883,16.363636363636363,0.601,74.35174999999985,0.11759896138745395,0.028841624186482413,0.016458014109342438,0.1,30.0,True,0,2,3700,Manual,?

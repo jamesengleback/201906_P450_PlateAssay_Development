@@ -3,7 +3,7 @@
     "protein_days_thawed": 0,
     "centrifuge_rpm": 2,
     "centrifuge_minutes": 3700,
-    "protein_volume": 30,
+    "well_volume": 30,
     "dispense_bulk": "Manual",
     "dispense_ligands": "Serial dilution",
     "plate_type": "?",

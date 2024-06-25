@@ -10,8 +10,8 @@ plate_utils serial   3_TestFattyAcids/config_3.json \
                         11_Validation/config_11.json \
                         12_ThermoPlateCompare/config_12.json \
                         13_TitrationValidationPilot/config_13.json \
-                        22_validation2/config_22.json 
-#                       14_DMSO_dilutionScheme/config_14.json \
+                        22_validation2/config_22.json \
+                       14_DMSO_dilutionScheme/config_14.json 
 
 plate_utils echo  15_Echo/config_15.json \
                     16_Echo/config_16.json \
