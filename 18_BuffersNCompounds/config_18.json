@@ -43,8 +43,8 @@
                         "H2"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 10.0,
-                    "protein_vol": 23.63636363636364
+                    "protein_concentration": 10.0,
+                    "protein_volume": 23.63636363636364
                 },
                 "2": {
                     "test_wells": [
@@ -68,8 +68,8 @@
                         "P2"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 10.0,
-                    "protein_vol": 23.63636363636364
+                    "protein_concentration": 10.0,
+                    "protein_volume": 23.63636363636364
                 },
                 "3": {
                     "test_wells": [
@@ -93,8 +93,8 @@
                         "H4"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 16.363636363636363,
-                    "protein_vol": 30.0
+                    "protein_concentration": 16.363636363636363,
+                    "protein_volume": 30.0
                 },
                 "4": {
                     "test_wells": [
@@ -118,8 +118,8 @@
                         "P4"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 16.363636363636363,
-                    "protein_vol": 30.0
+                    "protein_concentration": 16.363636363636363,
+                    "protein_volume": 30.0
                 },
                 "5": {
                     "test_wells": [
@@ -143,8 +143,8 @@
                         "H6"
                     ],
                     "BSA": 0.390909090909091,
-                    "protein_conc": 10.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 30.0
                 },
                 "6": {
                     "test_wells": [
@@ -168,8 +168,8 @@
                         "P6"
                     ],
                     "BSA": 0.390909090909091,
-                    "protein_conc": 10.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 30.0
                 },
                 "7": {
                     "test_wells": [
@@ -193,8 +193,8 @@
                         "H8"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 10.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 20.0
                 },
                 "8": {
                     "test_wells": [
@@ -218,8 +218,8 @@
                         "P8"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 10.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 20.0
                 },
                 "9": {
                     "test_wells": [
@@ -243,8 +243,8 @@
                         "H10"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "10": {
                     "test_wells": [
@@ -268,8 +268,8 @@
                         "P10"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "11": {
                     "test_wells": [
@@ -293,8 +293,8 @@
                         "H12"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 30.0
                 },
                 "12": {
                     "test_wells": [
@@ -318,8 +318,8 @@
                         "P12"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 30.0
                 },
                 "13": {
                     "test_wells": [
@@ -343,8 +343,8 @@
                         "H14"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 14.545454545454549,
-                    "protein_vol": 25.454545454545453
+                    "protein_concentration": 14.545454545454549,
+                    "protein_volume": 25.454545454545453
                 },
                 "14": {
                     "test_wells": [
@@ -368,8 +368,8 @@
                         "P14"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 14.545454545454549,
-                    "protein_vol": 25.454545454545453
+                    "protein_concentration": 14.545454545454549,
+                    "protein_volume": 25.454545454545453
                 },
                 "15": {
                     "test_wells": [
@@ -393,8 +393,8 @@
                         "H16"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "16": {
                     "test_wells": [
@@ -418,8 +418,8 @@
                         "P16"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "17": {
                     "test_wells": [
@@ -443,8 +443,8 @@
                         "H18"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 13.636363636363637,
-                    "protein_vol": 20.0
+                    "protein_concentration": 13.636363636363637,
+                    "protein_volume": 20.0
                 },
                 "18": {
                     "test_wells": [
@@ -468,8 +468,8 @@
                         "P18"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 13.636363636363637,
-                    "protein_vol": 20.0
+                    "protein_concentration": 13.636363636363637,
+                    "protein_volume": 20.0
                 },
                 "19": {
                     "test_wells": [
@@ -493,8 +493,8 @@
                         "H20"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 20.0,
-                    "protein_vol": 26.363636363636363
+                    "protein_concentration": 20.0,
+                    "protein_volume": 26.363636363636363
                 },
                 "20": {
                     "test_wells": [
@@ -518,8 +518,8 @@
                         "P20"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 20.0,
-                    "protein_vol": 26.363636363636363
+                    "protein_concentration": 20.0,
+                    "protein_volume": 26.363636363636363
                 }
             }
         },
@@ -549,8 +549,8 @@
                         "H2"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 10.0,
-                    "protein_vol": 23.63636363636364
+                    "protein_concentration": 10.0,
+                    "protein_volume": 23.63636363636364
                 },
                 "2": {
                     "test_wells": [
@@ -574,8 +574,8 @@
                         "P2"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 10.0,
-                    "protein_vol": 23.63636363636364
+                    "protein_concentration": 10.0,
+                    "protein_volume": 23.63636363636364
                 },
                 "3": {
                     "test_wells": [
@@ -599,8 +599,8 @@
                         "H4"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 16.363636363636363,
-                    "protein_vol": 30.0
+                    "protein_concentration": 16.363636363636363,
+                    "protein_volume": 30.0
                 },
                 "4": {
                     "test_wells": [
@@ -624,8 +624,8 @@
                         "P4"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 16.363636363636363,
-                    "protein_vol": 30.0
+                    "protein_concentration": 16.363636363636363,
+                    "protein_volume": 30.0
                 },
                 "5": {
                     "test_wells": [
@@ -649,8 +649,8 @@
                         "H6"
                     ],
                     "BSA": 0.390909090909091,
-                    "protein_conc": 10.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 30.0
                 },
                 "6": {
                     "test_wells": [
@@ -674,8 +674,8 @@
                         "P6"
                     ],
                     "BSA": 0.390909090909091,
-                    "protein_conc": 10.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 30.0
                 },
                 "7": {
                     "test_wells": [
@@ -699,8 +699,8 @@
                         "H8"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 10.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 20.0
                 },
                 "8": {
                     "test_wells": [
@@ -724,8 +724,8 @@
                         "P8"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 10.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 20.0
                 },
                 "9": {
                     "test_wells": [
@@ -749,8 +749,8 @@
                         "H10"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "10": {
                     "test_wells": [
@@ -774,8 +774,8 @@
                         "P10"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "11": {
                     "test_wells": [
@@ -799,8 +799,8 @@
                         "H12"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 30.0
                 },
                 "12": {
                     "test_wells": [
@@ -824,8 +824,8 @@
                         "P12"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 30.0
                 },
                 "13": {
                     "test_wells": [
@@ -849,8 +849,8 @@
                         "H14"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 14.545454545454549,
-                    "protein_vol": 25.454545454545453
+                    "protein_concentration": 14.545454545454549,
+                    "protein_volume": 25.454545454545453
                 },
                 "14": {
                     "test_wells": [
@@ -874,8 +874,8 @@
                         "P14"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 14.545454545454549,
-                    "protein_vol": 25.454545454545453
+                    "protein_concentration": 14.545454545454549,
+                    "protein_volume": 25.454545454545453
                 },
                 "15": {
                     "test_wells": [
@@ -899,8 +899,8 @@
                         "H16"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "16": {
                     "test_wells": [
@@ -924,8 +924,8 @@
                         "P16"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "17": {
                     "test_wells": [
@@ -949,8 +949,8 @@
                         "H18"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 13.636363636363637,
-                    "protein_vol": 20.0
+                    "protein_concentration": 13.636363636363637,
+                    "protein_volume": 20.0
                 },
                 "18": {
                     "test_wells": [
@@ -974,8 +974,8 @@
                         "P18"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 13.636363636363637,
-                    "protein_vol": 20.0
+                    "protein_concentration": 13.636363636363637,
+                    "protein_volume": 20.0
                 },
                 "19": {
                     "test_wells": [
@@ -999,8 +999,8 @@
                         "H20"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 20.0,
-                    "protein_vol": 26.363636363636363
+                    "protein_concentration": 20.0,
+                    "protein_volume": 26.363636363636363
                 },
                 "20": {
                     "test_wells": [
@@ -1024,8 +1024,8 @@
                         "P20"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 20.0,
-                    "protein_vol": 26.363636363636363
+                    "protein_concentration": 20.0,
+                    "protein_volume": 26.363636363636363
                 }
             }
         },
@@ -1055,8 +1055,8 @@
                         "H2"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 10.0,
-                    "protein_vol": 23.63636363636364
+                    "protein_concentration": 10.0,
+                    "protein_volume": 23.63636363636364
                 },
                 "2": {
                     "test_wells": [
@@ -1080,8 +1080,8 @@
                         "P2"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 10.0,
-                    "protein_vol": 23.63636363636364
+                    "protein_concentration": 10.0,
+                    "protein_volume": 23.63636363636364
                 },
                 "3": {
                     "test_wells": [
@@ -1105,8 +1105,8 @@
                         "H4"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 16.363636363636363,
-                    "protein_vol": 30.0
+                    "protein_concentration": 16.363636363636363,
+                    "protein_volume": 30.0
                 },
                 "4": {
                     "test_wells": [
@@ -1130,8 +1130,8 @@
                         "P4"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 16.363636363636363,
-                    "protein_vol": 30.0
+                    "protein_concentration": 16.363636363636363,
+                    "protein_volume": 30.0
                 },
                 "5": {
                     "test_wells": [
@@ -1155,8 +1155,8 @@
                         "H6"
                     ],
                     "BSA": 0.390909090909091,
-                    "protein_conc": 10.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 30.0
                 },
                 "6": {
                     "test_wells": [
@@ -1180,8 +1180,8 @@
                         "P6"
                     ],
                     "BSA": 0.390909090909091,
-                    "protein_conc": 10.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 30.0
                 },
                 "7": {
                     "test_wells": [
@@ -1205,8 +1205,8 @@
                         "H8"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 10.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 20.0
                 },
                 "8": {
                     "test_wells": [
@@ -1230,8 +1230,8 @@
                         "P8"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 10.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 20.0
                 },
                 "9": {
                     "test_wells": [
@@ -1255,8 +1255,8 @@
                         "H10"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "10": {
                     "test_wells": [
@@ -1280,8 +1280,8 @@
                         "P10"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "11": {
                     "test_wells": [
@@ -1305,8 +1305,8 @@
                         "H12"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 30.0
                 },
                 "12": {
                     "test_wells": [
@@ -1330,8 +1330,8 @@
                         "P12"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 30.0
                 },
                 "13": {
                     "test_wells": [
@@ -1355,8 +1355,8 @@
                         "H14"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 14.545454545454549,
-                    "protein_vol": 25.454545454545453
+                    "protein_concentration": 14.545454545454549,
+                    "protein_volume": 25.454545454545453
                 },
                 "14": {
                     "test_wells": [
@@ -1380,8 +1380,8 @@
                         "P14"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 14.545454545454549,
-                    "protein_vol": 25.454545454545453
+                    "protein_concentration": 14.545454545454549,
+                    "protein_volume": 25.454545454545453
                 },
                 "15": {
                     "test_wells": [
@@ -1405,8 +1405,8 @@
                         "H16"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "16": {
                     "test_wells": [
@@ -1430,8 +1430,8 @@
                         "P16"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "17": {
                     "test_wells": [
@@ -1455,8 +1455,8 @@
                         "H18"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 13.636363636363637,
-                    "protein_vol": 20.0
+                    "protein_concentration": 13.636363636363637,
+                    "protein_volume": 20.0
                 },
                 "18": {
                     "test_wells": [
@@ -1480,8 +1480,8 @@
                         "P18"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 13.636363636363637,
-                    "protein_vol": 20.0
+                    "protein_concentration": 13.636363636363637,
+                    "protein_volume": 20.0
                 },
                 "19": {
                     "test_wells": [
@@ -1505,8 +1505,8 @@
                         "H20"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 20.0,
-                    "protein_vol": 26.363636363636363
+                    "protein_concentration": 20.0,
+                    "protein_volume": 26.363636363636363
                 },
                 "20": {
                     "test_wells": [
@@ -1530,8 +1530,8 @@
                         "P20"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 20.0,
-                    "protein_vol": 26.363636363636363
+                    "protein_concentration": 20.0,
+                    "protein_volume": 26.363636363636363
                 }
             }
         },
@@ -1561,8 +1561,8 @@
                         "H1"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 10.0,
-                    "protein_vol": 23.63636363636364
+                    "protein_concentration": 10.0,
+                    "protein_volume": 23.63636363636364
                 },
                 "2": {
                     "test_wells": [
@@ -1586,8 +1586,8 @@
                         "P2"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 10.0,
-                    "protein_vol": 23.63636363636364
+                    "protein_concentration": 10.0,
+                    "protein_volume": 23.63636363636364
                 },
                 "3": {
                     "test_wells": [
@@ -1611,8 +1611,8 @@
                         "H4"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 16.363636363636363,
-                    "protein_vol": 30.0
+                    "protein_concentration": 16.363636363636363,
+                    "protein_volume": 30.0
                 },
                 "4": {
                     "test_wells": [
@@ -1636,8 +1636,8 @@
                         "P4"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 16.363636363636363,
-                    "protein_vol": 30.0
+                    "protein_concentration": 16.363636363636363,
+                    "protein_volume": 30.0
                 },
                 "5": {
                     "test_wells": [
@@ -1661,8 +1661,8 @@
                         "H6"
                     ],
                     "BSA": 0.390909090909091,
-                    "protein_conc": 10.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 30.0
                 },
                 "6": {
                     "test_wells": [
@@ -1686,8 +1686,8 @@
                         "P6"
                     ],
                     "BSA": 0.390909090909091,
-                    "protein_conc": 10.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 30.0
                 },
                 "7": {
                     "test_wells": [
@@ -1711,8 +1711,8 @@
                         "H8"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 10.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 20.0
                 },
                 "8": {
                     "test_wells": [
@@ -1736,8 +1736,8 @@
                         "P8"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 10.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 10.0,
+                    "protein_volume": 20.0
                 },
                 "9": {
                     "test_wells": [
@@ -1761,8 +1761,8 @@
                         "H10"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "10": {
                     "test_wells": [
@@ -1786,8 +1786,8 @@
                         "P10"
                     ],
                     "BSA": 0.1,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "11": {
                     "test_wells": [
@@ -1811,8 +1811,8 @@
                         "H12"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 30.0
                 },
                 "12": {
                     "test_wells": [
@@ -1836,8 +1836,8 @@
                         "P12"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 30.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 30.0
                 },
                 "13": {
                     "test_wells": [
@@ -1861,8 +1861,8 @@
                         "H14"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 14.545454545454549,
-                    "protein_vol": 25.454545454545453
+                    "protein_concentration": 14.545454545454549,
+                    "protein_volume": 25.454545454545453
                 },
                 "14": {
                     "test_wells": [
@@ -1886,8 +1886,8 @@
                         "P14"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 14.545454545454549,
-                    "protein_vol": 25.454545454545453
+                    "protein_concentration": 14.545454545454549,
+                    "protein_volume": 25.454545454545453
                 },
                 "15": {
                     "test_wells": [
@@ -1911,8 +1911,8 @@
                         "H16"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "16": {
                     "test_wells": [
@@ -1936,8 +1936,8 @@
                         "P16"
                     ],
                     "BSA": 0.5,
-                    "protein_conc": 20.0,
-                    "protein_vol": 20.0
+                    "protein_concentration": 20.0,
+                    "protein_volume": 20.0
                 },
                 "17": {
                     "test_wells": [
@@ -1961,8 +1961,8 @@
                         "H18"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 13.636363636363637,
-                    "protein_vol": 20.0
+                    "protein_concentration": 13.636363636363637,
+                    "protein_volume": 20.0
                 },
                 "18": {
                     "test_wells": [
@@ -1986,8 +1986,8 @@
                         "P18"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 13.636363636363637,
-                    "protein_vol": 20.0
+                    "protein_concentration": 13.636363636363637,
+                    "protein_volume": 20.0
                 },
                 "19": {
                     "test_wells": [
@@ -2011,8 +2011,8 @@
                         "H20"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 20.0,
-                    "protein_vol": 26.363636363636363
+                    "protein_concentration": 20.0,
+                    "protein_volume": 26.363636363636363
                 },
                 "20": {
                     "test_wells": [
@@ -2036,8 +2036,8 @@
                         "P20"
                     ],
                     "BSA": 0.2454545454545455,
-                    "protein_conc": 20.0,
-                    "protein_vol": 26.363636363636363
+                    "protein_concentration": 20.0,
+                    "protein_volume": 26.363636363636363
                 }
             }
         }

@@ -8,7 +8,7 @@
     "percent_dmso": 5,
     "protein_days_thawed": 0,
     "protein_concentration": 10,
-    "well_volume": 20,
+    "protein_volume": 20,
     "blocks": {
         "1": {
             "ligand": "Lauric acid",

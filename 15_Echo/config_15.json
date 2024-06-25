@@ -5,7 +5,7 @@
         "dispense_bulk": "Thermo Multidrop Combi",
         "dispense_ligands": "Echo",
         "protein_days_thawed": 0,
-        "well_volume": 30,
+        "protein_volume": 30,
         "source_plate_contents": {
                 "A1": "DMSO",
                 "A2": "DMSO",

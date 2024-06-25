@@ -4,7 +4,7 @@
     "centrifuge_rpm": 2,
     "centrifuge_minutes": 3700,
     "dispense_ligands": "Echo",
-    "well_volume": 30,
+    "protein_volume": 30,
     "dispense_bulk": "Thermo Multidrop Combi",
     "ligand": "Arachadionic acid",
     "source_plate_contents": {

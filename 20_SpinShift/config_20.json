@@ -11,7 +11,7 @@
     "blocks": {
         "1": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -46,7 +46,7 @@
         },
         "2": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -81,7 +81,7 @@
         },
         "3": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -116,7 +116,7 @@
         },
         "4": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -151,7 +151,7 @@
         },
         "5": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -186,7 +186,7 @@
         },
         "6": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -221,7 +221,7 @@
         },
         "7": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -256,7 +256,7 @@
         },
         "8": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -291,7 +291,7 @@
         },
         "9": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -326,7 +326,7 @@
         },
         "10": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -361,7 +361,7 @@
         },
         "11": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -396,7 +396,7 @@
         },
         "12": {
             "ligand": "Arachadionic acid",
-            "well_volume": 20,
+            "protein_volume": 20,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -431,7 +431,7 @@
         },
         "13": {
             "ligand": "Arachadionic acid",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -466,7 +466,7 @@
         },
         "14": {
             "ligand": "Arachadionic acid",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -501,7 +501,7 @@
         },
         "15": {
             "ligand": "Arachadionic acid",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -536,7 +536,7 @@
         },
         "16": {
             "ligand": "Arachadionic acid",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -571,7 +571,7 @@
         },
         "17": {
             "ligand": "Arachadionic acid",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -606,7 +606,7 @@
         },
         "18": {
             "ligand": "Arachadionic acid",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 7.5,
             "concentrations": [
                 0.0,
@@ -641,7 +641,7 @@
         },
         "19": {
             "ligand": "Arachadionic",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -676,7 +676,7 @@
         },
         "20": {
             "ligand": "Arachadionic",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -711,7 +711,7 @@
         },
         "21": {
             "ligand": "Arachadionic",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -746,7 +746,7 @@
         },
         "22": {
             "ligand": "Arachadionic",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -781,7 +781,7 @@
         },
         "23": {
             "ligand": "Arachadionic",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,
@@ -816,7 +816,7 @@
         },
         "24": {
             "ligand": "Arachadionic",
-            "well_volume": 40,
+            "protein_volume": 40,
             "protein_concentration": 15.2,
             "concentrations": [
                 0.0,

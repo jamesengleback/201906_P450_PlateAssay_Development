@@ -161,6 +161,8 @@ def echo(config_paths,
 
             summary = []
 
+            per_well_summary = []
+
             well_ids = {i:j for i, j in enumerate(
                 [f'{k}{l}' for k in ascii_uppercase[:16] for l in range(1,25)],
                                         1)
@@ -243,6 +245,44 @@ def echo(config_paths,
                         else:
                             dd_soret = None
 
+
+                        for idx, (test_i, conc) in enumerate(zip(test_data.index,
+                                                                    concs,
+                                                                    )
+                                                                ):
+                            test_row = test_data.loc[test_i, :].to_dict()
+                            per_well_summary.append({**test_row,
+                                                     **independent_variables,
+                                                     'experiment_number': experiment_number,
+                                                     'ligand': ligand,
+                                                     'concentration': conc,
+                                                     'experiment_number': experiment_number,
+                                                     'control': False,
+                                                     'address': test_i,
+                                                     **{i:block[i] for i in block.keys() if 'wells' not in i},
+                                                     }
+                                                    )
+
+
+                        if control_data is not None:
+                            for idx, (control_i, conc) in enumerate(zip(control_data.index,
+                                                                        concs,
+                                                                        )
+                                                                    ):
+
+                                control_row = control_data.loc[control_i, :].to_dict()
+                                per_well_summary.append({**control_row,
+                                                         **independent_variables,
+                                                         'experiment_number': experiment_number,
+                                                         'ligand': ligand,
+                                                         'concentration': conc,
+                                                         'control': True,
+                                                         'address': control_i,
+                                                         'experiment_number': experiment_number,
+                                                         **{i:block[i] for i in block.keys() if 'wells' not in i},
+                                                         }
+                                                        )
+
                         summary.append({
                             'experiment_number': experiment_number,
                             'ligand': ligand,
@@ -290,6 +330,12 @@ def echo(config_paths,
                                         f'experiment-{experiment_number}-summary.csv'
                                         ), 
                            index=False)
+
+            per_well_summary = pd.DataFrame(per_well_summary)
+            per_well_summary.to_csv(os.path.join(working_directory,
+                                        f'experiment-{experiment_number}-per-well-summary.csv'
+                                        ), 
+                           index=False)
         except Exception as e:
             logging.warn(f'{config_path} {e}')
 
@@ -309,6 +355,7 @@ def serial(config_paths,
     """
 
     for config_path in config_paths:
+        per_well_summary = []
         try:
             logging.info(config_path)
             working_directory = os.path.abspath(os.path.dirname(config_path))
@@ -415,6 +462,39 @@ def serial(config_paths,
                         }
                              )
 
+                    for idx, (test_i, conc) in enumerate(zip(test_data.index,
+                                                                concs,
+                                                                )
+                                                            ):
+                        test_row = test_data.loc[test_i, :].to_dict()
+                        per_well_summary.append({**test_row,
+                                                 **independent_variables,
+                                                 'experiment_number': experiment_number,
+                                                 'ligand': ligand,
+                                                 'concentration': conc,
+                                                 'control': False,
+                                                 'address': test_i,
+                                                 }
+                                                )
+
+
+                    if control_data is not None:
+                        for idx, (control_i, conc) in enumerate(zip(control_data.index,
+                                                                    concs,
+                                                                    )
+                                                                ):
+
+                            control_row = control_data.loc[control_i, :].to_dict()
+                            per_well_summary.append({**control_row,
+                                                     **independent_variables,
+                                                     'experiment_number': experiment_number,
+                                                     'ligand': ligand,
+                                                     'concentration': conc,
+                                                     'control': True,
+                                                     'address': control_i,
+                                                     }
+                                                    )
+
                     if plot:
                         plot_group(control_data=control_data,
                                    raw_data=test_data,
@@ -439,6 +519,12 @@ def serial(config_paths,
             summary = pd.DataFrame(summary)
             summary.to_csv(os.path.join(working_directory,
                                         f'experiment-{experiment_number}-summary.csv'
+                                        ), 
+                           index=False)
+
+            per_well_summary = pd.DataFrame(per_well_summary)
+            per_well_summary.to_csv(os.path.join(working_directory,
+                                        f'experiment-{experiment_number}-per-well-summary.csv'
                                         ), 
                            index=False)
 
