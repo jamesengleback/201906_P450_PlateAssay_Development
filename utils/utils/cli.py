@@ -5,6 +5,11 @@ import re
 from string import ascii_uppercase
 import argparse
 import logging
+import itertools
+import colorama
+import sqlite3
+from sqlalchemy import create_engine
+from sqlalchemy.orm import Session
 
 import click
 import numpy as np
@@ -12,114 +17,19 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import utils
+from utils.plot import plot_group
 
 logging.basicConfig(level=logging.INFO)
 
-def plot_group(raw_data=None,
-               control_data=None,
-               corrected_data=None,
-               diff_data=None,
-               concs=None,
-               ligand=None,
-               response=None,
-               vmax=None,
-               km=None,
-               rsq=None,
-               a420_max=None,
-               suptitle=None,
-               show=None,
-               save_path=None,
-               legend_text=None,
-               table_data=None,
-               ):
-    fig, axs = plt.subplots(3, 2, figsize=(16,12))
-    next_ax = iter(axs.flatten())
-
-    if control_data is not None:
-        utils.plot.plot_plate_data(control_data.sort_index(ascending=False),
-                                   ax=next(next_ax),
-                                   concs=concs[::-1] if concs is not None else None,
-                                   ligand_name=ligand,
-                                   title='Control Data',
-                                   ylim=(-0.1, max(0.3, 1.2 * a420_max) if a420_max else None),
-                                   )
-
-    if raw_data is not None:
-        utils.plot.plot_plate_data(raw_data.sort_index(ascending=False),
-                                   ax=next(next_ax),
-                                   concs=concs[::-1] if concs is not None else None,
-                                   ligand_name=ligand,
-                                   title='Raw Test Data',
-                                   ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
-                                   )
-
-    if corrected_data is not None:
-        utils.plot.plot_plate_data(corrected_data.sort_index(ascending=False),
-                                   ax=next(next_ax),
-                                   ligand_name=ligand,
-                                   concs=concs[::-1] if concs is not None else None,
-                                   title='Corrected Test Data',
-                                   ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
-                                   )
-
-    if diff_data is not None:
-        utils.plot.plot_plate_data(diff_data.sort_index(ascending=False),
-                                   ax=next(next_ax),
-                                   concs=concs[::-1] if concs is not None else None,
-                                   ligand_name=ligand,
-                                   title='$\Delta$ Absorbance',
-                                   ylim=(-0.3, max(0.3, 1.2 * a420_max)) if a420_max else None,
-                                   )
-
-    if ligand and response is not None:
-        utils.plot.plot_michaelis_menten(response=response,
-                                         concs=concs,
-                                         vmax=vmax,
-                                         km=km,
-                                         r_squared=rsq,
-                                         ax=next(next_ax),
-                                         ylim=(0, max((vmax * 1.2), max(response) * 1.2)),
-                                         legend_text=legend_text,
-                                         title='Response'
-                                         )
-    # else:
-    #     if legend_text is not None:
-    #         handles, labels = axs[2, 0].get_legend_handles_labels()
-    #         handles.append(mpatches.Patch(color='none', label=legend_text))
-    #         axs[2, 0].legend(handles=handles,
-    #                          loc='right',
-    #                          )
-
-    if table_data is not None:
-        assert isinstance(table_data, dict)
-        ax = next(next_ax)
-        fmt_labels = lambda s : ' '.join([i.capitalize() for i in s.split('_')])
-        ax.table(cellText=[[i] for i in table_data.values()],
-                 rowLabels=[fmt_labels(i) for i in table_data.keys()],
-                 bbox=[0.4, 0.2, 0.4, 0.6],
-                 # colWidths=[0.4],
-                 cellLoc='left',
-                 # loc='center',
-                 edges='TBLR',
-                 alpha=0.5,
-                 fontsize=14,
-                 )
-        ax.axis('off')
-
-    for ax in next_ax:
-        ax.axis('off')
-
-    if suptitle:
-        plt.suptitle(suptitle)
-    plt.tight_layout()
-
-    if show:
-        plt.show()
-    else:
-        assert save_path is not None
-        assert os.path.exists(os.path.dirname(save_path))
-        plt.savefig(save_path)
-        plt.close()
+class TextStyle:
+    def bgreen(s):
+        return f'{colorama.Style.BRIGHT + colorama.Fore.GREEN}{s}{colorama.Style.RESET_ALL}'
+    def green(s):
+        return f'{colorama.Fore.GREEN}{s}{colorama.Style.RESET_ALL}'
+    def bred(s):
+        return f'{colorama.Style.BRIGHT + colorama.Fore.RED}{s}{colorama.Style.RESET_ALL}'
+    def red(s):
+        return f'{colorama.Fore.RED}{s}{colorama.Style.RESET_ALL}'
 
 @click.group()
 def cli():
@@ -175,10 +85,10 @@ def echo(config_paths,
 
                 if blocks is None:
                     blocks = experiment_config.get('blocks')
-                
+
                 if (echo_log_path := experiment_config.get('echo_log')) is not None:
                     pass
-                
+
                 if (plate_data_path := experiment_config.get('file')) is not None:
                     plate_data_path = os.path.join(working_directory, plate_data_path)
                     logging.info(plate_data_path)
@@ -464,10 +374,11 @@ def serial(config_paths,
                         }
                              )
 
-                    for idx, (test_i, conc) in enumerate(zip(test_data.index,
-                                                                concs,
-                                                                )
-                                                            ):
+                    for idx, (test_i, control_i, conc) in enumerate(zip(test_data.index,
+                                                                        control_data.index,
+                                                                        concs,
+                                                                        )
+                                                                    ):
                         test_row = test_data.loc[test_i, :].to_dict()
                         per_well_summary.append({**test_row,
                                                  **independent_variables,
@@ -481,17 +392,17 @@ def serial(config_paths,
                                                 )
 
 
-                            control_row = control_data.loc[control_i, :].to_dict()
-                            per_well_summary.append({**control_row,
-                                                     **independent_variables,
-                                                     'ligand': ligand,
-                                                     'concentration': conc,
-                                                     'control': True,
-                                                     'address': control_i,
-                                                     'experiment': experiment_number,
-                                                     'block': column_num,
-                                                     }
-                                                    )
+                        control_row = control_data.loc[control_i, :].to_dict()
+                        per_well_summary.append({**control_row,
+                                                 **independent_variables,
+                                                 'ligand': ligand,
+                                                 'concentration': conc,
+                                                 'control': True,
+                                                 'address': control_i,
+                                                 'experiment': experiment_number,
+                                                 'block': column_num,
+                                                 }
+                                                )
 
                     if plot:
                         plot_group(control_data=control_data,
@@ -529,8 +440,257 @@ def serial(config_paths,
         except Exception as e:
             logging.warn(f'{config_path} {e}')
 
+@click.command()
+@click.argument('config_paths', nargs=-1)
+@click.option('-p', '--plot', is_flag=True, type=bool, default=False)
+@click.option('-s', '--show', is_flag=True, type=bool, default=False)
+@click.option('-t', '--experiment_type', type=str, default='serial')
+@click.option('-d', '--db_uri', type=str)
+def process(config_paths,
+            experiment_type,
+            plot,
+            show,
+            db_uri,
+            ):
+
+    dict_to_str = lambda d : ' '.join([f'{i} = {round(d[i], 2) if isinstance(d[i], (float, int)) else d[i]}' for i in d.keys()])
+
+    if db_uri is None:
+        SQLITE_URI = f'sqlite:///'
+        db_uri = SQLITE_URI + os.path.abspath(os.path.join(os.curdir, 'db.sqlite3'))
+
+    engine = create_engine(db_uri, echo=True)
+    utils.model.Base.metadata.create_all(engine)
+    logging.info(TextStyle.bred(f"Connected to: {db_uri}"))
+    #con = sqlite3.connect(db_uri)
+
+    #import ipdb ; ipdb.set_trace()
+    with Session(engine) as session:
+        for config_path in config_paths:
+            per_well_summary = []
+            logging.info(config_path)
+            working_directory = os.path.abspath(os.path.dirname(config_path))
+
+            with open(config_path, 'r') as f:
+                config_data = json.load(f)
+            
+            experiment_number = config_data["experiment_number"]
+
+            constants = {i.lower(): j for i, j in zip(config_data.keys(),
+                                              config_data.values(),
+                                              ) if not isinstance(j, (list, dict))
+                         }
+
+            logging.info(TextStyle.bgreen(f'Experiment: {experiment_number}: ' + dict_to_str(constants)))
+            # if plot:
+            #     img_dir = os.path.join(working_directory, 'img')
+            #     if not os.path.exists(img_dir):
+            #         os.mkdir(img_dir)
+            summary = []
+
+            match experiment_type:
+                case 'serial':
+                    test_rows = config_data['test_rows']
+                    control_rows = config_data['control_rows']
+                    concs = np.array(config_data['concentrations'])
+
+                    # order of concs is reversed (high at top of column)
+                    # so there's some messing here
+                    experiments = config_data.get('experiments')
+                    # logging.info(f'Experiments: {dict_to_str(experiments)}')
+                    for plate_name in experiments.keys():
+
+
+                        experiment = experiments[plate_name]
+                        file_path = os.path.join(working_directory, experiment['file'])
+                        logging.info(file_path)
+                        # img_dir = os.path.join(working_directory, 'img')
+                        columns = experiment['columns']
+
+                        experiment_constants = {i.lower(): j for i, j in zip(experiment.keys(),
+                                                          experiment.values(),
+                                                          ) if not isinstance(j, (list, dict))
+                                     }
+
+                        experiment_constants['protein_concentration'] =  config_data.get('protein_concentration') 
+
+                        logging.info(TextStyle.red(dict_to_str(experiment_constants)))
+
+                        df = utils.bmg.parse_bmg(file_path)
+                        # df = df.subtract(df[800], axis=0) # 800 nm correction
+
+                        for column_num in columns:
+                            column_data = columns[column_num]
+                            variables = constants | experiment_constants | {i: column_data[i] for i in column_data if isinstance(column_data, dict) and isinstance(column_data[i], (str, int, float))}
+
+                            if isinstance(column_data, str):
+                                ligand = column_data  if column_data not in [
+                                                                             'Protein',
+                                                                             'Protein and DMSO',
+                                                                             'DMSO',
+                                                                            ] else None
+                            elif isinstance(column_data, dict):
+                                ligand = column_data.get('ligand')
+                            else:
+                                raise Warning('Problem finding ligand')
+
+                            variables['ligand'] = ligand
+
+                            # logging.debug(TextStyle.bgreen('Variables: ') + TextStyle.green(dict_to_str(variables)))
+
+                            column_df = df.loc[df.index.str.contains(f'[A-Z]{column_num}$'), : ]
+                            if math.prod(column_df.dropna().shape) == 0:
+                                raise Warning(f'No data for wells: {", ".join(column_df.index)}')
+
+                            test_data = column_df.loc[column_df.index.str.contains('|'.join(test_rows)), :]
+                            control_data = column_df.loc[column_df.index.str.contains('|'.join(control_rows)), :]
+
+                            results = utils.processing.process_block(test_data,
+                                                                      control_data,
+                                                                      concs,
+                                                                     )
+
+                            summary.append(variables | results)
+
+                            logging.info(TextStyle.bgreen('Variables: ') + TextStyle.green(dict_to_str(variables)))
+                            logging.info(TextStyle.bred('Results: ') + TextStyle.red(dict_to_str(results)))
+
+                            if plot:
+                                fig = plot_group(control_data=control_data,
+                                                 raw_data=test_data,
+                                                 corrected_data=corrected_data,
+                                                 diff_data=diff_data,
+                                                 concs=concs,
+                                                 ligand=ligand,
+                                                 response=response,
+                                                 suptitle = f"UV-Visible Absorbance Profile of BM3 in Response to {ligand}",
+                                                 vmax=vmax,
+                                                 km=km,
+                                                 rsq=rsq,
+                                                 a420_max=a420_max,
+                                                 table_data=independent_variables,
+                                                 )
+
+                case 'echo':
+                    source_plate_contents = config_data.get('source_plate_contents')
+                    experiments = config_data.get('experiments')
+                    blocks = config_data.get('blocks')
+                    well_ids = {i:j for i, j in enumerate(
+                        [f'{k}{l}' for k in ascii_uppercase[:16] for l in range(1,25)],
+                                                1)
+                                }
+
+                    for experiment in experiments.keys():
+                        experiment_config = experiments[experiment]
+
+                        if blocks is None:
+                            blocks = experiment_config.get('blocks')
+
+                        if (echo_log_path := experiment_config.get('echo_log')) is not None:
+                            pass
+
+                        if (plate_data_path := experiment_config.get('file')) is not None:
+                            plate_data_path = os.path.join(working_directory, plate_data_path)
+                            logging.info(plate_data_path)
+                            df = utils.bmg.parse_bmg(plate_data_path)
+                            # df = df.subtract(df[800], axis=0)
+                            test_plate_contents = {i:{} for i in well_ids.values()}
+
+                            for block_num, block in zip(blocks.keys(), blocks.values()):
+
+                                variables = constants | experiment_config | {i: block[i] for i in block if isinstance(block[i], (str, int, float))}
+                                variables['ligand'] = block.get('ligand') or experiment_config.get('ligand') or config_data.get('ligand') 
+
+                                concs = block.get('concentrations') or experiment_config.get('concentrations') or config_data.get('concentrations')
+
+                                logging.info(TextStyle.bgreen('Variables: ') + TextStyle.green(dict_to_str(variables)))
+
+
+                                if concs is not None: 
+                                    concs = np.array(concs)
+                                else:
+                                    concs = np.zeros_like(block['test_wells'])
+
+                                test_data = df.loc[list(block['test_wells']), :]
+                                if (control_wells := block.get('control_wells')):
+                                    control_data = df.loc[list(control_wells), :]
+                                else:
+                                    control_data = None
+                                
+
+                                wells = []  
+
+                                for i, conc in zip(test_data.index,
+                                                  concs,
+                                                  ):
+
+                                    test_row = test_data.loc[i, :]
+                                    well = utils.model.Well(
+                                                            address=test_row.name,
+                                                            plate_type=variables.get('plate_type'),
+                                                            file=variables.get('file'),
+                                                            volume=variables.get('well_volume'),
+                                                            protein_name=None,
+                                                            protein_concentration=variables.get('protein_concentration'),
+                                                            ligand=variables.get('ligand'),
+                                                            control=False,
+                                                            )
+                                    wells.append(well)
+
+                                if control_data is not None:
+                                    for i, conc in zip(control_data.index,
+                                                       concs,
+                                                       ):
+                                        control_row = control_data.loc[i, :]
+                                        well = utils.model.Well(address=test_row.name,
+                                                                plate_type=variables.get('plate_type'),
+                                                                file=variables.get('file'),
+                                                                volume=variables.get('well_volume'),
+                                                                protein_name=None,
+                                                                protein_concentration=variables.get('protein_concentration'),
+                                                                ligand=variables.get('ligand'),
+                                                                control=True,
+                                                                )
+                                        wells.append(well)
+
+                                results = utils.processing.process_block(test_data,
+                                                                         control_data,
+                                                                         concs,
+                                                                         )
+
+                                res = utils.model.Result(experiment_number=variables.get('experiment_number'),
+                                                         centrifuge_minutes=variables.get('centrifuge_minutes'),
+                                                         centrifuge_rpm=variables.get('centrifuge_rpm'),
+                                                         dispense_bulk=variables.get('dispense_bulk'),
+                                                         dispense_ligands=variables.get('dispense_ligands'),
+                                                         protein_days_thawed=variables.get('protein_days_thawed'),
+                                                         well_volume=variables.get('well_volume'),
+                                                         ligand=variables.get('ligand'),
+                                                         k=variables.get('k'),
+                                                         km=results.get('km'),
+                                                         vmax=results.get('vmax'),
+                                                         rsq=results.get('rsq'),
+                                                         a420_max=results.get('a420_max'),
+                                                         auc_mean=results.get('auc_mean'),
+                                                         auc_cv=results.get('auc_cv'),
+                                                         std_405=results.get('std_405'),
+                                                         dd_soret=results.get('dd_soret'),
+                                                         )
+
+                                session.add(res)
+                                session.commit()
+
+                                for well in wells:
+                                    well.result_id = res.id
+                                    session.add(well)
+
+                                session.commit()
+
+
+
 cli.add_command(serial)
 cli.add_command(echo)
+cli.add_command(process)
 
 if __name__ == "__main__":
     cli()

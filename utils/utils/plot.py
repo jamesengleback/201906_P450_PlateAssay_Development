@@ -178,3 +178,113 @@ def add_cmap(fig,
                     ax=ax,
                     **kwargs
     )
+
+def plot_group(raw_data=None,
+               control_data=None,
+               corrected_data=None,
+               diff_data=None,
+               concs=None,
+               ligand=None,
+               response=None,
+               vmax=None,
+               km=None,
+               rsq=None,
+               a420_max=None,
+               suptitle=None,
+               show=None,
+               save_path=None,
+               legend_text=None,
+               table_data=None,
+               ):
+    fig, axs = plt.subplots(3, 2, figsize=(16,12))
+    next_ax = iter(axs.flatten())
+
+    if control_data is not None:
+        plot_plate_data(control_data.sort_index(ascending=False),
+                        ax=next(next_ax),
+                        concs=concs[::-1] if concs is not None else None,
+                        ligand_name=ligand,
+                        title='Control Data',
+                        ylim=(-0.1, max(0.3, 1.2 * a420_max) if a420_max else None),
+                        )
+
+    if raw_data is not None:
+        plot_plate_data(raw_data.sort_index(ascending=False),
+                        ax=next(next_ax),
+                        concs=concs[::-1] if concs is not None else None,
+                        ligand_name=ligand,
+                        title='Raw Test Data',
+                        ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
+                        )
+
+    if corrected_data is not None:
+        plot_plate_data(corrected_data.sort_index(ascending=False),
+                        ax=next(next_ax),
+                        ligand_name=ligand,
+                        concs=concs[::-1] if concs is not None else None,
+                        title='Corrected Test Data',
+                        ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
+                        )
+
+    if diff_data is not None:
+        plot_plate_data(diff_data.sort_index(ascending=False),
+                        ax=next(next_ax),
+                        concs=concs[::-1] if concs is not None else None,
+                        ligand_name=ligand,
+                        title='$\Delta$ Absorbance',
+                        ylim=(-0.3, max(0.3, 1.2 * a420_max)) if a420_max else None,
+                        )
+
+    if ligand and response is not None:
+        assert isinstance(vmax, (int, float))
+        assert isinstance(response, (int, float))
+        plot_michaelis_menten(response=response,
+                              concs=concs,
+                              vmax=vmax,
+                              km=km,
+                              r_squared=rsq,
+                              ax=next(next_ax),
+                              ylim=(0, max((vmax * 1.2), max(response) * 1.2)),
+                              legend_text=legend_text,
+                              title='Response'
+                              )
+    # else:
+    #     if legend_text is not None:
+    #         handles, labels = axs[2, 0].get_legend_handles_labels()
+    #         handles.append(mpatches.Patch(color='none', label=legend_text))
+    #         axs[2, 0].legend(handles=handles,
+    #                          loc='right',
+    #                          )
+
+    if table_data is not None:
+        assert isinstance(table_data, dict)
+        ax = next(next_ax)
+        fmt_labels = lambda s : ' '.join([i.capitalize() for i in s.split('_')])
+        ax.table(cellText=[[i] for i in table_data.values()],
+                 rowLabels=[fmt_labels(i) for i in table_data.keys()],
+                 bbox=[0.4, 0.2, 0.4, 0.6],
+                 # colWidths=[0.4],
+                 cellLoc='left',
+                 # loc='center',
+                 edges='TBLR',
+                 alpha=0.5,
+                 fontsize=14,
+                 )
+        ax.axis('off')
+
+    for ax in next_ax:
+        ax.axis('off')
+
+    if suptitle:
+        plt.suptitle(suptitle)
+    plt.tight_layout()
+
+    if show:
+        plt.show()
+    elif save_path is not None:
+        assert save_path is not None
+        assert os.path.exists(os.path.dirname(save_path))
+        plt.savefig(save_path)
+        plt.close()
+    else:
+        return fig
