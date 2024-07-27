@@ -183,7 +183,7 @@ def echo(config_paths,
                     plate_data_path = os.path.join(working_directory, plate_data_path)
                     logging.info(plate_data_path)
                     df = utils.bmg.parse_bmg(plate_data_path)
-                    df = df.subtract(df[800], axis=0)
+                    # df = df.subtract(df[800], axis=0)
                     test_plate_contents = {i:{} for i in well_ids.values()}
 
                     for block_num, block in zip(blocks.keys(), blocks.values()):
@@ -219,6 +219,8 @@ def echo(config_paths,
                             corrected_data = test_data.reset_index(drop=True).subtract(control_data.reset_index(drop=True))
                         else:
                             corrected_data = test_data
+
+                        corrected_data = corrected_data.subtract(corrected_data[800], axis=0)
 
                         if concs is not None:
                             corrected_data = corrected_data.sort_index()
@@ -399,7 +401,7 @@ def serial(config_paths,
                 protein_concentration =  config_data.get('protein_concentration') 
 
                 df = utils.bmg.parse_bmg(file_path)
-                df = df.subtract(df[800], axis=0) # 800 nm correction
+                # df = df.subtract(df[800], axis=0) # 800 nm correction
 
                 for column_num in columns:
 
@@ -427,6 +429,7 @@ def serial(config_paths,
                     control_data = column_df.loc[column_df.index.str.contains('|'.join(control_rows)), :]
 
                     corrected_data = test_data.reset_index(drop=True).subtract(control_data.reset_index(drop=True))
+                    corrected_data = corrected_data.subtract(corrected_data[800], axis=0)
                     # corrected_data.index = concs
                     # corrected_data = corrected_data.sort_index()
 
@@ -477,12 +480,6 @@ def serial(config_paths,
                                                  }
                                                 )
 
-
-                    if control_data is not None:
-                        for idx, (control_i, conc) in enumerate(zip(control_data.index,
-                                                                    concs,
-                                                                    )
-                                                                ):
 
                             control_row = control_data.loc[control_i, :].to_dict()
                             per_well_summary.append({**control_row,

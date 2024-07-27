@@ -2,6 +2,7 @@ setup.py
 utils/__init__.py
 utils/bmg.py
 utils/cli.py
+utils/metrics.py
 utils/mm.py
 utils/photospectrometer.py
 utils/plot.py

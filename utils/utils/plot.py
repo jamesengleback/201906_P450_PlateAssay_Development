@@ -121,3 +121,60 @@ def plot_michaelis_menten(response,
     if title is not None:
         ax.set_title(title)
 
+
+def plot_traces_nb(data, 
+                ax=None,
+                lw=0.5,
+                c='#b4b4b4',
+                colors=None,
+                xlim=(220, 800),
+                ylim=(-0.05, 3.5),
+                legend_dict = None,
+                **kwargs):
+
+    if ax is None:
+        fig, ax = plt.subplots(1, 1, 
+                               figsize=(14, 6),
+                              )
+
+    if 'tqdm' not in globals():
+        tqdm = lambda x: x
+
+    for i in tqdm(range(len(data))):
+        row = data.iloc[i, :]
+        ax.plot(row,
+                lw=lw,
+                c=c if colors is None else colors[i],
+                alpha=kwargs.get('alpha'),
+                )
+
+    ax.set_xlim(*xlim)
+    ax.set_ylim(*ylim)
+    ax.set_xlabel('Wavelength (nm)')
+    ax.set_ylabel('Absorbance')
+    if (title:=kwargs.get('title')):
+        ax.set_title(title)
+    if isinstance(legend_dict, dict):
+        patch_props = legend_dict.get('patch_props')
+        legend_props = legend_dict.get('legend_props')
+        assert all((patch_props, legend_props)), f"expected 'patch_props':list and 'legend_props': dict in legend_dict\nGot {', '.join(legend_dict.keys())}"
+        handles, labels = ax.get_legend_handles_labels()
+        for patch in patch_props:
+            handles.append(mpatches.Patch(**patch))
+        ax.legend(handles=handles, **legend_props)
+    return ax
+
+
+def add_cmap(fig, 
+             ax, 
+             vmin, 
+             vmax,
+             **kwargs):
+    fig.colorbar(
+                    plt.matplotlib.cm.ScalarMappable(
+                                                    plt.matplotlib.colors.Normalize(vmin=vmin, vmax=vmax),
+                                                    plt.colormaps['inferno'],
+                                                    ),
+                    ax=ax,
+                    **kwargs
+    )
