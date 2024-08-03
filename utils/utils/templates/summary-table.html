@@ -2,4 +2,9 @@
 <h2>Count: {{ count }}</h2>
 <div>
     {{ data | safe }}
+    <!---
+    <span hx-get='/summary?page={{page + 1}}&append' hx-trigger='revealed delay 0.2s' hx-target='.summary-tbody'
+        hx-swap='afterend'> LOAD MORE
+    </span>
+    -->
 </div>

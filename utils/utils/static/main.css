@@ -20,16 +20,69 @@ th {
     padding-right: 4px;
 }
 
-.table-fig {
-    height: 3em;
+tr {
+    height: 30px;
+    margin: 2px;
+}
+
+tr:hover {
+    background-color: #aaaaaa;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(28, 107, 43);
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    padding-left:  5px;
+    padding-right: 5px;
+}
+
+button:hover {
+    color: rgb(32, 111, 47);
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.table-container {
+    width: 50%;
+}
+
+.hud-container {
+    width: 50%;
+    padding: 2em;
+}
+
+.hud {
+    display:flex;
+    flex-direction:row;
+    padding:5px;
+}
+
+.hud-table {
+    width: auto;
+}
+
+.hud-img {
+    padding: 1em;
+    max-width: 80%;
+    height: auto;
+    width: auto;
+    object-fit:contain;
+}
+
+.table-fig img {
+    height: 30px;
 }
 
 .table-fig:hover {
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: scale(10) translate(50%, 50%);
+    z-index: 999;
 }
