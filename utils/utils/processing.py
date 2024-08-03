@@ -4,11 +4,14 @@ import os
 import pandas as pd
 
 from . import metrics, mm
+from .plot import plot_group
 
 
 def process_block(test_wells,
                   control_wells=None,
                   concs=None,
+                  plot=False,
+                  **variables,
                   ):
 
     # subtract controls
@@ -19,9 +22,11 @@ def process_block(test_wells,
 
     # 0 at A800
     corrected_wells = corrected_wells.subtract(corrected_wells[800], axis=0)
+    corrected_wells.index = concs
+    corrected_wells = corrected_wells.sort_index()
 
     # subtract zero conc trace
-    diff_wells = corrected_wells.subtract(corrected_wells.loc[0, :], axis=1)
+    diff_wells = corrected_wells.subtract(corrected_wells.iloc[0, :], axis=1)
     response = mm.calculate_response(diff_wells)
     vmax, km = mm.calculate_km(response, response.index)
     #rsq = mm.r_squared(response[::-1], mm.curve(concs, vmax, km))
@@ -44,6 +49,23 @@ def process_block(test_wells,
              'dd_soret': dd_soret,
              }
 
+    if plot:
+        fig = plot_group(control_data=control_wells,
+                         raw_data=test_wells,
+                         corrected_data=corrected_wells,
+                         diff_data=diff_wells,
+                         concs=concs,
+                         ligand=variables.get('ligand'),
+                         #response=response,
+                         suptitle = f"UV-Visible Absorbance Profile of BM3 in Response to {variables.get('ligand')}",
+                         vmax=vmax,
+                         km=km,
+                         rsq=rsq,
+                         a420_max=a420_max,
+                         table_data=variables,
+                         )
+
+        block_summary['fig'] = fig
     # logging.info(' '.join([f'{i} = {j:.2f}' for i, j in zip(block_summary.keys(), block_summary.values())]))
 
     return block_summary

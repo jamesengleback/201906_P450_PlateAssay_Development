@@ -1,8 +1,7 @@
 import logging
 import sqlite3
-from sqlalchemy import Column, Float, Integer, String, Boolean, ForeignKey, Sequence
+from sqlalchemy import Column, Float, Integer, String, Boolean, Sequence, LargeBinary
 from sqlalchemy.orm import declarative_base
-from sqlalchemy import create_engine
 
 
 Base = declarative_base()
@@ -29,6 +28,7 @@ class Result(Base):
     auc_cv = Column(Float)
     std_405 = Column(Float)
     dd_soret = Column(Float)
+    fig = Column(LargeBinary)
 
 
 class Well(Base):

@@ -6,6 +6,7 @@ from string import ascii_uppercase
 import argparse
 import logging
 import itertools
+from io import BytesIO
 import colorama
 import sqlite3
 from sqlalchemy import create_engine
@@ -537,10 +538,12 @@ def process(config_paths,
                             variables['ligand'] = ligand
 
                             # logging.debug(TextStyle.bgreen('Variables: ') + TextStyle.green(dict_to_str(variables)))
+                            logging.info(TextStyle.bgreen('Variables: ') + TextStyle.green(dict_to_str(variables)))
 
                             column_df = df.loc[df.index.str.contains(f'[A-Z]{column_num}$'), : ]
                             if math.prod(column_df.dropna().shape) == 0:
-                                raise Warning(f'No data for wells: {", ".join(column_df.index)}')
+                                logging.warning(TextStyle.bred(f'No data for wells: {", ".join(column_df.index)}'))
+                                continue
 
                             test_data = column_df.loc[column_df.index.str.contains('|'.join(test_rows)), :]
                             control_data = column_df.loc[column_df.index.str.contains('|'.join(control_rows)), :]
@@ -548,28 +551,87 @@ def process(config_paths,
                             results = utils.processing.process_block(test_data,
                                                                       control_data,
                                                                       concs,
+                                                                      plot,
                                                                      )
 
                             summary.append(variables | results)
 
-                            logging.info(TextStyle.bgreen('Variables: ') + TextStyle.green(dict_to_str(variables)))
                             logging.info(TextStyle.bred('Results: ') + TextStyle.red(dict_to_str(results)))
 
-                            if plot:
-                                fig = plot_group(control_data=control_data,
-                                                 raw_data=test_data,
-                                                 corrected_data=corrected_data,
-                                                 diff_data=diff_data,
-                                                 concs=concs,
-                                                 ligand=ligand,
-                                                 response=response,
-                                                 suptitle = f"UV-Visible Absorbance Profile of BM3 in Response to {ligand}",
-                                                 vmax=vmax,
-                                                 km=km,
-                                                 rsq=rsq,
-                                                 a420_max=a420_max,
-                                                 table_data=independent_variables,
-                                                 )
+                                
+                            if (fig := results.get('fig')):
+                                fig_buf = BytesIO()
+                                fig.savefig(fig_buf, format='png')
+                                fig_buf.seek(0)
+
+                            wells = []  
+
+                            for i, conc in zip(test_data.index,
+                                              concs,
+                                              ):
+
+                                test_row = test_data.loc[i, :]
+                                well = utils.model.Well(
+                                                        address=test_row.name,
+                                                        plate_type=variables.get('plate_type'),
+                                                        file=variables.get('file'),
+                                                        volume=variables.get('well_volume'),
+                                                        protein_name=None,
+                                                        protein_concentration=variables.get('protein_concentration'),
+                                                        ligand=variables.get('ligand'),
+                                                        control=False,
+                                                        )
+                                wells.append(well)
+
+                            if control_data is not None:
+                                for i, conc in zip(control_data.index,
+                                                   concs,
+                                                   ):
+                                    control_row = control_data.loc[i, :]
+                                    well = utils.model.Well(address=test_row.name,
+                                                            plate_type=variables.get('plate_type'),
+                                                            file=variables.get('file'),
+                                                            volume=variables.get('well_volume'),
+                                                            protein_name=None,
+                                                            protein_concentration=variables.get('protein_concentration'),
+                                                            ligand=variables.get('ligand'),
+                                                            control=True,
+                                                            )
+                                    wells.append(well)
+
+                            results = utils.processing.process_block(test_data,
+                                                                     control_data,
+                                                                     concs,
+                                                                     )
+
+                            res = utils.model.Result(experiment_number=variables.get('experiment_number'),
+                                                     centrifuge_minutes=variables.get('centrifuge_minutes'),
+                                                     centrifuge_rpm=variables.get('centrifuge_rpm'),
+                                                     dispense_bulk=variables.get('dispense_bulk'),
+                                                     dispense_ligands=variables.get('dispense_ligands'),
+                                                     protein_days_thawed=variables.get('protein_days_thawed'),
+                                                     well_volume=variables.get('well_volume'),
+                                                     ligand=variables.get('ligand'),
+                                                     k=variables.get('k'),
+                                                     km=results.get('km'),
+                                                     vmax=results.get('vmax'),
+                                                     rsq=results.get('rsq'),
+                                                     a420_max=results.get('a420_max'),
+                                                     auc_mean=results.get('auc_mean'),
+                                                     auc_cv=results.get('auc_cv'),
+                                                     std_405=results.get('std_405'),
+                                                     dd_soret=results.get('dd_soret'),
+                                                     fig=fig_buf.read(),
+                                                     )
+
+                            session.add(res)
+                            session.commit()
+
+                            for well in wells:
+                                well.result_id = res.id
+                                session.add(well)
+
+                            session.commit()
 
                 case 'echo':
                     source_plate_contents = config_data.get('source_plate_contents')
@@ -601,15 +663,13 @@ def process(config_paths,
                                 variables = constants | experiment_config | {i: block[i] for i in block if isinstance(block[i], (str, int, float))}
                                 variables['ligand'] = block.get('ligand') or experiment_config.get('ligand') or config_data.get('ligand') 
 
-                                concs = block.get('concentrations') or experiment_config.get('concentrations') or config_data.get('concentrations')
-
                                 logging.info(TextStyle.bgreen('Variables: ') + TextStyle.green(dict_to_str(variables)))
 
-
+                                concs = block.get('concentrations') or experiment_config.get('concentrations') or config_data.get('concentrations')
                                 if concs is not None: 
                                     concs = np.array(concs)
                                 else:
-                                    concs = np.zeros_like(block['test_wells'])
+                                    concs = np.zeros_like(block['test_wells'], dtype=float)
 
                                 test_data = df.loc[list(block['test_wells']), :]
                                 if (control_wells := block.get('control_wells')):
@@ -675,6 +735,7 @@ def process(config_paths,
                                                          auc_cv=results.get('auc_cv'),
                                                          std_405=results.get('std_405'),
                                                          dd_soret=results.get('dd_soret'),
+                                                         fig=results.get('fig'),
                                                          )
 
                                 session.add(res)
@@ -687,10 +748,17 @@ def process(config_paths,
                                 session.commit()
 
 
+@click.command()
+@click.argument('db', nargs=1)
+def serve(db):
+    from .app import app
+    app.db = db
+    app.run(debug=True)
 
 cli.add_command(serial)
 cli.add_command(echo)
 cli.add_command(process)
+cli.add_command(serve)
 
 if __name__ == "__main__":
     cli()

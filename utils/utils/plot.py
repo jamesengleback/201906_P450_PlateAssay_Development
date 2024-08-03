@@ -256,7 +256,7 @@ def plot_group(raw_data=None,
     #                          loc='right',
     #                          )
 
-    if table_data is not None:
+    if any(table_data):
         assert isinstance(table_data, dict)
         ax = next(next_ax)
         fmt_labels = lambda s : ' '.join([i.capitalize() for i in s.split('_')])

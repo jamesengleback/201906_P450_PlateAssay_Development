@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <script src="https://unpkg.com/htmx.org@2.0.1"></script>
+    <link rel='stylesheet' href="{{url_for('static', filename='main.css')}}" >
+    </head>
+    <body>
+        <h1>home</h1>
+        <div hx-target='this' hx-swap='innerHTML' hx-get='/summary' hx-trigger='load'>
+            
+        </div>
+    </body>
+</html>

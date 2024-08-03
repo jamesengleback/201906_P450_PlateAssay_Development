@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: center;
+    border: solid 2px #ababab;
+    width: 80%;
+    overflow: scroll;
+    table-layout: auto;
+}
+
+th {
+    text-align: center;
+    letter-spacing: 1px;
+    padding-left:  4px;
+    padding-right: 4px;
+}
+
+.table-fig {
+    height: 3em;
+}
+
+.table-fig:hover {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
