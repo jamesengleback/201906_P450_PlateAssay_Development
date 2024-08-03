@@ -42,17 +42,9 @@ def summary():
         case 'json':
             return df.to_json(index=False)
 
-    #df = df.replace((None, np.nan), '')
 
-    fn = lambda b: dedent(f'''
-      <div class="table-fig">
-        <img src="data:image/png;base64,{str(base64.b64encode(b).decode())}" >
-      </div>
-    ''').replace('\n', '')
-
-    # df['fig'] = df['fig'].apply(fn)
     df['uri'] = df['id'].apply(lambda id: f'result/{id}')
-    df['see more'] = df['uri'].apply(lambda uri: f"<button hx-get='{uri}' hx-target='#hud-container'>{uri}</button>")
+    df['see more'] = df['uri'].apply(lambda uri: f"<button hx-get='{uri}' hx-target='#hud' hx-swap='outerHTML'>{uri}</button>")
     column_order = ['ligand', 'km', 'vmax', 'rsq', 'experiment_number', 'uri', 'see more'] # "fig"]
     df_ = df.loc[:, column_order]
     df_.columns = [i.replace('_', ' ').capitalize() for i in df_.columns]
@@ -62,11 +54,8 @@ def summary():
                           na_rep='',
                           classes='summary-table',
                           )
-    #df_html = re.sub(r'<tr.*>', 
-    #                 r'<tr hx-get="/result" hx-trigger="click" hx-target="#hud-container">', 
-    #                 df_html
-    #                 )
 
+    # add inifinite scroll
     soup = BeautifulSoup(df_html, 'html.parser')
     tr_ = re.search('<tbody>(.*)</tbody>', df_html, re.DOTALL|re.MULTILINE)
     tr = tr_.groups()[0]
@@ -82,24 +71,17 @@ def summary():
     tr.append(td)
     soup.tbody.append(tr)
     soup.tbody['class'] = 'summary-tbody'
-    #tr += f"<tr hx-get='/summary?page={page + 1}&append' hx-trigger='revealed once delay 0.2s' hx-target='.summary-tbody' hx-swap='afterend' > <td colspan=7>LOAD MORE</td> </tr>"
 
     if html_append:
         return ''.join([str(i) for i in soup.tbody.children])
 
     df_html = str(soup)
 
-    # f"<span hx-get='/summary?page={page + 1}&append"
-    #print(df_html)
-
     html = render_template('summary-table.html',
                            count=count,
                            data=df_html,
                            page=page,
                            )
-
-    # html = re.sub('<table', '<table class="summary-table" ', html)
-    # html = re.sub('<tbody', '<tbody class="summary-tbody" ', html)
 
     return html
 
@@ -113,7 +95,16 @@ def result(id=None):
         query = session.query(Result).filter(Result.id == id)
         result = query.first()
         df = pd.read_sql(query.statement, session.connection())
+    assert len(df) == 1, f"Multiple records found for id {id}"
     df.drop('fig', axis=1, inplace=True)
+
+    experiment_number=df.loc[0, 'experiment_number']
+    ligand=df.loc[0, 'ligand']
+    km=df.loc[0, 'km']
+    vmax=df.loc[0, 'vmax']
+    rsq=df.loc[0, 'rsq']
+
+    df.columns = [i.replace('_', ' ').capitalize() for i in df.columns]
     df_html = df.T.to_html(index=True,
                            header=False,
                            float_format=lambda s: f'{s:.1f}',
@@ -126,4 +117,9 @@ def result(id=None):
                            id=id,
                            df_html=df_html,
                            fig=str(base64.b64encode(result.fig).decode()),
+                           experiment_number=experiment_number,
+                           ligand=ligand,
+                           km=km,
+                           vmax=vmax,
+                           rsq=rsq,
                            )

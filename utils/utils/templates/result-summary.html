@@ -1,5 +1,49 @@
-<h1> result {{id}}</h1>
-<div class='hud'>
-    {{ df_html | safe}}
-    <img class='hud-img' src="data:image/png;base64,{{fig | safe}}">
+<div class='hud' id='hud' style='visibility:visible;'>
+    <script>
+        function exitHud() {
+            let hud = document.getElementById('hud')
+            hud.style.visibility = 'hidden'
+        }
+
+
+        function keymaps(event) {
+            switch (event.key) {
+                case "ArrowLeft":
+                    htmx.ajax('GET', '/result/{{id - 1}}', '#hud')
+                    break
+                case "ArrowRight":
+                    htmx.ajax('GET', '/result/{{id + 1}}', '#hud')
+                    break
+                case "ArrowDown":
+                    document.getElementById('hud').scrollBy(0, 100);
+                    break
+                case "ArrowUp":
+                    document.getElementById('hud').scrollBy(0, -100);
+                    break
+                case "Escape":
+                    exitHud();
+                    break;
+            }
+        }
+
+        document.addEventListener('keyup', keymaps)
+    </script>
+    <div class='hud-top'>
+        <button class='btn-exit' onclick='exitHud()'>❌</button>
+        <button class='btn-prev' hx-target='#hud' hx-get='/result/{{id - 1}}' hx-swap='innerHTML' hx-trigger='click'>⬅️
+            Previous</button>
+        <button class='btn-next' hx-target='#hud' hx-get='/result/{{id + 1}}' hx-swap='innerHTML'
+            hx-trigger='click'>Next ➡️</button>
+    </div>
+    <div>
+        <h1> Result {{id}}</h1>
+        <h2> Experiment {{experiment_number}}: {{ligand}}</h2>
+        <ul>
+            <li><b>K<sub>m</sub>:</b> {{'%0.2f' | format(km|float)}}</li>
+            <li><b>V<sub>max</sub>:</b> {{'%0.2f' | format(vmax|float)}}</li>
+            <li><b>R<sup>2</sup>:</b> {{'%0.2f' | format(rsq|float)}}</li>
+        </ul>
+        <img class='hud-img' src="data:image/png;base64,{{fig | safe}}">
+        {{ df_html | safe}}
+    </div>
 </div>
