@@ -2,7 +2,7 @@ import os
 import re
 import base64
 from textwrap import dedent
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, update
 from sqlalchemy.orm import Session
 import numpy as np
 import pandas as pd
@@ -85,24 +85,35 @@ def summary():
 
     return html
 
-@app.route("/result")
-@app.route("/result/<int:id>")
+@app.route("/result", methods=["GET", "POST"])
+@app.route("/result/<int:id>", methods=["GET", "POST"])
 def result(id=None):
-    DB_URI = f'sqlite:///{os.path.abspath(app.db)}'
 
+    DB_URI = f'sqlite:///{os.path.abspath(app.db)}'
     engine = create_engine(DB_URI, echo=True)
+
+    if request.method == 'POST':
+        with Session(engine) as session:
+            query = session.query(Result).filter(Result.id == id)
+            result = query.first()
+            result.comment = request.form.get('comment')
+            session.add(result)
+            session.commit()
+
     with Session(engine) as session:
         query = session.query(Result).filter(Result.id == id)
         result = query.first()
         df = pd.read_sql(query.statement, session.connection())
+
     assert len(df) == 1, f"Multiple records found for id {id}"
     df.drop('fig', axis=1, inplace=True)
 
-    experiment_number=df.loc[0, 'experiment_number']
-    ligand=df.loc[0, 'ligand']
-    km=df.loc[0, 'km']
-    vmax=df.loc[0, 'vmax']
-    rsq=df.loc[0, 'rsq']
+    experiment_number = df.loc[0, 'experiment_number']
+    ligand = df.loc[0, 'ligand']
+    km = df.loc[0, 'km']
+    vmax = df.loc[0, 'vmax']
+    rsq = df.loc[0, 'rsq']
+    comments = df.loc[0, 'comment']
 
     df.columns = [i.replace('_', ' ').capitalize() for i in df.columns]
     df_html = df.T.to_html(index=True,
@@ -122,4 +133,5 @@ def result(id=None):
                            km=km,
                            vmax=vmax,
                            rsq=rsq,
+                           comments=comments,
                            )

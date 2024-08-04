@@ -7,6 +7,46 @@
     <script defer>
         document.getElementById('hud').style.display = 'none'
     </script>
+    <script>
+        function exitHud() {
+            let hud = document.getElementById('hud')
+            hud.style.visibility = 'hidden'
+        }
+
+
+        function keymaps(event) {
+            let hud = document.getElementById('hud')
+            let id = Number(hud.getAttribute('data-result-id'))
+            console.log(`/result/${id - 1}`)
+            switch (event.key) {
+                case "ArrowLeft":
+                    htmx.ajax('GET', `/result/${id - 1}`, {target: '#hud', swap: 'outerHTML'})
+                    break
+                case "ArrowRight":
+                    htmx.ajax('GET', `/result/${id + 1}`, {target: '#hud', swap: 'outerHTML'})
+                    break
+                case "ArrowDown":
+                    document.getElementById('hud').scrollBy(0, 50);
+                    break
+                case "ArrowUp":
+                    document.getElementById('hud').scrollBy(0, -50);
+                    break
+                case "Space":
+                    document.getElementById('hud').scrollBy(0, 120);
+                    break
+                case "Escape":
+                    exitHud();
+                    break;
+            }
+        }
+        window.addEventListener("keydown", function (e) {
+            if (["Space", "ArrowUp", "ArrowDown"].indexOf(e.code) > -1) {
+                e.preventDefault();
+            }
+        }, false);
+
+        document.addEventListener('keyup', keymaps)
+    </script>
 </head>
 
 <body>

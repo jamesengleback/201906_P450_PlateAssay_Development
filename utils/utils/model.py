@@ -30,6 +30,8 @@ class Result(Base):
     dd_soret = Column(Float)
     fig = Column(LargeBinary)
 
+    comment = Column(String)
+
 
 class Well(Base):
     __tablename__ = 'wells'
