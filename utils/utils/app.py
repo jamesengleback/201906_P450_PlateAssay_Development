@@ -1,6 +1,7 @@
 import os
 import re
 import base64
+import json
 from textwrap import dedent
 from sqlalchemy import create_engine, update
 from sqlalchemy.orm import Session
@@ -8,7 +9,7 @@ import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 from flask import Flask, render_template, request, url_for
-from .model import Result, Well
+from .model import Result, Well, ResultComment
 
 app = Flask(__name__)
 
@@ -35,7 +36,6 @@ def summary():
 
         count = session.query(Result).count()
     if page * PAGE_SIZE > count:
-        import ipdb ; ipdb.set_trace()
         pass
 
     match format:
@@ -94,16 +94,29 @@ def result(id=None):
 
     if request.method == 'POST':
         with Session(engine) as session:
-            query = session.query(Result).filter(Result.id == id)
-            result = query.first()
-            result.comment = request.form.get('comment')
-            session.add(result)
-            session.commit()
+            comments = '; '.join([i for i in [request.form.get('comment'),
+                                              request.form.get('comment-dropdown')
+                                              ]
+                                  if i])
+            if comments is not None:
+                result_comment = ResultComment(result_id=id,
+                                               comment=comments,
+                                               )
+                session.add(result_comment)
+                session.commit()
+            # query = session.query(Result).filter(Result.id == id)
+            # result = query.first()
+            # result.comment = request.form.get('comment')
+            # session.add(result)
+            # session.commit()
 
     with Session(engine) as session:
         query = session.query(Result).filter(Result.id == id)
         result = query.first()
         df = pd.read_sql(query.statement, session.connection())
+        unique_comments = [i[0] for i in
+                           session.query(Result.comment).distinct().order_by(Result.comment).limit(20)
+                           if i[0]]
 
     assert len(df) == 1, f"Multiple records found for id {id}"
     df.drop('fig', axis=1, inplace=True)
@@ -134,4 +147,16 @@ def result(id=None):
                            vmax=vmax,
                            rsq=rsq,
                            comments=comments,
+                           comment_options=unique_comments,
                            )
+
+@app.route('/pulse', methods=['GET'])
+def pulse():
+    DB_URI = f'sqlite:///{os.path.abspath(app.db)}'
+    engine = create_engine(DB_URI, echo=True)
+
+    with Session(engine) as session:
+        count = session.query(Result).count()
+
+    #response = {'count': count}
+    return str(count)

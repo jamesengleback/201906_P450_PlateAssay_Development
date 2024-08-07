@@ -559,10 +559,6 @@ def process(config_paths,
                             logging.info(TextStyle.bred('Results: ') + TextStyle.red(dict_to_str(results)))
 
                                 
-                            if (fig := results.get('fig')):
-                                fig_buf = BytesIO()
-                                fig.savefig(fig_buf, format='png')
-                                fig_buf.seek(0)
 
                             wells = []  
 
@@ -575,9 +571,6 @@ def process(config_paths,
                                                         address=test_row.name,
                                                         plate_type=variables.get('plate_type'),
                                                         file=variables.get('file'),
-                                                        volume=variables.get('well_volume'),
-                                                        protein_name=None,
-                                                        protein_concentration=variables.get('protein_concentration'),
                                                         ligand=variables.get('ligand'),
                                                         control=False,
                                                         )
@@ -591,9 +584,6 @@ def process(config_paths,
                                     well = utils.model.Well(address=test_row.name,
                                                             plate_type=variables.get('plate_type'),
                                                             file=variables.get('file'),
-                                                            volume=variables.get('well_volume'),
-                                                            protein_name=None,
-                                                            protein_concentration=variables.get('protein_concentration'),
                                                             ligand=variables.get('ligand'),
                                                             control=True,
                                                             )
@@ -602,7 +592,12 @@ def process(config_paths,
                             results = utils.processing.process_block(test_data,
                                                                      control_data,
                                                                      concs,
+                                                                     **variables,
                                                                      )
+                            if (fig := results.get('fig')):
+                                fig_buf = BytesIO()
+                                fig.savefig(fig_buf, format='png')
+                                fig_buf.seek(0)
 
                             res = utils.model.Result(experiment_number=variables.get('experiment_number'),
                                                      centrifuge_minutes=variables.get('centrifuge_minutes'),
@@ -610,7 +605,11 @@ def process(config_paths,
                                                      dispense_bulk=variables.get('dispense_bulk'),
                                                      dispense_ligands=variables.get('dispense_ligands'),
                                                      protein_days_thawed=variables.get('protein_days_thawed'),
+                                                     protein_concentration=variables.get('protein_concentration'),
+                                                     protein_name=variables.get('protein_name'),
+                                                     plate_type=variables.get('plate_type'),
                                                      well_volume=variables.get('well_volume'),
+                                                     volume=variables.get('well_volume'),
                                                      ligand=variables.get('ligand'),
                                                      k=variables.get('k'),
                                                      km=results.get('km'),
@@ -621,7 +620,7 @@ def process(config_paths,
                                                      auc_cv=results.get('auc_cv'),
                                                      std_405=results.get('std_405'),
                                                      dd_soret=results.get('dd_soret'),
-                                                     fig=fig_buf.read(),
+                                                     fig=fig_buf.read() if fig is not None,
                                                      )
 
                             session.add(res)
@@ -689,9 +688,6 @@ def process(config_paths,
                                                             address=test_row.name,
                                                             plate_type=variables.get('plate_type'),
                                                             file=variables.get('file'),
-                                                            volume=variables.get('well_volume'),
-                                                            protein_name=None,
-                                                            protein_concentration=variables.get('protein_concentration'),
                                                             ligand=variables.get('ligand'),
                                                             control=False,
                                                             )
@@ -705,9 +701,6 @@ def process(config_paths,
                                         well = utils.model.Well(address=test_row.name,
                                                                 plate_type=variables.get('plate_type'),
                                                                 file=variables.get('file'),
-                                                                volume=variables.get('well_volume'),
-                                                                protein_name=None,
-                                                                protein_concentration=variables.get('protein_concentration'),
                                                                 ligand=variables.get('ligand'),
                                                                 control=True,
                                                                 )
@@ -717,6 +710,10 @@ def process(config_paths,
                                                                          control_data,
                                                                          concs,
                                                                          )
+                                if (fig := results.get('fig')):
+                                    fig_buf = BytesIO()
+                                    fig.savefig(fig_buf, format='png')
+                                    fig_buf.seek(0)
 
                                 res = utils.model.Result(experiment_number=variables.get('experiment_number'),
                                                          centrifuge_minutes=variables.get('centrifuge_minutes'),
@@ -724,7 +721,11 @@ def process(config_paths,
                                                          dispense_bulk=variables.get('dispense_bulk'),
                                                          dispense_ligands=variables.get('dispense_ligands'),
                                                          protein_days_thawed=variables.get('protein_days_thawed'),
+                                                         protein_concentration=variables.get('protein_concentration'),
+                                                         protein_name=variables.get('protein_name'),
+                                                         plate_type=variables.get('plate_type'),
                                                          well_volume=variables.get('well_volume'),
+                                                         volume=variables.get('well_volume'),
                                                          ligand=variables.get('ligand'),
                                                          k=variables.get('k'),
                                                          km=results.get('km'),
@@ -735,7 +736,7 @@ def process(config_paths,
                                                          auc_cv=results.get('auc_cv'),
                                                          std_405=results.get('std_405'),
                                                          dd_soret=results.get('dd_soret'),
-                                                         fig=results.get('fig'),
+                                                         fig=fig_buf.read() if fig is not None,
                                                          )
 
                                 session.add(res)

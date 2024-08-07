@@ -92,8 +92,9 @@ button:hover {
     bottom: 0;
     display:flex;
     flex-direction:row;
-    padding:0.1px;
+    padding:1px;
     padding-left:1em;
+    padding-right:1em;
     width:100%;
     height:2em;
 }
@@ -126,6 +127,8 @@ button:hover {
     background-color: #fff;
     color: #dd7973;
     border-radius: 100%;
+    height: 2em;
+    width:  2em;
 
 }
 .btn-exit:hover {
@@ -141,4 +144,17 @@ button:hover {
 .row {
     display:flex;
     flex-direction:row;
+}
+
+form {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: fit-content;
+    margin-left: 1em;
+    padding: 1em;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
 }

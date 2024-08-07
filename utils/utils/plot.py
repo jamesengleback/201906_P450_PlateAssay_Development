@@ -21,12 +21,14 @@ def plot_plate_data(data,
     if ax is None:
         fig, ax = plt.subplots(figsize=(15,5))
 
-    if concs is not None:
-        # colors = plt.cm.inferno((concs - min(concs))/max(concs))
-        if concs.argmax() == 0:
-            colors = plt.cm.inferno(np.linspace(1, 0, len(data)))
-        else:
-            colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
+    # assuming index is concs
+    concs = data.index
+    # concs_norm = concs - min(concs)
+    # concs_norm /= max(concs)
+    # colors = plt.cm.inferno(concs_norm)
+    #assert all(data.index == concs)
+    if concs.argmax() == 0:
+        colors = plt.cm.inferno(np.linspace(1, 0, len(data)))
     else:
         colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
 
@@ -183,7 +185,7 @@ def plot_group(raw_data=None,
                control_data=None,
                corrected_data=None,
                diff_data=None,
-               concs=None,
+               #concs=None,
                ligand=None,
                response=None,
                vmax=None,
@@ -200,28 +202,28 @@ def plot_group(raw_data=None,
     next_ax = iter(axs.flatten())
 
     if control_data is not None:
-        plot_plate_data(control_data.sort_index(ascending=False),
+        plot_plate_data(control_data,
                         ax=next(next_ax),
-                        concs=concs[::-1] if concs is not None else None,
+                        #concs=concs,
                         ligand_name=ligand,
                         title='Control Data',
                         ylim=(-0.1, max(0.3, 1.2 * a420_max) if a420_max else None),
                         )
 
     if raw_data is not None:
-        plot_plate_data(raw_data.sort_index(ascending=False),
+        plot_plate_data(raw_data,
                         ax=next(next_ax),
-                        concs=concs[::-1] if concs is not None else None,
+                        #concs=concs,
                         ligand_name=ligand,
                         title='Raw Test Data',
                         ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
                         )
 
     if corrected_data is not None:
-        plot_plate_data(corrected_data.sort_index(ascending=False),
+        plot_plate_data(corrected_data,
                         ax=next(next_ax),
                         ligand_name=ligand,
-                        concs=concs[::-1] if concs is not None else None,
+                        #concs=concs,
                         title='Corrected Test Data',
                         ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
                         )
@@ -229,17 +231,17 @@ def plot_group(raw_data=None,
     if diff_data is not None:
         plot_plate_data(diff_data.sort_index(ascending=False),
                         ax=next(next_ax),
-                        concs=concs[::-1] if concs is not None else None,
+                        #concs=concs,
                         ligand_name=ligand,
-                        title='$\Delta$ Absorbance',
+                        title=r'$\Delta$ Absorbance',
                         ylim=(-0.3, max(0.3, 1.2 * a420_max)) if a420_max else None,
                         )
 
-    if ligand and response is not None:
+    if response is not None:
         assert isinstance(vmax, (int, float))
-        assert isinstance(response, (int, float))
+        assert response.dtype == float
         plot_michaelis_menten(response=response,
-                              concs=concs,
+                              concs=corrected_data.index,
                               vmax=vmax,
                               km=km,
                               r_squared=rsq,

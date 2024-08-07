@@ -1,5 +1,5 @@
 <h1>data</h1>
-<h2>Count: {{ count }}</h2>
+<h2>Count: <span hx-get='/pulse' hx-target='this' hx-swap='innerHTML' hx-trigger='every 1s'></span></h2>
 <div>
     {{ data | safe }}
     <!---

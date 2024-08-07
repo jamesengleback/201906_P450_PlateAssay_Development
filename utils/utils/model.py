@@ -1,6 +1,6 @@
 import logging
 import sqlite3
-from sqlalchemy import Column, Float, Integer, String, Boolean, Sequence, LargeBinary
+from sqlalchemy import Column, Float, Integer, String, Boolean, Sequence, LargeBinary, ForeignKey
 from sqlalchemy.orm import declarative_base
 
 
@@ -14,10 +14,14 @@ class Result(Base):
     centrifuge_minutes = Column(Integer)
     centrifuge_rpm = Column(Integer)
     dispense_bulk = Column(String)
+    volume = Column(Integer)
+    protein_name = Column(String)
     dispense_ligands = Column(String)
     protein_days_thawed = Column(Integer)
     well_volume = Column(Integer)
     ligand = Column(String)
+    protein_concentration = Column(Float)
+    plate_type = Column(String)
 
     k = Column(Float)
     km = Column(Float)
@@ -36,18 +40,20 @@ class Result(Base):
 class Well(Base):
     __tablename__ = 'wells'
     id = Column(Integer, Sequence('well_id_seq'), primary_key=True)
-    result_id = Column(Integer, foreign_key=True)
+    result_id = Column(Integer, ForeignKey('results.id'))
     address = Column(String)
     plate_type = Column(String)
     file = Column(String)
 
     file = Column(String)
-    volume = Column(Integer)
-    protein_name = Column(String)
-    protein_concentration = Column(Float)
     ligand = Column(String)
     control = Column(Boolean)
 
+class ResultComment(Base):
+    __tablename__ = 'result_comments'
+    id = Column(Integer, Sequence('comment_id_seq'), primary_key=True)
+    result_id = Column(Integer, ForeignKey('results.id'))
+    comment = Column(String)
 
 def add_data(model_type, session, **kwargs) -> None:
     """ arbitary add allowed feilds to table
