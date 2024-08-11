@@ -18,7 +18,7 @@ def calculate_km(response, concs):
                                      p0=[max(response), 250],
                                      bounds=(
                                          (0, 0),
-                                         (abs(5*max(response)), np.inf)
+                                         (max((abs(5*max(response)), 0.1)), np.inf)
                                          )
                                      )
     vmax = params[0]

@@ -465,7 +465,6 @@ def process(config_paths,
     logging.info(TextStyle.bred(f"Connected to: {db_uri}"))
     #con = sqlite3.connect(db_uri)
 
-    #import ipdb ; ipdb.set_trace()
     with Session(engine) as session:
         for config_path in config_paths:
             per_well_summary = []
@@ -487,7 +486,7 @@ def process(config_paths,
             #     img_dir = os.path.join(working_directory, 'img')
             #     if not os.path.exists(img_dir):
             #         os.mkdir(img_dir)
-            summary = []
+            # summary = []
 
             match experiment_type:
                 case 'serial':
@@ -549,55 +548,30 @@ def process(config_paths,
                             control_data = column_df.loc[column_df.index.str.contains('|'.join(control_rows)), :]
 
                             results = utils.processing.process_block(test_data,
-                                                                      control_data,
-                                                                      concs,
-                                                                      plot,
+                                                                     control_data,
+                                                                     concs,
+                                                                     plot=True,
                                                                      )
 
-                            summary.append(variables | results)
+                            # summary.append(variables | {i:results[i] for i in results if not isinstance(i, dict)})
 
                             logging.info(TextStyle.bred('Results: ') + TextStyle.red(dict_to_str(results)))
 
                                 
 
-                            wells = []  
-
-                            for i, conc in zip(test_data.index,
-                                              concs,
-                                              ):
-
-                                test_row = test_data.loc[i, :]
-                                well = utils.model.Well(
-                                                        address=test_row.name,
-                                                        plate_type=variables.get('plate_type'),
-                                                        file=variables.get('file'),
-                                                        ligand=variables.get('ligand'),
-                                                        control=False,
-                                                        )
-                                wells.append(well)
-
-                            if control_data is not None:
-                                for i, conc in zip(control_data.index,
-                                                   concs,
-                                                   ):
-                                    control_row = control_data.loc[i, :]
-                                    well = utils.model.Well(address=test_row.name,
-                                                            plate_type=variables.get('plate_type'),
-                                                            file=variables.get('file'),
-                                                            ligand=variables.get('ligand'),
-                                                            control=True,
-                                                            )
-                                    wells.append(well)
-
                             results = utils.processing.process_block(test_data,
                                                                      control_data,
                                                                      concs,
+                                                                     plot=True,
                                                                      **variables,
                                                                      )
-                            if (fig := results.get('fig')):
-                                fig_buf = BytesIO()
-                                fig.savefig(fig_buf, format='png')
-                                fig_buf.seek(0)
+                            fig = results.get('fig')
+                            if fig is None:
+                                raise Warning('no figure!')
+
+                            fig_buf = BytesIO()
+                            fig.savefig(fig_buf, format='png')
+                            fig_buf.seek(0)
 
                             res = utils.model.Result(experiment_number=variables.get('experiment_number'),
                                                      centrifuge_minutes=variables.get('centrifuge_minutes'),
@@ -620,15 +594,43 @@ def process(config_paths,
                                                      auc_cv=results.get('auc_cv'),
                                                      std_405=results.get('std_405'),
                                                      dd_soret=results.get('dd_soret'),
-                                                     fig=fig_buf.read() if fig is not None,
+                                                     fig=fig_buf.read(),
                                                      )
 
                             session.add(res)
-                            session.commit()
+                            session.commit() # gives res a pk
 
-                            for well in wells:
-                                well.result_id = res.id
-                                session.add(well)
+                            if (test_well_summary := results.get('test_well_summary')) is not None:
+                                test_well_summary = pd.DataFrame(test_well_summary)
+                                for _, row in test_well_summary.iterrows():
+                                    well = utils.model.Well(result_id=res.id,
+                                                            address=row.get('address'),
+                                                            a_800=row.get('a_800'),
+                                                            auc=row.get('auc'),
+                                                            k=row.get('k'),
+                                                            rsq=row.get('rsq'),
+                                                            ligand=row.get('ligand'),
+                                                            concentration=row.get('concentartion'),
+                                                            control=False,
+                                                            )
+
+                                    session.add(well)
+
+                            if (control_well_summary := results.get('control_well_summary')) is not None:
+                                control_well_summary = pd.DataFrame(control_well_summary)
+                                for _, row in control_well_summary.iterrows():
+                                    well = utils.model.Well(result_id=res.id,
+                                                            address=row.get('address'),
+                                                            a_800=row.get('a_800'),
+                                                            auc=row.get('auc'),
+                                                            k=row.get('k'),
+                                                            rsq=row.get('rsq'),
+                                                            ligand=row.get('ligand'),
+                                                            concentration=row.get('concentartion'),
+                                                            control=True,
+                                                            )
+
+                                    session.add(well)
 
                             session.commit()
 
@@ -677,43 +679,16 @@ def process(config_paths,
                                     control_data = None
                                 
 
-                                wells = []  
-
-                                for i, conc in zip(test_data.index,
-                                                  concs,
-                                                  ):
-
-                                    test_row = test_data.loc[i, :]
-                                    well = utils.model.Well(
-                                                            address=test_row.name,
-                                                            plate_type=variables.get('plate_type'),
-                                                            file=variables.get('file'),
-                                                            ligand=variables.get('ligand'),
-                                                            control=False,
-                                                            )
-                                    wells.append(well)
-
-                                if control_data is not None:
-                                    for i, conc in zip(control_data.index,
-                                                       concs,
-                                                       ):
-                                        control_row = control_data.loc[i, :]
-                                        well = utils.model.Well(address=test_row.name,
-                                                                plate_type=variables.get('plate_type'),
-                                                                file=variables.get('file'),
-                                                                ligand=variables.get('ligand'),
-                                                                control=True,
-                                                                )
-                                        wells.append(well)
 
                                 results = utils.processing.process_block(test_data,
                                                                          control_data,
                                                                          concs,
+                                                                         plot=True,
                                                                          )
-                                if (fig := results.get('fig')):
-                                    fig_buf = BytesIO()
-                                    fig.savefig(fig_buf, format='png')
-                                    fig_buf.seek(0)
+                                fig = results.get('fig')
+                                fig_buf = BytesIO()
+                                fig.savefig(fig_buf, format='png')
+                                fig_buf.seek(0)
 
                                 res = utils.model.Result(experiment_number=variables.get('experiment_number'),
                                                          centrifuge_minutes=variables.get('centrifuge_minutes'),
@@ -736,15 +711,43 @@ def process(config_paths,
                                                          auc_cv=results.get('auc_cv'),
                                                          std_405=results.get('std_405'),
                                                          dd_soret=results.get('dd_soret'),
-                                                         fig=fig_buf.read() if fig is not None,
+                                                         fig=fig_buf.read(),
                                                          )
 
                                 session.add(res)
                                 session.commit()
 
-                                for well in wells:
-                                    well.result_id = res.id
-                                    session.add(well)
+                                if (test_well_summary := results.get('test_well_summary')) is not None:
+                                    test_well_summary = pd.DataFrame(test_well_summary)
+                                    for _, row in test_well_summary.iterrows():
+                                        well = utils.model.Well(result_id=res.id,
+                                                                address=row.get('address'),
+                                                                a_800=row.get('a_800'),
+                                                                auc=row.get('auc'),
+                                                                k=row.get('k'),
+                                                                rsq=row.get('rsq'),
+                                                                ligand=row.get('ligand'),
+                                                                concentration=row.get('concentartion'),
+                                                                control=False,
+                                                                )
+
+                                        session.add(well)
+
+                                if (control_well_summary := results.get('control_well_summary')) is not None:
+                                    control_well_summary = pd.DataFrame(control_well_summary)
+                                    for _, row in control_well_summary.iterrows():
+                                        well = utils.model.Well(result_id=res.id,
+                                                                address=row.get('address'),
+                                                                a_800=row.get('a_800'),
+                                                                auc=row.get('auc'),
+                                                                k=row.get('k'),
+                                                                rsq=row.get('rsq'),
+                                                                ligand=row.get('ligand'),
+                                                                concentration=row.get('concentartion'),
+                                                                control=True,
+                                                                )
+
+                                        session.add(well)
 
                                 session.commit()
 

@@ -9,31 +9,44 @@
     <div>
         <h1> Result {{id}}</h1>
         <h2> Experiment {{experiment_number}}: {{ligand}}</h2>
-        <ul>
-            <li><b>K<sub>m</sub>:</b> {{'%0.2f' | format(km|float)}}</li>
-            <li><b>V<sub>max</sub>:</b> {{'%0.2f' | format(vmax|float)}}</li>
-            <li><b>R<sup>2</sup>:</b> {{'%0.2f' | format(rsq|float)}}</li>
-            <li><b>Comments:</b> {{comments}}</li>
-        </ul>
+        <div style='display:flex;flex-direction:row;'>
 
-        <img class='hud-img' src="data:image/png;base64,{{fig | safe}}">
+            <ul>
+                <li><b>K<sub>m</sub>:</b> {{'%0.2f' | format(km|float)}}</li>
+                <li><b>V<sub>max</sub>:</b> {{'%0.2f' | format(vmax|float)}}</li>
+                <li><b>R<sup>2</sup>:</b> {{'%0.2f' | format(rsq|float)}}</li>
+                <li><b>Comments:</b></li>
+                <ul>
+                    {% for comment in comments %}
+                    <li> {{comment}}</li>
+                    {% endfor %}
+                </ul>
+            </ul>
 
-        <div class='row'>
-            {{ df_html | safe}}
-
-            <form hx-post='/result/{{id}}' hx-swap=''>
+            <form hx-post='/result/{{id}}' hx-target='this' hx-swap='outerHTML'>
                 <div class='col'>
                     <label for='comment'>Comments:</label>
-                    <input type="text" name="comment" value="" autocomplete="on">
+                    <input type="text" name="comment" id="comment" value="" autocomplete="on">
+                    <!--
                     <select name='comment-dropdown'>
                         <option value='none'>  </option>
                         {% for comment in comment_options %}
                         <option> {{comment}} </option>
                         {% endfor %}
                     </select>
+                    -->
                     <input type="submit" name="" value="update">
                 </div>
             </form>
+        </div>
+
+        <img class='hud-img' src="data:image/png;base64,{{fig | safe}}">
+
+        <div class='row'>
+            {{ df_html | safe}}
+        </div>
+
+        <div id='wells' hx-target='this' hx-swap='innerHTML' hx-get='/wells?result_id={{id}}' hx-trigger='load'>
         </div>
     </div>
 </div>

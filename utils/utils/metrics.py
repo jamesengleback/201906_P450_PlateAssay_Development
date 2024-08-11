@@ -1,10 +1,16 @@
-import numpy as np 
+import numpy as np
 import pandas as pd
 import scipy
+
 
 def scattering(data: pd.DataFrame):
     # fit x**-4 curve 
     pass
+
+
+def scatter(w, k):
+    return k * (1 / w**4)
+
 
 def linear_fit(x):
     # 1d array 

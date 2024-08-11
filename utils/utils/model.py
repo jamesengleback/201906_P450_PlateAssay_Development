@@ -34,20 +34,24 @@ class Result(Base):
     dd_soret = Column(Float)
     fig = Column(LargeBinary)
 
-    comment = Column(String)
-
 
 class Well(Base):
     __tablename__ = 'wells'
     id = Column(Integer, Sequence('well_id_seq'), primary_key=True)
     result_id = Column(Integer, ForeignKey('results.id'))
-    address = Column(String)
-    plate_type = Column(String)
-    file = Column(String)
+    a_800 = Column(Float)
+    auc = Column(Float)
+    k = Column(Float)
+    rsq = Column(Float)
+    concentration = Column(Float)
+    volume = Column(Float)
 
+    address = Column(String)
     file = Column(String)
     ligand = Column(String)
     control = Column(Boolean)
+    comment = Column(String)
+    exclude = Column(Boolean, default=False)
 
 class ResultComment(Base):
     __tablename__ = 'result_comments'

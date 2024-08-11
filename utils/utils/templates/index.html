@@ -8,24 +8,25 @@
         // if (hud) { hud.style.display = 'none' }
     </script>
     <script>
-        let hud
         function exitHud() {
-            hud = document.getElementById('hud')
+            let hud = document.getElementById('hud')
             hud.style.visibility = 'hidden'
         }
 
 
         function keymaps(event) {
-            hud = document.getElementById('hud')
+            let hud = document.getElementById('hud')
             let id = Number(hud.getAttribute('data-result-id'))
             let i = 0
             console.log(`/result/${id - 1}`)
             switch (event.key) {
-                case "ArrowLeft":
-                    htmx.ajax('GET', `/result/${id - 1}`, {target: '#hud', swap: 'outerHTML'})
-                    break
+                //case "n":
                 case "ArrowRight":
                     htmx.ajax('GET', `/result/${id + 1}`, {target: '#hud', swap: 'outerHTML'})
+                    break
+                //case "p":
+                case "ArrowLeft":
+                    htmx.ajax('GET', `/result/${id - 1}`, {target: '#hud', swap: 'outerHTML'})
                     break
                 case "ArrowDown":
                     hud.scrollBy(0, 100, behaviour = "smooth");
@@ -33,31 +34,15 @@
                 case "ArrowUp":
                     hud.scrollBy(0, -100, behaviour = "smooth");
                     break
-                case "h":
-                    htmx.ajax('GET', `/result/${id - 1}`, {target: '#hud', swap: 'outerHTML'})
+                    //case "i":
+                    hud.scrollBy(0, -100, behaviour = "smooth");
                     break
-                case "l":
-                    htmx.ajax('GET', `/result/${id + 1}`, {target: '#hud', swap: 'outerHTML'})
-                    break
-                case "j":
-                    document.getElementById('hud').scrollBy(0, 50);
-                    break
-                case "k":
-                    document.getElementById('hud').scrollBy(0, -50);
-                    break
-                case "Space":
-                    document.getElementById('hud').scrollBy(0, 120);
-                    break
+                //case "q":
                 case "Escape":
                     exitHud();
                     break;
             }
         }
-        window.addEventListener("keydown", function (e) {
-            if (["Space", "ArrowUp", "ArrowDown"].indexOf(e.code) > -1) {
-                e.preventDefault();
-            }
-        }, false);
 
         document.addEventListener('keyup', keymaps)
     </script>
@@ -66,7 +51,21 @@
 <body>
     <div class="content">
         <div class="table-container">
-            <div hx-target='this' hx-swap='innerHTML' hx-get='/summary' hx-trigger='load'>
+            <form id='summary-search' hx-target='#summary' hx-get='/summary' hx-swap='innerHTML'
+                hx-include='find input'>
+                <fieldset>
+                    <label>Experiment Number </label>
+                    <input type="text" id="experiment-number" name="experiment-number" value="">
+                    <label>Ligand</label>
+                    <input type="text" id="ligand" name="ligand" value="">
+                    <label>Volume</label>
+                    <input type="text" id="volume" name="volume" value="">
+                    <label for='concentration'>Concentration</label>
+                    <input type="text" id="concentration" name="concentration" value="">
+                    <button type="submit" value='Go' class='button'> Go </button>
+                </fieldset>
+            </form>
+            <div id='summary' hx-target='this' hx-swap='innerHTML' hx-get='/summary' hx-trigger='load'>
             </div>
         </div>
         <div id='hud' class='hud'> </div>

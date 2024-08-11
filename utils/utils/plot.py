@@ -12,6 +12,7 @@ def plot_plate_data(data,
                     ligand_name=None,
                     save_path=None,
                     concs=None,
+                    addresses=None,
                     ax=None,
                     ylim=None,
                     legend_text=None,
@@ -32,13 +33,13 @@ def plot_plate_data(data,
     else:
         colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
 
-    for i, j in enumerate(data.index):
-        y = data.loc[j,:]
+    for i, row in enumerate(data.index):
+        y = data.loc[row,:]
         ax.plot(x,
-                y, 
-                lw=2, 
+                y,
+                lw=2,
                 color=colors[i],
-                label=round(concs[i], 2) if concs is not None else y.index,
+                # label=label, # round(concs[i], 2) if concs is not None else y.index,
                 )
     if title is not None:
         ax.set_title(title)
@@ -55,22 +56,28 @@ def plot_plate_data(data,
     ax.set_ylabel('Absorbance')
 
     if concs is not None:
-        if ligand_name is not None:
-            if legend_text is not None:
-                handles, labels = ax.get_legend_handles_labels()
-                handles.append(mpatches.Patch(color='none', label=legend_text))
-            else:
-                handles = None
-            ax.legend([round(i, 2) for i in concs], 
-                      title = f'{ligand_name} concentration μM',
-                      loc='right',
-                      handles=handles,
-                      )
+        if addresses is not None:
+            labels = [f'{addr}: {conc:.2f}' for addr, conc in zip(addresses, concs)]
         else:
-            ax.legend([round(i, 2) for i in concs], 
-                      title = 'Concentration μM',
-                      loc='right',
-                      )
+            labels = [f'{conc:.2f}' for conc in concs]
+    else:
+        if addresses is not None:
+            labels = [f'{addr}: {conc:.2f}' for addr, conc in zip(addresses, concs)]
+        else: 
+            labels = data.index
+
+    if legend_text is not None:
+        handles, _labels = ax.get_legend_handles_labels()
+        handles.append(mpatches.Patch(color='none', label=legend_text))
+    else:
+        handles = None
+
+    ax.legend(labels,
+              title = f'{ligand_name} concentration μM',
+              loc='right',
+              handles=handles,
+              )
+
     if ax is None and save_path is not None:
         assert 'fig' in locals()
         fig.savefig(save_path)
@@ -181,11 +188,17 @@ def add_cmap(fig,
                     **kwargs
     )
 
-def plot_group(raw_data=None,
-               control_data=None,
+def plot_group(test_data_raw=None,
+               test_data_norm=None,
+               test_data_smooth=None,
+               control_data_raw=None,
+               control_data_norm=None,
+               control_data_smooth=None,
                corrected_data=None,
                diff_data=None,
                #concs=None,
+               test_well_addresses=None,
+               control_well_addresses=None,
                ligand=None,
                response=None,
                vmax=None,
@@ -198,24 +211,81 @@ def plot_group(raw_data=None,
                legend_text=None,
                table_data=None,
                ):
-    fig, axs = plt.subplots(3, 2, figsize=(16,12))
+
+    n_plots = sum([i is not None for i in [
+        test_data_raw,
+        control_data_raw,
+        test_data_norm,
+        test_data_smooth,
+        control_data_norm,
+        control_data_smooth,
+        corrected_data,
+        diff_data,
+        ligand,
+        response,
+        table_data,
+        ]
+                   ])
+
+    fig, axs = plt.subplots(n_plots // 2 + n_plots % 2, 
+                            2, 
+                            figsize=(16, 4 * (n_plots // 2)),
+                            )
+
     next_ax = iter(axs.flatten())
 
-    if control_data is not None:
-        plot_plate_data(control_data,
+    if control_data_raw is not None:
+        plot_plate_data(control_data_raw,
                         ax=next(next_ax),
-                        #concs=concs,
                         ligand_name=ligand,
+                        addresses=control_well_addresses,
                         title='Control Data',
                         ylim=(-0.1, max(0.3, 1.2 * a420_max) if a420_max else None),
                         )
 
-    if raw_data is not None:
-        plot_plate_data(raw_data,
+    if test_data_raw is not None:
+        plot_plate_data(test_data_raw,
                         ax=next(next_ax),
-                        #concs=concs,
                         ligand_name=ligand,
                         title='Raw Test Data',
+                        addresses=test_well_addresses,
+                        ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
+                        )
+
+    if control_data_norm is not None:
+        plot_plate_data(control_data_norm,
+                        ax=next(next_ax),
+                        ligand_name=ligand,
+                        addresses=control_well_addresses,
+                        title='Normalized Control Data',
+                        ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
+                        )
+
+    if test_data_norm is not None:
+        plot_plate_data(test_data_norm,
+                        ax=next(next_ax),
+                        ligand_name=ligand,
+                        addresses=test_well_addresses,
+                        title='Normalized Test Data',
+                        ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
+                        )
+
+
+    if control_data_smooth is not None:
+        plot_plate_data(control_data_smooth,
+                        ax=next(next_ax),
+                        ligand_name=ligand,
+                        title='Smooth Control Data',
+                        addresses=control_well_addresses,
+                        ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
+                        )
+
+    if test_data_smooth is not None:
+        plot_plate_data(test_data_smooth,
+                        ax=next(next_ax),
+                        addresses=test_well_addresses,
+                        ligand_name=ligand,
+                        title='Smooth Test Data',
                         ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
                         )
 
@@ -223,7 +293,6 @@ def plot_group(raw_data=None,
         plot_plate_data(corrected_data,
                         ax=next(next_ax),
                         ligand_name=ligand,
-                        #concs=concs,
                         title='Corrected Test Data',
                         ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
                         )
