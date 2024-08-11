@@ -3,10 +3,6 @@
 <head>
     <script src="https://unpkg.com/htmx.org@2.0.1"></script>
     <link rel='stylesheet' href="{{url_for('static', filename='main.css')}}">
-    <script defer>
-        // let hud = document.getElementById('hud')
-        // if (hud) { hud.style.display = 'none' }
-    </script>
     <script>
         function exitHud() {
             let hud = document.getElementById('hud')
@@ -18,7 +14,7 @@
             let hud = document.getElementById('hud')
             let id = Number(hud.getAttribute('data-result-id'))
             let i = 0
-            console.log(`/result/${id - 1}`)
+            let wellContainer
             switch (event.key) {
                 //case "n":
                 case "ArrowRight":
@@ -45,6 +41,17 @@
         }
 
         document.addEventListener('keyup', keymaps)
+
+        function toggleWellContainer(event) {
+            wellContainer = document.getElementById('wells-container')
+            console.log(wellContainer.style.display)
+            if (wellContainer.style.display === 'block') {
+                wellContainer.style.display = 'none'
+            } else {
+                wellContainer.style.display = 'block'
+            }
+        }
+
     </script>
 </head>
 

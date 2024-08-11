@@ -237,7 +237,7 @@ def pulse():
     return str(count)
 
 
-@app.route('/well/<int:id>', methods=['PATCH'])
+@app.route('/well/<int:id>', methods=['POST'])
 @app.route('/wells', methods=['GET'], defaults={'id':None})
 def well(id=None,
          ):
@@ -246,7 +246,7 @@ def well(id=None,
     engine = create_engine(DB_URI, echo=True)
 
     match request.method:
-        case 'PATCH':
+        case 'POST':
             with Session(engine) as session:
                 query = session.query(Well).filter(Well.id == id)
                 well = query.first()
@@ -265,16 +265,14 @@ def well(id=None,
                 query_wells = session.query(Well).filter(Well.result_id == result_id)
                 df_wells = pd.read_sql(query_wells.statement, session.connection())
                 df_wells['comment_html'] = df_wells.apply(lambda x: dedent(f"""
-                                                         <input name='comment' type='text' value='{x.comment if x.comment is not None else ''}' hx-patch='well/{x.id}' >
-                                                         <input type='submit' value='update'>
-                                                     </form>
+<input name='comment' type='text' value='{x.comment if x.comment is not None else ''}' hx-post='well/{x.id}' >
                                                      """).replace('\n', ' '),
                                                      axis=1,
                                                      )
 
                 # <input hx-patch='{url_for('well', id=x.id)}' type='checkbox' name='exclude' {'checked' if x.exclude else ''}>
                 df_wells['exclude_html'] = df_wells.apply(lambda x: dedent(f"""
-                                         <input hx-patch='well/{x.id}' type='checkbox' name='exclude' {'checked' if x.exclude else ''}>
+<input hx-post='well/{x.id}' type='checkbox' name='exclude' {'checked' if x.exclude else ''}>
                                                      """).replace('\n', ' '),
                                                      axis=1,
                                                      )
