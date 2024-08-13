@@ -60,7 +60,7 @@ def summary():
 
     # df['uri'] = df['id'].apply(lambda id: f'result/{id}')
     df['uri'] = df['id'].apply(lambda id: f"<button hx-get='result/{id}' hx-target='#hud' hx-swap='outerHTML'>result/{id}</button>")
-    column_order = ['experiment_number', 'ligand', 'well_volume', 'volume', 'protein_concentration', 'km', 'vmax', 'rsq', 'uri']
+    column_order = ['experiment_number', 'ligand', 'well_volume', 'volume', 'protein_concentration', 'km', 'vmax', 'rsq', 'uri', 'visited', 'ok']
     df_ = df.loc[:, column_order]
     df_.columns = [i.replace('_', ' ').capitalize() for i in df_.columns]
     df_.fillna('', inplace=True)
@@ -112,17 +112,28 @@ def result(id=None):
     engine = create_engine(DB_URI, echo=True)
 
     if request.method == 'POST':
+
+        comments = '; '.join([i for i in [request.form.get('comment'),
+                                          request.form.get('comment-dropdown')
+                                          ]
+                              if i])
+
+        ok = bool(request.form.get('ok'))
+
         with Session(engine) as session:
-            comments = '; '.join([i for i in [request.form.get('comment'),
-                                              request.form.get('comment-dropdown')
-                                              ]
-                                  if i])
-            if comments is not None:
+            # update result if ok
+
+            query = session.query(Result).filter(Result.id == id)
+            result = query.first()
+            result.ok = ok
+            session.add(result)
+
+            if comments:
                 result_comment = ResultComment(result_id=id,
                                                comment=comments,
                                                )
                 session.add(result_comment)
-                session.commit()
+            session.commit()
             # query = session.query(Result).filter(Result.id == id)
             # result = query.first()
             # result.comment = request.form.get('comment')
@@ -159,6 +170,7 @@ def result(id=None):
     km = df.loc[0, 'km']
     vmax = df.loc[0, 'vmax']
     rsq = df.loc[0, 'rsq']
+    ok = df.loc[0, 'ok']
 
     df.columns = [i.replace('_', ' ').capitalize() for i in df.columns]
     df.fillna('', inplace=True)
@@ -222,6 +234,7 @@ def result(id=None):
                            vmax=vmax,
                            rsq=rsq,
                            comments=comments,
+                           ok=ok,
                            #df_wells_html=df_wells_html,
                            )
 

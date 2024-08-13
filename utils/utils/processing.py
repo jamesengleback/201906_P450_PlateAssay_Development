@@ -67,6 +67,8 @@ def process_block(test_wells,
     if control_wells is not None and 'control_well_addresses' in locals():
         control_well_summary.index = control_well_addresses
 
+        control_well_summary['address'] = control_well_addresses
+        control_well_summary['concentration'] = concs
 
     test_well_summary = well_summary(data_raw=test_wells,
                                      data_norm=test_wells_norm,

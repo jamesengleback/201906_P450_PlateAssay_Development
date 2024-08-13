@@ -34,6 +34,9 @@ class Result(Base):
     dd_soret = Column(Float)
     fig = Column(LargeBinary)
 
+    visited = Column(Boolean, default=False)
+    ok = Column(Boolean)
+
 
 class Well(Base):
     __tablename__ = 'wells'

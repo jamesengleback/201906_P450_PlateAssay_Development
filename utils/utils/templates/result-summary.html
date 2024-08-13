@@ -9,7 +9,7 @@
     <div>
         <h1> Result {{id}}</h1>
         <h2> Experiment {{experiment_number}}: {{ligand}}</h2>
-        <div style='display:flex;flex-direction:row;'>
+        <div class='row'>
 
             <ul>
                 <li><b>K<sub>m</sub>:</b> {{'%0.2f' | format(km|float)}}</li>
@@ -25,12 +25,34 @@
 
             <form hx-post='/result/{{id}}' hx-target='this' hx-swap='outerHTML'>
                 <div class='col'>
+
                     <label for='comment'>Comments:</label>
                     <input type="text" name="comment" id="comment" value="" autocomplete="on">
                     <input type="submit" name="" value="update">
                 </div>
             </form>
+
+            <div class='row'>
+                <label for='ok'>OK</label>
+                <label class="switch">
+                    <input hx-post='/result/{{id}}' name='ok' id='ok' type="checkbox" {% if ok
+                        %} checked {% endif %}>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+
             <button onclick='toggleWellContainer()'> Wells </button>
+
+            <!--
+            <div class='row'>
+                <label for='ok'>OK</label>
+                <label class="switch">
+                    <input name='ok' id='ok' type="checkbox" {% if ok %} value="on" {% else %} value='' {% endif %}>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            -->
         </div>
 
         <img class='hud-img' src="data:image/png;base64,{{fig | safe}}">
@@ -41,7 +63,9 @@
 
         <div class='wells-container' id='wells-container' hx-target='#wells-content' hx-swap='innerHTML'
             hx-get='/wells?result_id={{id}}' hx-trigger='load'>
-            <button onclick='toggleWellContainer()'>close</button>
+            <div class='row'>
+                <button style='margin-right:0;margin-right:auto;' onclick='toggleWellContainer()'>close</button>
+            </div>
             <div id='wells-content'> </div>
         </div>
     </div>

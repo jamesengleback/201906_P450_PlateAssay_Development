@@ -35,7 +35,13 @@
                     break
                 //case "q":
                 case "Escape":
-                    exitHud();
+                    wellContainer = document.getElementById('wells-container')
+                    console.log(wellContainer.style.display)
+                    if (wellContainer.style.display === 'block') {
+                        wellContainer.style.display = 'none'
+                    } else {
+                        exitHud();
+                    }
                     break;
             }
         }
@@ -70,6 +76,7 @@
                     <label for='concentration'>Concentration</label>
                     <input type="text" id="concentration" name="concentration" value="">
                     <button type="submit" value='Go' class='button'> Go </button>
+                    <button type="reset" class='btn-reset'> reset </button>
                 </fieldset>
             </form>
             <div id='summary' hx-target='this' hx-swap='innerHTML' hx-get='/summary' hx-trigger='load'>
