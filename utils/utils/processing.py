@@ -13,6 +13,8 @@ from .plot import plot_group
 def process_block(test_wells,
                   control_wells=None,
                   concs=None,
+                  exclude_mask_test=None,
+                  exclude_mask_control=None,
                   plot=False,
                   **variables,
                   ):
@@ -45,9 +47,9 @@ def process_block(test_wells,
         control_wells_norm = control_wells.subtract(control_wells[800], axis=0)
         # smooth traces
         control_wells_norm_smooth = pd.DataFrame(gaussian_filter1d(control_wells_norm.loc[:, 280:],
-                                                                sigma=5,
-                                                                axis=1,
-                                                                ),
+                                                                   sigma=5,
+                                                                   axis=1,
+                                                                   ),
                                                   columns=control_wells_norm.loc[:, 280:].columns,
                                                   index=control_wells_norm.index,
                                                   )
@@ -58,10 +60,32 @@ def process_block(test_wells,
         control_wells_norm = None
         corrected_wells = test_wells
 
+
+    # subtract zero conc trace
+    diff_wells = corrected_wells.subtract(corrected_wells.loc[0, :], axis=1)
+    response = mm.calculate_response(diff_wells)
+    response_all = response.copy() # includes excluded points
+
+    test_well_summary = well_summary(data_raw=test_wells,
+                                     data_norm=test_wells_norm,
+                                     data_norm_smooth=test_wells_norm_smooth,
+                                     data_corrected=corrected_wells,
+                                     response=response,
+                                     control=False,
+                                     )
+
+    test_well_summary['address'] = test_well_addresses
+    test_well_summary['concentration'] = concs
+
+    if exclude_mask_test is None:
+        exclude_mask_test = test_well_summary['exclude']
+
     control_well_summary = well_summary(data_raw=control_wells,
                                         data_norm=control_wells_norm,
                                         data_norm_smooth=control_wells_norm_smooth,
                                         data_corrected=corrected_wells,
+                                        response=response,
+                                        control=True,
                                         )
 
     if control_wells is not None and 'control_well_addresses' in locals():
@@ -70,27 +94,22 @@ def process_block(test_wells,
         control_well_summary['address'] = control_well_addresses
         control_well_summary['concentration'] = concs
 
-    test_well_summary = well_summary(data_raw=test_wells,
-                                     data_norm=test_wells_norm,
-                                     data_norm_smooth=test_wells_norm_smooth,
-                                     data_corrected=corrected_wells,
-                                     )
+    if exclude_mask_control is None:
+        exclude_mask_control = control_well_summary['exclude']
 
-    test_well_summary['address'] = test_well_addresses
-    test_well_summary['concentration'] = concs
+    if exclude_mask_test is not None and exclude_mask_control is not None:
+        response = response[~(exclude_mask_control.values | exclude_mask_test.values)]
+    elif exclude_mask_test is not None:
+        response = response[~exclude_mask_test.values]
+    elif exclude_mask_control is not None:
+        response = response[~exclude_mask_control.values]
 
-
-    # 0 at A800
-    # corrected_wells = corrected_wells.subtract(corrected_wells[800], axis=0)
-    # corrected_wells = corrected_wells.sort_index()
-
-
-    # subtract zero conc trace
-    diff_wells = corrected_wells.subtract(corrected_wells.loc[0, :], axis=1)
-    response = mm.calculate_response(diff_wells)
-    vmax, km = mm.calculate_km(response, response.index)
-    #rsq = mm.r_squared(response[::-1], mm.curve(concs, vmax, km))
-    rsq = mm.r_squared(response, mm.curve(response.index, vmax, km))
+    if len(response) > 1:
+        vmax, km = mm.calculate_km(response, response.index)
+        #rsq = mm.r_squared(response[::-1], mm.curve(concs, vmax, km))
+        rsq = mm.r_squared(response, mm.curve(response.index, vmax, km))
+    else:
+        vmax, km, rsq = [0] * 3
     a420_max = corrected_wells.loc[:, 420].max()
     auc = metrics.auc(corrected_wells)
     auc_mean = auc.mean()
@@ -122,9 +141,11 @@ def process_block(test_wells,
                          diff_data=diff_wells,
                          test_well_addresses=test_well_addresses,
                          control_well_addresses=control_well_addresses,
+                         exclude_mask_test=exclude_mask_test,
+                         exclude_mask_control=exclude_mask_control,
                          #concs=concs,
                          ligand=variables.get('ligand'),
-                         response=response,
+                         response=response_all,
                          suptitle = f"UV-Visible Absorbance Profile of BM3 in Response to {variables.get('ligand')}",
                          vmax=vmax,
                          km=km,
@@ -142,6 +163,8 @@ def well_summary(data_raw=None,
                  data_norm=None,
                  data_norm_smooth=None,
                  data_corrected=None,
+                 control=False,
+                 response=None,
                  ):
 
 
@@ -154,6 +177,7 @@ def well_summary(data_raw=None,
 
     if data_norm is not None:
         pass
+
 
     if data_norm_smooth is not None:
         auc = pd.Series(np.trapz(data_norm_smooth.loc[:, 300:], axis=1))
@@ -181,7 +205,26 @@ def well_summary(data_raw=None,
 
 
     if data_corrected is not None:
+        # auc_corrected = pd.Series(np.trapz(data_norm_smooth.loc[:, 300:], axis=1))
         pass
 
     df = pd.concat(columns, axis=1)
+
+    # exclusions
+    # auc outliers
+    exclude = df['auc'] > 50
+    if not control:
+        exclude |= df['auc'] < 15
+
+    #exclude |= abs(df['auc'] - df['auc'].mean()) > max([df['auc'].std() * 2, 4])
+
+    # response outliers
+    # if response is not None:
+    #     exclude |= (abs(response - response.mean()) > response.std() * 3).values
+
+    # k
+    exclude |= ( df['k'] > 0.8e10) & (df['r_squared'] > 0.7 )
+
+    df['exclude'] = exclude
+
     return df

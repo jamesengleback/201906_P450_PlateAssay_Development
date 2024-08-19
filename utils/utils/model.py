@@ -1,6 +1,6 @@
 import logging
 import sqlite3
-from sqlalchemy import Column, Float, Integer, String, Boolean, Sequence, LargeBinary, ForeignKey
+from sqlalchemy import Column, Float, Integer, String, Boolean, Sequence, LargeBinary, ForeignKey, JSON
 from sqlalchemy.orm import declarative_base
 
 
@@ -55,6 +55,8 @@ class Well(Base):
     control = Column(Boolean)
     comment = Column(String)
     exclude = Column(Boolean, default=False)
+
+    raw_data = Column(JSON)
 
 class ResultComment(Base):
     __tablename__ = 'result_comments'

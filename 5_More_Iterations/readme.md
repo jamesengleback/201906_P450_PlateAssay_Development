@@ -5,7 +5,12 @@
 In the previous attempts I've found that the assay works, and I can get some reasonably clean Michaelis Menten curves out. The biggest issues I've encountered are errors that I'm chalking up to my lack of pipetting skills.
 
 ###### Aim
-I want to get a protocol written soon for manual preparation of the plates. Maybe I'll also make one for 96 well plates for people who want that. I think I need to have this protocol road tested with Wild type P450 BM3 (which is lucky because I have lots of that) and some of its natural substrates and an inhibitor, So I'm going to whittle down my selection to just Arachadonic acid (substrate) and 4-Phenylimidazole (inhibitor).
+I want to get a protocol written soon for manual preparation of the plates.
+Maybe I'll also make one for 96 well plates for people who want that. I think I
+need to have this protocol road tested with Wild type P450 BM3 (which is lucky
+because I have lots of that) and some of its natural substrates and an
+inhibitor, So I'm going to whittle down my selection to just Arachadonic acid
+(substrate) and 4-Phenylimidazole (inhibitor).
 
 Eventually, it will be good to have a robotics workflow for all of this, but one step at a time James.
 

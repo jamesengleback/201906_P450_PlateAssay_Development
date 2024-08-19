@@ -1,8 +1,14 @@
 ### Iteration round 6
 ##### Background
-In the last tests I did 9 repeats of my substrates arachadonic acid and 4-phenylimidazole. It was  repeats in the mother plate to test for mixing variability and stuff like that. I got really consistent results with arachadonic acid, which was great, but terrible results with 4-phenylimidazole.
+In the last tests I did 9 repeats of my substrates arachadonic acid and
+4-phenylimidazole. It was  repeats in the mother plate to test for mixing
+variability and stuff like that. I got really consistent results with
+arachadonic acid, which was great, but terrible results with 4-phenylimidazole.
 
-I haven't got to the bottom of that yet, but today I'm going to work on fatty acids and try to get a few of them working with a few repeats of each. I have a few socks of each, so I may as well use all of them to see which is good and which is donked.
+I haven't got to the bottom of that yet, but today I'm going to work on fatty
+acids and try to get a few of them working with a few repeats of each. I have a
+few socks of each, so I may as well use all of them to see which is good and
+which is donked.
 
 Substrates:
 * Arachadonic acid
@@ -26,15 +32,27 @@ Name: P450 conc/uM, dtype: float64
 ```
 * conc = 3.86 uM
 
-It felt like I didn't mess up the pipetting. Used a lot of tips though, so to try to limit that, I pipetted out the compounds first, changing tips between mother plate reps. Added buffer to the blank wells without mixing so that I could use a single row of tips. Same for the protein, being really careful to not let the tips touch the inside of the wells. Then to mix, I pipetted up and down from the low concentrations upward for the protein wells and the buffer wells (seperately) under the assumption that any substrate carried to the next concentration up shouldn't have a big effect. I hope. It saved a lot of tips but Ill see what I can do to make it more efficient.
+It felt like I didn't mess up the pipetting. Used a lot of tips though, so to
+try to limit that, I pipetted out the compounds first, changing tips between
+mother plate reps. Added buffer to the blank wells without mixing so that I
+could use a single row of tips. Same for the protein, being really careful to
+not let the tips touch the inside of the wells. Then to mix, I pipetted up and
+down from the low concentrations upward for the protein wells and the buffer
+wells (seperately) under the assumption that any substrate carried to the next
+concentration up shouldn't have a big effect. I hope. It saved a lot of tips but
+Ill see what I can do to make it more efficient.
 
 Carried the whole affair downstairs in my homemade plate carrier
 ![](assets/readme-c8e5a655.jpg)
 
 * Plate type: Corning 3660 (check)
 
-And then span at 4000 rpm for 2 mins. Not sure how much is enough, should find that out.
-Scanned the wells for wavelengths 220-800 nm on the Pherastar FS. It took about 3 mins, plus some extra time to transfer the data to the dedicated PC, and then to Open it. I wonder what file type it transfers as, because as an ASCII csv file it opens and transfers really quick. That's one to ask BMG if I ever get the chance.
+And then span at 4000 rpm for 2 mins. Not sure how much is enough, should find
+that out. Scanned the wells for wavelengths 220-800 nm on the Pherastar FS. It
+took about 3 mins, plus some extra time to transfer the data to the dedicated
+PC, and then to Open it. I wonder what file type it transfers as, because as an
+ASCII csv file it opens and transfers really quick. That's one to ask BMG if I
+ever get the chance.
 
 * Platereader [data](assets/readme-00111b7f.CSV)
 * This old [script](Plateanalysis20190620.py) agian!

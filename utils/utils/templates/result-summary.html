@@ -35,8 +35,7 @@
             <div class='row'>
                 <label for='ok'>OK</label>
                 <label class="switch">
-                    <input hx-post='/result/{{id}}' name='ok' id='ok' type="checkbox" {% if ok
-                        %} checked {% endif %}>
+                    <input hx-post='/result/{{id}}' name='ok' id='ok' type="checkbox" {% if ok %} checked {% endif %}>
                     <span class="slider round"></span>
                 </label>
             </div>
@@ -44,6 +43,9 @@
 
             <button onclick='toggleWellContainer()'> Wells </button>
 
+            <form hx-post='/result/{{id}}' hx-target='this' hx-swap='outerHTML'>
+                <input type="submit" name="recalculate" value="Recalculate" >
+            </form>
             <!--
             <div class='row'>
                 <label for='ok'>OK</label>

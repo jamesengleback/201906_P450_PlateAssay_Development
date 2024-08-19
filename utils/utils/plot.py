@@ -8,6 +8,7 @@ import matplotlib.patches as mpatches
 
 
 def plot_plate_data(data,
+                    exclude_index=None,
                     title=None,
                     ligand_name=None,
                     save_path=None,
@@ -16,6 +17,7 @@ def plot_plate_data(data,
                     ax=None,
                     ylim=None,
                     legend_text=None,
+                    legend=True,
                     ):
     x = data.columns.astype(int)
 
@@ -24,22 +26,21 @@ def plot_plate_data(data,
 
     # assuming index is concs
     concs = data.index
-    # concs_norm = concs - min(concs)
-    # concs_norm /= max(concs)
-    # colors = plt.cm.inferno(concs_norm)
-    #assert all(data.index == concs)
     if concs.argmax() == 0:
         colors = plt.cm.inferno(np.linspace(1, 0, len(data)))
     else:
         colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
 
-    for i, row in enumerate(data.index):
+    if exclude_index is None:
+        exclude_index = np.zeros(len(data))
+
+    for i, (row, exclude) in enumerate(zip(data.index, exclude_index)):
         y = data.loc[row,:]
         ax.plot(x,
                 y,
                 lw=2,
                 color=colors[i],
-                # label=label, # round(concs[i], 2) if concs is not None else y.index,
+                linestyle='dashed' if bool(exclude) else 'solid',
                 )
     if title is not None:
         ax.set_title(title)
@@ -72,11 +73,12 @@ def plot_plate_data(data,
     else:
         handles = None
 
-    ax.legend(labels,
-              title = f'{ligand_name} concentration μM',
-              loc='right',
-              handles=handles,
-              )
+    if legend:
+        ax.legend(labels,
+                  title = f'{ligand_name} concentration μM',
+                  loc='right',
+                  handles=handles,
+                  )
 
     if ax is None and save_path is not None:
         assert 'fig' in locals()
@@ -84,6 +86,7 @@ def plot_plate_data(data,
 
 def plot_michaelis_menten(response,
                           concs,
+                          exclude_index=None,
                           ax=None,
                           vmax=None,
                           km=None,
@@ -92,17 +95,22 @@ def plot_michaelis_menten(response,
                           ylim=None,
                           legend_text=None,
                           ):
-    x_2 = np.linspace(0,concs.max(), 500)
+
+    x_2 = np.linspace(0, concs.max(), 500)
     y_hat = curve(x_2,
                   vmax, 
                   km,
                   )
 
+    if exclude_index is None:
+        exclude_index = np.zeros(len(response))
+
     plt.set_cmap('inferno')
     if ax is None:
         fig, ax = plt.subplots(figsize=(7.5,5))
     ax.plot(x_2, y_hat, color = '0.1')
-    ax.scatter(concs, response,  color = 'orange', s = 30)
+    ax.scatter(concs[~exclude_index], response[~exclude_index],  color = 'orange', s = 30)
+    ax.scatter(concs[exclude_index], response[exclude_index],  color = 'gray', s = 30)
     ax.set_ylabel('Difference in Abs')
     ax.set_xlabel('[Substrate] µM')
 
@@ -131,15 +139,16 @@ def plot_michaelis_menten(response,
         ax.set_title(title)
 
 
-def plot_traces_nb(data, 
-                ax=None,
-                lw=0.5,
-                c='#b4b4b4',
-                colors=None,
-                xlim=(220, 800),
-                ylim=(-0.05, 3.5),
-                legend_dict = None,
-                **kwargs):
+def plot_traces_nb(data,
+                   ax=None,
+                   lw=0.5,
+                   c='#b4b4b4',
+                   colors=None,
+                   xlim=(220, 800),
+                   ylim=(-0.05, 3.5),
+                   legend_dict=None,
+                   **kwargs
+                   ):
 
     if ax is None:
         fig, ax = plt.subplots(1, 1, 
@@ -194,9 +203,10 @@ def plot_group(test_data_raw=None,
                control_data_raw=None,
                control_data_norm=None,
                control_data_smooth=None,
+               exclude_mask_test=None,
+               exclude_mask_control=None,
                corrected_data=None,
                diff_data=None,
-               #concs=None,
                test_well_addresses=None,
                control_well_addresses=None,
                ligand=None,
@@ -236,6 +246,7 @@ def plot_group(test_data_raw=None,
 
     if control_data_raw is not None:
         plot_plate_data(control_data_raw,
+                        exclude_index=exclude_mask_control,
                         ax=next(next_ax),
                         ligand_name=ligand,
                         addresses=control_well_addresses,
@@ -245,6 +256,7 @@ def plot_group(test_data_raw=None,
 
     if test_data_raw is not None:
         plot_plate_data(test_data_raw,
+                        exclude_index=exclude_mask_test,
                         ax=next(next_ax),
                         ligand_name=ligand,
                         title='Raw Test Data',
@@ -254,6 +266,7 @@ def plot_group(test_data_raw=None,
 
     if control_data_norm is not None:
         plot_plate_data(control_data_norm,
+                        exclude_index=exclude_mask_control,
                         ax=next(next_ax),
                         ligand_name=ligand,
                         addresses=control_well_addresses,
@@ -263,6 +276,7 @@ def plot_group(test_data_raw=None,
 
     if test_data_norm is not None:
         plot_plate_data(test_data_norm,
+                        exclude_index=exclude_mask_test,
                         ax=next(next_ax),
                         ligand_name=ligand,
                         addresses=test_well_addresses,
@@ -273,6 +287,7 @@ def plot_group(test_data_raw=None,
 
     if control_data_smooth is not None:
         plot_plate_data(control_data_smooth,
+                        exclude_index=exclude_mask_control,
                         ax=next(next_ax),
                         ligand_name=ligand,
                         title='Smooth Control Data',
@@ -282,6 +297,7 @@ def plot_group(test_data_raw=None,
 
     if test_data_smooth is not None:
         plot_plate_data(test_data_smooth,
+                        exclude_index=exclude_mask_test,
                         ax=next(next_ax),
                         addresses=test_well_addresses,
                         ligand_name=ligand,
@@ -289,8 +305,18 @@ def plot_group(test_data_raw=None,
                         ylim=(-0.1, max(0.3, 1.2 * a420_max)) if a420_max else None,
                         )
 
+    if exclude_mask_test is not None and exclude_mask_control is not None:
+        exclude_mask_corrected = exclude_mask_control.values | exclude_mask_test.values
+    elif exclude_mask_test is not None:
+        exclude_mask_corrected = exclude_mask_test.values
+    elif exclude_mask_control is not None:
+        exclude_mask_corrected = exclude_mask_control.values
+    else:
+        exclude_mask_corrected = np.zeros(len(corrected_data)).astype(bool)
+
     if corrected_data is not None:
         plot_plate_data(corrected_data,
+                        exclude_index=exclude_mask_corrected,
                         ax=next(next_ax),
                         ligand_name=ligand,
                         title='Corrected Test Data',
@@ -299,6 +325,7 @@ def plot_group(test_data_raw=None,
 
     if diff_data is not None:
         plot_plate_data(diff_data.sort_index(ascending=False),
+                        exclude_index=exclude_mask_corrected,
                         ax=next(next_ax),
                         #concs=concs,
                         ligand_name=ligand,
@@ -310,6 +337,7 @@ def plot_group(test_data_raw=None,
         assert isinstance(vmax, (int, float))
         assert response.dtype == float
         plot_michaelis_menten(response=response,
+                              exclude_index=exclude_mask_corrected,
                               concs=corrected_data.index,
                               vmax=vmax,
                               km=km,

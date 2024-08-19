@@ -1,6 +1,7 @@
 import os
 import re
 import base64
+from io import BytesIO
 import json
 from textwrap import dedent
 from sqlalchemy import create_engine, update
@@ -11,6 +12,7 @@ from bs4 import BeautifulSoup
 from flask import Flask, render_template, request, url_for, redirect
 from .model import Result, Well, ResultComment
 from .cli import TextStyle
+import utils
 
 app = Flask(__name__)
 
@@ -111,21 +113,72 @@ def result(id=None):
     DB_URI = f'sqlite:///{os.path.abspath(app.db)}'
     engine = create_engine(DB_URI, echo=True)
 
-    if request.method == 'POST':
+    with Session(engine) as session:
+        if request.method == 'POST':
 
-        comments = '; '.join([i for i in [request.form.get('comment'),
-                                          request.form.get('comment-dropdown')
-                                          ]
-                              if i])
+            if request.form.get('recalculate'):
+                result = session.query(Result).filter(Result.id == id).first()
+                wells = session.query(Well).filter(Well.result_id == id).all()
+                well_columns = [i.name for i in Well.__table__.columns]
+                df = pd.DataFrame([{i: well.__getattribute__(i) for i in well_columns} for well in wells])
+                df_wells = pd.concat([
+                    pd.json_normalize(df['raw_data']),
+                    df['control'],
+                    df['exclude'],
+                    df['concentration'],
+                    ],
+                                     axis=1,
+                                     )
+                df_wells.index = df['address']
+                df.columns = [int(i) if str(i).isnumeric() else i for i in df.columns]
+                df_wells_test = df_wells.query('control == False')
+                df_wells_control = df_wells.query('control == True')
 
-        ok = bool(request.form.get('ok'))
+                assert all([ i == j for i, j in zip(df_wells_test['concentration'], 
+                                                    df_wells_control['concentration'])])
+                concs = df_wells_test['concentration']
+                exclude_test = df_wells_test['exclude']
+                exclude_control = df_wells_control['exclude']
+                df_wells_test = df_wells_test.loc[:, [i for i in df_wells_test.columns if str(i).isnumeric()]]
+                df_wells_control = df_wells_control.loc[:, [i for i in df_wells_control.columns if str(i).isnumeric()]]
+                df_wells_test.columns = [int(i) for i in df_wells_test.columns]
+                df_wells_control.columns = [int(i) for i in df_wells_control.columns]
+                results = utils.processing.process_block(test_wells=df_wells_test,
+                                                         control_wells=df_wells_control,
+                                                         exclude_mask_test=exclude_test,
+                                                         exclude_mask_control=exclude_control,
+                                                         concs=concs,
+                                                         plot=True,
+                                                         )
 
-        with Session(engine) as session:
+                fig = results.get('fig')
+                fig_buf = BytesIO()
+                fig.savefig(fig_buf, format='png')
+                fig_buf.seek(0)
+
+                result.km = results.get('km')
+                result.vmax = results.get('vmax')
+                result.rsq = results.get('rsq')
+                result.a420_max = results.get('a420_max')
+                result.auc_mean = results.get('auc_mean')
+                result.auc_cv = results.get('auc_cv')
+                result.std_405 = results.get('std_405')
+                result.dd_soret = results.get('dd_soret')
+                result.fig = fig_buf.read()
+
+                session.add(result)
+                session.commit()
+
+            comments = '; '.join([i for i in [request.form.get('comment'),
+                                              request.form.get('comment-dropdown')
+                                              ]
+                                  if i])
+
+
             # update result if ok
-
             query = session.query(Result).filter(Result.id == id)
             result = query.first()
-            result.ok = ok
+            result.ok = bool(request.form.get('ok'))
             session.add(result)
 
             if comments:
@@ -134,13 +187,7 @@ def result(id=None):
                                                )
                 session.add(result_comment)
             session.commit()
-            # query = session.query(Result).filter(Result.id == id)
-            # result = query.first()
-            # result.comment = request.form.get('comment')
-            # session.add(result)
-            # session.commit()
 
-    with Session(engine) as session:
         query = session.query(Result).filter(Result.id == id)
         result = query.first()
         df = pd.read_sql(query.statement, session.connection())
@@ -154,7 +201,7 @@ def result(id=None):
         df_test_wells = pd.read_sql(query_test_wells.statement, session.connection())
         df_control_wells = pd.read_sql(query_control_wells.statement, session.connection())
 
-        comments_joined = ' '.join([i.comment for i in query_comments])
+        # comments_joined = ' '.join([i.comment for i in query_comments])
         # unique_comments = [i[0] for i in
         #                    session.query(Result.comment).distinct().order_by(Result.comment).limit(20)
         #                    if i[0]]
@@ -184,7 +231,7 @@ def result(id=None):
 
     df_wells = df_test_wells.append(df_control_wells)
 
-    df_wells['comment_html'] = df_wells.apply(lambda x: dedent(f"""
+    df_wells['comment'] = df_wells.apply(lambda x: dedent(f"""
                                          <form class='row' hx-post='well/{x.id}' hx-include='find input'>
                                              <input name='comment' type='text' value='{x.comment}'>
                                              <input type='submit' value='update'>
@@ -193,7 +240,7 @@ def result(id=None):
                                          axis=1,
                                          )
 
-    df_wells['exclude_html'] = df_wells.apply(lambda x: dedent(f"""
+    df_wells['exclude'] = df_wells.apply(lambda x: dedent(f"""
                                              <input hx-patch='{url_for('well', id=x.id)}' type='checkbox' name='exclude' {'checked' if x.exclude else ''}>
                                          """).replace('\n', ' '),
                                          axis=1,
@@ -202,8 +249,8 @@ def result(id=None):
     
     df_wells = df_wells.loc[:, ['id',
                                 'result_id',
-                                'comment_html',
-                                'exclude_html',
+                                'comment',
+                                'exclude',
                                 'address',
                                 'ligand',
                                 'control',
@@ -235,7 +282,7 @@ def result(id=None):
                            rsq=rsq,
                            comments=comments,
                            ok=ok,
-                           #df_wells_html=df_wells_html,
+                           df_wells_html=df_wells_html,
                            )
 
 @app.route('/pulse', methods=['GET'])
@@ -277,14 +324,14 @@ def well(id=None,
             with Session(engine) as session:
                 query_wells = session.query(Well).filter(Well.result_id == result_id)
                 df_wells = pd.read_sql(query_wells.statement, session.connection())
-                df_wells['comment_html'] = df_wells.apply(lambda x: dedent(f"""
+                df_wells['comment'] = df_wells.apply(lambda x: dedent(f"""
 <input name='comment' type='text' value='{x.comment if x.comment is not None else ''}' hx-post='well/{x.id}' >
                                                      """).replace('\n', ' '),
                                                      axis=1,
                                                      )
 
                 # <input hx-patch='{url_for('well', id=x.id)}' type='checkbox' name='exclude' {'checked' if x.exclude else ''}>
-                df_wells['exclude_html'] = df_wells.apply(lambda x: dedent(f"""
+                df_wells['exclude'] = df_wells.apply(lambda x: dedent(f"""
 <input hx-post='well/{x.id}' type='checkbox' name='exclude' {'checked' if x.exclude else ''}>
                                                      """).replace('\n', ' '),
                                                      axis=1,
@@ -293,8 +340,8 @@ def well(id=None,
                 
                 df_wells = df_wells.loc[:, ['id',
                                             'result_id',
-                                            'comment_html',
-                                            'exclude_html',
+                                            'comment',
+                                            'exclude',
                                             'address',
                                             'ligand',
                                             'control',
@@ -309,7 +356,7 @@ def well(id=None,
 
                 df_wells.fillna('', inplace=True)
 
-                df_wells_html = df_wells.to_html(float_format=lambda s: f'{s:.1f}',
+                df_wells_html = df_wells.to_html(float_format=lambda s: f'{s:.2f}',
                                                  escape=False,
                                                  na_rep='',
                                                  classes='well-table',

@@ -2,11 +2,21 @@
 Same as before let's do it some more!
 
 ### Lab notes
-I made a table of everything I tried to weigh out as substrates. We ran out of N-palmitoylglycine, so none of that today. Sodium Dodecyl Sulfate is a surfactant and potentially a substrate for BM3, 4-PhenylImidazole is a known inhibitor, and should yeild a different type of spin shift which might be interesting, and Arachadonic Acid is another known BM3 substrate. I decided to use 4% v/v DMSO in the assay plate because 2.5% might have led to substrate precipitation and 5% is right on the line of how much I heard that BM3 can take.
 
-Here's my plate layout this time:
-![palte](Platelayout7thJune.png)
-The idea was to correct for any potential compound absorbance by having control wells where the compound is at the same concentration as the well above, but there's no protein. There may be some pipetting errors in there because when I was pipetting out my compounds from the dilution plates to the test plate, I forgot to leave a dead volume, which will mess things up.
+I made a table of everything I tried to weigh out as substrates. We ran out of
+N-palmitoylglycine, so none of that today. Sodium Dodecyl Sulfate is a
+surfactant and potentially a substrate for BM3, 4-PhenylImidazole is a known
+inhibitor, and should yeild a different type of spin shift which might be
+interesting, and Arachadonic Acid is another known BM3 substrate. I decided to
+use 4% v/v DMSO in the assay plate because 2.5% might have led to substrate
+precipitation and 5% is right on the line of how much I heard that BM3 can take.
+
+Here's my plate layout this time: ![plate](Platelayout7thJune.png) The idea was
+to correct for any potential compound absorbance by having control wells where
+the compound is at the same concentration as the well above, but there's no
+protein. There may be some pipetting errors in there because when I was
+pipetting out my compounds from the dilution plates to the test plate, I forgot
+to leave a dead volume, which will mess things up.
 
 
 ```python
@@ -24,7 +34,8 @@ The idea was to correct for any potential compound absorbance by having control 
 4           5        Arachadonic Acid  304.48                  5.2  0.017078      1.707830                       0.341566
 
 ```
-I made them 50 mM and then diluted because my vials that I weighed the compounds out into were too small to hold more than 2 ml.
+I made them 50 mM and then diluted because my vials that I weighed the compounds
+out into were too small to hold more than 2 ml.
 
 
 Some working for protein cooncentration calcs
@@ -84,19 +95,32 @@ Here's a UV-Vis trace of the diluted BM3: [data](20190607_BM3conccheck.csv).
 |![54vdzvadfg](20190607_BM3_WT_4PhenylImidazole_DiffSpec.png)|
 
 
-This is exciting and promising. I came in to the lab on Sunday 9th June to have another stab at it. It was a hastily thought out experimental run, probably made loads of mistakes but it's all practice isn't it? This time I decided to do 5 repeats of the following substrates:
+This is exciting and promising. I came in to the lab on Sunday 9th June to have
+another stab at it. It was a hastily thought out experimental run, probably made
+loads of mistakes but it's all practice isn't it? This time I decided to do 5
+repeats of the following substrates:
 1. Lauric acid (to see if I could make up for last time)
 2. Arachadnoic acid (because it came out so well last time)
-3. 4-PhenylImidazole (I should probably prepare myself for some inhibitors at screen time)
+3. 4-PhenylImidazole (I should probably prepare myself for some inhibitors at
+   screen time)
 
-I started with a fresh Corning 3640 plate (which it turns out aren't non-treated, I should really have a look at non-treated, cheap and cheerful plates soon). Here's my new layout:
+I started with a fresh Corning 3640 plate (which it turns out aren't
+non-treated, I should really have a look at non-treated, cheap and cheerful
+plates soon). Here's my new layout:
 
 ![platelayout2](20190607Platelayout.png)
 
-I might have messed up some of the compound blanks because I was pipetting from a deep well mother plate and I don't think my tips got all the way to the bottom each time - just a feeling. Eventually, once I'm really good at this or can get a robot to do it then I should compare againts titrations (but I hate titrations so I'm only doing them when I really need to). I used a final ```[DMSO]``` of 4% v/v
+I might have messed up some of the compound blanks because I was pipetting from
+a deep well mother plate and I don't think my tips got all the way to the bottom
+each time - just a feeling. Eventually, once I'm really good at this or can get
+a robot to do it then I should compare againts titrations (but I hate titrations
+so I'm only doing them when I really need to). I used a final ```[DMSO]``` of 4%
+v/v
 
-Protein: I did some sketchy calculations again to dilute it, here's the [final trace](20190609BM3ConcCheck.csv). 
-And here's a plot of the trace. I had to dilute it in half the second time to get the a420 between 0 and 1 which apparently is where things are accurate.
+Protein: I did some sketchy calculations again to dilute it, here's the [final
+trace](20190609BM3ConcCheck.csv). And here's a plot of the trace. I had to
+dilute it in half the second time to get the a420 between 0 and 1 which
+apparently is where things are accurate.
 ![plotofotrace](20190609_BM3ConcCheckSpec.png)
 Though
 ```python
@@ -105,9 +129,11 @@ Though
 ```
 which isn't far off. Maybe it's fine.
 
-Here's the plate [data](SerialDilfattyacids.CSV)
-And here are some smaller figures than before.
-Well I cba to put them in here rn, but they're all the ones with the naming convention that goes like: ['Arachadonic_acid_5_Difference_Spectra.png'](Arachadonic_acid_5_Difference_Spectra.png) etc.
+Here's the plate [data](SerialDilfattyacids.CSV) And here are some smaller
+figures than before. Well I cba to put them in here rn, but they're all the ones
+with the naming convention that goes like:
+['Arachadonic_acid_5_Difference_Spectra.png'](Arachadonic_acid_5_Difference_Spectra.png)
+etc.
 
 I calculated some Kds and stuff and put it here in a table:
 ```python
@@ -129,6 +155,9 @@ Arachadonic acid 5   4.300772e-01    96.269076  0.987716
 4-Phenylimidazole 4  3.484336e-02     3.730405  0.464898
 4-Phenylimidazole 5  3.837007e-02    17.917318  0.748812
 ```
-I'll get the stdev for each compound ater, but it won't be very good. Maybe the R2 is a better metric, since it'll indicate how close to a theoretical michaelis menten curve my data is? Maybe a good test later on will be to compare lots of stdevs for lots of compounds, between plates and old school titrations??
+I'll get the stdev for each compound ater, but it won't be very good. Maybe the
+R2 is a better metric, since it'll indicate how close to a theoretical michaelis
+menten curve my data is? Maybe a good test later on will be to compare lots of
+stdevs for lots of compounds, between plates and old school titrations??
 
 Right now, I'm chalking up this variability to bad pipetting. I'll do better next time

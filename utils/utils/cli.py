@@ -482,11 +482,6 @@ def process(config_paths,
                          }
 
             logging.info(TextStyle.bgreen(f'Experiment: {experiment_number}: ' + dict_to_str(constants)))
-            # if plot:
-            #     img_dir = os.path.join(working_directory, 'img')
-            #     if not os.path.exists(img_dir):
-            #         os.mkdir(img_dir)
-            # summary = []
 
             match experiment_type:
                 case 'serial':
@@ -608,11 +603,17 @@ def process(config_paths,
                                                             a_800=row.get('a_800'),
                                                             auc=row.get('auc'),
                                                             k=row.get('k'),
-                                                            rsq=row.get('rsq'),
-                                                            ligand=row.get('ligand'),
-                                                            concentration=row.get('concentartion'),
+                                                            rsq=row.get('r_squared'),
+                                                            file=file_path,
+                                                            ligand=variables.get('ligand'),
+                                                            concentration=row.get('concentration'),
+                                                            volume=row.get('concentration'),
                                                             control=False,
+                                                            exclude=row.get('exclude'),
                                                             )
+                                    if (address:=row.get('address')):
+                                        well_data = test_data.loc[address, :]
+                                        well.raw_data = well_data.to_dict()
 
                                     session.add(well)
 
@@ -624,11 +625,18 @@ def process(config_paths,
                                                             a_800=row.get('a_800'),
                                                             auc=row.get('auc'),
                                                             k=row.get('k'),
-                                                            rsq=row.get('rsq'),
-                                                            ligand=row.get('ligand'),
-                                                            concentration=row.get('concentartion'),
+                                                            rsq=row.get('r_squared'),
+                                                            file=file_path,
+                                                            ligand=variables.get('ligand'),
+                                                            concentration=row.get('concentration'),
+                                                            volume=row.get('concentration'),
                                                             control=True,
+                                                            exclude=row.get('exclude'),
                                                             )
+
+                                    if (address:=row.get('address')):
+                                        well_data = control_data.loc[address, :]
+                                        well.raw_data = well_data.to_dict()
 
                                     session.add(well)
 
@@ -725,11 +733,17 @@ def process(config_paths,
                                                                 a_800=row.get('a_800'),
                                                                 auc=row.get('auc'),
                                                                 k=row.get('k'),
-                                                                rsq=row.get('rsq'),
-                                                                ligand=row.get('ligand'),
-                                                                concentration=row.get('concentartion'),
+                                                                rsq=row.get('r_squared'),
+                                                                file=plate_data_path,
+                                                                ligand=variables.get('ligand'),
+                                                                concentration=row.get('concentration'),
+                                                                volume=row.get('concentration'),
                                                                 control=False,
+                                                                exclude=row.get('exclude'),
                                                                 )
+                                        if (address:=row.get('address')):
+                                            well_data = test_data.loc[address, :]
+                                            well.raw_data = well_data.to_dict()
 
                                         session.add(well)
 
@@ -741,11 +755,17 @@ def process(config_paths,
                                                                 a_800=row.get('a_800'),
                                                                 auc=row.get('auc'),
                                                                 k=row.get('k'),
-                                                                rsq=row.get('rsq'),
-                                                                ligand=row.get('ligand'),
-                                                                concentration=row.get('concentartion'),
+                                                                rsq=row.get('r_squared'),
+                                                                file=plate_data_path,
+                                                                ligand=variables.get('ligand'),
+                                                                concentration=row.get('concentration'),
+                                                                volume=row.get('concentration'),
                                                                 control=True,
+                                                                exclude=row.get('exclude'),
                                                                 )
+                                        if (address:=row.get('address')):
+                                            well_data = control_data.loc[address, :]
+                                            well.raw_data = well_data.to_dict()
 
                                         session.add(well)
 
@@ -759,10 +779,65 @@ def serve(db):
     app.db = db
     app.run(debug=True)
 
+@click.command()
+@click.option('--from', 'from_')
+@click.option('--to')
+@click.option('--add', flag_value=True)
+def copy(from_, 
+         to, 
+         add,
+         ):
+
+    assert from_ is not None and to is not None
+
+    with sqlite3.connect(from_) as con_from:
+        with sqlite3.connect(to) as con_to:
+            n_comments = next(con_from.execute("SELECT count(*) FROM result_comments"))[0]
+            n_results = next(con_from.execute("SELECT count(*) FROM results"))[0]
+            n_wells = next(con_from.execute("SELECT count(*) FROM wells"))[0]
+
+            result_comments = pd.read_sql("SELECT * FROM result_comments",
+                                          con_from,
+                                          chunksize=64,
+                                          )
+
+            result_ok = pd.read_sql("SELECT id, ok FROM results", 
+                                    con_from,
+                                    chunksize=64,
+                                    )
+
+            well_exclude = pd.read_sql("SELECT id, exclude FROM wells", 
+                                       con_from,
+                                       chunksize=64,
+                                       )
+
+            for chunk in result_comments:
+                chunk.to_sql("result_comments",
+                             con_to,
+                             if_exists='append',
+                             )
+            click.echo(TextStyle.bgreen(f'{n_comments} comments copied from {from_} to {to}'))
+
+            for chunk in result_ok:
+                chunk.dropna(inplace=True)
+                for _, row in chunk.iterrows():
+                    con_to.execute(f"UPDATE results SET ok = {row.ok} WHERE id = {row.id}")
+
+            click.echo(TextStyle.bgreen(f'{n_results} result statuses updated from {from_} to {to}'))
+
+            for chunk in well_exclude:
+                chunk.dropna(inplace=True)
+                for _, row in chunk.iterrows():
+                    con_to.execute(f"UPDATE wells SET exclude = {row.exclude} WHERE id = {row.id}")
+                    #con_to.execute(f"UPDATE wells SET exclude = {exclude} ")
+            click.echo(TextStyle.bgreen(f'{n_wells} well exclusions updated from {from_} {to}'))
+
+
 cli.add_command(serial)
 cli.add_command(echo)
 cli.add_command(process)
 cli.add_command(serve)
+cli.add_command(copy)
 
 if __name__ == "__main__":
     cli()

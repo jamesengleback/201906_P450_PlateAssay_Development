@@ -1,5 +1,6 @@
 {
     "experiment_number": 5,
+    "well_volume": 50,
     "protein_concentration": 4.01,
     "plate_type": "Corning 3660",
     "test_rows": [
