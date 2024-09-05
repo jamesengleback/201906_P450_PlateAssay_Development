@@ -1,0 +1,52 @@
+{
+    "Lauric Acid": [
+        "./19_Validation/TitrationData/20191204_Lauric_Titration_2.csv",
+        "./19_Validation/TitrationData/20191204_Lauric_Titration_4.csv",
+        "./19_Validation/TitrationData/20191204_Lauric_Titration_3.csv",
+        "./19_Validation/TitrationData/20191204_Lauric_Titration_5.csv",
+        "./19_Validation/TitrationData/20191204_Lauric_Titration_1.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_lauric_acid2.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_lauric_acid1.csv"
+    ],
+    "N-Palmitoglycine": [],
+    "Palmitic Acid": [
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_palmOH2.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_palmOH1.csv",
+        "./19_Validation/TitrationData/20191128_PalmiticAcid_BM3WT_Titration_4.csv",
+        "./19_Validation/TitrationData/20191128_PalmiticAcid_BM3WT_Titration_1.csv",
+        "./19_Validation/TitrationData/20191128_PalmiticAcid_BM3WT_Titration_3.csv",
+        "./19_Validation/TitrationData/20191128_PalmiticAcid_BM3WT_Titration_2.csv",
+        "./19_Validation/TitrationData/20191128_PalmiticAcid_BM3WT_Titration_5.csv"
+    ],
+    "Arachadonic Acid": [
+        "./19_Validation/TitrationData/20191128_ArachadonicaAcid_BM3WT_Titration_2.csv",
+        "./19_Validation/TitrationData/20191128_ArachadonicaAcid_BM3WT_Titration_3.csv",
+        "./19_Validation/TitrationData/20191128_ArachadonicaAcid_BM3WT_Titration_1.csv",
+        "./19_Validation/TitrationData/20191128_ArachadonicaAcid_BM3WT_Titration_5.csv",
+        "./19_Validation/TitrationData/20191128_ArachadonicaAcid_BM3WT_Titration_4.csv",
+        "./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration.csv",
+        "./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration_4.csv",
+        "./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration_5.csv",
+        "./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration_2.csv",
+        "./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration_3.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-ARACHADONICACID1_saraharadidmostofit.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-ARACHADONICACID1_saharadidntdoanyofit3.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191001_BM3WT_Arachadonic_1.csv"
+    ],
+    "4-Phenylimidazole": [
+        "./19_Validation/TitrationData/20191128_4PHENYLIMIDAZOLE_BM3WT_Titration_5.csv",
+        "./19_Validation/TitrationData/20191128_4PHENYLIMIDAZOLE_BM3WT_Titration_1.csv",
+        "./19_Validation/TitrationData/20191128_4PHENYLIMIDAZOLE_BM3WT_Titration_4.csv",
+        "./19_Validation/TitrationData/20191128_4PHENYLIMIDAZOLE_BM3WT_Titration_2.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_pjhenylimidazole3.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_pjhenylimidazole2.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_pjhenylimidazole1.csv",
+        "./19_Validation/TitrationData/20191128_4PHENYLIMIDAZOLE_BM3WT_Titration_3.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_pjhenylimidazole4.csv"
+    ],
+    "Sodium Dodecyl Sulfate": [
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_sds3.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_sds1.csv",
+        "./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_sds2.csv"
+    ]
+}
