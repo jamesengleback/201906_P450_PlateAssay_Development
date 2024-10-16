@@ -54,7 +54,7 @@ def main():
         file_path = experiment['file']
         columns = experiment['columns']
 
-        df = utils.bmg.parse_bmg(file_path)
+        df = utils.parse.bmg(file_path)
         df = df.subtract(df[800], axis=0) # 800 nm correction
 
         for column_num in columns:

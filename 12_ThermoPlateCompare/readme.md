@@ -2,7 +2,13 @@
 * [262160](https://www.thermofisher.com/order/catalog/product/262160?SID=srch-hj-262160) --Non-sterile	Non-Treated, £346.00 / 100
 *   [164688](https://www.thermofisher.com/order/catalog/product/164688?SID=srch-hj-164688) --Sterile	Cell Culture Surface, £206.00 / 30
 
-The **164688** plates were freebies (they sent me loads) but worked best by some margin on a [previous test](201906_PlateAssayDevelopment/11_Validation/readme.md). I spoke to a BMG sales rep, Dean Uddin, at a conference who said that probably the optical properties of the plastic are having a more major effect that the cellbind surface, so this is a fairly important test that can reduce the cost per plate to £6.86/plate to £3.46/plate.
+The **164688** plates were freebies (they sent me loads) but worked best by some
+margin on a [previous
+test](201906_PlateAssayDevelopment/11_Validation/readme.md). I spoke to a BMG
+sales rep, Dean Uddin, at a conference who said that probably the optical
+properties of the plastic are having a more major effect that the cellbind
+surface, so this is a fairly important test that can reduce the cost per plate
+to £6.86/plate to £3.46/plate.
 
 It can also be a dry run for a validation (actual validation) test so that people will accept my assay.
 Here's what [Uniprot](https://www.uniprot.org/uniprot/P14779) says about BM3 WT substrates.

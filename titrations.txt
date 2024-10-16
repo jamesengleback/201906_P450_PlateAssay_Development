@@ -25,7 +25,6 @@ Titrations
 ./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration_4.csv
 ./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration_5.csv
 ./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration_2.csv
-./18_BuffersNCompounds/Model/20191122_ArachadonicaAcid_BM3WT_Titration_3.csv
 ./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_pjhenylimidazole4.csv
 ./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-ARACHADONICACID1_saraharadidmostofit.csv
 ./13_TitrationValidationPilot/20191010_test/titrations/20191010-BM3-wt-4_sds1.csv

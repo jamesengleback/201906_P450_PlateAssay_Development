@@ -228,3 +228,6 @@ def well_summary(data_raw=None,
     df['exclude'] = exclude
 
     return df
+
+def process_titration():
+    pass

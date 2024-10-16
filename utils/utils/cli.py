@@ -93,7 +93,7 @@ def echo(config_paths,
                 if (plate_data_path := experiment_config.get('file')) is not None:
                     plate_data_path = os.path.join(working_directory, plate_data_path)
                     logging.info(plate_data_path)
-                    df = utils.bmg.parse_bmg(plate_data_path)
+                    df = utils.parse.bmg(plate_data_path)
                     # df = df.subtract(df[800], axis=0)
                     test_plate_contents = {i:{} for i in well_ids.values()}
 
@@ -311,7 +311,7 @@ def serial(config_paths,
 
                 protein_concentration =  config_data.get('protein_concentration') 
 
-                df = utils.bmg.parse_bmg(file_path)
+                df = utils.parse.bmg(file_path)
                 # df = df.subtract(df[800], axis=0) # 800 nm correction
 
                 for column_num in columns:
@@ -511,7 +511,7 @@ def process(config_paths,
 
                         logging.info(TextStyle.red(dict_to_str(experiment_constants)))
 
-                        df = utils.bmg.parse_bmg(file_path)
+                        df = utils.parse.bmg(file_path)
                         # df = df.subtract(df[800], axis=0) # 800 nm correction
 
                         for column_num in columns:
@@ -663,7 +663,7 @@ def process(config_paths,
                         if (plate_data_path := experiment_config.get('file')) is not None:
                             plate_data_path = os.path.join(working_directory, plate_data_path)
                             logging.info(plate_data_path)
-                            df = utils.bmg.parse_bmg(plate_data_path)
+                            df = utils.parse.bmg(plate_data_path)
                             # df = df.subtract(df[800], axis=0)
                             test_plate_contents = {i:{} for i in well_ids.values()}
 

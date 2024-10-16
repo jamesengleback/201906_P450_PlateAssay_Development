@@ -1,0 +1,63 @@
+{
+    "experiment_number": 3,
+    "well_volume": 50,
+    "test_rows": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "O",
+        "N",
+        "P"
+    ],
+    "experiments": {
+        "plate_1": {
+            "a": [
+                "36640_2.CSV",
+                "3770bc_2.CSV",
+                "464718_2.CSV",
+                "761860_2.CSV",
+                "781620_2.CSV",
+                "DELTA_2.CSV",
+                "36640.CSV",
+                "3770bc.CSV",
+                "464718.CSV",
+                "761860.CSV",
+                "781620.CSV",
+                "DELTA.CSV"
+            ],
+            "protein_days_thawed": 2,
+            "protein_concentration": 8.83,
+            "file": "data/SerialDilfattyacids.CSV",
+            "plate_type": "Corning (3640)",
+            "columns": {
+                "1": "Protein",
+                "2": "Protein",
+                "3": "Protein",
+                "4": "Protein",
+                "5": "Protein",
+                "6": "Protein",
+                "7": "Protein",
+                "8": "Protein",
+                "9": "Protein",
+                "10": "Protein",
+                "11": "Protein",
+                "12": "Protein",
+                "13": "Protein",
+                "14": "Protein",
+                "15": "Protein",
+                "16": "Protein",
+                "17": "Protein"
+            }
+        }
+    }
+}

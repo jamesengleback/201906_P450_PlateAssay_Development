@@ -1,7 +1,6 @@
 import os
 from textwrap import dedent
 import numpy as np
-import pandas as pd 
 import matplotlib.pyplot as plt
 from .mm import curve
 import matplotlib.patches as mpatches
@@ -13,6 +12,7 @@ def plot_plate_data(data,
                     ligand_name=None,
                     save_path=None,
                     concs=None,
+                    linear_cmap=True,
                     addresses=None,
                     ax=None,
                     ylim=None,
@@ -22,14 +22,21 @@ def plot_plate_data(data,
     x = data.columns.astype(int)
 
     if ax is None:
-        fig, ax = plt.subplots(figsize=(15,5))
+        fig, ax = plt.subplots(figsize=(15, 5))
 
     # assuming index is concs
-    concs = data.index
-    if concs.argmax() == 0:
-        colors = plt.cm.inferno(np.linspace(1, 0, len(data)))
+    if concs is None:
+        concs = data.index
+
+    # linear colormap
+    if linear_cmap:
+        if concs.argmax() == 0:
+            colors = plt.cm.inferno(np.linspace(1, 0, len(concs)))
+        else:
+            colors = plt.cm.inferno(np.linspace(0, 1, len(concs)))
     else:
-        colors = plt.cm.inferno(np.linspace(0, 1, len(data)))
+        assert concs is not None
+        colors = plt.cm.inferno(concs)
 
     if exclude_index is None:
         exclude_index = np.zeros(len(data))
@@ -58,12 +65,12 @@ def plot_plate_data(data,
 
     if concs is not None:
         if addresses is not None:
-            labels = [f'{addr}: {conc:.2f}' for addr, conc in zip(addresses, concs)]
+            labels = [f'{addr}: {conc:.4g}' for addr, conc in zip(addresses, concs)]
         else:
-            labels = [f'{conc:.2f}' for conc in concs]
+            labels = [f'{conc:.4g}' for conc in concs]
     else:
         if addresses is not None:
-            labels = [f'{addr}: {conc:.2f}' for addr, conc in zip(addresses, concs)]
+            labels = [f'{addr}: {conc:.4g}' for addr, conc in zip(addresses, concs)]
         else: 
             labels = data.index
 
@@ -86,11 +93,11 @@ def plot_plate_data(data,
 
 def plot_michaelis_menten(response,
                           concs,
+                          vmax,
+                          km,
+                          r_squared,
                           exclude_index=None,
                           ax=None,
-                          vmax=None,
-                          km=None,
-                          r_squared=None,
                           title=None,
                           ylim=None,
                           legend_text=None,
@@ -98,12 +105,12 @@ def plot_michaelis_menten(response,
 
     x_2 = np.linspace(0, concs.max(), 500)
     y_hat = curve(x_2,
-                  vmax, 
+                  vmax,
                   km,
                   )
 
     if exclude_index is None:
-        exclude_index = np.zeros(len(response))
+        exclude_index = np.zeros(len(response)).astype(bool)
 
     plt.set_cmap('inferno')
     if ax is None:

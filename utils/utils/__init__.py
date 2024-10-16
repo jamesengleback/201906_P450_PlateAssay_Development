@@ -1,4 +1,4 @@
-from . import bmg 
+from . import parse
 from . import plot
 from . import mm
 from . import photospectrometer
